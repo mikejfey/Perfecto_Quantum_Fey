@@ -2,7 +2,7 @@ package com.quantum.pages;
 
 import java.util.HashMap;
 import java.util.Map;
-
+import java.util.concurrent.*;
 import org.openqa.selenium.By;
 
 import com.qmetry.qaf.automation.ui.WebDriverBaseTestPage;
@@ -38,6 +38,10 @@ public class ExpenseTrackerLoginPage extends WebDriverBaseTestPage<WebDriverTest
 	
 	@FindBy(locator = "login.email.textFieldValue")
 	private QAFWebElement loginlEmailTextFieldValue;
+
+	@FindBy(locator = "login.invalid.ok")
+	private QAFWebElement loginlInvalidOk;
+
 	
 	public void verifyExpenseTrackerLoginScreen() {
 		Map<String, Object> params = new HashMap<>();
@@ -68,7 +72,55 @@ public class ExpenseTrackerLoginPage extends WebDriverBaseTestPage<WebDriverTest
 //		}else {
 //			DriverUtils.getAndroidDriver().hideKeyboard();
 //		}
-		
+
 		loginlNativeButton.click();
+
+	}
+
+	public void loginWithInvalidData(String email, String password) {
+		emailNativeTextfield.sendKeys(email);
+		ReportUtils.logAssert("Email was entered as expected", loginlEmailTextFieldValue.getText().equalsIgnoreCase(email));
+		passwordlNativeTextfield.sendKeys(password);
+
+//		if(DriverUtils.isIOS()) {
+//			DriverUtils.getIOSDriver().hideKeyboard();
+//		}else {
+//			DriverUtils.getAndroidDriver().hideKeyboard();
+//		}
+
+		loginlNativeButton.click();
+		String platform = DriverUtils.getDriver().getCapabilities().getPlatformName().name();
+
+		if("ios".equalsIgnoreCase(platform) || "linux".equalsIgnoreCase(platform)) {
+			loginlInvalidOk.click();
+		}else {
+			driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
+		}
+
+		emailNativeTextfield.clear();
+	}
+
+	public void loginWithValidData(String username, String password) {
+		emailNativeTextfield.sendKeys(username);
+		ReportUtils.logAssert("Email was entered as expected", loginlEmailTextFieldValue.getText().equalsIgnoreCase(username));
+		passwordlNativeTextfield.sendKeys(password);
+
+//		if(DriverUtils.isIOS()) {
+//			DriverUtils.getIOSDriver().hideKeyboard();
+//		}else {
+//			DriverUtils.getAndroidDriver().hideKeyboard();
+//		}
+
+		loginlNativeButton.click();
+		String platform = DriverUtils.getDriver().getCapabilities().getPlatformName().name();
+
+		if("ios".equalsIgnoreCase(platform) || "linux".equalsIgnoreCase(platform)) {
+			loginlInvalidOk.click();
+		}else {
+			driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
+		}
 	}
 }
+
+
+

@@ -11,3 +11,6 @@ home.flight.btn=xpath=//*[@text='Flight']
 home.amount.textfield=id=io.perfecto.expense.tracker:id/add_amount
 home.save.btn=id=io.perfecto.expense.tracker:id/layout_buttons
 home.result.text=xpath=//*[@text='%s']
+login.invalid.ok=xxxx
+home.about.btn=//*[@text="About"]
+crash.crashme.btn=id=io.perfecto.expense.tracker:id/crash_me_button

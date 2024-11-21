@@ -32,6 +32,9 @@ public class ExpenseTrackerHomePage extends WebDriverBaseTestPage<WebDriverTestP
 	
 	@FindBy(locator = "home.save.btn")
 	private QAFExtendedWebElement savebtn;
+
+	@FindBy(locator = "home.about.btn")
+	private QAFExtendedWebElement aboutbtn;
 	
 	
 	public void verifyHomeScreen() {
@@ -66,5 +69,16 @@ public class ExpenseTrackerHomePage extends WebDriverBaseTestPage<WebDriverTestP
 		ReportUtils.logAssert("Verify Popup Text.", new QAFExtendedWebElement(String.format(ConfigurationManager.getBundle().getString("home.result.text"), result)).isDisplayed());
 		
 	}
+
+	public void hamburgerAbout() {
+		menuBtn.click();
+		aboutbtn.click();
+	}
+
+	public void verifyAboutScreen() {
+
+	}
+
+
 
 }

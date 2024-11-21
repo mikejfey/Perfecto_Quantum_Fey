@@ -3,9 +3,12 @@ login.emailNative.textfield=-ios predicate string=type == 'XCUIElementTypeTextFi
 login.headerTextNative.label=-ios predicate string=type == 'XCUIElementTypeStaticText' AND name == 'Email'
 login.passwordNative.textfield=-ios predicate string=type == 'XCUIElementTypeSecureTextField' AND name == 'login_password'
 login.loginNative.btn=-ios predicate string=type == 'XCUIElementTypeButton' AND name == 'login_login_btn'
-home.menu.btn=name=list_left_menu_btn
+home.menu.btn=-ios predicate string=type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn'
 home.add.btn=name=list_add_btn
 home.head.dropdown=name=edit_head
 home.amount.textfield=name=edit_amount
 home.save.btn=name=add_save_btn
 home.result.text=xpath=//*[@label='%s']
+login.invalid.ok=-ios predicate string=type == 'XCUIElementTypeButton' AND name == 'OK'
+home.about.btn=-ios predicate string=type == 'XCUIElementTypeButton' AND name == 'list_about_menu'
+crash.crashme.btn=-ios predicate string=type == 'XCUIElementTypeButton' AND name == 'about_crash_me'

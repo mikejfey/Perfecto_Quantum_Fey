@@ -1,6 +1,7 @@
 package com.quantum.steps;
 
 import com.qmetry.qaf.automation.step.QAFTestStepProvider;
+import com.quantum.pages.ExpenseTrackerCrashPage;
 import com.quantum.pages.ExpenseTrackerHomePage;
 import com.quantum.pages.ExpenseTrackerLoginPage;
 
@@ -28,6 +29,11 @@ public class ExpenseTrackerSteps {
 		new ExpenseTrackerLoginPage().loginNative(email, password);
 	}
 
+	@When("I enter invalid credentials \"(.*?)\" and \"(.*?)\" in native login screen")
+	public void iEnterInvalidLoginDetilsInNativeLoginScreen(String email, String password) {
+		new ExpenseTrackerLoginPage().loginWithInvalidData(email, password);
+	}
+
 	@Then("I should see expense tracker home screen")
 	public void iShouldSeeExpenseTrackerHomeScreen() {
 		new ExpenseTrackerHomePage().verifyHomeScreen();
@@ -42,4 +48,30 @@ public class ExpenseTrackerSteps {
 	public void iShouldSeeErrorPopup() {
 		new ExpenseTrackerHomePage().verifyPopupText();
 	}
+
+	@When("I tap hamburger then 'About'")
+	public void iTapHamburgerAbout() {
+		new ExpenseTrackerHomePage().hamburgerAbout();
+	}
+
+	@Then("I should see the About screen")
+	public void iShouldSeeAboutScreen() {
+		new ExpenseTrackerHomePage().verifyAboutScreen();
+	}
+
+	@When("I tap 'Crash Me'")
+	public void iTapCrashMe() {
+		new ExpenseTrackerCrashPage().crashMe();
+	}
+
+	@When("^I login with INVALID creds from datafile  \"(.*?)\" and \"(.*?)\"$")
+	public void iLoginWithInvalidData(String username, String password) {
+		new ExpenseTrackerLoginPage().loginWithInvalidData(username, password);
+	}
+
+	@When("^I login with VALID creds from datafile  \"(.*?)\" and \"(.*?)\"$")
+	public void iLoginWithValidData(String username, String password) {
+		new ExpenseTrackerLoginPage().loginWithValidData(username, password);
+	}
 }
+
