@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/expenseTrackerAndroid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/feyFirsttestng_cucumber_01_firstTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/kayak.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/notwork_feyFirsttestng_cucumber_01_firstTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/testng_nativeFey.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scenarios/kayak.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/testng_appium.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/testng_appium.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/testng_cucumber_01_firstRun.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/testng_cucumber_01_firstRun.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/testng_cucumber_02_sampleTestCase.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/testng_cucumber_02_sampleTestCase.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/scenarios/01firstRun.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/scenarios/01firstRun.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/scenarios/appium.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/scenarios/appium.feature" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2p8TDv6nDlWvmBCHFPsnb8p1scZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/michafey/GitRepos/Perfecto_Quantum_Framework",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/michafey/GitRepos/Quantum-Starter-Kit/src/main/resources/config/expenseTrackerAndroid.xml">
+    <configuration name="/Users/michafey/GitRepos/Quantum-Starter-Kit/src/main/resources/config/AndroidNativeApp.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="quantum-starter" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/AndroidNativeApp.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/michafey/GitRepos/Quantum-Starter-Kit/src/main/resources/config/expenseTrackerAndroid.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="quantum-starter" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/expenseTrackerAndroid.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/michafey/GitRepos/Quantum-Starter-Kit/src/main/resources/config/feyFirsttestng_cucumber_01_firstTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="quantum-starter" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/feyFirsttestng_cucumber_01_firstTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/michafey/GitRepos/Quantum-Starter-Kit/src/main/resources/config/feyFirsttestng_cucumber_02_sampleTestCase.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="quantum-starter" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/feyFirsttestng_cucumber_02_sampleTestCase.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/michafey/GitRepos/Quantum-Starter-Kit/src/main/resources/config/testng_cucumber_02_sampleTestCase.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="quantum-starter" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/testng_cucumber_02_sampleTestCase.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG./Users/michafey/GitRepos/Quantum-Starter-Kit/src/main/resources/config/AndroidNativeApp.xml" />
+      <item itemvalue="TestNG./Users/michafey/GitRepos/Quantum-Starter-Kit/src/main/resources/config/expenseTrackerAndroid.xml" />
+      <item itemvalue="TestNG./Users/michafey/GitRepos/Quantum-Starter-Kit/src/main/resources/config/feyFirsttestng_cucumber_01_firstTest.xml" />
+      <item itemvalue="TestNG./Users/michafey/GitRepos/Quantum-Starter-Kit/src/main/resources/config/feyFirsttestng_cucumber_02_sampleTestCase.xml" />
+      <item itemvalue="TestNG./Users/michafey/GitRepos/Quantum-Starter-Kit/src/main/resources/config/testng_cucumber_02_sampleTestCase.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/michafey/GitRepos/Quantum-Starter-Kit/src/main/resources/config/expenseTrackerAndroid.xml" />
+        <item itemvalue="TestNG./Users/michafey/GitRepos/Quantum-Starter-Kit/src/main/resources/config/feyFirsttestng_cucumber_01_firstTest.xml" />
+        <item itemvalue="TestNG./Users/michafey/GitRepos/Quantum-Starter-Kit/src/main/resources/config/testng_cucumber_02_sampleTestCase.xml" />
+        <item itemvalue="TestNG./Users/michafey/GitRepos/Quantum-Starter-Kit/src/main/resources/config/AndroidNativeApp.xml" />
+        <item itemvalue="TestNG./Users/michafey/GitRepos/Quantum-Starter-Kit/src/main/resources/config/feyFirsttestng_cucumber_02_sampleTestCase.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="" />
+      <created>1732146586808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732146586808</updated>
+    </task>
+    <servers />
+  </component>
+</project>
