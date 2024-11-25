@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="" />
+    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/Demo2_InvalidLoginIOS.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/Demo3_ExpTrackerDataDrivenIOSAndroid.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/pages/ExpenseTrackerLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/pages/ExpenseTrackerLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/ExpTrackerDataDriven.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/expenseTrackerBoth.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,21 +46,51 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/data",
+    "last_opened_file_path": "/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/data" />
       <recent name="$PROJECT_DIR$/src/main/resources/config" />
+      <recent name="$PROJECT_DIR$/src/main/resources/data" />
       <recent name="$PROJECT_DIR$/src/main/resources/scenarios" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/expenseTrackerBoth.xml">
-    <configuration name="/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/ExpTrackerDataDriven.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/Demo3_ExpTrackerDataDrivenIOSAndroid.xml">
+    <configuration name="/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/Demo1_expenseTrackerBoth.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="quantum-starter" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/ExpTrackerDataDriven.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/Demo1_expenseTrackerBoth.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/Demo2_ExpTrackerDataDriven.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="quantum-starter" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/Demo2_ExpTrackerDataDriven.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/Demo2_InvalidLoginIOS.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="quantum-starter" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/Demo2_InvalidLoginIOS.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/Demo3_ExpTrackerDataDrivenIOSAndroid.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="quantum-starter" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/Demo3_ExpTrackerDataDrivenIOSAndroid.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -71,50 +108,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/expenseTrackerIOS.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="quantum-starter" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/expenseTrackerIOS.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/googleSearch.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="quantum-starter" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/googleSearch.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/michafey/GitRepos/Quantum-Starter-Kit/src/main/resources/config/expenseTrackerAndroid.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="quantum-starter" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/expenseTrackerAndroid.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/ExpTrackerDataDriven.xml" />
+      <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/Demo1_expenseTrackerBoth.xml" />
+      <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/Demo2_ExpTrackerDataDriven.xml" />
+      <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/Demo2_InvalidLoginIOS.xml" />
+      <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/Demo3_ExpTrackerDataDrivenIOSAndroid.xml" />
       <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/expenseTrackerBoth.xml" />
-      <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/expenseTrackerIOS.xml" />
-      <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/googleSearch.xml" />
-      <item itemvalue="TestNG./Users/michafey/GitRepos/Quantum-Starter-Kit/src/main/resources/config/expenseTrackerAndroid.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/Demo3_ExpTrackerDataDrivenIOSAndroid.xml" />
+        <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/Demo2_InvalidLoginIOS.xml" />
+        <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/Demo1_expenseTrackerBoth.xml" />
+        <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/Demo2_ExpTrackerDataDriven.xml" />
         <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/expenseTrackerBoth.xml" />
-        <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/ExpTrackerDataDriven.xml" />
-        <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/googleSearch.xml" />
-        <item itemvalue="TestNG./Users/michafey/GitRepos/Quantum-Starter-Kit/src/main/resources/config/expenseTrackerAndroid.xml" />
-        <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/expenseTrackerIOS.xml" />
       </list>
     </recent_temporary>
   </component>

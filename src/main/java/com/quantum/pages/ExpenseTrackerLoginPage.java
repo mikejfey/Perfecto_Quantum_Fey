@@ -51,13 +51,13 @@ public class ExpenseTrackerLoginPage extends WebDriverBaseTestPage<WebDriverTest
 	}
 	
 	public void verifyExpenseTrackerNativeLoginScreen() {
-		if(DriverUtils.getDriver().getCapabilities().getCapability("platformName").toString().equalsIgnoreCase("ios")) {
-			QAFExtendedWebElement ele = new QAFExtendedWebElement(By.xpath("//*[@label='OK']"));
-			try {
-				ele.click();
-			} catch (Exception e) {
-			}
-		}
+	//	if(DriverUtils.getDriver().getCapabilities().getCapability("platformName").toString().equalsIgnoreCase("ios")) {
+	//		QAFExtendedWebElement ele = new QAFExtendedWebElement(By.xpath("//*[@label='OK']"));
+	//		try {
+	//			ele.click();
+	//		} catch (Exception e) {
+	//		}
+	//	}
 		ReportUtils.logAssert("Verify Login screen title", headerTextNative.isDisplayed());
 		ReportUtils.logAssert("Verify Login screen Email", emailNativeTextfield.isDisplayed());
 	}
@@ -112,13 +112,7 @@ public class ExpenseTrackerLoginPage extends WebDriverBaseTestPage<WebDriverTest
 //		}
 
 		loginlNativeButton.click();
-		String platform = DriverUtils.getDriver().getCapabilities().getPlatformName().name();
 
-		if("ios".equalsIgnoreCase(platform) || "linux".equalsIgnoreCase(platform)) {
-			loginlInvalidOk.click();
-		}else {
-			driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
-		}
 	}
 }
 
