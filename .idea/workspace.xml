@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/Demo2_InvalidLoginIOS.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/Demo3_ExpTrackerDataDrivenIOSAndroid.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/pages/ExpenseTrackerLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/pages/ExpenseTrackerLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/ExpTrackerDataDriven.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/expenseTrackerBoth.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,14 +37,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/config" />
