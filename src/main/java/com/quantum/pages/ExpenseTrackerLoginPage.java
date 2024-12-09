@@ -42,7 +42,8 @@ public class ExpenseTrackerLoginPage extends WebDriverBaseTestPage<WebDriverTest
 	@FindBy(locator = "login.invalid.ok")
 	private QAFWebElement loginlInvalidOk;
 
-	
+	@FindBy(locator = "login.biometrics.checkbox")
+	private QAFWebElement enableBio;
 	public void verifyExpenseTrackerLoginScreen() {
 		Map<String, Object> params = new HashMap<>();
 		params.put("content", "Email");
@@ -114,6 +115,13 @@ public class ExpenseTrackerLoginPage extends WebDriverBaseTestPage<WebDriverTest
 		loginlNativeButton.click();
 
 	}
+	public void enableBiometrics() {
+		enableBio.click();
+
+	}
+
+
+
 }
 
 

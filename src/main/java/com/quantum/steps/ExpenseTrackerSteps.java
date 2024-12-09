@@ -73,5 +73,11 @@ public class ExpenseTrackerSteps {
 	public void iLoginWithValidData(String username, String password) {
 		new ExpenseTrackerLoginPage().loginWithValidData(username, password);
 	}
+
+	@Then ("I click the enable Biometrics checkbox")
+	public void iClickEnableBiometrics()
+	{
+		new ExpenseTrackerLoginPage().enableBiometrics();
+	}
 }
 
