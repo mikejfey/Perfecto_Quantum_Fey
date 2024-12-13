@@ -15,7 +15,7 @@
 		<parameter name="perfecto.capabilities.automationName" value="Appium"/>
 		<groups>
 			<run>
-				<include name="@expenseTracker" />
+				<include name="@expenseTrackerHappy" />
 			</run>
 		</groups>
 		<classes>
@@ -33,9 +33,10 @@
 		<parameter name="perfecto.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
 		<parameter name="env.resources" value="src/main/resources/android"/>
 		<parameter name="perfecto.capabilities.automationName" value="Appium"/>
+		<parameter name="perfecto.capabilities.useVirtualDevice" value="True"/>
 		<groups>
 			<run>
-				<include name="@expenseTracker" />
+				<include name="@expenseTrackerHappy" />
 			</run>
 		</groups>
 		<classes>
