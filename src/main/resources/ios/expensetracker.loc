@@ -12,3 +12,4 @@ home.result.text=xpath=//*[@label='%s']
 login.invalid.ok=-ios predicate string=type == 'XCUIElementTypeButton' AND name == 'OK'
 home.about.btn=-ios predicate string=type == 'XCUIElementTypeButton' AND name == 'list_about_menu'
 crash.crashme.btn=-ios predicate string=type == 'XCUIElementTypeButton' AND name == 'about_crash_me'
+login.bio.enable=xpath=//*[@value="0"]

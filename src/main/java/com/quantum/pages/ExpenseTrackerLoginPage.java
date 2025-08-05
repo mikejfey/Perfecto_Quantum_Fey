@@ -23,58 +23,59 @@ public class ExpenseTrackerLoginPage extends WebDriverBaseTestPage<WebDriverTest
 
 	@FindBy(locator = "login.email.textfield")
 	private QAFWebElement logintextfiled;
-	
+
 	@FindBy(locator = "login.emailNative.textfield")
 	private QAFWebElement emailNativeTextfield;
-	
+
 	@FindBy(locator = "login.headerTextNative.label")
 	private QAFWebElement headerTextNative;
-	
+
 	@FindBy(locator = "login.passwordNative.textfield")
 	private QAFWebElement passwordlNativeTextfield;
-	
+
 	@FindBy(locator = "login.loginNative.btn")
 	private QAFWebElement loginlNativeButton;
-	
+
 	@FindBy(locator = "login.email.textFieldValue")
 	private QAFWebElement loginlEmailTextFieldValue;
 
 	@FindBy(locator = "login.invalid.ok")
 	private QAFWebElement loginlInvalidOk;
 
-	@FindBy(locator = "login.biometrics.checkbox")
+	@FindBy(locator = "login.bio.enable")
 	private QAFWebElement enableBio;
+
 	public void verifyExpenseTrackerLoginScreen() {
 		Map<String, Object> params = new HashMap<>();
 		params.put("content", "Email");
 		params.put("timeout", "15");
 		driver.executeScript("mobile:text:find", params);
 	}
-	
+
 	public void verifyExpenseTrackerNativeLoginScreen() {
-	//	if(DriverUtils.getDriver().getCapabilities().getCapability("platformName").toString().equalsIgnoreCase("ios")) {
-	//		QAFExtendedWebElement ele = new QAFExtendedWebElement(By.xpath("//*[@label='OK']"));
-	//		try {
-	//			ele.click();
-	//		} catch (Exception e) {
-	//		}
-	//	}
+		//	if(DriverUtils.getDriver().getCapabilities().getCapability("platformName").toString().equalsIgnoreCase("ios")) {
+		//		QAFExtendedWebElement ele = new QAFExtendedWebElement(By.xpath("//*[@label='OK']"));
+		//		try {
+		//			ele.click();
+		//		} catch (Exception e) {
+		//		}
+		//	}
 		ReportUtils.logAssert("Verify Login screen title", headerTextNative.isDisplayed());
 		ReportUtils.logAssert("Verify Login screen Email", emailNativeTextfield.isDisplayed());
 	}
-	
+
 	public void loginNative(String email, String password) {
 		emailNativeTextfield.sendKeys(email);
 		ReportUtils.logAssert("Email was entered as expected", loginlEmailTextFieldValue.getText().equalsIgnoreCase(email));
 		passwordlNativeTextfield.sendKeys(password);
-		
+
 //		if(DriverUtils.isIOS()) {
 //			DriverUtils.getIOSDriver().hideKeyboard();
 //		}else {
 //			DriverUtils.getAndroidDriver().hideKeyboard();
 //		}
 
-		loginlNativeButton.click();
+		//loginlNativeButton.click();
 
 	}
 
@@ -92,10 +93,10 @@ public class ExpenseTrackerLoginPage extends WebDriverBaseTestPage<WebDriverTest
 		loginlNativeButton.click();
 		String platform = DriverUtils.getDriver().getCapabilities().getPlatformName().name();
 
-		if("ios".equalsIgnoreCase(platform) || "linux".equalsIgnoreCase(platform)) {
+		if ("ios".equalsIgnoreCase(platform) || "linux".equalsIgnoreCase(platform)) {
 			loginlInvalidOk.click();
-		}else {
-			driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
+		} else {
+			driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		}
 
 		emailNativeTextfield.clear();
@@ -115,14 +116,32 @@ public class ExpenseTrackerLoginPage extends WebDriverBaseTestPage<WebDriverTest
 		loginlNativeButton.click();
 
 	}
+
 	public void enableBiometrics() {
 		enableBio.click();
 
 	}
 
+	public void feyFingerprintSuccess() {
+		Map<String, Object> params = new HashMap<>();
+// use either the "identifier" or "name" parameter to identify the app
+		params.put("identifier", "io.perfecto.expense.tracker");
+		params.put("resultAuth", "success");  // may be either "fail" or "success"
+		params.put("errorType", "lockOut");  // may be authFailed, userCancel, userFallback, systemCancel, or lockout
+		driver.executeScript("mobile:sensorAuthentication:set", params);
+	}
+
+	public void enterUserAndPwd(String username, String password) {
+		emailNativeTextfield.sendKeys(username);
+		ReportUtils.logAssert("Email was entered as expected", loginlEmailTextFieldValue.getText().equalsIgnoreCase(username));
+		passwordlNativeTextfield.sendKeys(password);
 
 
+	}
+
+	public void clickLoginBtn() {
+		loginlNativeButton.click();
+	}
 }
-
 
 

@@ -5,6 +5,7 @@ import com.quantum.pages.ExpenseTrackerCrashPage;
 import com.quantum.pages.ExpenseTrackerHomePage;
 import com.quantum.pages.ExpenseTrackerLoginPage;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
@@ -27,6 +28,11 @@ public class ExpenseTrackerSteps {
 	@When("I enter \"(.*?)\" and \"(.*?)\" in native login screen")
 	public void iEnterLoginDetilsInNativeLoginScreen(String email, String password) {
 		new ExpenseTrackerLoginPage().loginNative(email, password);
+	}
+
+	@When("I enter \"(.*?)\" and \"(.*?)\" for biometrics")
+	public void iEnterLoginDetilsForBiometics(String email, String password) {
+		new ExpenseTrackerLoginPage().enterUserAndPwd(email, password);
 	}
 
 	@When("I enter invalid credentials \"(.*?)\" and \"(.*?)\" in native login screen")
@@ -74,10 +80,20 @@ public class ExpenseTrackerSteps {
 		new ExpenseTrackerLoginPage().loginWithValidData(username, password);
 	}
 
-	@Then ("I click the enable Biometrics checkbox")
+	@Then ("I click the enable Biometrics")
 	public void iClickEnableBiometrics()
 	{
 		new ExpenseTrackerLoginPage().enableBiometrics();
+	}
+
+	@And ("I send success result for biometrics")
+	public void iSetFingerprintSuccess()
+	{
+		new ExpenseTrackerLoginPage().feyFingerprintSuccess();
+	}
+
+	@Then ("I click the login button")
+	public void iClickLoginBtn(){new ExpenseTrackerLoginPage().clickLoginBtn();
 	}
 }
 

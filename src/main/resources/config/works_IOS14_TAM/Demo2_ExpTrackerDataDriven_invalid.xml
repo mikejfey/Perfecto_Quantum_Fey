@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Expense Data Driven Suite" verbose="0"
+	   thread-count="100">
+	<listeners>
+		<listener class-name="com.quantum.listeners.QuantumReportiumListener" />
+	</listeners>
+	<parameter name="driver.name" value="perfectoDriver"/>
+
+
+	<test name="Native Data Driven Expense IOS Test invalid" enabled="true"
+		  thread-count="3">
+
+		<parameter name="perfecto.additional.capabilities" value="{'perfecto:openDeviceTimeout':15}" />
+		<parameter name="perfecto.capabilities.model" value="iPhone-14.*"/>
+		<parameter name="perfecto.capabilities" value="{'perfecto:useVirtualDevice':true}" />
+		<parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
+		<parameter name="perfecto.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
+		<parameter name="perfecto.capabilities.iOSResign" value="true"/>
+		<parameter name="env.resources" value="src/main/resources/ios"/>
+		<parameter name="perfecto.capabilities.automationName" value="Appium"/>
+		<parameter name="driver.capabilities.sensorInstrument" value="true"/>
+		<groups>
+			<run>
+				<include name="@invalidLogin" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+
+</suite>

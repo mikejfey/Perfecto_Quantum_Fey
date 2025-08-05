@@ -1,25 +1,26 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Expense Fey Suite" verbose="0" parallel="tests"
+<suite name="Expense Fey Suite" verbose="0"
 	   thread-count="100">
 	<listeners>
 		<listener class-name="com.quantum.listeners.QuantumReportiumListener" />
 	</listeners>
 	<parameter name="driver.name" value="perfectoDriver"/>
-
-	<test name="Android Expense Tracker Test Happy" enabled="true"
+	<test name="Native Expense Android Test" enabled="true"
 		  thread-count="3">
-
 		<parameter name="perfecto.additional.capabilities" value="{'perfecto:openDeviceTimeout':15}" />
-		<parameter name="driver.additional.capabilities" value="{'perfecto:useVirtualDevice':true}" />
-		<parameter name="perfecto.capabilities.model" value="Galaxy S23 Ultra"/>
 		<parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
 		<parameter name="perfecto.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
-		<parameter name="env.resources" value="src/main/resources/android"/>
+		<parameter name="perfecto.capabilities.model" value="Galaxy.*"/>
 		<parameter name="perfecto.capabilities.automationName" value="Appium"/>
-		<parameter name="perfecto.capabilities.useVirtualDevice" value="True"/>
+		<parameter name="env.resources" value="src/main/resources/android"/>
+
+
+
+
+
 		<groups>
 			<run>
-				<include name="@expenseTrackerHappy" />
+				<include name="@validLogin" />
 			</run>
 		</groups>
 		<classes>

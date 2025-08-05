@@ -7,6 +7,7 @@ Feature: Google Search
     When I search for "<searchKey>"
     Then it should have "<searchResult>" in search results
 
+
     #for csv, txt, xls files specify datafile location
     Examples: {'datafile' : 'src/main/resources/data/testData.csv'}
 
