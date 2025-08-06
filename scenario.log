@@ -11471,3 +11471,745 @@ Executing scenario: open Wikipedia -
 20:29:12 UI-driver tear down complete...
 20:29:12 Preparing For Shut Down...
 20:29:12 Shut Down Completed...
+07:10:41 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+07:10:41 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+07:10:41 Driver: perfectoDriver
+07:10:41 Direct Driver Connect
+07:10:56 Executing setTimeout parameters: {"implicit":0}
+07:10:56 command: setTimeout[ param-1: {implicit=0}] Result: null
+07:10:56 driver init done
+07:10:56 Executing executeScript parameters: {"args":[{"name":"Expense Tracker VALID login Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Expense Fey Suite","Native Expense Android Test"," @validLogin"," @expenseTrackerDataDriven "]}],"script":"mobile:test:start"}
+07:10:56 
+
+Executing scenario: Expense Tracker VALID login Scenario - 
+07:10:56 Test Data{username=test@perfecto.com, password=test123}
+07:10:56 pkg: com.qmetry.qaf.automation.step
+07:10:56 pkg: com.quantum.steps
+07:10:56 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+07:10:56 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+07:10:56 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+07:10:57 Failure Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+java.lang.ClassCastException: Underlying driver is an RemoteWebDriver.  This step requires an AppiumDriver.
+	Set following properties to use required driver:
+		perfecto.capabilities.driverClass=io.appium.java_client.AppiumDriver
+		driver.name=perfectoDriver
+	at com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.AppiumUtils.getAppiumDriver(AppiumUtils.java:31) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:374) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479) ~[quantum-3.1.5.jar:?]
+	at com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92) ~[quantum-3.1.5.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) ~[qaf-3.2.0.jar:3.1.5]
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66) ~[qaf-3.2.0.jar:3.1.5]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:714) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:503) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+07:10:57 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:10:57 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+07:10:57 Competed scenario: Expense Tracker VALID login Scenario with status FAILURE
+07:10:57 Executing executeScript parameters: {"args":[{"success":false,"failureDescription":"Step:Given I start application by id \"io.perfecto.expense.tracker\" failed\n. Stack Trace: java.lang.ClassCastException: Underlying driver is an RemoteWebDriver.  This step requires an AppiumDriver.\n\tSet following properties to use required driver:\n\t\tperfecto.capabilities.driverClass=io.appium.java_client.AppiumDriver\n\t\tdriver.name=perfectoDriver\n\tat .Given I start application by id \"io.perfecto.expense.tracker\"(src/main/resources/scenarios/worksTAM/expenseTrackerDataDriven.feature:18)\n\tat com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420)\n\tat com.quantum.utils.AppiumUtils.getAppiumDriver(AppiumUtils.java:31)\n\tat com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:374)\n\tat com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479)\n\tat com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\n"}],"script":"mobile:test:end"}
+07:10:58 Executing quit parameters: {}
+07:11:09 command: quit[ param-1: {}] Result: null
+07:11:09 UI-driver tear down complete...
+07:11:10 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+07:11:10 Preparing For Shut Down...
+07:11:10 Shut Down Completed...
+07:23:49 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+07:23:49 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+07:23:49 Driver: perfectoDriver
+07:23:49 Direct Driver Connect
+07:28:58 Preparing For Shut Down...
+07:29:50 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+07:29:50 Driver: perfectoDriver
+07:29:50 Direct Driver Connect
+07:30:34 Executing setTimeout parameters: {"implicit":0}
+07:30:34 command: setTimeout[ param-1: {implicit=0}] Result: null
+07:30:34 driver init done
+07:30:34 Executing executeScript parameters: {"args":[{"name":"Biometrics Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["IOS Expense Tracker Test","Expense Fey Suite"," @IOS_Bio_expenseTracker "]}],"script":"mobile:test:start"}
+07:30:34 
+
+Executing scenario: Biometrics Scenario - 
+07:30:34 pkg: com.qmetry.qaf.automation.step
+07:30:34 pkg: com.quantum.steps
+07:30:34 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+07:30:34 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+07:30:34 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+07:30:39 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:30:40 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+07:30:40 Invoking Teststep: Then I should see expense tracker Native login screen
+07:30:40 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker Native login screen"}],"script":"mobile:step:start"}
+07:30:40 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+07:30:40 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {}
+07:30:40 Executing findElement parameters: {"value":"type == 'XCUIElementTypeStaticText' AND name == 'Email'","using":"-ios predicate string"}
+07:30:40 command: findElement[ param-1: {value=type == 'XCUIElementTypeStaticText' AND name == 'Email', using=-ios predicate string}] Result: id: 11000000-0000-0000-C52A-000000000000
+07:30:40 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {}] Result: OK
+07:30:40 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {"id":"11000000-0000-0000-C52A-000000000000"}
+07:30:40 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {"id":"11000000-0000-0000-C52A-000000000000"}] Result: isElementDisplayed:true
+07:30:40 Executing executeScript parameters: {"args":[{"message":"Verify Login screen title","status":true}],"script":"mobile:status:assert"}
+07:30:40 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+07:30:40 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+07:30:40 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+07:30:40 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-C52A-000000000000
+07:30:40 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+07:30:40 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"id":"13000000-0000-0000-C52A-000000000000"}
+07:30:41 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"id":"13000000-0000-0000-C52A-000000000000"}] Result: isElementDisplayed:true
+07:30:41 Executing executeScript parameters: {"args":[{"message":"Verify Login screen Email","status":true}],"script":"mobile:status:assert"}
+07:30:41 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:30:41 Completed Teststep: Then I should see expense tracker Native login screen
+07:30:41 Invoking Teststep: When I enter "test@perfecto.com" and "test123" in native login screen with arguments: [test@perfecto.com, test123]
+07:30:41 Executing executeScript parameters: {"args":[{"name":"When I enter \"test@perfecto.com\" and \"test123\" in native login screen"}],"script":"mobile:step:start"}
+07:30:41 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+07:30:41 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+07:30:41 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+07:30:41 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-C52A-000000000000
+07:30:41 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+07:30:41 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-C52A-000000000000"}
+07:30:43 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-C52A-000000000000"}] Result: sendKeysToElement:null
+07:30:43 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+07:30:43 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {}
+07:30:43 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com'","using":"-ios predicate string"}
+07:30:43 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com', using=-ios predicate string}] Result: id: 13000000-0000-0000-C52A-000000000000
+07:30:43 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {}] Result: OK
+07:30:43 Executing getElementText element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {"id":"13000000-0000-0000-C52A-000000000000"}
+07:30:43 command: getElementText[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {"id":"13000000-0000-0000-C52A-000000000000"}] Result: getElementText:test@perfecto.com
+07:30:43 Executing executeScript parameters: {"args":[{"message":"Email was entered as expected","status":true}],"script":"mobile:status:assert"}
+07:30:44 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+07:30:44 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {}
+07:30:44 Executing findElement parameters: {"value":"type == 'XCUIElementTypeSecureTextField' AND name == 'login_password'","using":"-ios predicate string"}
+07:30:44 command: findElement[ param-1: {value=type == 'XCUIElementTypeSecureTextField' AND name == 'login_password', using=-ios predicate string}] Result: id: 16000000-0000-0000-C52A-000000000000
+07:30:44 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {}] Result: OK
+07:30:44 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {"value":["test123"],"id":"16000000-0000-0000-C52A-000000000000"}
+07:30:45 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {"value":["test123"],"id":"16000000-0000-0000-C52A-000000000000"}] Result: sendKeysToElement:null
+07:30:45 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:30:45 Completed Teststep: When I enter "test@perfecto.com" and "test123" in native login screen with arguments: [test@perfecto.com, test123]
+07:30:45 Invoking Teststep: Then I click the enable Biometrics
+07:30:45 Executing executeScript parameters: {"args":[{"name":"Then I click the enable Biometrics"}],"script":"mobile:step:start"}
+07:30:45 Executing findElement element: By.xpath: //*[@value="0"] parameters: {}
+07:30:45 Executing findElement parameters: {"value":"//*[@value=\"0\"]","using":"xpath"}
+07:30:46 command: findElement[ param-1: {value=//*[@value="0"], using=xpath}] Result: id: 19000000-0000-0000-C52A-000000000000
+07:30:46 command: findElement[ param-1: By.xpath: //*[@value="0"] param-2: {}] Result: OK
+07:30:46 Executing clickElement element: By.xpath: //*[@value="0"] parameters: {"id":"19000000-0000-0000-C52A-000000000000"}
+07:30:46 command: clickElement[ param-1: By.xpath: //*[@value="0"] param-2: {"id":"19000000-0000-0000-C52A-000000000000"}] Result: clickElement:null
+07:30:46 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:30:47 Completed Teststep: Then I click the enable Biometrics
+07:30:47 Invoking Teststep: Then I click the login button
+07:30:47 Executing executeScript parameters: {"args":[{"name":"Then I click the login button"}],"script":"mobile:step:start"}
+07:30:47 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+07:30:47 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {}
+07:30:47 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'login_login_btn'","using":"-ios predicate string"}
+07:30:47 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'login_login_btn', using=-ios predicate string}] Result: id: 17000000-0000-0000-C52A-000000000000
+07:30:47 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {}] Result: OK
+07:30:47 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {"id":"17000000-0000-0000-C52A-000000000000"}
+07:30:48 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {"id":"17000000-0000-0000-C52A-000000000000"}] Result: clickElement:null
+07:30:48 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:30:48 Completed Teststep: Then I click the login button
+07:30:48 Invoking Teststep: And I send success result for biometrics
+07:30:48 Executing executeScript parameters: {"args":[{"name":"And I send success result for biometrics"}],"script":"mobile:step:start"}
+07:30:48 Executing executeScript parameters: {"args":[{"resultAuth":"success","identifier":"io.perfecto.expense.tracker","errorType":"lockOut"}],"script":"mobile:sensorAuthentication:set"}
+07:30:48 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:30:48 Completed Teststep: And I send success result for biometrics
+07:30:48 Invoking Teststep: Then I should see expense tracker home screen
+07:30:48 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker home screen"}],"script":"mobile:step:start"}
+07:30:49 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+07:30:49 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' parameters: {}
+07:30:49 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn'","using":"-ios predicate string"}
+07:30:49 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn', using=-ios predicate string}] Result: id: 9C000000-0000-0000-C52A-000000000000
+07:30:49 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' param-2: {}] Result: OK
+07:30:49 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' parameters: {"id":"9C000000-0000-0000-C52A-000000000000"}
+07:30:49 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' param-2: {"id":"9C000000-0000-0000-C52A-000000000000"}] Result: isElementDisplayed:true
+07:30:49 Executing executeScript parameters: {"args":[{"message":"Verify Home Screen.","status":true}],"script":"mobile:status:assert"}
+07:30:49 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:30:49 Completed Teststep: Then I should see expense tracker home screen
+07:30:49 Competed scenario: Biometrics Scenario with status SUCCESS
+07:30:49 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+07:30:49 Executing quit parameters: {}
+07:30:57 command: quit[ param-1: {}] Result: null
+07:30:57 UI-driver tear down complete...
+07:30:57 Preparing For Shut Down...
+07:30:57 Preparing For Shut Down...
+07:30:57 Shut Down Completed...
+07:32:47 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+07:32:47 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+07:32:47 Driver: perfectoRemoteDriver
+07:32:47 Direct Driver Connect
+07:35:31 Preparing For Shut Down...
+07:35:31 Shut Down Completed...
+07:36:29 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+07:36:29 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+07:36:29 Driver: perfectoRemoteDriver
+07:36:29 Direct Driver Connect
+07:37:51 null
+07:37:51 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+07:37:51 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+07:37:51 Preparing For Shut Down...
+07:37:51 Shut Down Completed...
+07:40:17 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+07:40:17 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+07:40:17 Driver: perfectoDriver
+07:40:17 Direct Driver Connect
+07:41:08 null
+07:41:08 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+07:41:28 Driver: perfectoDriver
+07:41:28 Direct Driver Connect
+07:42:10 Preparing For Shut Down...
+07:42:10 Shut Down Completed...
+07:43:29 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+07:43:29 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+07:43:29 Driver: perfectoRemoteDriver
+07:43:29 Direct Driver Connect
+07:44:21 null
+07:44:21 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+07:44:41 Driver: perfectoRemoteDriver
+07:44:41 Direct Driver Connect
+07:45:31 null
+07:45:31 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+07:45:31 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+07:45:31 Preparing For Shut Down...
+07:45:31 Shut Down Completed...
+07:46:14 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+07:46:14 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+07:46:14 Driver: perfectoRemoteDriver
+07:46:14 Direct Driver Connect
+07:47:06 null
+07:47:06 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+07:47:26 Driver: perfectoRemoteDriver
+07:47:26 Direct Driver Connect
+07:47:50 Preparing For Shut Down...
+07:47:50 Shut Down Completed...
+07:48:21 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+07:48:21 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+07:48:21 Driver: perfectoRemoteDriver
+07:48:21 Direct Driver Connect
+07:49:13 null
+07:49:13 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+07:49:33 Driver: perfectoRemoteDriver
+07:49:33 Direct Driver Connect
+07:49:42 Preparing For Shut Down...
+07:49:42 Shut Down Completed...
+07:50:09 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+07:50:09 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+07:50:09 Driver: perfectoDriver
+07:50:09 Direct Driver Connect
+07:50:58 null
+07:50:58 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+07:51:18 Driver: perfectoDriver
+07:51:18 Direct Driver Connect
+07:52:10 null
+07:52:10 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+07:52:10 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+07:52:10 Preparing For Shut Down...
+07:52:10 Shut Down Completed...
+07:53:27 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+07:53:27 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+07:53:27 Driver: perfectoDriver
+07:53:27 Direct Driver Connect
+07:54:03 Executing setTimeout parameters: {"implicit":0}
+07:54:04 command: setTimeout[ param-1: {implicit=0}] Result: null
+07:54:04 driver init done
+07:54:04 Executing executeScript parameters: {"args":[{"name":"Expense Tracker VALID login Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Native Expense Android Test  driver testing","Expense Fey Suite"," @validLogin"," @expenseTrackerDataDriven "]}],"script":"mobile:test:start"}
+07:54:04 
+
+Executing scenario: Expense Tracker VALID login Scenario - 
+07:54:04 Test Data{username=test@perfecto.com, password=test123}
+07:54:04 pkg: com.qmetry.qaf.automation.step
+07:54:04 pkg: com.quantum.steps
+07:54:04 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+07:54:04 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+07:54:04 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+07:54:04 Failure Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+java.lang.ClassCastException: Underlying driver is an RemoteWebDriver.  This step requires an AppiumDriver.
+	Set following properties to use required driver:
+		perfecto.capabilities.driverClass=io.appium.java_client.AppiumDriver
+		driver.name=perfectoDriver
+	at com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.AppiumUtils.getAppiumDriver(AppiumUtils.java:31) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:374) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479) ~[quantum-3.1.5.jar:?]
+	at com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92) ~[quantum-3.1.5.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) ~[qaf-3.2.0.jar:3.1.5]
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66) ~[qaf-3.2.0.jar:3.1.5]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:714) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:503) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+07:54:04 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:54:04 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+07:54:05 Competed scenario: Expense Tracker VALID login Scenario with status FAILURE
+07:54:05 Executing executeScript parameters: {"args":[{"success":false,"failureDescription":"Step:Given I start application by id \"io.perfecto.expense.tracker\" failed\n. Stack Trace: java.lang.ClassCastException: Underlying driver is an RemoteWebDriver.  This step requires an AppiumDriver.\n\tSet following properties to use required driver:\n\t\tperfecto.capabilities.driverClass=io.appium.java_client.AppiumDriver\n\t\tdriver.name=perfectoDriver\n\tat .Given I start application by id \"io.perfecto.expense.tracker\"(src/main/resources/scenarios/worksTAM/expenseTrackerDataDriven.feature:18)\n\tat com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420)\n\tat com.quantum.utils.AppiumUtils.getAppiumDriver(AppiumUtils.java:31)\n\tat com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:374)\n\tat com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479)\n\tat com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\n"}],"script":"mobile:test:end"}
+07:54:06 Executing quit parameters: {}
+07:54:17 command: quit[ param-1: {}] Result: null
+07:54:17 UI-driver tear down complete...
+07:54:18 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+07:54:18 Preparing For Shut Down...
+07:54:18 Shut Down Completed...
+07:54:35 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+07:54:35 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+07:54:35 Driver: perfectoDriver
+07:54:35 Direct Driver Connect
+07:55:43 null
+07:55:43 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+07:55:43 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+07:55:43 Preparing For Shut Down...
+07:55:43 Shut Down Completed...
+07:56:55 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+07:56:55 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+07:56:55 Driver: perfectoDriver
+07:56:55 Direct Driver Connect
+07:57:45 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+07:58:05 Driver: perfectoDriver
+07:58:05 Direct Driver Connect
+07:58:55 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+07:58:55 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+07:58:55 Preparing For Shut Down...
+07:58:55 Shut Down Completed...
+08:01:38 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+08:01:38 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+08:01:38 Driver: perfectoDriver
+08:01:38 Direct Driver Connect
+08:01:51 null
+08:01:51 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+08:02:11 Driver: perfectoDriver
+08:02:11 Direct Driver Connect
+08:02:27 null
+08:02:27 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+08:02:47 Driver: perfectoDriver
+08:02:47 Direct Driver Connect
+08:03:02 null
+08:03:02 Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+08:03:02 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+08:03:02 Preparing For Shut Down...
+08:03:02 Shut Down Completed...
+08:03:14 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+08:03:14 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+08:03:14 Driver: perfectoDriver
+08:03:14 Direct Driver Connect
+08:03:27 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+08:03:47 Driver: perfectoDriver
+08:03:47 Direct Driver Connect
+08:04:02 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+08:04:22 Driver: perfectoDriver
+08:04:22 Direct Driver Connect
+08:04:34 Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+08:04:34 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+08:04:34 Preparing For Shut Down...
+08:04:34 Shut Down Completed...
+08:05:01 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+08:05:01 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+08:05:01 Driver: perfectoDriver
+08:05:01 Direct Driver Connect
+08:05:36 Executing setTimeout parameters: {"implicit":0}
+08:05:37 command: setTimeout[ param-1: {implicit=0}] Result: null
+08:05:37 driver init done
+08:05:37 Executing executeScript parameters: {"args":[{"name":"Expense Tracker VALID login Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Native Expense Android Test  driver testing","Expense Fey Suite"," @validLogin"," @expenseTrackerDataDriven "]}],"script":"mobile:test:start"}
+08:05:37 
+
+Executing scenario: Expense Tracker VALID login Scenario - 
+08:05:37 Test Data{username=test@perfecto.com, password=test123}
+08:05:37 pkg: com.qmetry.qaf.automation.step
+08:05:37 pkg: com.quantum.steps
+08:05:37 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+08:05:37 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+08:05:37 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+08:05:38 Failure Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+java.lang.ClassCastException: Underlying driver is an RemoteWebDriver.  This step requires an AppiumDriver.
+	Set following properties to use required driver:
+		perfecto.capabilities.driverClass=io.appium.java_client.AppiumDriver
+		driver.name=perfectoDriver
+	at com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.AppiumUtils.getAppiumDriver(AppiumUtils.java:31) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:374) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479) ~[quantum-3.1.5.jar:?]
+	at com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92) ~[quantum-3.1.5.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) ~[qaf-3.2.0.jar:3.1.5]
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66) ~[qaf-3.2.0.jar:3.1.5]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:714) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:503) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+08:05:38 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+08:05:38 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+08:05:38 Competed scenario: Expense Tracker VALID login Scenario with status FAILURE
+08:05:38 Executing executeScript parameters: {"args":[{"success":false,"failureDescription":"Step:Given I start application by id \"io.perfecto.expense.tracker\" failed\n. Stack Trace: java.lang.ClassCastException: Underlying driver is an RemoteWebDriver.  This step requires an AppiumDriver.\n\tSet following properties to use required driver:\n\t\tperfecto.capabilities.driverClass=io.appium.java_client.AppiumDriver\n\t\tdriver.name=perfectoDriver\n\tat .Given I start application by id \"io.perfecto.expense.tracker\"(src/main/resources/scenarios/worksTAM/expenseTrackerDataDriven.feature:18)\n\tat com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420)\n\tat com.quantum.utils.AppiumUtils.getAppiumDriver(AppiumUtils.java:31)\n\tat com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:374)\n\tat com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479)\n\tat com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\n"}],"script":"mobile:test:end"}
+08:05:39 Executing quit parameters: {}
+08:05:51 command: quit[ param-1: {}] Result: null
+08:05:51 UI-driver tear down complete...
+08:05:51 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+08:05:51 Preparing For Shut Down...
+08:05:51 Shut Down Completed...
+08:07:59 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+08:07:59 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+08:07:59 Driver: perfectoDriver
+08:07:59 Error while setting Driver class : appium.java_client.AppiumDriver
+08:07:59 Direct Driver Connect
+08:08:17 Executing setTimeout parameters: {"implicit":0}
+08:08:17 command: setTimeout[ param-1: {implicit=0}] Result: null
+08:08:17 driver init done
+08:08:17 Executing executeScript parameters: {"args":[{"name":"Expense Tracker VALID login Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Native Expense Android Test  driver testing","Expense Fey Suite"," @validLogin"," @expenseTrackerDataDriven "]}],"script":"mobile:test:start"}
+08:08:17 
+
+Executing scenario: Expense Tracker VALID login Scenario - 
+08:08:17 Test Data{username=test@perfecto.com, password=test123}
+08:08:17 pkg: com.qmetry.qaf.automation.step
+08:08:17 pkg: com.quantum.steps
+08:08:17 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+08:08:17 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+08:08:17 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+08:08:18 Failure Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+java.lang.ClassCastException: Underlying driver is an RemoteWebDriver.  This step requires an AppiumDriver.
+	Set following properties to use required driver:
+		perfecto.capabilities.driverClass=io.appium.java_client.AppiumDriver
+		driver.name=perfectoDriver
+	at com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.AppiumUtils.getAppiumDriver(AppiumUtils.java:31) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:374) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479) ~[quantum-3.1.5.jar:?]
+	at com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92) ~[quantum-3.1.5.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) ~[qaf-3.2.0.jar:3.1.5]
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66) ~[qaf-3.2.0.jar:3.1.5]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:714) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:503) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+08:08:18 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+08:08:18 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+08:08:18 Competed scenario: Expense Tracker VALID login Scenario with status FAILURE
+08:08:18 Executing executeScript parameters: {"args":[{"success":false,"failureDescription":"Step:Given I start application by id \"io.perfecto.expense.tracker\" failed\n. Stack Trace: java.lang.ClassCastException: Underlying driver is an RemoteWebDriver.  This step requires an AppiumDriver.\n\tSet following properties to use required driver:\n\t\tperfecto.capabilities.driverClass=io.appium.java_client.AppiumDriver\n\t\tdriver.name=perfectoDriver\n\tat .Given I start application by id \"io.perfecto.expense.tracker\"(src/main/resources/scenarios/worksTAM/expenseTrackerDataDriven.feature:18)\n\tat com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420)\n\tat com.quantum.utils.AppiumUtils.getAppiumDriver(AppiumUtils.java:31)\n\tat com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:374)\n\tat com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479)\n\tat com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\n"}],"script":"mobile:test:end"}
+08:08:20 Executing quit parameters: {}
+08:08:30 command: quit[ param-1: {}] Result: null
+08:08:30 UI-driver tear down complete...
+08:08:31 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+08:08:31 Preparing For Shut Down...
+08:08:31 Shut Down Completed...
+08:09:39 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+08:09:39 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+08:09:39 Driver: perfectoDriver
+08:09:39 Direct Driver Connect
+08:09:56 Executing setTimeout parameters: {"implicit":0}
+08:09:56 command: setTimeout[ param-1: {implicit=0}] Result: null
+08:09:56 driver init done
+08:09:56 Executing executeScript parameters: {"args":[{"name":"Expense Tracker VALID login Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Native Expense Android Test  driver testing","Expense Fey Suite"," @validLogin"," @expenseTrackerDataDriven "]}],"script":"mobile:test:start"}
+08:09:56 
+
+Executing scenario: Expense Tracker VALID login Scenario - 
+08:09:56 Test Data{username=test@perfecto.com, password=test123}
+08:09:56 pkg: com.qmetry.qaf.automation.step
+08:09:56 pkg: com.quantum.steps
+08:09:56 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+08:09:56 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+08:09:56 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+08:09:57 Failure Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+java.lang.ClassCastException: Underlying driver is an AppiumDriver.  This step requires an IOSDriver.
+	Set following properties to use required driver:
+		perfecto.capabilities.driverClass=io.appium.java_client.ios.IOSDriver
+		driver.name=perfectoDriver
+	at com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.AppiumUtils.getIOSDriver(AppiumUtils.java:35) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:383) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479) ~[quantum-3.1.5.jar:?]
+	at com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92) ~[quantum-3.1.5.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) ~[qaf-3.2.0.jar:3.1.5]
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66) ~[qaf-3.2.0.jar:3.1.5]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:714) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:503) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+08:09:57 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+08:09:57 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+08:09:57 Competed scenario: Expense Tracker VALID login Scenario with status FAILURE
+08:09:57 Executing executeScript parameters: {"args":[{"success":false,"failureDescription":"Step:Given I start application by id \"io.perfecto.expense.tracker\" failed\n. Stack Trace: java.lang.ClassCastException: Underlying driver is an AppiumDriver.  This step requires an IOSDriver.\n\tSet following properties to use required driver:\n\t\tperfecto.capabilities.driverClass=io.appium.java_client.ios.IOSDriver\n\t\tdriver.name=perfectoDriver\n\tat .Given I start application by id \"io.perfecto.expense.tracker\"(src/main/resources/scenarios/worksTAM/expenseTrackerDataDriven.feature:18)\n\tat com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420)\n\tat com.quantum.utils.AppiumUtils.getIOSDriver(AppiumUtils.java:35)\n\tat com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:383)\n\tat com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479)\n\tat com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\n"}],"script":"mobile:test:end"}
+08:09:57 Executing quit parameters: {}
+08:10:13 command: quit[ param-1: {}] Result: null
+08:10:13 UI-driver tear down complete...
+08:10:13 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+08:10:13 Preparing For Shut Down...
+08:10:13 Shut Down Completed...
+08:11:03 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+08:11:03 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+08:11:03 Driver: perfectoDriver
+08:11:03 Error while setting Driver class : io.appium.java_client.IOSDriver
+08:11:03 Direct Driver Connect
+08:11:15 Preparing For Shut Down...
+08:11:15 Shut Down Completed...
+08:12:07 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+08:12:07 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+08:12:07 Driver: perfectoDriver
+08:12:07 Direct Driver Connect
+08:13:05 Preparing For Shut Down...
+08:13:05 Shut Down Completed...
+08:13:59 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+08:13:59 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+08:13:59 Driver: perfectoDriver
+08:13:59 Direct Driver Connect
+08:14:37 Executing setTimeout parameters: {"implicit":0}
+08:14:37 command: setTimeout[ param-1: {implicit=0}] Result: null
+08:14:37 driver init done
+08:14:37 Executing executeScript parameters: {"args":[{"name":"Expense Tracker VALID login Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Native Expense Android Test  driver testing","Expense Fey Suite"," @validLogin"," @expenseTrackerDataDriven "]}],"script":"mobile:test:start"}
+08:14:37 
+
+Executing scenario: Expense Tracker VALID login Scenario - 
+08:14:37 Test Data{username=test@perfecto.com, password=test123}
+08:14:37 pkg: com.qmetry.qaf.automation.step
+08:14:37 pkg: com.quantum.steps
+08:14:37 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+08:14:37 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+08:14:37 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+08:14:38 Failure Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+java.lang.ClassCastException: Underlying driver is an AppiumDriver.  This step requires an IOSDriver.
+	Set following properties to use required driver:
+		perfecto.capabilities.driverClass=io.appium.java_client.ios.IOSDriver
+		driver.name=perfectoDriver
+	at com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.AppiumUtils.getIOSDriver(AppiumUtils.java:35) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:383) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479) ~[quantum-3.1.5.jar:?]
+	at com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92) ~[quantum-3.1.5.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) ~[qaf-3.2.0.jar:3.1.5]
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66) ~[qaf-3.2.0.jar:3.1.5]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:714) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:503) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+08:14:38 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+08:14:38 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+08:14:38 Competed scenario: Expense Tracker VALID login Scenario with status FAILURE
+08:14:38 Executing executeScript parameters: {"args":[{"success":false,"failureDescription":"Step:Given I start application by id \"io.perfecto.expense.tracker\" failed\n. Stack Trace: java.lang.ClassCastException: Underlying driver is an AppiumDriver.  This step requires an IOSDriver.\n\tSet following properties to use required driver:\n\t\tperfecto.capabilities.driverClass=io.appium.java_client.ios.IOSDriver\n\t\tdriver.name=perfectoDriver\n\tat .Given I start application by id \"io.perfecto.expense.tracker\"(src/main/resources/scenarios/worksTAM/expenseTrackerDataDriven.feature:18)\n\tat com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420)\n\tat com.quantum.utils.AppiumUtils.getIOSDriver(AppiumUtils.java:35)\n\tat com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:383)\n\tat com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479)\n\tat com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\n"}],"script":"mobile:test:end"}
+08:14:38 Executing quit parameters: {}
+08:14:50 command: quit[ param-1: {}] Result: null
+08:14:50 UI-driver tear down complete...
+08:14:50 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+08:14:50 Preparing For Shut Down...
+08:14:50 Shut Down Completed...
+08:15:31 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+08:15:31 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+08:15:31 Driver: perfectoDriver
+08:15:31 Direct Driver Connect
+08:16:37 null
+08:16:37 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+08:16:37 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+08:16:37 Preparing For Shut Down...
+08:16:37 Shut Down Completed...
+08:30:07 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+08:30:07 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+08:30:07 Driver: perfectoDriver
+08:30:07 Direct Driver Connect
+08:30:43 Executing setTimeout parameters: {"implicit":0}
+08:30:43 command: setTimeout[ param-1: {implicit=0}] Result: null
+08:30:43 driver init done
+08:30:43 Executing executeScript parameters: {"args":[{"name":"Expense Tracker VALID login Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Native Expense Android Test  driver testing","Expense Fey Suite"," @validLogin"," @expenseTrackerDataDriven "]}],"script":"mobile:test:start"}
+08:30:43 
+
+Executing scenario: Expense Tracker VALID login Scenario - 
+08:30:43 Test Data{username=test@perfecto.com, password=test123}
+08:30:43 pkg: com.qmetry.qaf.automation.step
+08:30:43 pkg: com.quantum.steps
+08:30:43 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+08:30:43 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+08:30:43 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+08:30:44 Failure Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+java.lang.ClassCastException: Underlying driver is an AppiumDriver.  This step requires an IOSDriver.
+	Set following properties to use required driver:
+		perfecto.capabilities.driverClass=io.appium.java_client.ios.IOSDriver
+		driver.name=perfectoDriver
+	at com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.AppiumUtils.getIOSDriver(AppiumUtils.java:35) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:383) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479) ~[quantum-3.1.5.jar:?]
+	at com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92) ~[quantum-3.1.5.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) ~[qaf-3.2.0.jar:3.1.5]
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66) ~[qaf-3.2.0.jar:3.1.5]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:714) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:503) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+08:30:44 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+08:30:45 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+08:30:45 Competed scenario: Expense Tracker VALID login Scenario with status FAILURE
+08:30:45 Executing executeScript parameters: {"args":[{"success":false,"failureDescription":"Step:Given I start application by id \"io.perfecto.expense.tracker\" failed\n. Stack Trace: java.lang.ClassCastException: Underlying driver is an AppiumDriver.  This step requires an IOSDriver.\n\tSet following properties to use required driver:\n\t\tperfecto.capabilities.driverClass=io.appium.java_client.ios.IOSDriver\n\t\tdriver.name=perfectoDriver\n\tat .Given I start application by id \"io.perfecto.expense.tracker\"(src/main/resources/scenarios/worksTAM/expenseTrackerDataDriven.feature:18)\n\tat com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420)\n\tat com.quantum.utils.AppiumUtils.getIOSDriver(AppiumUtils.java:35)\n\tat com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:383)\n\tat com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479)\n\tat com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\n"}],"script":"mobile:test:end"}
+08:30:46 Executing quit parameters: {}
+08:30:57 command: quit[ param-1: {}] Result: null
+08:30:57 UI-driver tear down complete...
+08:30:57 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+08:30:57 Preparing For Shut Down...
+08:30:57 Shut Down Completed...

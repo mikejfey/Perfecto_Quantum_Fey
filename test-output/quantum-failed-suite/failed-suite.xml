@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite allow-return-values="false" configfailurepolicy="skip" data-provider-thread-count="10" group-by-instances="false" guice-stage="DEVELOPMENT" junit="false" name="Expense Fey Suite - Failed" parallel="none" preserve-order="true" skipfailedinvocationcounts="false" thread-count="100" verbose="0">
+  <parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.AppiumDriver"/>
+  <parameter name="driver.name" value="perfectoDriver"/>
+  <listeners>
+    <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
+  </listeners>
+  <test allow-return-values="false" group-by-instances="false" junit="false" name="Native Expense Android Test  driver testing" preserve-order="true" skipfailedinvocationcounts="false" thread-count="3" verbose="0">
+    <parameter name="perfecto.capabilities.automationName" value="Appium"/>
+    <parameter name="appiumVersion" value="latest"/>
+    <parameter name="perfecto.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
+    <parameter name="enableAppiumBehavior" value="true"/>
+    <parameter name="perfecto.capabilities.model" value="Galaxy.*"/>
+    <parameter name="perfecto.additional.capabilities" value="{'perfecto:openDeviceTimeout':15}"/>
+    <parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
+    <groups>
+      <run>
+        <include name="@expenseTrackerDataDriven"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+    </classes>
+  </test> <!-- Native Expense Android Test  driver testing -->
+</suite><!-- Expense Fey Suite - Failed -->
