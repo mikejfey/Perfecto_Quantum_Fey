@@ -4,17 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="changed data for TAM Exercise with biometrics">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/TAM_ExpTrackerDataDriven_seq.xml" afterDir="false" />
+    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="changed appium driver for android">
+      <change afterPath="$PROJECT_DIR$/img/ExpenseTrackerInvalidLoginScenario_176fcobg8ariz1585.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ExpenseTrackerInvalidLoginScenario_hwauxq73i3ph1584.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ExpenseTrackerVALIDLoginScenario_1qba229xpe971587.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ExpenseTrackerVALIDLoginScenario_ic602skh3zp71586.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/OpenWikipedia_146sy6wo2p6p51037.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/OpenWikipedia_1dacsn8uv8faz53951.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/OpenWikipedia_1fzrjfiht1h3936049.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/OpenWikipedia_1kpns17jkfzhk55043.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/OpenWikipedia_wn169z1kf90d32480.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scenario.log" beforeDir="false" afterPath="$PROJECT_DIR$/scenario.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/ZDEMO/feyFirsttestng_cucumber_01_firstTest_IOS.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/ZDEMO/testng_cucumber_02_sampleTestCase.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/needsWork/expenseTrackerAndroid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/Bio_expenseTrackerIOS.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/Demo2_ExpTrackerDataDriven_invalid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/ZDEMO/Demo2_ExpTrackerDataDriven_invalid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/Demo2_ExpTrackerDataDriven_valid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/ZDEMO/Demo2_ExpTrackerDataDriven_valid.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/wiki_web_AndroidWorks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/wiki_web_AndroidWorks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/scenarios/ZDEMO/01firstRun.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/scenarios/worksTAM/mobileWebTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/scenarios/ZDEMO/02sampleTestCase.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/scenarios/sandbox/02sampleTestCase.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/scenarios/ZDEMO/03createTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/scenarios/sandbox/03createTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/scenarios/ZDEMO/expenseTrackerNative.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/scenarios/sandbox/expenseTrackerNative.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/scenarios/ZDEMO/expenseTrackerNativeHappy.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/scenarios/sandbox/expenseTrackerNativeHappy.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/scenarios/webSearch.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scenarios/webSearch.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/quantum-failed-suite/failed-suite.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,14 +82,52 @@
       <recent name="$PROJECT_DIR$/src/main/resources/scenarios" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/scenarios/worksTAM" />
       <recent name="$PROJECT_DIR$/src/main/resources/data" />
       <recent name="$PROJECT_DIR$/src/main/resources/config/ZDEMO" />
       <recent name="$PROJECT_DIR$/src/main/resources/scenarios/works" />
       <recent name="$PROJECT_DIR$/src/main/resources/config/works_IOS14" />
-      <recent name="$PROJECT_DIR$/src/main/resources/config/needsWork" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/wiki_web_AndroidWorks.xml">
+    <configuration name="Feature: expenseBiometrics" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/scenarios/worksTAM/expenseBiometrics.feature" />
+      <option name="GLUE" value="com.quantum.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="quantum-starter" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: expenseBiometrics" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: expenseTrackerDataDriven" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/scenarios/worksTAM/expenseTrackerDataDriven.feature" />
+      <option name="GLUE" value="com.quantum.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="quantum-starter" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: expenseTrackerDataDriven" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="quantum-starter [clean,compile,test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings">
@@ -125,29 +174,19 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="quantum-starter" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/needsWork/expenseTrackerAndroid.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="quantum-starter" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/needsWork/expenseTrackerAndroid.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="quantum-starter" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/TAM_ExpTrackerDataDriven_seq.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="quantum-starter" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/TAM_ExpTrackerDataDriven_seq.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -165,37 +204,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="config.works_IOS14_TAM" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="quantum-starter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="config.works_IOS14_TAM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="config.works_IOS14_TAM" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Feature: expenseBiometrics" />
+      <item itemvalue="Cucumber Java.Feature: expenseTrackerDataDriven" />
       <item itemvalue="Maven.quantum-starter [clean,compile,test]" />
-      <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml" />
-      <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/needsWork/expenseTrackerAndroid.xml" />
       <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml" />
+      <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/TAM_ExpTrackerDataDriven_seq.xml" />
       <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/wiki_web_AndroidWorks.xml" />
-      <item itemvalue="TestNG.config.works_IOS14_TAM" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/wiki_web_AndroidWorks.xml" />
-        <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml" />
         <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml" />
-        <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/needsWork/expenseTrackerAndroid.xml" />
-        <item itemvalue="TestNG.config.works_IOS14_TAM" />
+        <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/TAM_ExpTrackerDataDriven_seq.xml" />
+        <item itemvalue="Cucumber Java.Feature: expenseTrackerDataDriven" />
+        <item itemvalue="Cucumber Java.Feature: expenseBiometrics" />
       </list>
     </recent_temporary>
   </component>
@@ -224,13 +247,30 @@
       <option name="project" value="LOCAL" />
       <updated>1754425116656</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changed appium driver for android">
+      <option name="closed" value="true" />
+      <created>1754439117050</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1754439117050</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changed appium driver for android">
+      <option name="closed" value="true" />
+      <created>1754439251622</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1754439251622</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="changed data" />
     <MESSAGE value="changed data for TAM Exercise with biometrics" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed data for TAM Exercise with biometrics" />
+    <MESSAGE value="changed appium driver for android" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed appium driver for android" />
   </component>
 </project>

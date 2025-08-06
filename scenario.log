@@ -10327,3 +10327,1147 @@ Executing scenario: open Wikipedia -
 19:11:20 Preparing For Shut Down...
 19:11:20 Preparing For Shut Down...
 19:11:20 Shut Down Completed...
+19:31:13 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+19:31:13 Driver: perfectoRemoteDriver
+19:31:13 Direct Driver Connect
+19:31:25 Preparing For Shut Down...
+19:31:25 Shut Down Completed...
+19:31:55 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+19:31:55 Driver: perfectoDriver
+19:31:55 Direct Driver Connect
+19:32:39 Executing setTimeout parameters: {"implicit":0}
+19:32:39 command: setTimeout[ param-1: {implicit=0}] Result: null
+19:32:39 driver init done
+19:32:39 Executing executeScript parameters: {"args":[{"name":"Biometrics Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["IOS Expense Tracker Test","Expense Fey Suite"," @IOS_Bio_expenseTracker "]}],"script":"mobile:test:start"}
+19:32:40 
+
+Executing scenario: Biometrics Scenario - 
+19:32:40 pkg: com.qmetry.qaf.automation.step
+19:32:40 pkg: com.quantum.steps
+19:32:40 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+19:32:40 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+19:32:40 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+19:32:45 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+19:32:45 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+19:32:45 Invoking Teststep: Then I should see expense tracker Native login screen
+19:32:45 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker Native login screen"}],"script":"mobile:step:start"}
+19:32:45 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+19:32:45 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {}
+19:32:45 Executing findElement parameters: {"value":"type == 'XCUIElementTypeStaticText' AND name == 'Email'","using":"-ios predicate string"}
+19:32:45 command: findElement[ param-1: {value=type == 'XCUIElementTypeStaticText' AND name == 'Email', using=-ios predicate string}] Result: id: 11000000-0000-0000-6E1F-000000000000
+19:32:45 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {}] Result: OK
+19:32:45 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {"id":"11000000-0000-0000-6E1F-000000000000"}
+19:32:45 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {"id":"11000000-0000-0000-6E1F-000000000000"}] Result: isElementDisplayed:true
+19:32:45 Executing executeScript parameters: {"args":[{"message":"Verify Login screen title","status":true}],"script":"mobile:status:assert"}
+19:32:46 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+19:32:46 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+19:32:46 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+19:32:46 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-6E1F-000000000000
+19:32:46 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+19:32:46 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"id":"13000000-0000-0000-6E1F-000000000000"}
+19:32:46 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"id":"13000000-0000-0000-6E1F-000000000000"}] Result: isElementDisplayed:true
+19:32:46 Executing executeScript parameters: {"args":[{"message":"Verify Login screen Email","status":true}],"script":"mobile:status:assert"}
+19:32:46 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+19:32:46 Completed Teststep: Then I should see expense tracker Native login screen
+19:32:46 Invoking Teststep: When I enter "test@perfecto.com" and "test123" in native login screen with arguments: [test@perfecto.com, test123]
+19:32:46 Executing executeScript parameters: {"args":[{"name":"When I enter \"test@perfecto.com\" and \"test123\" in native login screen"}],"script":"mobile:step:start"}
+19:32:46 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+19:32:47 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+19:32:47 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+19:32:47 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-6E1F-000000000000
+19:32:47 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+19:32:47 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-6E1F-000000000000"}
+19:32:48 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-6E1F-000000000000"}] Result: sendKeysToElement:null
+19:32:48 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+19:32:48 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {}
+19:32:48 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com'","using":"-ios predicate string"}
+19:32:49 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com', using=-ios predicate string}] Result: id: 13000000-0000-0000-6E1F-000000000000
+19:32:49 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {}] Result: OK
+19:32:49 Executing getElementText element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {"id":"13000000-0000-0000-6E1F-000000000000"}
+19:32:49 command: getElementText[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {"id":"13000000-0000-0000-6E1F-000000000000"}] Result: getElementText:test@perfecto.com
+19:32:49 Executing executeScript parameters: {"args":[{"message":"Email was entered as expected","status":true}],"script":"mobile:status:assert"}
+19:32:49 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+19:32:49 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {}
+19:32:49 Executing findElement parameters: {"value":"type == 'XCUIElementTypeSecureTextField' AND name == 'login_password'","using":"-ios predicate string"}
+19:32:50 command: findElement[ param-1: {value=type == 'XCUIElementTypeSecureTextField' AND name == 'login_password', using=-ios predicate string}] Result: id: 16000000-0000-0000-6E1F-000000000000
+19:32:50 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {}] Result: OK
+19:32:50 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {"value":["test123"],"id":"16000000-0000-0000-6E1F-000000000000"}
+19:32:51 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {"value":["test123"],"id":"16000000-0000-0000-6E1F-000000000000"}] Result: sendKeysToElement:null
+19:32:51 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+19:32:51 Completed Teststep: When I enter "test@perfecto.com" and "test123" in native login screen with arguments: [test@perfecto.com, test123]
+19:32:51 Invoking Teststep: Then I click the enable Biometrics
+19:32:51 Executing executeScript parameters: {"args":[{"name":"Then I click the enable Biometrics"}],"script":"mobile:step:start"}
+19:32:51 Executing findElement element: By.xpath: //*[@value="0"] parameters: {}
+19:32:51 Executing findElement parameters: {"value":"//*[@value=\"0\"]","using":"xpath"}
+19:32:51 command: findElement[ param-1: {value=//*[@value="0"], using=xpath}] Result: id: 19000000-0000-0000-6E1F-000000000000
+19:32:51 command: findElement[ param-1: By.xpath: //*[@value="0"] param-2: {}] Result: OK
+19:32:51 Executing clickElement element: By.xpath: //*[@value="0"] parameters: {"id":"19000000-0000-0000-6E1F-000000000000"}
+19:32:52 command: clickElement[ param-1: By.xpath: //*[@value="0"] param-2: {"id":"19000000-0000-0000-6E1F-000000000000"}] Result: clickElement:null
+19:32:52 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+19:32:52 Completed Teststep: Then I click the enable Biometrics
+19:32:52 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="I take a screenshot")
+public void iTakeAScreenshot(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+19:32:52 Competed scenario: Biometrics Scenario with status FAILURE
+19:32:52 Executing executeScript parameters: {"args":[{"success":false,"failureDescription":"com.qmetry.qaf.automation.step.StepNotFoundException: Then I take a screenshot@src/main/resources/scenarios/worksTAM/expenseBiometrics.feature#11 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\n\tat .Then I take a screenshot(src/main/resources/scenarios/worksTAM/expenseBiometrics.feature:11)\n"}],"script":"mobile:test:end"}
+19:32:52 Executing quit parameters: {}
+19:33:00 command: quit[ param-1: {}] Result: null
+19:33:00 UI-driver tear down complete...
+19:33:00 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+19:33:00 Preparing For Shut Down...
+19:33:00 Preparing For Shut Down...
+19:33:00 Shut Down Completed...
+19:46:16 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+19:46:16 Driver: perfectoRemoteDriver
+19:46:16 Direct Driver Connect
+19:46:30 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:46:50 Driver: perfectoRemoteDriver
+19:46:50 Direct Driver Connect
+19:47:04 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:47:24 Driver: perfectoRemoteDriver
+19:47:24 Direct Driver Connect
+19:47:38 Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:47:38 Preparing For Shut Down...
+19:47:38 Shut Down Completed...
+20:07:56 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+20:07:56 Driver: perfectoRemoteDriver
+20:07:56 Direct Driver Connect
+20:08:11 Executing setTimeout parameters: {"implicit":0}
+20:08:11 command: setTimeout[ param-1: {implicit=0}] Result: null
+20:08:11 driver init done
+20:08:11 Executing executeScript parameters: {"args":[{"name":"open Wikipedia","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["fey smoke Web Wiki Android Test","Web Fey Suite"," @first "]}],"script":"mobile:test:start"}
+20:08:11 
+
+Executing scenario: open Wikipedia - 
+20:08:11 pkg: com.qmetry.qaf.automation.step
+20:08:11 pkg: com.quantum.steps
+20:08:11 Invoking Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+20:08:11 Executing executeScript parameters: {"args":[{"name":"Given I open browser to webpage \"https://www.wikipedia.org/\""}],"script":"mobile:step:start"}
+20:08:11 Executing get parameters: {"url":"https://www.wikipedia.org/"}
+20:08:12 command: get[ param-1: {url=https://www.wikipedia.org/}] Result: null
+20:08:12 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:08:12 Completed Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+20:08:12 Invoking Teststep: Then I must see text "Wikipedia" with arguments: [Wikipedia]
+20:08:12 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Wikipedia\""}],"script":"mobile:step:start"}
+20:08:12 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Wikipedia","timeout":60}],"script":"mobile:checkpoint:text"}
+20:08:14 Executing screenshot parameters: {}
+20:08:15 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:08:15 Completed Teststep: Then I must see text "Wikipedia" with arguments: [Wikipedia]
+20:08:15 Competed scenario: open Wikipedia with status SUCCESS
+20:08:15 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+20:08:15 Executing executeScript parameters: {"args":[{"name":"open Wikipedia","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["fey smoke Web Wiki Android Test","Web Fey Suite"," @first "]}],"script":"mobile:test:start"}
+20:08:15 
+
+Executing scenario: open Wikipedia - 
+20:08:15 Invoking Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+20:08:15 Executing executeScript parameters: {"args":[{"name":"Given I open browser to webpage \"https://www.wikipedia.org/\""}],"script":"mobile:step:start"}
+20:08:15 Executing get parameters: {"url":"https://www.wikipedia.org/"}
+20:08:15 command: get[ param-1: {url=https://www.wikipedia.org/}] Result: null
+20:08:15 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:08:16 Completed Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+20:08:16 Invoking Teststep: Then I must see text "The Free Encyclopedia" with arguments: [The Free Encyclopedia]
+20:08:16 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"The Free Encyclopedia\""}],"script":"mobile:step:start"}
+20:08:16 Executing executeScript parameters: {"args":[{"threshold":"100","content":"The Free Encyclopedia","timeout":60}],"script":"mobile:checkpoint:text"}
+20:09:16 [31mcommand: executeScript[ param-1: {args=[{threshold=100, content=The Free Encyclopedia, timeout=60}], script=mobile:checkpoint:text}] Result: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'
+Driver info: driver.version: QAFExtendedWebDriver
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Command: [d44ecf0a-2415-4d2f-ba06-5669302651b0, executeScript {args=[{threshold=100, content=The Free Encyclopedia, timeout=60}], script=mobile:checkpoint:text}]
+Capabilities {app: , appPackage: com.android.chrome, assert_javascript_enabled: true, audioStreamInfo: {"audioStreamingServerUrl":..., automationName: UIAutomator2, browserName: , databaseEnabled: false, desired: {appPackage: com.android.chrome, automationName: UIAutomator2, browserName: , deviceName: R5CWA2726XK, openDeviceTimeout: 15, platformName: Android, platformVersion: 14}, deviceApiLevel: 34, deviceManufacturer: samsung, deviceModel: SM-S918U1, deviceName: R5CWA2726XK, deviceScreenDensity: 600, deviceScreenSize: 1440x3088, deviceSessionId: d44ecf0a-2415-4d2f-ba06-566..., deviceUDID: R5CWA2726XK, entityType: remote_web_driver, executionId: d44ecf0a-2415-4d2f-ba06-566..., host: demo.perfectomobile.com, internalPureAppiumFlow: true, javascriptEnabled: true, locationContextEnabled: false, mcmExecutionId: mikejfey@hotmail.com_Remote..., model: Galaxy.*, networkConnectionEnabled: true, openDeviceTimeout: 15, options: {automationName: Appium, browserName: , model: Galaxy.*, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}, password: , pixelRatio: 3.75, platform: LINUX, platformName: ANDROID, platformVersion: 14, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securePureAppiumFlow: false, securityToken: , serverConnector: , statBarHeight: 100, stopUrl: https://demo.perfectomobile..., streamInfo: {"url":"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: true, viewportRect: {height: 2988, left: 0, top: 100, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d44ecf0a-2415-4d2f-ba06-5669302651b0[0m
+20:09:16 Failure Teststep: Then I must see text "The Free Encyclopedia" with arguments: [The Free Encyclopedia]
+org.openqa.selenium.TimeoutException: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'
+Driver info: driver.version: QAFExtendedWebDriver
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Command: [d44ecf0a-2415-4d2f-ba06-5669302651b0, executeScript {args=[{threshold=100, content=The Free Encyclopedia, timeout=60}], script=mobile:checkpoint:text}]
+Capabilities {app: , appPackage: com.android.chrome, assert_javascript_enabled: true, audioStreamInfo: {"audioStreamingServerUrl":..., automationName: UIAutomator2, browserName: , databaseEnabled: false, desired: {appPackage: com.android.chrome, automationName: UIAutomator2, browserName: , deviceName: R5CWA2726XK, openDeviceTimeout: 15, platformName: Android, platformVersion: 14}, deviceApiLevel: 34, deviceManufacturer: samsung, deviceModel: SM-S918U1, deviceName: R5CWA2726XK, deviceScreenDensity: 600, deviceScreenSize: 1440x3088, deviceSessionId: d44ecf0a-2415-4d2f-ba06-566..., deviceUDID: R5CWA2726XK, entityType: remote_web_driver, executionId: d44ecf0a-2415-4d2f-ba06-566..., host: demo.perfectomobile.com, internalPureAppiumFlow: true, javascriptEnabled: true, locationContextEnabled: false, mcmExecutionId: mikejfey@hotmail.com_Remote..., model: Galaxy.*, networkConnectionEnabled: true, openDeviceTimeout: 15, options: {automationName: Appium, browserName: , model: Galaxy.*, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}, password: , pixelRatio: 3.75, platform: LINUX, platformName: ANDROID, platformVersion: 14, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securePureAppiumFlow: false, securityToken: , serverConnector: , statBarHeight: 100, stopUrl: https://demo.perfectomobile..., streamInfo: {"url":"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: true, viewportRect: {height: 2988, left: 0, top: 100, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d44ecf0a-2415-4d2f-ba06-5669302651b0
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52) ~[selenium-remote-driver-4.13.0.jar:?]
+	at java.util.function.Function.lambda$andThen$1(Function.java:88) ~[?:?]
+	at org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$9(RemoteWebDriverBuilder.java:448) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$10(RemoteWebDriverBuilder.java:455) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$11(RemoteWebDriverBuilder.java:460) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$12(RemoteWebDriverBuilder.java:470) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602) ~[selenium-remote-driver-4.13.0.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeSuper(QAFExtendedWebDriver.java:277) ~[quantum-3.1.5.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWithoutLog(QAFExtendedWebDriver.java:295) ~[quantum-3.1.5.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:344) ~[quantum-3.1.5.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:321) ~[quantum-3.1.5.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:727) ~[quantum-3.1.5.jar:?]
+	at com.quantum.utils.DeviceUtils.isText(DeviceUtils.java:499) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.DeviceUtils.assertVisualText(DeviceUtils.java:76) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.steps.PerfectoApplicationSteps.asserVisualText(PerfectoApplicationSteps.java:436) ~[quantum-3.1.5.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) ~[qaf-3.2.0.jar:3.1.5]
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237) ~[qaf-3.2.0.jar:3.1.5]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:714) ~[quantum-3.1.5.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:503) ~[quantum-3.1.5.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+20:09:16 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:09:16 Completed Teststep: Then I must see text "The Free Encyclopedia" with arguments: [The Free Encyclopedia]
+20:09:16 Competed scenario: open Wikipedia with status FAILURE
+20:09:16 Executing executeScript parameters: {"args":[{"success":false,"failureDescription":"Step:Then I must see text \"The Free Encyclopedia\" failed\n. Stack Trace: org.openqa.selenium.TimeoutException: java.net.http.HttpTimeoutException: request timed out\nBuild info: version: '4.13.0', revision: 'ba948ece5b*'\nSystem info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'\nDriver info: driver.version: QAFExtendedWebDriver\nBuild info: version: '4.13.0', revision: 'ba948ece5b*'\nSystem info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [d44ecf0a-2415-4d2f-ba06-5669302651b0, executeScript {args=[{threshold=100, content=The Free Encyclopedia, timeout=60}], script=mobile:checkpoint:text}]\nCapabilities {app: , appPackage: com.android.chrome, assert_javascript_enabled: true, audioStreamInfo: {\"audioStreamingServerUrl\":..., automationName: UIAutomator2, browserName: , databaseEnabled: false, desired: {appPackage: com.android.chrome, automationName: UIAutomator2, browserName: , deviceName: R5CWA2726XK, openDeviceTimeout: 15, platformName: Android, platformVersion: 14}, deviceApiLevel: 34, deviceManufacturer: samsung, deviceModel: SM-S918U1, deviceName: R5CWA2726XK, deviceScreenDensity: 600, deviceScreenSize: 1440x3088, deviceSessionId: d44ecf0a-2415-4d2f-ba06-566..., deviceUDID: R5CWA2726XK, entityType: remote_web_driver, executionId: d44ecf0a-2415-4d2f-ba06-566..., host: demo.perfectomobile.com, internalPureAppiumFlow: true, javascriptEnabled: true, locationContextEnabled: false, mcmExecutionId: mikejfey@hotmail.com_Remote..., model: Galaxy.*, networkConnectionEnabled: true, openDeviceTimeout: 15, options: {automationName: Appium, browserName: , model: Galaxy.*, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}, password: , pixelRatio: 3.75, platform: LINUX, platformName: ANDROID, platformVersion: 14, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securePureAppiumFlow: false, securityToken: , serverConnector: , statBarHeight: 100, stopUrl: https://demo.perfectomobile..., streamInfo: {\"url\":\"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: true, viewportRect: {height: 2988, left: 0, top: 100, width: 1440}, warnings: {}, webStorageEnabled: false}\nSession ID: d44ecf0a-2415-4d2f-ba06-5669302651b0\n\tat .Then I must see text \"The Free Encyclopedia\"(src/main/resources/scenarios/worksTAM/firstRun.feature:5)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat java.base/java.util.function.Function.lambda$andThen$1(Function.java:88)\n\tat org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$9(RemoteWebDriverBuilder.java:448)\n\tat org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$10(RemoteWebDriverBuilder.java:455)\n\tat org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$11(RemoteWebDriverBuilder.java:460)\n\tat org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$12(RemoteWebDriverBuilder.java:470)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeSuper(QAFExtendedWebDriver.java:277)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWithoutLog(QAFExtendedWebDriver.java:295)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:344)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:321)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:727)\n\tat com.quantum.utils.DeviceUtils.isText(DeviceUtils.java:499)\n\tat com.quantum.utils.DeviceUtils.assertVisualText(DeviceUtils.java:76)\n\tat com.q..."}],"script":"mobile:test:end"}
+20:09:17 Executing quit parameters: {}
+20:09:27 command: quit[ param-1: {}] Result: null
+20:09:27 UI-driver tear down complete...
+20:09:28 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+20:09:28 Preparing For Shut Down...
+20:09:28 Preparing For Shut Down...
+20:09:28 Shut Down Completed...
+20:10:40 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+20:10:40 Driver: perfectoRemoteDriver
+20:10:40 Direct Driver Connect
+20:10:54 Executing setTimeout parameters: {"implicit":0}
+20:10:54 command: setTimeout[ param-1: {implicit=0}] Result: null
+20:10:54 driver init done
+20:10:54 Executing executeScript parameters: {"args":[{"name":"open Wikipedia","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["fey smoke Web Wiki Android Test","Web Fey Suite"," @first "]}],"script":"mobile:test:start"}
+20:10:54 
+
+Executing scenario: open Wikipedia - 
+20:10:54 pkg: com.qmetry.qaf.automation.step
+20:10:54 pkg: com.quantum.steps
+20:10:54 Invoking Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+20:10:54 Executing executeScript parameters: {"args":[{"name":"Given I open browser to webpage \"https://www.wikipedia.org/\""}],"script":"mobile:step:start"}
+20:10:54 Executing get parameters: {"url":"https://www.wikipedia.org/"}
+20:10:55 command: get[ param-1: {url=https://www.wikipedia.org/}] Result: null
+20:10:55 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:10:55 Completed Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+20:10:55 Invoking Teststep: Then I must see text "Wikipedia" with arguments: [Wikipedia]
+20:10:55 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Wikipedia\""}],"script":"mobile:step:start"}
+20:10:55 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Wikipedia","timeout":60}],"script":"mobile:checkpoint:text"}
+20:10:56 Executing screenshot parameters: {}
+20:10:58 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:10:58 Completed Teststep: Then I must see text "Wikipedia" with arguments: [Wikipedia]
+20:10:58 Competed scenario: open Wikipedia with status SUCCESS
+20:10:58 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+20:10:58 Executing executeScript parameters: {"args":[{"name":"open Wikipedia","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["fey smoke Web Wiki Android Test","Web Fey Suite"," @first "]}],"script":"mobile:test:start"}
+20:10:58 
+
+Executing scenario: open Wikipedia - 
+20:10:58 Invoking Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+20:10:58 Executing executeScript parameters: {"args":[{"name":"Given I open browser to webpage \"https://www.wikipedia.org/\""}],"script":"mobile:step:start"}
+20:10:58 Executing get parameters: {"url":"https://www.wikipedia.org/"}
+20:10:58 command: get[ param-1: {url=https://www.wikipedia.org/}] Result: null
+20:10:58 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:10:59 Completed Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+20:10:59 Invoking Teststep: Then I must see text "The Free Encyclopedia" with arguments: [The Free Encyclopedia]
+20:10:59 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"The Free Encyclopedia\""}],"script":"mobile:step:start"}
+20:10:59 Executing executeScript parameters: {"args":[{"threshold":"100","content":"The Free Encyclopedia","timeout":60}],"script":"mobile:checkpoint:text"}
+20:11:59 [31mcommand: executeScript[ param-1: {args=[{threshold=100, content=The Free Encyclopedia, timeout=60}], script=mobile:checkpoint:text}] Result: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'
+Driver info: driver.version: QAFExtendedWebDriver
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Command: [42283bc3-72df-494b-b572-8f4ae42361dd, executeScript {args=[{threshold=100, content=The Free Encyclopedia, timeout=60}], script=mobile:checkpoint:text}]
+Capabilities {app: , appPackage: com.android.chrome, assert_javascript_enabled: true, audioStreamInfo: {"audioStreamingServerUrl":..., automationName: UIAutomator2, browserName: , databaseEnabled: false, desired: {appPackage: com.android.chrome, automationName: UIAutomator2, browserName: , deviceName: R5CWA2726XK, openDeviceTimeout: 15, platformName: Android, platformVersion: 14}, deviceApiLevel: 34, deviceManufacturer: samsung, deviceModel: SM-S918U1, deviceName: R5CWA2726XK, deviceScreenDensity: 600, deviceScreenSize: 1440x3088, deviceSessionId: 42283bc3-72df-494b-b572-8f4..., deviceUDID: R5CWA2726XK, entityType: remote_web_driver, executionId: 42283bc3-72df-494b-b572-8f4..., host: demo.perfectomobile.com, internalPureAppiumFlow: true, javascriptEnabled: true, locationContextEnabled: false, mcmExecutionId: mikejfey@hotmail.com_Remote..., model: Galaxy.*, networkConnectionEnabled: true, openDeviceTimeout: 15, options: {automationName: Appium, browserName: , model: Galaxy.*, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}, password: , pixelRatio: 3.75, platform: LINUX, platformName: ANDROID, platformVersion: 14, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securePureAppiumFlow: false, securityToken: , serverConnector: , statBarHeight: 100, stopUrl: https://demo.perfectomobile..., streamInfo: {"url":"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: true, viewportRect: {height: 2988, left: 0, top: 100, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 42283bc3-72df-494b-b572-8f4ae42361dd[0m
+20:11:59 Failure Teststep: Then I must see text "The Free Encyclopedia" with arguments: [The Free Encyclopedia]
+org.openqa.selenium.TimeoutException: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'
+Driver info: driver.version: QAFExtendedWebDriver
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Command: [42283bc3-72df-494b-b572-8f4ae42361dd, executeScript {args=[{threshold=100, content=The Free Encyclopedia, timeout=60}], script=mobile:checkpoint:text}]
+Capabilities {app: , appPackage: com.android.chrome, assert_javascript_enabled: true, audioStreamInfo: {"audioStreamingServerUrl":..., automationName: UIAutomator2, browserName: , databaseEnabled: false, desired: {appPackage: com.android.chrome, automationName: UIAutomator2, browserName: , deviceName: R5CWA2726XK, openDeviceTimeout: 15, platformName: Android, platformVersion: 14}, deviceApiLevel: 34, deviceManufacturer: samsung, deviceModel: SM-S918U1, deviceName: R5CWA2726XK, deviceScreenDensity: 600, deviceScreenSize: 1440x3088, deviceSessionId: 42283bc3-72df-494b-b572-8f4..., deviceUDID: R5CWA2726XK, entityType: remote_web_driver, executionId: 42283bc3-72df-494b-b572-8f4..., host: demo.perfectomobile.com, internalPureAppiumFlow: true, javascriptEnabled: true, locationContextEnabled: false, mcmExecutionId: mikejfey@hotmail.com_Remote..., model: Galaxy.*, networkConnectionEnabled: true, openDeviceTimeout: 15, options: {automationName: Appium, browserName: , model: Galaxy.*, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}, password: , pixelRatio: 3.75, platform: LINUX, platformName: ANDROID, platformVersion: 14, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securePureAppiumFlow: false, securityToken: , serverConnector: , statBarHeight: 100, stopUrl: https://demo.perfectomobile..., streamInfo: {"url":"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: true, viewportRect: {height: 2988, left: 0, top: 100, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 42283bc3-72df-494b-b572-8f4ae42361dd
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52) ~[selenium-remote-driver-4.13.0.jar:?]
+	at java.util.function.Function.lambda$andThen$1(Function.java:88) ~[?:?]
+	at org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$9(RemoteWebDriverBuilder.java:448) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$10(RemoteWebDriverBuilder.java:455) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$11(RemoteWebDriverBuilder.java:460) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$12(RemoteWebDriverBuilder.java:470) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602) ~[selenium-remote-driver-4.13.0.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeSuper(QAFExtendedWebDriver.java:277) ~[quantum-3.1.5.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWithoutLog(QAFExtendedWebDriver.java:295) ~[quantum-3.1.5.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:344) ~[quantum-3.1.5.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:321) ~[quantum-3.1.5.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:727) ~[quantum-3.1.5.jar:?]
+	at com.quantum.utils.DeviceUtils.isText(DeviceUtils.java:499) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.DeviceUtils.assertVisualText(DeviceUtils.java:76) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.steps.PerfectoApplicationSteps.asserVisualText(PerfectoApplicationSteps.java:436) ~[quantum-3.1.5.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) ~[qaf-3.2.0.jar:3.1.5]
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237) ~[qaf-3.2.0.jar:3.1.5]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:714) ~[quantum-3.1.5.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:503) ~[quantum-3.1.5.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+20:11:59 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:11:59 Completed Teststep: Then I must see text "The Free Encyclopedia" with arguments: [The Free Encyclopedia]
+20:11:59 Competed scenario: open Wikipedia with status FAILURE
+20:11:59 Executing executeScript parameters: {"args":[{"success":false,"failureDescription":"Step:Then I must see text \"The Free Encyclopedia\" failed\n. Stack Trace: org.openqa.selenium.TimeoutException: java.net.http.HttpTimeoutException: request timed out\nBuild info: version: '4.13.0', revision: 'ba948ece5b*'\nSystem info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'\nDriver info: driver.version: QAFExtendedWebDriver\nBuild info: version: '4.13.0', revision: 'ba948ece5b*'\nSystem info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [42283bc3-72df-494b-b572-8f4ae42361dd, executeScript {args=[{threshold=100, content=The Free Encyclopedia, timeout=60}], script=mobile:checkpoint:text}]\nCapabilities {app: , appPackage: com.android.chrome, assert_javascript_enabled: true, audioStreamInfo: {\"audioStreamingServerUrl\":..., automationName: UIAutomator2, browserName: , databaseEnabled: false, desired: {appPackage: com.android.chrome, automationName: UIAutomator2, browserName: , deviceName: R5CWA2726XK, openDeviceTimeout: 15, platformName: Android, platformVersion: 14}, deviceApiLevel: 34, deviceManufacturer: samsung, deviceModel: SM-S918U1, deviceName: R5CWA2726XK, deviceScreenDensity: 600, deviceScreenSize: 1440x3088, deviceSessionId: 42283bc3-72df-494b-b572-8f4..., deviceUDID: R5CWA2726XK, entityType: remote_web_driver, executionId: 42283bc3-72df-494b-b572-8f4..., host: demo.perfectomobile.com, internalPureAppiumFlow: true, javascriptEnabled: true, locationContextEnabled: false, mcmExecutionId: mikejfey@hotmail.com_Remote..., model: Galaxy.*, networkConnectionEnabled: true, openDeviceTimeout: 15, options: {automationName: Appium, browserName: , model: Galaxy.*, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}, password: , pixelRatio: 3.75, platform: LINUX, platformName: ANDROID, platformVersion: 14, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securePureAppiumFlow: false, securityToken: , serverConnector: , statBarHeight: 100, stopUrl: https://demo.perfectomobile..., streamInfo: {\"url\":\"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: true, viewportRect: {height: 2988, left: 0, top: 100, width: 1440}, warnings: {}, webStorageEnabled: false}\nSession ID: 42283bc3-72df-494b-b572-8f4ae42361dd\n\tat .Then I must see text \"The Free Encyclopedia\"(src/main/resources/scenarios/worksTAM/mobileWebTest.feature:5)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat java.base/java.util.function.Function.lambda$andThen$1(Function.java:88)\n\tat org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$9(RemoteWebDriverBuilder.java:448)\n\tat org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$10(RemoteWebDriverBuilder.java:455)\n\tat org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$11(RemoteWebDriverBuilder.java:460)\n\tat org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$12(RemoteWebDriverBuilder.java:470)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeSuper(QAFExtendedWebDriver.java:277)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWithoutLog(QAFExtendedWebDriver.java:295)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:344)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:321)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:727)\n\tat com.quantum.utils.DeviceUtils.isText(DeviceUtils.java:499)\n\tat com.quantum.utils.DeviceUtils.assertVisualText(DeviceUtils.java:76)\n\tat ..."}],"script":"mobile:test:end"}
+20:12:00 Executing quit parameters: {}
+20:12:10 command: quit[ param-1: {}] Result: null
+20:12:10 UI-driver tear down complete...
+20:12:10 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+20:12:10 Preparing For Shut Down...
+20:12:10 Preparing For Shut Down...
+20:12:10 Shut Down Completed...
+20:12:57 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+20:12:57 Driver: perfectoDriver
+20:12:57 Direct Driver Connect
+20:13:41 Executing setTimeout parameters: {"implicit":0}
+20:13:41 command: setTimeout[ param-1: {implicit=0}] Result: null
+20:13:41 driver init done
+20:13:41 Executing executeScript parameters: {"args":[{"name":"Biometrics Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["IOS Expense Tracker Test","Expense Fey Suite"," @IOS_Bio_expenseTracker "]}],"script":"mobile:test:start"}
+20:13:41 
+
+Executing scenario: Biometrics Scenario - 
+20:13:41 pkg: com.qmetry.qaf.automation.step
+20:13:41 pkg: com.quantum.steps
+20:13:41 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+20:13:41 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+20:13:42 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+20:13:47 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:13:47 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+20:13:47 Invoking Teststep: Then I should see expense tracker Native login screen
+20:13:47 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker Native login screen"}],"script":"mobile:step:start"}
+20:13:47 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:13:47 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {}
+20:13:47 Executing findElement parameters: {"value":"type == 'XCUIElementTypeStaticText' AND name == 'Email'","using":"-ios predicate string"}
+20:13:47 command: findElement[ param-1: {value=type == 'XCUIElementTypeStaticText' AND name == 'Email', using=-ios predicate string}] Result: id: 11000000-0000-0000-2D20-000000000000
+20:13:47 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {}] Result: OK
+20:13:47 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {"id":"11000000-0000-0000-2D20-000000000000"}
+20:13:47 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {"id":"11000000-0000-0000-2D20-000000000000"}] Result: isElementDisplayed:true
+20:13:47 Executing executeScript parameters: {"args":[{"message":"Verify Login screen title","status":true}],"script":"mobile:status:assert"}
+20:13:47 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:13:47 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+20:13:47 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+20:13:48 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-2D20-000000000000
+20:13:48 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+20:13:48 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"id":"13000000-0000-0000-2D20-000000000000"}
+20:13:48 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"id":"13000000-0000-0000-2D20-000000000000"}] Result: isElementDisplayed:true
+20:13:48 Executing executeScript parameters: {"args":[{"message":"Verify Login screen Email","status":true}],"script":"mobile:status:assert"}
+20:13:48 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:13:48 Completed Teststep: Then I should see expense tracker Native login screen
+20:13:48 Invoking Teststep: When I enter "test@perfecto.com" and "test123" in native login screen with arguments: [test@perfecto.com, test123]
+20:13:48 Executing executeScript parameters: {"args":[{"name":"When I enter \"test@perfecto.com\" and \"test123\" in native login screen"}],"script":"mobile:step:start"}
+20:13:48 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:13:48 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+20:13:48 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+20:13:48 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-2D20-000000000000
+20:13:48 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+20:13:48 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-2D20-000000000000"}
+20:13:50 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-2D20-000000000000"}] Result: sendKeysToElement:null
+20:13:50 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:13:50 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {}
+20:13:50 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com'","using":"-ios predicate string"}
+20:13:50 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com', using=-ios predicate string}] Result: id: 13000000-0000-0000-2D20-000000000000
+20:13:50 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {}] Result: OK
+20:13:50 Executing getElementText element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {"id":"13000000-0000-0000-2D20-000000000000"}
+20:13:51 command: getElementText[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {"id":"13000000-0000-0000-2D20-000000000000"}] Result: getElementText:test@perfecto.com
+20:13:51 Executing executeScript parameters: {"args":[{"message":"Email was entered as expected","status":true}],"script":"mobile:status:assert"}
+20:13:51 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:13:51 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {}
+20:13:51 Executing findElement parameters: {"value":"type == 'XCUIElementTypeSecureTextField' AND name == 'login_password'","using":"-ios predicate string"}
+20:13:51 command: findElement[ param-1: {value=type == 'XCUIElementTypeSecureTextField' AND name == 'login_password', using=-ios predicate string}] Result: id: 16000000-0000-0000-2D20-000000000000
+20:13:51 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {}] Result: OK
+20:13:51 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {"value":["test123"],"id":"16000000-0000-0000-2D20-000000000000"}
+20:13:52 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {"value":["test123"],"id":"16000000-0000-0000-2D20-000000000000"}] Result: sendKeysToElement:null
+20:13:52 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:13:52 Completed Teststep: When I enter "test@perfecto.com" and "test123" in native login screen with arguments: [test@perfecto.com, test123]
+20:13:52 Invoking Teststep: Then I click the enable Biometrics
+20:13:52 Executing executeScript parameters: {"args":[{"name":"Then I click the enable Biometrics"}],"script":"mobile:step:start"}
+20:13:53 Executing findElement element: By.xpath: //*[@value="0"] parameters: {}
+20:13:53 Executing findElement parameters: {"value":"//*[@value=\"0\"]","using":"xpath"}
+20:13:53 command: findElement[ param-1: {value=//*[@value="0"], using=xpath}] Result: id: 19000000-0000-0000-2D20-000000000000
+20:13:53 command: findElement[ param-1: By.xpath: //*[@value="0"] param-2: {}] Result: OK
+20:13:53 Executing clickElement element: By.xpath: //*[@value="0"] parameters: {"id":"19000000-0000-0000-2D20-000000000000"}
+20:13:54 command: clickElement[ param-1: By.xpath: //*[@value="0"] param-2: {"id":"19000000-0000-0000-2D20-000000000000"}] Result: clickElement:null
+20:13:54 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:13:54 Completed Teststep: Then I click the enable Biometrics
+20:13:54 Invoking Teststep: Then I click the login button
+20:13:54 Executing executeScript parameters: {"args":[{"name":"Then I click the login button"}],"script":"mobile:step:start"}
+20:13:54 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:13:54 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {}
+20:13:54 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'login_login_btn'","using":"-ios predicate string"}
+20:13:54 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'login_login_btn', using=-ios predicate string}] Result: id: 17000000-0000-0000-2D20-000000000000
+20:13:54 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {}] Result: OK
+20:13:54 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {"id":"17000000-0000-0000-2D20-000000000000"}
+20:13:55 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {"id":"17000000-0000-0000-2D20-000000000000"}] Result: clickElement:null
+20:13:55 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:13:55 Completed Teststep: Then I click the login button
+20:13:55 Invoking Teststep: And I send success result for biometrics
+20:13:55 Executing executeScript parameters: {"args":[{"name":"And I send success result for biometrics"}],"script":"mobile:step:start"}
+20:13:55 Executing executeScript parameters: {"args":[{"resultAuth":"success","identifier":"io.perfecto.expense.tracker","errorType":"lockOut"}],"script":"mobile:sensorAuthentication:set"}
+20:13:55 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:13:56 Completed Teststep: And I send success result for biometrics
+20:13:56 Invoking Teststep: Then I should see expense tracker home screen
+20:13:56 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker home screen"}],"script":"mobile:step:start"}
+20:13:56 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:13:56 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' parameters: {}
+20:13:56 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn'","using":"-ios predicate string"}
+20:13:56 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn', using=-ios predicate string}] Result: id: 9C000000-0000-0000-2D20-000000000000
+20:13:56 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' param-2: {}] Result: OK
+20:13:56 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' parameters: {"id":"9C000000-0000-0000-2D20-000000000000"}
+20:13:56 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' param-2: {"id":"9C000000-0000-0000-2D20-000000000000"}] Result: isElementDisplayed:true
+20:13:56 Executing executeScript parameters: {"args":[{"message":"Verify Home Screen.","status":true}],"script":"mobile:status:assert"}
+20:13:57 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:13:57 Completed Teststep: Then I should see expense tracker home screen
+20:13:57 Competed scenario: Biometrics Scenario with status SUCCESS
+20:13:57 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+20:13:57 Executing quit parameters: {}
+20:14:04 command: quit[ param-1: {}] Result: null
+20:14:04 UI-driver tear down complete...
+20:14:04 Preparing For Shut Down...
+20:14:04 Preparing For Shut Down...
+20:14:04 Shut Down Completed...
+20:14:24 loading csv data file: src/main/resources/data/invalidExpenseLogins.csv
+20:14:24 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+20:14:24 Driver: perfectoDriver
+20:14:24 Direct Driver Connect
+20:14:45 Executing setTimeout parameters: {"implicit":0}
+20:14:45 command: setTimeout[ param-1: {implicit=0}] Result: null
+20:14:45 driver init done
+20:14:45 Executing executeScript parameters: {"args":[{"name":"Expense Tracker invalid login Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Native Data Driven Expense IOS Test invalid","Expense Data Driven Suite"," @expenseTrackerDataDriven "," @invalidLogin"]}],"script":"mobile:test:start"}
+20:14:45 
+
+Executing scenario: Expense Tracker invalid login Scenario - 
+20:14:45 Test Data{username=test@perfecto.com, password=badpw1}
+20:14:45 pkg: com.qmetry.qaf.automation.step
+20:14:45 pkg: com.quantum.steps
+20:14:45 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+20:14:45 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+20:14:45 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+20:14:50 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:14:50 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+20:14:50 Invoking Teststep: Then I should see expense tracker Native login screen
+20:14:50 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker Native login screen"}],"script":"mobile:step:start"}
+20:14:50 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:14:50 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {}
+20:14:50 Executing findElement parameters: {"value":"type == 'XCUIElementTypeStaticText' AND name == 'Email'","using":"-ios predicate string"}
+20:14:50 command: findElement[ param-1: {value=type == 'XCUIElementTypeStaticText' AND name == 'Email', using=-ios predicate string}] Result: id: 11000000-0000-0000-3C20-000000000000
+20:14:50 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {}] Result: OK
+20:14:50 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {"id":"11000000-0000-0000-3C20-000000000000"}
+20:14:51 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {"id":"11000000-0000-0000-3C20-000000000000"}] Result: isElementDisplayed:true
+20:14:51 Executing executeScript parameters: {"args":[{"message":"Verify Login screen title","status":true}],"script":"mobile:status:assert"}
+20:14:51 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:14:51 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+20:14:51 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+20:14:51 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-3C20-000000000000
+20:14:51 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+20:14:51 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"id":"13000000-0000-0000-3C20-000000000000"}
+20:14:51 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"id":"13000000-0000-0000-3C20-000000000000"}] Result: isElementDisplayed:true
+20:14:51 Executing executeScript parameters: {"args":[{"message":"Verify Login screen Email","status":true}],"script":"mobile:status:assert"}
+20:14:51 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:14:51 Completed Teststep: Then I should see expense tracker Native login screen
+20:14:51 Invoking Teststep: When I login with INVALID creds from datafile  "<username>" and "<password>" with arguments: [${username}, ${password}]
+20:14:51 Executing executeScript parameters: {"args":[{"name":"When I login with INVALID creds from datafile  \"<username>\" and \"<password>\""}],"script":"mobile:step:start"}
+20:14:52 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:14:52 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+20:14:52 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+20:14:52 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-3C20-000000000000
+20:14:52 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+20:14:52 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-3C20-000000000000"}
+20:14:53 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-3C20-000000000000"}] Result: sendKeysToElement:null
+20:14:53 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:14:53 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {}
+20:14:53 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com'","using":"-ios predicate string"}
+20:14:54 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com', using=-ios predicate string}] Result: id: 13000000-0000-0000-3C20-000000000000
+20:14:54 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {}] Result: OK
+20:14:54 Executing getElementText element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {"id":"13000000-0000-0000-3C20-000000000000"}
+20:14:54 command: getElementText[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {"id":"13000000-0000-0000-3C20-000000000000"}] Result: getElementText:test@perfecto.com
+20:14:54 Executing executeScript parameters: {"args":[{"message":"Email was entered as expected","status":true}],"script":"mobile:status:assert"}
+20:14:54 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:14:54 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {}
+20:14:54 Executing findElement parameters: {"value":"type == 'XCUIElementTypeSecureTextField' AND name == 'login_password'","using":"-ios predicate string"}
+20:14:55 command: findElement[ param-1: {value=type == 'XCUIElementTypeSecureTextField' AND name == 'login_password', using=-ios predicate string}] Result: id: 16000000-0000-0000-3C20-000000000000
+20:14:55 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {}] Result: OK
+20:14:55 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {"value":["badpw1"],"id":"16000000-0000-0000-3C20-000000000000"}
+20:14:56 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {"value":["badpw1"],"id":"16000000-0000-0000-3C20-000000000000"}] Result: sendKeysToElement:null
+20:14:56 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:14:56 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {}
+20:14:56 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'login_login_btn'","using":"-ios predicate string"}
+20:14:56 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'login_login_btn', using=-ios predicate string}] Result: id: 17000000-0000-0000-3C20-000000000000
+20:14:56 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {}] Result: OK
+20:14:56 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {"id":"17000000-0000-0000-3C20-000000000000"}
+20:14:57 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {"id":"17000000-0000-0000-3C20-000000000000"}] Result: clickElement:null
+20:14:57 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:14:57 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'OK' parameters: {}
+20:14:57 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'OK'","using":"-ios predicate string"}
+20:14:57 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'OK', using=-ios predicate string}] Result: id: 8C000000-0000-0000-3C20-000000000000
+20:14:57 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'OK' param-2: {}] Result: OK
+20:14:57 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'OK' parameters: {"id":"8C000000-0000-0000-3C20-000000000000"}
+20:14:58 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'OK' param-2: {"id":"8C000000-0000-0000-3C20-000000000000"}] Result: clickElement:null
+20:14:58 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+20:14:58 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+20:14:59 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-3C20-000000000000
+20:14:59 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+20:14:59 Executing clearElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"id":"13000000-0000-0000-3C20-000000000000"}
+20:15:00 command: clearElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"id":"13000000-0000-0000-3C20-000000000000"}] Result: clearElement:null
+20:15:00 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:15:00 Completed Teststep: When I login with INVALID creds from datafile  "<username>" and "<password>" with arguments: [${username}, ${password}]
+20:15:00 Invoking Teststep: Then I must see text "Email" with arguments: [Email]
+20:15:00 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Email\""}],"script":"mobile:step:start"}
+20:15:00 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Email","timeout":60}],"script":"mobile:checkpoint:text"}
+20:15:03 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:15:03 Completed Teststep: Then I must see text "Email" with arguments: [Email]
+20:15:03 Competed scenario: Expense Tracker invalid login Scenario with status SUCCESS
+20:15:03 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+20:15:03 Executing executeScript parameters: {"args":[{"name":"Expense Tracker invalid login Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Native Data Driven Expense IOS Test invalid","Expense Data Driven Suite"," @expenseTrackerDataDriven "," @invalidLogin"]}],"script":"mobile:test:start"}
+20:15:03 
+
+Executing scenario: Expense Tracker invalid login Scenario - 
+20:15:03 Test Data{username=test@perfecto.com, password=badpw2}
+20:15:03 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+20:15:03 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+20:15:03 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+20:15:08 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:15:08 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+20:15:08 Invoking Teststep: Then I should see expense tracker Native login screen
+20:15:08 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker Native login screen"}],"script":"mobile:step:start"}
+20:15:08 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:15:08 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {}
+20:15:08 Executing findElement parameters: {"value":"type == 'XCUIElementTypeStaticText' AND name == 'Email'","using":"-ios predicate string"}
+20:15:08 command: findElement[ param-1: {value=type == 'XCUIElementTypeStaticText' AND name == 'Email', using=-ios predicate string}] Result: id: 11000000-0000-0000-3C20-000000000000
+20:15:08 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {}] Result: OK
+20:15:08 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {"id":"11000000-0000-0000-3C20-000000000000"}
+20:15:09 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {"id":"11000000-0000-0000-3C20-000000000000"}] Result: isElementDisplayed:true
+20:15:09 Executing executeScript parameters: {"args":[{"message":"Verify Login screen title","status":true}],"script":"mobile:status:assert"}
+20:15:09 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:15:09 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+20:15:09 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+20:15:09 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-3C20-000000000000
+20:15:09 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+20:15:09 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"id":"13000000-0000-0000-3C20-000000000000"}
+20:15:09 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"id":"13000000-0000-0000-3C20-000000000000"}] Result: isElementDisplayed:true
+20:15:09 Executing executeScript parameters: {"args":[{"message":"Verify Login screen Email","status":true}],"script":"mobile:status:assert"}
+20:15:09 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:15:10 Completed Teststep: Then I should see expense tracker Native login screen
+20:15:10 Invoking Teststep: When I login with INVALID creds from datafile  "<username>" and "<password>" with arguments: [${username}, ${password}]
+20:15:10 Executing executeScript parameters: {"args":[{"name":"When I login with INVALID creds from datafile  \"<username>\" and \"<password>\""}],"script":"mobile:step:start"}
+20:15:10 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:15:10 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+20:15:10 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+20:15:10 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-3C20-000000000000
+20:15:10 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+20:15:10 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-3C20-000000000000"}
+20:15:11 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-3C20-000000000000"}] Result: sendKeysToElement:null
+20:15:11 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:15:11 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {}
+20:15:11 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com'","using":"-ios predicate string"}
+20:15:11 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com', using=-ios predicate string}] Result: id: 13000000-0000-0000-3C20-000000000000
+20:15:11 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {}] Result: OK
+20:15:11 Executing getElementText element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {"id":"13000000-0000-0000-3C20-000000000000"}
+20:15:11 command: getElementText[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {"id":"13000000-0000-0000-3C20-000000000000"}] Result: getElementText:test@perfecto.com
+20:15:11 Executing executeScript parameters: {"args":[{"message":"Email was entered as expected","status":true}],"script":"mobile:status:assert"}
+20:15:12 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:15:12 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {}
+20:15:12 Executing findElement parameters: {"value":"type == 'XCUIElementTypeSecureTextField' AND name == 'login_password'","using":"-ios predicate string"}
+20:15:12 command: findElement[ param-1: {value=type == 'XCUIElementTypeSecureTextField' AND name == 'login_password', using=-ios predicate string}] Result: id: 16000000-0000-0000-3C20-000000000000
+20:15:12 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {}] Result: OK
+20:15:12 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {"value":["badpw2"],"id":"16000000-0000-0000-3C20-000000000000"}
+20:15:13 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {"value":["badpw2"],"id":"16000000-0000-0000-3C20-000000000000"}] Result: sendKeysToElement:null
+20:15:13 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:15:13 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {}
+20:15:13 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'login_login_btn'","using":"-ios predicate string"}
+20:15:14 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'login_login_btn', using=-ios predicate string}] Result: id: 17000000-0000-0000-3C20-000000000000
+20:15:14 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {}] Result: OK
+20:15:14 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {"id":"17000000-0000-0000-3C20-000000000000"}
+20:15:15 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {"id":"17000000-0000-0000-3C20-000000000000"}] Result: clickElement:null
+20:15:15 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:15:15 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'OK' parameters: {}
+20:15:15 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'OK'","using":"-ios predicate string"}
+20:15:15 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'OK', using=-ios predicate string}] Result: id: F5000000-0000-0000-3C20-000000000000
+20:15:15 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'OK' param-2: {}] Result: OK
+20:15:15 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'OK' parameters: {"id":"F5000000-0000-0000-3C20-000000000000"}
+20:15:16 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'OK' param-2: {"id":"F5000000-0000-0000-3C20-000000000000"}] Result: clickElement:null
+20:15:16 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+20:15:16 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+20:15:16 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-3C20-000000000000
+20:15:16 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+20:15:16 Executing clearElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"id":"13000000-0000-0000-3C20-000000000000"}
+20:15:17 command: clearElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"id":"13000000-0000-0000-3C20-000000000000"}] Result: clearElement:null
+20:15:17 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:15:17 Completed Teststep: When I login with INVALID creds from datafile  "<username>" and "<password>" with arguments: [${username}, ${password}]
+20:15:17 Invoking Teststep: Then I must see text "Email" with arguments: [Email]
+20:15:17 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Email\""}],"script":"mobile:step:start"}
+20:15:17 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Email","timeout":60}],"script":"mobile:checkpoint:text"}
+20:15:20 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:15:20 Completed Teststep: Then I must see text "Email" with arguments: [Email]
+20:15:20 Competed scenario: Expense Tracker invalid login Scenario with status SUCCESS
+20:15:20 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+20:15:20 Executing quit parameters: {}
+20:15:28 command: quit[ param-1: {}] Result: null
+20:15:28 UI-driver tear down complete...
+20:15:28 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+20:15:28 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+20:15:28 Driver: perfectoDriver
+20:15:28 Direct Driver Connect
+20:15:48 Executing setTimeout parameters: {"implicit":0}
+20:15:48 command: setTimeout[ param-1: {implicit=0}] Result: null
+20:15:48 driver init done
+20:15:48 Executing executeScript parameters: {"args":[{"name":"Expense Tracker VALID login Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Expense Data Driven Suite","Native Data Driven Expense IOS Test valid"," @validLogin"," @expenseTrackerDataDriven "]}],"script":"mobile:test:start"}
+20:15:48 
+
+Executing scenario: Expense Tracker VALID login Scenario - 
+20:15:48 Test Data{username=test@perfecto.com, password=test123}
+20:15:48 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+20:15:48 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+20:15:48 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+20:15:53 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:15:53 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+20:15:53 Invoking Teststep: Then I should see expense tracker Native login screen
+20:15:53 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker Native login screen"}],"script":"mobile:step:start"}
+20:15:53 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:15:53 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {}
+20:15:53 Executing findElement parameters: {"value":"type == 'XCUIElementTypeStaticText' AND name == 'Email'","using":"-ios predicate string"}
+20:15:54 command: findElement[ param-1: {value=type == 'XCUIElementTypeStaticText' AND name == 'Email', using=-ios predicate string}] Result: id: 11000000-0000-0000-4B20-000000000000
+20:15:54 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {}] Result: OK
+20:15:54 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {"id":"11000000-0000-0000-4B20-000000000000"}
+20:15:54 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {"id":"11000000-0000-0000-4B20-000000000000"}] Result: isElementDisplayed:true
+20:15:54 Executing executeScript parameters: {"args":[{"message":"Verify Login screen title","status":true}],"script":"mobile:status:assert"}
+20:15:54 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:15:54 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+20:15:54 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+20:15:54 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-4B20-000000000000
+20:15:54 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+20:15:54 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"id":"13000000-0000-0000-4B20-000000000000"}
+20:15:54 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"id":"13000000-0000-0000-4B20-000000000000"}] Result: isElementDisplayed:true
+20:15:54 Executing executeScript parameters: {"args":[{"message":"Verify Login screen Email","status":true}],"script":"mobile:status:assert"}
+20:15:54 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:15:55 Completed Teststep: Then I should see expense tracker Native login screen
+20:15:55 Invoking Teststep: When I login with VALID creds from datafile  "<username>" and "<password>" with arguments: [${username}, ${password}]
+20:15:55 Executing executeScript parameters: {"args":[{"name":"When I login with VALID creds from datafile  \"<username>\" and \"<password>\""}],"script":"mobile:step:start"}
+20:15:55 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:15:55 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+20:15:55 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+20:15:55 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-4B20-000000000000
+20:15:55 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+20:15:55 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-4B20-000000000000"}
+20:15:57 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-4B20-000000000000"}] Result: sendKeysToElement:null
+20:15:57 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:15:57 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {}
+20:15:57 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com'","using":"-ios predicate string"}
+20:15:57 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com', using=-ios predicate string}] Result: id: 13000000-0000-0000-4B20-000000000000
+20:15:57 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {}] Result: OK
+20:15:57 Executing getElementText element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {"id":"13000000-0000-0000-4B20-000000000000"}
+20:15:57 command: getElementText[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {"id":"13000000-0000-0000-4B20-000000000000"}] Result: getElementText:test@perfecto.com
+20:15:57 Executing executeScript parameters: {"args":[{"message":"Email was entered as expected","status":true}],"script":"mobile:status:assert"}
+20:15:57 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:15:57 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {}
+20:15:57 Executing findElement parameters: {"value":"type == 'XCUIElementTypeSecureTextField' AND name == 'login_password'","using":"-ios predicate string"}
+20:15:58 command: findElement[ param-1: {value=type == 'XCUIElementTypeSecureTextField' AND name == 'login_password', using=-ios predicate string}] Result: id: 16000000-0000-0000-4B20-000000000000
+20:15:58 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {}] Result: OK
+20:15:58 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {"value":["test123"],"id":"16000000-0000-0000-4B20-000000000000"}
+20:15:59 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {"value":["test123"],"id":"16000000-0000-0000-4B20-000000000000"}] Result: sendKeysToElement:null
+20:15:59 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:15:59 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {}
+20:15:59 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'login_login_btn'","using":"-ios predicate string"}
+20:15:59 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'login_login_btn', using=-ios predicate string}] Result: id: 17000000-0000-0000-4B20-000000000000
+20:15:59 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {}] Result: OK
+20:15:59 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {"id":"17000000-0000-0000-4B20-000000000000"}
+20:16:00 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {"id":"17000000-0000-0000-4B20-000000000000"}] Result: clickElement:null
+20:16:00 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:16:00 Completed Teststep: When I login with VALID creds from datafile  "<username>" and "<password>" with arguments: [${username}, ${password}]
+20:16:00 Invoking Teststep: Then I must see text "Expenses" with arguments: [Expenses]
+20:16:00 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Expenses\""}],"script":"mobile:step:start"}
+20:16:00 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Expenses","timeout":60}],"script":"mobile:checkpoint:text"}
+20:16:03 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:16:03 Completed Teststep: Then I must see text "Expenses" with arguments: [Expenses]
+20:16:03 Invoking Teststep: When I tap hamburger then 'About'
+20:16:03 Executing executeScript parameters: {"args":[{"name":"When I tap hamburger then 'About'"}],"script":"mobile:step:start"}
+20:16:03 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:16:03 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' parameters: {}
+20:16:03 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn'","using":"-ios predicate string"}
+20:16:03 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn', using=-ios predicate string}] Result: id: 82000000-0000-0000-4B20-000000000000
+20:16:03 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' param-2: {}] Result: OK
+20:16:03 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' parameters: {"id":"82000000-0000-0000-4B20-000000000000"}
+20:16:04 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' param-2: {"id":"82000000-0000-0000-4B20-000000000000"}] Result: clickElement:null
+20:16:04 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:16:04 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_about_menu' parameters: {}
+20:16:04 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'list_about_menu'","using":"-ios predicate string"}
+20:16:04 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'list_about_menu', using=-ios predicate string}] Result: id: 7C000000-0000-0000-4B20-000000000000
+20:16:04 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_about_menu' param-2: {}] Result: OK
+20:16:04 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_about_menu' parameters: {"id":"7C000000-0000-0000-4B20-000000000000"}
+20:16:05 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_about_menu' param-2: {"id":"7C000000-0000-0000-4B20-000000000000"}] Result: clickElement:null
+20:16:05 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:16:05 Completed Teststep: When I tap hamburger then 'About'
+20:16:05 Invoking Teststep: Then I must see text "Crash" with arguments: [Crash]
+20:16:05 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Crash\""}],"script":"mobile:step:start"}
+20:16:05 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Crash","timeout":60}],"script":"mobile:checkpoint:text"}
+20:16:11 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:16:11 Completed Teststep: Then I must see text "Crash" with arguments: [Crash]
+20:16:11 Invoking Teststep: When I tap 'Crash Me'
+20:16:11 Executing executeScript parameters: {"args":[{"name":"When I tap 'Crash Me'"}],"script":"mobile:step:start"}
+20:16:11 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:16:11 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'about_crash_me' parameters: {}
+20:16:11 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'about_crash_me'","using":"-ios predicate string"}
+20:16:11 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'about_crash_me', using=-ios predicate string}] Result: id: 92000000-0000-0000-4B20-000000000000
+20:16:11 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'about_crash_me' param-2: {}] Result: OK
+20:16:11 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'about_crash_me' parameters: {"id":"92000000-0000-0000-4B20-000000000000"}
+20:16:12 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'about_crash_me' param-2: {"id":"92000000-0000-0000-4B20-000000000000"}] Result: clickElement:null
+20:16:12 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:16:12 Completed Teststep: When I tap 'Crash Me'
+20:16:12 Competed scenario: Expense Tracker VALID login Scenario with status SUCCESS
+20:16:12 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+20:16:12 Executing quit parameters: {}
+20:16:19 command: quit[ param-1: {}] Result: null
+20:16:20 UI-driver tear down complete...
+20:16:20 Preparing For Shut Down...
+20:16:20 Shut Down Completed...
+20:16:56 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+20:16:56 Driver: perfectoDriver
+20:16:56 Direct Driver Connect
+20:17:17 Executing setTimeout parameters: {"implicit":0}
+20:17:17 command: setTimeout[ param-1: {implicit=0}] Result: null
+20:17:17 driver init done
+20:17:17 Executing executeScript parameters: {"args":[{"name":"Biometrics Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["IOS Expense Tracker Test","Expense Fey Suite"," @IOS_Bio_expenseTracker "]}],"script":"mobile:test:start"}
+20:17:17 
+
+Executing scenario: Biometrics Scenario - 
+20:17:17 pkg: com.qmetry.qaf.automation.step
+20:17:17 pkg: com.quantum.steps
+20:17:17 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+20:17:17 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+20:17:17 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+20:17:22 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:17:22 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+20:17:22 Invoking Teststep: Then I should see expense tracker Native login screen
+20:17:22 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker Native login screen"}],"script":"mobile:step:start"}
+20:17:22 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:17:22 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {}
+20:17:22 Executing findElement parameters: {"value":"type == 'XCUIElementTypeStaticText' AND name == 'Email'","using":"-ios predicate string"}
+20:17:22 command: findElement[ param-1: {value=type == 'XCUIElementTypeStaticText' AND name == 'Email', using=-ios predicate string}] Result: id: 11000000-0000-0000-5D20-000000000000
+20:17:22 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {}] Result: OK
+20:17:22 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {"id":"11000000-0000-0000-5D20-000000000000"}
+20:17:23 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {"id":"11000000-0000-0000-5D20-000000000000"}] Result: isElementDisplayed:true
+20:17:23 Executing executeScript parameters: {"args":[{"message":"Verify Login screen title","status":true}],"script":"mobile:status:assert"}
+20:17:23 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:17:23 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+20:17:23 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+20:17:23 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-5D20-000000000000
+20:17:23 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+20:17:23 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"id":"13000000-0000-0000-5D20-000000000000"}
+20:17:23 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"id":"13000000-0000-0000-5D20-000000000000"}] Result: isElementDisplayed:true
+20:17:23 Executing executeScript parameters: {"args":[{"message":"Verify Login screen Email","status":true}],"script":"mobile:status:assert"}
+20:17:23 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:17:24 Completed Teststep: Then I should see expense tracker Native login screen
+20:17:24 Invoking Teststep: When I enter "test@perfecto.com" and "test123" in native login screen with arguments: [test@perfecto.com, test123]
+20:17:24 Executing executeScript parameters: {"args":[{"name":"When I enter \"test@perfecto.com\" and \"test123\" in native login screen"}],"script":"mobile:step:start"}
+20:17:24 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:17:24 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+20:17:24 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+20:17:24 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-5D20-000000000000
+20:17:24 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+20:17:24 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-5D20-000000000000"}
+20:17:26 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-5D20-000000000000"}] Result: sendKeysToElement:null
+20:17:26 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:17:26 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {}
+20:17:26 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com'","using":"-ios predicate string"}
+20:17:26 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com', using=-ios predicate string}] Result: id: 13000000-0000-0000-5D20-000000000000
+20:17:26 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {}] Result: OK
+20:17:26 Executing getElementText element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {"id":"13000000-0000-0000-5D20-000000000000"}
+20:17:26 command: getElementText[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {"id":"13000000-0000-0000-5D20-000000000000"}] Result: getElementText:test@perfecto.com
+20:17:26 Executing executeScript parameters: {"args":[{"message":"Email was entered as expected","status":true}],"script":"mobile:status:assert"}
+20:17:26 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:17:26 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {}
+20:17:26 Executing findElement parameters: {"value":"type == 'XCUIElementTypeSecureTextField' AND name == 'login_password'","using":"-ios predicate string"}
+20:17:27 command: findElement[ param-1: {value=type == 'XCUIElementTypeSecureTextField' AND name == 'login_password', using=-ios predicate string}] Result: id: 16000000-0000-0000-5D20-000000000000
+20:17:27 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {}] Result: OK
+20:17:27 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {"value":["test123"],"id":"16000000-0000-0000-5D20-000000000000"}
+20:17:28 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {"value":["test123"],"id":"16000000-0000-0000-5D20-000000000000"}] Result: sendKeysToElement:null
+20:17:28 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:17:28 Completed Teststep: When I enter "test@perfecto.com" and "test123" in native login screen with arguments: [test@perfecto.com, test123]
+20:17:28 Invoking Teststep: Then I click the enable Biometrics
+20:17:28 Executing executeScript parameters: {"args":[{"name":"Then I click the enable Biometrics"}],"script":"mobile:step:start"}
+20:17:28 Executing findElement element: By.xpath: //*[@value="0"] parameters: {}
+20:17:28 Executing findElement parameters: {"value":"//*[@value=\"0\"]","using":"xpath"}
+20:17:28 command: findElement[ param-1: {value=//*[@value="0"], using=xpath}] Result: id: 19000000-0000-0000-5D20-000000000000
+20:17:28 command: findElement[ param-1: By.xpath: //*[@value="0"] param-2: {}] Result: OK
+20:17:28 Executing clickElement element: By.xpath: //*[@value="0"] parameters: {"id":"19000000-0000-0000-5D20-000000000000"}
+20:17:29 command: clickElement[ param-1: By.xpath: //*[@value="0"] param-2: {"id":"19000000-0000-0000-5D20-000000000000"}] Result: clickElement:null
+20:17:29 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:17:29 Completed Teststep: Then I click the enable Biometrics
+20:17:29 Invoking Teststep: Then I click the login button
+20:17:29 Executing executeScript parameters: {"args":[{"name":"Then I click the login button"}],"script":"mobile:step:start"}
+20:17:29 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:17:29 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {}
+20:17:29 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'login_login_btn'","using":"-ios predicate string"}
+20:17:30 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'login_login_btn', using=-ios predicate string}] Result: id: 17000000-0000-0000-5D20-000000000000
+20:17:30 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {}] Result: OK
+20:17:30 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {"id":"17000000-0000-0000-5D20-000000000000"}
+20:17:31 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {"id":"17000000-0000-0000-5D20-000000000000"}] Result: clickElement:null
+20:17:31 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:17:31 Completed Teststep: Then I click the login button
+20:17:31 Invoking Teststep: And I send success result for biometrics
+20:17:31 Executing executeScript parameters: {"args":[{"name":"And I send success result for biometrics"}],"script":"mobile:step:start"}
+20:17:31 Executing executeScript parameters: {"args":[{"resultAuth":"success","identifier":"io.perfecto.expense.tracker","errorType":"lockOut"}],"script":"mobile:sensorAuthentication:set"}
+20:17:31 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:17:31 Completed Teststep: And I send success result for biometrics
+20:17:31 Invoking Teststep: Then I should see expense tracker home screen
+20:17:31 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker home screen"}],"script":"mobile:step:start"}
+20:17:31 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+20:17:31 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' parameters: {}
+20:17:31 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn'","using":"-ios predicate string"}
+20:17:32 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn', using=-ios predicate string}] Result: id: 9C000000-0000-0000-5D20-000000000000
+20:17:32 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' param-2: {}] Result: OK
+20:17:32 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' parameters: {"id":"9C000000-0000-0000-5D20-000000000000"}
+20:17:32 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' param-2: {"id":"9C000000-0000-0000-5D20-000000000000"}] Result: isElementDisplayed:true
+20:17:32 Executing executeScript parameters: {"args":[{"message":"Verify Home Screen.","status":true}],"script":"mobile:status:assert"}
+20:17:32 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:17:32 Completed Teststep: Then I should see expense tracker home screen
+20:17:32 Competed scenario: Biometrics Scenario with status SUCCESS
+20:17:32 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+20:17:32 Executing quit parameters: {}
+20:17:39 command: quit[ param-1: {}] Result: null
+20:17:39 UI-driver tear down complete...
+20:17:39 Preparing For Shut Down...
+20:17:39 Preparing For Shut Down...
+20:17:39 Shut Down Completed...
+20:19:42 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+20:19:42 Driver: perfectoRemoteDriver
+20:19:42 Direct Driver Connect
+20:19:56 Executing setTimeout parameters: {"implicit":0}
+20:19:56 command: setTimeout[ param-1: {implicit=0}] Result: null
+20:19:56 driver init done
+20:19:56 Executing executeScript parameters: {"args":[{"name":"open Wikipedia","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["fey smoke Web Wiki Android Test","Web Fey Suite"," @first "]}],"script":"mobile:test:start"}
+20:19:56 
+
+Executing scenario: open Wikipedia - 
+20:19:56 pkg: com.qmetry.qaf.automation.step
+20:19:56 pkg: com.quantum.steps
+20:19:56 Invoking Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+20:19:56 Executing executeScript parameters: {"args":[{"name":"Given I open browser to webpage \"https://www.wikipedia.org/\""}],"script":"mobile:step:start"}
+20:19:56 Executing get parameters: {"url":"https://www.wikipedia.org/"}
+20:19:57 command: get[ param-1: {url=https://www.wikipedia.org/}] Result: null
+20:19:57 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:19:57 Completed Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+20:19:57 Invoking Teststep: Then I must see text "Wikipedia" with arguments: [Wikipedia]
+20:19:57 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Wikipedia\""}],"script":"mobile:step:start"}
+20:19:57 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Wikipedia","timeout":60}],"script":"mobile:checkpoint:text"}
+20:19:59 Executing screenshot parameters: {}
+20:20:00 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:20:00 Completed Teststep: Then I must see text "Wikipedia" with arguments: [Wikipedia]
+20:20:00 Competed scenario: open Wikipedia with status SUCCESS
+20:20:00 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+20:20:00 Executing executeScript parameters: {"args":[{"name":"open Wikipedia","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["fey smoke Web Wiki Android Test","Web Fey Suite"," @first "]}],"script":"mobile:test:start"}
+20:20:00 
+
+Executing scenario: open Wikipedia - 
+20:20:00 Invoking Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+20:20:00 Executing executeScript parameters: {"args":[{"name":"Given I open browser to webpage \"https://www.wikipedia.org/\""}],"script":"mobile:step:start"}
+20:20:00 Executing get parameters: {"url":"https://www.wikipedia.org/"}
+20:20:01 command: get[ param-1: {url=https://www.wikipedia.org/}] Result: null
+20:20:01 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:20:01 Completed Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+20:20:01 Invoking Teststep: Then I must see text "The Free Encyclopedia" with arguments: [The Free Encyclopedia]
+20:20:01 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"The Free Encyclopedia\""}],"script":"mobile:step:start"}
+20:20:01 Executing executeScript parameters: {"args":[{"threshold":"100","content":"The Free Encyclopedia","timeout":60}],"script":"mobile:checkpoint:text"}
+20:21:01 [31mcommand: executeScript[ param-1: {args=[{threshold=100, content=The Free Encyclopedia, timeout=60}], script=mobile:checkpoint:text}] Result: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'
+Driver info: driver.version: QAFExtendedWebDriver
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Command: [2fb80085-3bde-41aa-9290-fa1008278813, executeScript {args=[{threshold=100, content=The Free Encyclopedia, timeout=60}], script=mobile:checkpoint:text}]
+Capabilities {app: , appPackage: com.android.chrome, assert_javascript_enabled: true, audioStreamInfo: {"audioStreamingServerUrl":..., automationName: UIAutomator2, browserName: , databaseEnabled: false, desired: {appPackage: com.android.chrome, automationName: UIAutomator2, browserName: , deviceName: R5CWA2726XK, openDeviceTimeout: 15, platformName: Android, platformVersion: 14}, deviceApiLevel: 34, deviceManufacturer: samsung, deviceModel: SM-S918U1, deviceName: R5CWA2726XK, deviceScreenDensity: 600, deviceScreenSize: 1440x3088, deviceSessionId: 2fb80085-3bde-41aa-9290-fa1..., deviceUDID: R5CWA2726XK, entityType: remote_web_driver, executionId: 2fb80085-3bde-41aa-9290-fa1..., host: demo.perfectomobile.com, internalPureAppiumFlow: true, javascriptEnabled: true, locationContextEnabled: false, mcmExecutionId: mikejfey@hotmail.com_Remote..., model: Galaxy.*, networkConnectionEnabled: true, openDeviceTimeout: 15, options: {automationName: Appium, browserName: , model: Galaxy.*, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}, password: , pixelRatio: 3.75, platform: LINUX, platformName: ANDROID, platformVersion: 14, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securePureAppiumFlow: false, securityToken: , serverConnector: , statBarHeight: 100, stopUrl: https://demo.perfectomobile..., streamInfo: {"url":"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: true, viewportRect: {height: 2988, left: 0, top: 100, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 2fb80085-3bde-41aa-9290-fa1008278813[0m
+20:21:01 Failure Teststep: Then I must see text "The Free Encyclopedia" with arguments: [The Free Encyclopedia]
+org.openqa.selenium.TimeoutException: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'
+Driver info: driver.version: QAFExtendedWebDriver
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Command: [2fb80085-3bde-41aa-9290-fa1008278813, executeScript {args=[{threshold=100, content=The Free Encyclopedia, timeout=60}], script=mobile:checkpoint:text}]
+Capabilities {app: , appPackage: com.android.chrome, assert_javascript_enabled: true, audioStreamInfo: {"audioStreamingServerUrl":..., automationName: UIAutomator2, browserName: , databaseEnabled: false, desired: {appPackage: com.android.chrome, automationName: UIAutomator2, browserName: , deviceName: R5CWA2726XK, openDeviceTimeout: 15, platformName: Android, platformVersion: 14}, deviceApiLevel: 34, deviceManufacturer: samsung, deviceModel: SM-S918U1, deviceName: R5CWA2726XK, deviceScreenDensity: 600, deviceScreenSize: 1440x3088, deviceSessionId: 2fb80085-3bde-41aa-9290-fa1..., deviceUDID: R5CWA2726XK, entityType: remote_web_driver, executionId: 2fb80085-3bde-41aa-9290-fa1..., host: demo.perfectomobile.com, internalPureAppiumFlow: true, javascriptEnabled: true, locationContextEnabled: false, mcmExecutionId: mikejfey@hotmail.com_Remote..., model: Galaxy.*, networkConnectionEnabled: true, openDeviceTimeout: 15, options: {automationName: Appium, browserName: , model: Galaxy.*, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}, password: , pixelRatio: 3.75, platform: LINUX, platformName: ANDROID, platformVersion: 14, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securePureAppiumFlow: false, securityToken: , serverConnector: , statBarHeight: 100, stopUrl: https://demo.perfectomobile..., streamInfo: {"url":"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: true, viewportRect: {height: 2988, left: 0, top: 100, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 2fb80085-3bde-41aa-9290-fa1008278813
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52) ~[selenium-remote-driver-4.13.0.jar:?]
+	at java.util.function.Function.lambda$andThen$1(Function.java:88) ~[?:?]
+	at org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$9(RemoteWebDriverBuilder.java:448) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$10(RemoteWebDriverBuilder.java:455) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$11(RemoteWebDriverBuilder.java:460) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$12(RemoteWebDriverBuilder.java:470) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602) ~[selenium-remote-driver-4.13.0.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeSuper(QAFExtendedWebDriver.java:277) ~[quantum-3.1.5.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWithoutLog(QAFExtendedWebDriver.java:295) ~[quantum-3.1.5.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:344) ~[quantum-3.1.5.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:321) ~[quantum-3.1.5.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:727) ~[quantum-3.1.5.jar:?]
+	at com.quantum.utils.DeviceUtils.isText(DeviceUtils.java:499) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.DeviceUtils.assertVisualText(DeviceUtils.java:76) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.steps.PerfectoApplicationSteps.asserVisualText(PerfectoApplicationSteps.java:436) ~[quantum-3.1.5.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) ~[qaf-3.2.0.jar:3.1.5]
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237) ~[qaf-3.2.0.jar:3.1.5]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:714) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:503) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+20:21:01 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:21:01 Completed Teststep: Then I must see text "The Free Encyclopedia" with arguments: [The Free Encyclopedia]
+20:21:01 Competed scenario: open Wikipedia with status FAILURE
+20:21:01 Executing executeScript parameters: {"args":[{"success":false,"failureDescription":"Step:Then I must see text \"The Free Encyclopedia\" failed\n. Stack Trace: org.openqa.selenium.TimeoutException: java.net.http.HttpTimeoutException: request timed out\nBuild info: version: '4.13.0', revision: 'ba948ece5b*'\nSystem info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'\nDriver info: driver.version: QAFExtendedWebDriver\nBuild info: version: '4.13.0', revision: 'ba948ece5b*'\nSystem info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [2fb80085-3bde-41aa-9290-fa1008278813, executeScript {args=[{threshold=100, content=The Free Encyclopedia, timeout=60}], script=mobile:checkpoint:text}]\nCapabilities {app: , appPackage: com.android.chrome, assert_javascript_enabled: true, audioStreamInfo: {\"audioStreamingServerUrl\":..., automationName: UIAutomator2, browserName: , databaseEnabled: false, desired: {appPackage: com.android.chrome, automationName: UIAutomator2, browserName: , deviceName: R5CWA2726XK, openDeviceTimeout: 15, platformName: Android, platformVersion: 14}, deviceApiLevel: 34, deviceManufacturer: samsung, deviceModel: SM-S918U1, deviceName: R5CWA2726XK, deviceScreenDensity: 600, deviceScreenSize: 1440x3088, deviceSessionId: 2fb80085-3bde-41aa-9290-fa1..., deviceUDID: R5CWA2726XK, entityType: remote_web_driver, executionId: 2fb80085-3bde-41aa-9290-fa1..., host: demo.perfectomobile.com, internalPureAppiumFlow: true, javascriptEnabled: true, locationContextEnabled: false, mcmExecutionId: mikejfey@hotmail.com_Remote..., model: Galaxy.*, networkConnectionEnabled: true, openDeviceTimeout: 15, options: {automationName: Appium, browserName: , model: Galaxy.*, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}, password: , pixelRatio: 3.75, platform: LINUX, platformName: ANDROID, platformVersion: 14, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securePureAppiumFlow: false, securityToken: , serverConnector: , statBarHeight: 100, stopUrl: https://demo.perfectomobile..., streamInfo: {\"url\":\"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: true, viewportRect: {height: 2988, left: 0, top: 100, width: 1440}, warnings: {}, webStorageEnabled: false}\nSession ID: 2fb80085-3bde-41aa-9290-fa1008278813\n\tat .Then I must see text \"The Free Encyclopedia\"(src/main/resources/scenarios/worksTAM/mobileWebTest.feature:5)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat java.base/java.util.function.Function.lambda$andThen$1(Function.java:88)\n\tat org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$9(RemoteWebDriverBuilder.java:448)\n\tat org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$10(RemoteWebDriverBuilder.java:455)\n\tat org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$11(RemoteWebDriverBuilder.java:460)\n\tat org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$12(RemoteWebDriverBuilder.java:470)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeSuper(QAFExtendedWebDriver.java:277)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWithoutLog(QAFExtendedWebDriver.java:295)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:344)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:321)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:727)\n\tat com.quantum.utils.DeviceUtils.isText(DeviceUtils.java:499)\n\tat com.quantum.utils.DeviceUtils.assertVisualText(DeviceUtils.java:76)\n\tat ..."}],"script":"mobile:test:end"}
+20:21:02 Executing quit parameters: {}
+20:21:11 command: quit[ param-1: {}] Result: null
+20:21:11 UI-driver tear down complete...
+20:21:12 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+20:21:12 Preparing For Shut Down...
+20:21:12 Shut Down Completed...
+20:25:05 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+20:25:05 Driver: perfectoRemoteDriver
+20:25:05 Direct Driver Connect
+20:25:20 Executing setTimeout parameters: {"implicit":0}
+20:25:20 command: setTimeout[ param-1: {implicit=0}] Result: null
+20:25:20 driver init done
+20:25:20 Executing executeScript parameters: {"args":[{"name":"open Wikipedia","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["fey smoke Web Wiki Android Test","Web Fey Suite"," @first "]}],"script":"mobile:test:start"}
+20:25:20 
+
+Executing scenario: open Wikipedia - 
+20:25:20 pkg: com.qmetry.qaf.automation.step
+20:25:20 pkg: com.quantum.steps
+20:25:20 Invoking Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+20:25:20 Executing executeScript parameters: {"args":[{"name":"Given I open browser to webpage \"https://www.wikipedia.org/\""}],"script":"mobile:step:start"}
+20:25:21 Executing get parameters: {"url":"https://www.wikipedia.org/"}
+20:25:21 command: get[ param-1: {url=https://www.wikipedia.org/}] Result: null
+20:25:21 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:25:21 Completed Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+20:25:21 Invoking Teststep: Then I must see text "The Free Encyclopedia" with arguments: [The Free Encyclopedia]
+20:25:21 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"The Free Encyclopedia\""}],"script":"mobile:step:start"}
+20:25:21 Executing executeScript parameters: {"args":[{"threshold":"100","content":"The Free Encyclopedia","timeout":60}],"script":"mobile:checkpoint:text"}
+20:26:21 [31mcommand: executeScript[ param-1: {args=[{threshold=100, content=The Free Encyclopedia, timeout=60}], script=mobile:checkpoint:text}] Result: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'
+Driver info: driver.version: QAFExtendedWebDriver
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Command: [f5ba1a8a-fe53-4196-b096-c90e9106ce0a, executeScript {args=[{threshold=100, content=The Free Encyclopedia, timeout=60}], script=mobile:checkpoint:text}]
+Capabilities {app: , appPackage: com.android.chrome, assert_javascript_enabled: true, audioStreamInfo: {"audioStreamingServerUrl":..., automationName: UIAutomator2, browserName: , databaseEnabled: false, desired: {appPackage: com.android.chrome, automationName: UIAutomator2, browserName: , deviceName: R5CWA2726XK, openDeviceTimeout: 15, platformName: Android, platformVersion: 14}, deviceApiLevel: 34, deviceManufacturer: samsung, deviceModel: SM-S918U1, deviceName: R5CWA2726XK, deviceScreenDensity: 600, deviceScreenSize: 1440x3088, deviceSessionId: f5ba1a8a-fe53-4196-b096-c90..., deviceUDID: R5CWA2726XK, entityType: remote_web_driver, executionId: f5ba1a8a-fe53-4196-b096-c90..., host: demo.perfectomobile.com, internalPureAppiumFlow: true, javascriptEnabled: true, locationContextEnabled: false, mcmExecutionId: mikejfey@hotmail.com_Remote..., model: Galaxy.*, networkConnectionEnabled: true, openDeviceTimeout: 15, options: {automationName: Appium, browserName: , model: Galaxy.*, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}, password: , pixelRatio: 3.75, platform: LINUX, platformName: ANDROID, platformVersion: 14, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securePureAppiumFlow: false, securityToken: , serverConnector: , statBarHeight: 100, stopUrl: https://demo.perfectomobile..., streamInfo: {"url":"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: true, viewportRect: {height: 2988, left: 0, top: 100, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: f5ba1a8a-fe53-4196-b096-c90e9106ce0a[0m
+20:26:21 Failure Teststep: Then I must see text "The Free Encyclopedia" with arguments: [The Free Encyclopedia]
+org.openqa.selenium.TimeoutException: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'
+Driver info: driver.version: QAFExtendedWebDriver
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Command: [f5ba1a8a-fe53-4196-b096-c90e9106ce0a, executeScript {args=[{threshold=100, content=The Free Encyclopedia, timeout=60}], script=mobile:checkpoint:text}]
+Capabilities {app: , appPackage: com.android.chrome, assert_javascript_enabled: true, audioStreamInfo: {"audioStreamingServerUrl":..., automationName: UIAutomator2, browserName: , databaseEnabled: false, desired: {appPackage: com.android.chrome, automationName: UIAutomator2, browserName: , deviceName: R5CWA2726XK, openDeviceTimeout: 15, platformName: Android, platformVersion: 14}, deviceApiLevel: 34, deviceManufacturer: samsung, deviceModel: SM-S918U1, deviceName: R5CWA2726XK, deviceScreenDensity: 600, deviceScreenSize: 1440x3088, deviceSessionId: f5ba1a8a-fe53-4196-b096-c90..., deviceUDID: R5CWA2726XK, entityType: remote_web_driver, executionId: f5ba1a8a-fe53-4196-b096-c90..., host: demo.perfectomobile.com, internalPureAppiumFlow: true, javascriptEnabled: true, locationContextEnabled: false, mcmExecutionId: mikejfey@hotmail.com_Remote..., model: Galaxy.*, networkConnectionEnabled: true, openDeviceTimeout: 15, options: {automationName: Appium, browserName: , model: Galaxy.*, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}, password: , pixelRatio: 3.75, platform: LINUX, platformName: ANDROID, platformVersion: 14, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securePureAppiumFlow: false, securityToken: , serverConnector: , statBarHeight: 100, stopUrl: https://demo.perfectomobile..., streamInfo: {"url":"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: true, viewportRect: {height: 2988, left: 0, top: 100, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: f5ba1a8a-fe53-4196-b096-c90e9106ce0a
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52) ~[selenium-remote-driver-4.13.0.jar:?]
+	at java.util.function.Function.lambda$andThen$1(Function.java:88) ~[?:?]
+	at org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$9(RemoteWebDriverBuilder.java:448) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$10(RemoteWebDriverBuilder.java:455) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$11(RemoteWebDriverBuilder.java:460) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$12(RemoteWebDriverBuilder.java:470) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602) ~[selenium-remote-driver-4.13.0.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeSuper(QAFExtendedWebDriver.java:277) ~[quantum-3.1.5.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWithoutLog(QAFExtendedWebDriver.java:295) ~[quantum-3.1.5.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:344) ~[quantum-3.1.5.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:321) ~[quantum-3.1.5.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:727) ~[quantum-3.1.5.jar:?]
+	at com.quantum.utils.DeviceUtils.isText(DeviceUtils.java:499) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.DeviceUtils.assertVisualText(DeviceUtils.java:76) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.steps.PerfectoApplicationSteps.asserVisualText(PerfectoApplicationSteps.java:436) ~[quantum-3.1.5.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) ~[qaf-3.2.0.jar:3.1.5]
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237) ~[qaf-3.2.0.jar:3.1.5]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:714) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:503) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+20:26:21 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:26:21 Completed Teststep: Then I must see text "The Free Encyclopedia" with arguments: [The Free Encyclopedia]
+20:26:21 Competed scenario: open Wikipedia with status FAILURE
+20:26:21 Executing executeScript parameters: {"args":[{"success":false,"failureDescription":"Step:Then I must see text \"The Free Encyclopedia\" failed\n. Stack Trace: org.openqa.selenium.TimeoutException: java.net.http.HttpTimeoutException: request timed out\nBuild info: version: '4.13.0', revision: 'ba948ece5b*'\nSystem info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'\nDriver info: driver.version: QAFExtendedWebDriver\nBuild info: version: '4.13.0', revision: 'ba948ece5b*'\nSystem info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [f5ba1a8a-fe53-4196-b096-c90e9106ce0a, executeScript {args=[{threshold=100, content=The Free Encyclopedia, timeout=60}], script=mobile:checkpoint:text}]\nCapabilities {app: , appPackage: com.android.chrome, assert_javascript_enabled: true, audioStreamInfo: {\"audioStreamingServerUrl\":..., automationName: UIAutomator2, browserName: , databaseEnabled: false, desired: {appPackage: com.android.chrome, automationName: UIAutomator2, browserName: , deviceName: R5CWA2726XK, openDeviceTimeout: 15, platformName: Android, platformVersion: 14}, deviceApiLevel: 34, deviceManufacturer: samsung, deviceModel: SM-S918U1, deviceName: R5CWA2726XK, deviceScreenDensity: 600, deviceScreenSize: 1440x3088, deviceSessionId: f5ba1a8a-fe53-4196-b096-c90..., deviceUDID: R5CWA2726XK, entityType: remote_web_driver, executionId: f5ba1a8a-fe53-4196-b096-c90..., host: demo.perfectomobile.com, internalPureAppiumFlow: true, javascriptEnabled: true, locationContextEnabled: false, mcmExecutionId: mikejfey@hotmail.com_Remote..., model: Galaxy.*, networkConnectionEnabled: true, openDeviceTimeout: 15, options: {automationName: Appium, browserName: , model: Galaxy.*, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}, password: , pixelRatio: 3.75, platform: LINUX, platformName: ANDROID, platformVersion: 14, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securePureAppiumFlow: false, securityToken: , serverConnector: , statBarHeight: 100, stopUrl: https://demo.perfectomobile..., streamInfo: {\"url\":\"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: true, viewportRect: {height: 2988, left: 0, top: 100, width: 1440}, warnings: {}, webStorageEnabled: false}\nSession ID: f5ba1a8a-fe53-4196-b096-c90e9106ce0a\n\tat .Then I must see text \"The Free Encyclopedia\"(src/main/resources/scenarios/worksTAM/mobileWebTest.feature:5)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat java.base/java.util.function.Function.lambda$andThen$1(Function.java:88)\n\tat org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$9(RemoteWebDriverBuilder.java:448)\n\tat org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$10(RemoteWebDriverBuilder.java:455)\n\tat org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$11(RemoteWebDriverBuilder.java:460)\n\tat org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$12(RemoteWebDriverBuilder.java:470)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeSuper(QAFExtendedWebDriver.java:277)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWithoutLog(QAFExtendedWebDriver.java:295)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:344)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:321)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:727)\n\tat com.quantum.utils.DeviceUtils.isText(DeviceUtils.java:499)\n\tat com.quantum.utils.DeviceUtils.assertVisualText(DeviceUtils.java:76)\n\tat ..."}],"script":"mobile:test:end"}
+20:26:23 Executing quit parameters: {}
+20:26:38 command: quit[ param-1: {}] Result: null
+20:26:38 UI-driver tear down complete...
+20:26:38 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+20:26:38 Preparing For Shut Down...
+20:26:38 Shut Down Completed...
+20:27:36 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+20:27:36 Driver: perfectoRemoteDriver
+20:27:36 Direct Driver Connect
+20:27:51 Executing setTimeout parameters: {"implicit":0}
+20:27:51 command: setTimeout[ param-1: {implicit=0}] Result: null
+20:27:51 driver init done
+20:27:51 Executing executeScript parameters: {"args":[{"name":"open Wikipedia","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["fey smoke Web Wiki Android Test","Web Fey Suite"," @first "]}],"script":"mobile:test:start"}
+20:27:51 
+
+Executing scenario: open Wikipedia - 
+20:27:51 pkg: com.qmetry.qaf.automation.step
+20:27:51 pkg: com.quantum.steps
+20:27:52 Invoking Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+20:27:52 Executing executeScript parameters: {"args":[{"name":"Given I open browser to webpage \"https://www.wikipedia.org/\""}],"script":"mobile:step:start"}
+20:27:52 Executing get parameters: {"url":"https://www.wikipedia.org/"}
+20:27:52 command: get[ param-1: {url=https://www.wikipedia.org/}] Result: null
+20:27:52 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:27:52 Completed Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+20:27:52 Invoking Teststep: Then I must see text "Wiki" with arguments: [Wiki]
+20:27:52 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Wiki\""}],"script":"mobile:step:start"}
+20:27:52 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Wiki","timeout":60}],"script":"mobile:checkpoint:text"}
+20:28:01 Executing screenshot parameters: {}
+20:28:02 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:28:02 Completed Teststep: Then I must see text "Wiki" with arguments: [Wiki]
+20:28:02 Competed scenario: open Wikipedia with status SUCCESS
+20:28:02 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+20:28:02 Executing quit parameters: {}
+20:28:18 command: quit[ param-1: {}] Result: null
+20:28:18 UI-driver tear down complete...
+20:28:18 Preparing For Shut Down...
+20:28:18 Shut Down Completed...
+20:28:42 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+20:28:42 Driver: perfectoRemoteDriver
+20:28:42 Direct Driver Connect
+20:28:55 Executing setTimeout parameters: {"implicit":0}
+20:28:55 command: setTimeout[ param-1: {implicit=0}] Result: null
+20:28:55 driver init done
+20:28:55 Executing executeScript parameters: {"args":[{"name":"open Wikipedia","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["fey smoke Web Wiki Android Test","Web Fey Suite"," @first "]}],"script":"mobile:test:start"}
+20:28:55 
+
+Executing scenario: open Wikipedia - 
+20:28:55 pkg: com.qmetry.qaf.automation.step
+20:28:55 pkg: com.quantum.steps
+20:28:55 Invoking Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+20:28:55 Executing executeScript parameters: {"args":[{"name":"Given I open browser to webpage \"https://www.wikipedia.org/\""}],"script":"mobile:step:start"}
+20:28:56 Executing get parameters: {"url":"https://www.wikipedia.org/"}
+20:28:56 command: get[ param-1: {url=https://www.wikipedia.org/}] Result: null
+20:28:56 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:28:56 Completed Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+20:28:56 Invoking Teststep: Then I must see text "Wikipedia" with arguments: [Wikipedia]
+20:28:56 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Wikipedia\""}],"script":"mobile:step:start"}
+20:28:56 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Wikipedia","timeout":60}],"script":"mobile:checkpoint:text"}
+20:29:00 Executing screenshot parameters: {}
+20:29:01 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+20:29:01 Completed Teststep: Then I must see text "Wikipedia" with arguments: [Wikipedia]
+20:29:01 Competed scenario: open Wikipedia with status SUCCESS
+20:29:01 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+20:29:01 Executing quit parameters: {}
+20:29:12 command: quit[ param-1: {}] Result: null
+20:29:12 UI-driver tear down complete...
+20:29:12 Preparing For Shut Down...
+20:29:12 Shut Down Completed...

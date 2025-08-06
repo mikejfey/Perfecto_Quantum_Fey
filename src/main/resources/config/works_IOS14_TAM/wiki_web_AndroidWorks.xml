@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Web Fey Suite" verbose="0" parallel="tests"
+<suite name="Web Fey Suite" verbose="0" parallel="false"
 	   thread-count="100">
 	<listeners>
 		<listener class-name="com.quantum.listeners.QuantumReportiumListener" />
