@@ -7,15 +7,12 @@
 	<parameter name="driver.name" value="perfectoDriver"/>
 	<test name="Native Expense Android Test" enabled="true"
 		  thread-count="3">
+		<parameter name="perfecto.capabilities.model" value="Galaxy.*"></parameter>
 		<parameter name="perfecto.additional.capabilities" value="{'perfecto:openDeviceTimeout':15}" />
-		<parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
-		<parameter name="perfecto.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
-		<parameter name="perfecto.capabilities.model" value="Galaxy.*"/>
 		<parameter name="perfecto.capabilities.automationName" value="Appium"/>
+		<parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
+		<parameter name="perfecto.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
 		<parameter name="env.resources" value="src/main/resources/android"/>
-
-
-
 
 
 		<groups>

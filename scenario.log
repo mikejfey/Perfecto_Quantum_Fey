@@ -8750,3 +8750,1580 @@ Executing scenario: Biometrics Scenario -
 15:16:19 Preparing For Shut Down...
 15:16:19 Preparing For Shut Down...
 15:16:19 Shut Down Completed...
+15:33:36 loading csv data file: src/main/resources/data/invalidExpenseLogins.csv
+15:33:36 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+15:33:36 Driver: perfectoDriver
+15:33:36 Direct Driver Connect
+15:34:19 Executing setTimeout parameters: {"implicit":0}
+15:34:20 command: setTimeout[ param-1: {implicit=0}] Result: null
+15:34:20 driver init done
+15:34:20 Executing executeScript parameters: {"args":[{"name":"Expense Tracker invalid login Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Native Data Driven Expense IOS Test invalid","Expense Data Driven Suite"," @expenseTrackerDataDriven "," @invalidLogin"]}],"script":"mobile:test:start"}
+15:34:20 
+
+Executing scenario: Expense Tracker invalid login Scenario - 
+15:34:20 Test Data{username=test@perfecto.com, password=badpw1}
+15:34:20 pkg: com.qmetry.qaf.automation.step
+15:34:20 pkg: com.quantum.steps
+15:34:20 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+15:34:20 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+15:34:20 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+15:34:25 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+15:34:25 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+15:34:25 Invoking Teststep: Then I should see expense tracker Native login screen
+15:34:25 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker Native login screen"}],"script":"mobile:step:start"}
+15:34:25 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:34:25 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {}
+15:34:25 Executing findElement parameters: {"value":"type == 'XCUIElementTypeStaticText' AND name == 'Email'","using":"-ios predicate string"}
+15:34:25 command: findElement[ param-1: {value=type == 'XCUIElementTypeStaticText' AND name == 'Email', using=-ios predicate string}] Result: id: 11000000-0000-0000-FD1A-000000000000
+15:34:25 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {}] Result: OK
+15:34:25 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {"id":"11000000-0000-0000-FD1A-000000000000"}
+15:34:26 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {"id":"11000000-0000-0000-FD1A-000000000000"}] Result: isElementDisplayed:true
+15:34:26 Executing executeScript parameters: {"args":[{"message":"Verify Login screen title","status":true}],"script":"mobile:status:assert"}
+15:34:26 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:34:26 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+15:34:26 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+15:34:26 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-FD1A-000000000000
+15:34:26 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+15:34:26 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"id":"13000000-0000-0000-FD1A-000000000000"}
+15:34:26 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"id":"13000000-0000-0000-FD1A-000000000000"}] Result: isElementDisplayed:true
+15:34:26 Executing executeScript parameters: {"args":[{"message":"Verify Login screen Email","status":true}],"script":"mobile:status:assert"}
+15:34:26 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+15:34:26 Completed Teststep: Then I should see expense tracker Native login screen
+15:34:27 Invoking Teststep: When I login with INVALID creds from datafile  "<username>" and "<password>" with arguments: [${username}, ${password}]
+15:34:27 Executing executeScript parameters: {"args":[{"name":"When I login with INVALID creds from datafile  \"<username>\" and \"<password>\""}],"script":"mobile:step:start"}
+15:34:27 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:34:27 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+15:34:27 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+15:34:27 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-FD1A-000000000000
+15:34:27 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+15:34:27 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-FD1A-000000000000"}
+15:34:28 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-FD1A-000000000000"}] Result: sendKeysToElement:null
+15:34:28 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:34:28 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {}
+15:34:28 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com'","using":"-ios predicate string"}
+15:34:29 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com', using=-ios predicate string}] Result: id: 13000000-0000-0000-FD1A-000000000000
+15:34:29 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {}] Result: OK
+15:34:29 Executing getElementText element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {"id":"13000000-0000-0000-FD1A-000000000000"}
+15:34:29 command: getElementText[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {"id":"13000000-0000-0000-FD1A-000000000000"}] Result: getElementText:test@perfecto.com
+15:34:29 Executing executeScript parameters: {"args":[{"message":"Email was entered as expected","status":true}],"script":"mobile:status:assert"}
+15:34:29 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:34:29 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {}
+15:34:29 Executing findElement parameters: {"value":"type == 'XCUIElementTypeSecureTextField' AND name == 'login_password'","using":"-ios predicate string"}
+15:34:30 command: findElement[ param-1: {value=type == 'XCUIElementTypeSecureTextField' AND name == 'login_password', using=-ios predicate string}] Result: id: 16000000-0000-0000-FD1A-000000000000
+15:34:30 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {}] Result: OK
+15:34:30 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {"value":["badpw1"],"id":"16000000-0000-0000-FD1A-000000000000"}
+15:34:31 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {"value":["badpw1"],"id":"16000000-0000-0000-FD1A-000000000000"}] Result: sendKeysToElement:null
+15:34:31 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:34:31 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {}
+15:34:31 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'login_login_btn'","using":"-ios predicate string"}
+15:34:31 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'login_login_btn', using=-ios predicate string}] Result: id: 17000000-0000-0000-FD1A-000000000000
+15:34:31 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {}] Result: OK
+15:34:31 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {"id":"17000000-0000-0000-FD1A-000000000000"}
+15:34:32 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {"id":"17000000-0000-0000-FD1A-000000000000"}] Result: clickElement:null
+15:34:32 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:34:32 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'OK' parameters: {}
+15:34:32 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'OK'","using":"-ios predicate string"}
+15:34:33 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'OK', using=-ios predicate string}] Result: id: 8C000000-0000-0000-FD1A-000000000000
+15:34:33 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'OK' param-2: {}] Result: OK
+15:34:33 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'OK' parameters: {"id":"8C000000-0000-0000-FD1A-000000000000"}
+15:34:34 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'OK' param-2: {"id":"8C000000-0000-0000-FD1A-000000000000"}] Result: clickElement:null
+15:34:34 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+15:34:34 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+15:34:34 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-FD1A-000000000000
+15:34:34 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+15:34:34 Executing clearElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"id":"13000000-0000-0000-FD1A-000000000000"}
+15:34:35 command: clearElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"id":"13000000-0000-0000-FD1A-000000000000"}] Result: clearElement:null
+15:34:35 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+15:34:35 Completed Teststep: When I login with INVALID creds from datafile  "<username>" and "<password>" with arguments: [${username}, ${password}]
+15:34:35 Invoking Teststep: Then I must see text "Email" with arguments: [Email]
+15:34:35 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Email\""}],"script":"mobile:step:start"}
+15:34:35 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Email","timeout":60}],"script":"mobile:checkpoint:text"}
+15:34:37 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+15:34:37 Completed Teststep: Then I must see text "Email" with arguments: [Email]
+15:34:37 Competed scenario: Expense Tracker invalid login Scenario with status SUCCESS
+15:34:37 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+15:34:37 Executing executeScript parameters: {"args":[{"name":"Expense Tracker invalid login Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Native Data Driven Expense IOS Test invalid","Expense Data Driven Suite"," @expenseTrackerDataDriven "," @invalidLogin"]}],"script":"mobile:test:start"}
+15:34:37 
+
+Executing scenario: Expense Tracker invalid login Scenario - 
+15:34:37 Test Data{username=test@perfecto.com, password=badpw2}
+15:34:37 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+15:34:37 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+15:34:37 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+15:34:42 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+15:34:42 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+15:34:42 Invoking Teststep: Then I should see expense tracker Native login screen
+15:34:42 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker Native login screen"}],"script":"mobile:step:start"}
+15:34:42 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:34:42 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {}
+15:34:42 Executing findElement parameters: {"value":"type == 'XCUIElementTypeStaticText' AND name == 'Email'","using":"-ios predicate string"}
+15:34:43 command: findElement[ param-1: {value=type == 'XCUIElementTypeStaticText' AND name == 'Email', using=-ios predicate string}] Result: id: 11000000-0000-0000-FD1A-000000000000
+15:34:43 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {}] Result: OK
+15:34:43 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {"id":"11000000-0000-0000-FD1A-000000000000"}
+15:34:43 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {"id":"11000000-0000-0000-FD1A-000000000000"}] Result: isElementDisplayed:true
+15:34:43 Executing executeScript parameters: {"args":[{"message":"Verify Login screen title","status":true}],"script":"mobile:status:assert"}
+15:34:43 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:34:43 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+15:34:43 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+15:34:43 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-FD1A-000000000000
+15:34:43 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+15:34:43 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"id":"13000000-0000-0000-FD1A-000000000000"}
+15:34:44 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"id":"13000000-0000-0000-FD1A-000000000000"}] Result: isElementDisplayed:true
+15:34:44 Executing executeScript parameters: {"args":[{"message":"Verify Login screen Email","status":true}],"script":"mobile:status:assert"}
+15:34:44 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+15:34:44 Completed Teststep: Then I should see expense tracker Native login screen
+15:34:44 Invoking Teststep: When I login with INVALID creds from datafile  "<username>" and "<password>" with arguments: [${username}, ${password}]
+15:34:44 Executing executeScript parameters: {"args":[{"name":"When I login with INVALID creds from datafile  \"<username>\" and \"<password>\""}],"script":"mobile:step:start"}
+15:34:44 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:34:44 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+15:34:44 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+15:34:44 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-FD1A-000000000000
+15:34:44 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+15:34:44 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-FD1A-000000000000"}
+15:34:45 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-FD1A-000000000000"}] Result: sendKeysToElement:null
+15:34:45 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:34:45 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {}
+15:34:45 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com'","using":"-ios predicate string"}
+15:34:45 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com', using=-ios predicate string}] Result: id: 13000000-0000-0000-FD1A-000000000000
+15:34:45 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {}] Result: OK
+15:34:45 Executing getElementText element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {"id":"13000000-0000-0000-FD1A-000000000000"}
+15:34:46 command: getElementText[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {"id":"13000000-0000-0000-FD1A-000000000000"}] Result: getElementText:test@perfecto.com
+15:34:46 Executing executeScript parameters: {"args":[{"message":"Email was entered as expected","status":true}],"script":"mobile:status:assert"}
+15:34:46 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:34:46 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {}
+15:34:46 Executing findElement parameters: {"value":"type == 'XCUIElementTypeSecureTextField' AND name == 'login_password'","using":"-ios predicate string"}
+15:34:46 command: findElement[ param-1: {value=type == 'XCUIElementTypeSecureTextField' AND name == 'login_password', using=-ios predicate string}] Result: id: 16000000-0000-0000-FD1A-000000000000
+15:34:46 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {}] Result: OK
+15:34:46 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {"value":["badpw2"],"id":"16000000-0000-0000-FD1A-000000000000"}
+15:34:47 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {"value":["badpw2"],"id":"16000000-0000-0000-FD1A-000000000000"}] Result: sendKeysToElement:null
+15:34:47 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:34:47 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {}
+15:34:47 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'login_login_btn'","using":"-ios predicate string"}
+15:34:48 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'login_login_btn', using=-ios predicate string}] Result: id: 17000000-0000-0000-FD1A-000000000000
+15:34:48 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {}] Result: OK
+15:34:48 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {"id":"17000000-0000-0000-FD1A-000000000000"}
+15:34:49 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {"id":"17000000-0000-0000-FD1A-000000000000"}] Result: clickElement:null
+15:34:49 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:34:49 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'OK' parameters: {}
+15:34:49 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'OK'","using":"-ios predicate string"}
+15:34:49 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'OK', using=-ios predicate string}] Result: id: F5000000-0000-0000-FD1A-000000000000
+15:34:49 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'OK' param-2: {}] Result: OK
+15:34:49 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'OK' parameters: {"id":"F5000000-0000-0000-FD1A-000000000000"}
+15:34:50 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'OK' param-2: {"id":"F5000000-0000-0000-FD1A-000000000000"}] Result: clickElement:null
+15:34:50 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+15:34:50 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+15:34:50 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-FD1A-000000000000
+15:34:50 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+15:34:50 Executing clearElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"id":"13000000-0000-0000-FD1A-000000000000"}
+15:34:51 command: clearElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"id":"13000000-0000-0000-FD1A-000000000000"}] Result: clearElement:null
+15:34:51 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+15:34:51 Completed Teststep: When I login with INVALID creds from datafile  "<username>" and "<password>" with arguments: [${username}, ${password}]
+15:34:51 Invoking Teststep: Then I must see text "Email" with arguments: [Email]
+15:34:51 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Email\""}],"script":"mobile:step:start"}
+15:34:52 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Email","timeout":60}],"script":"mobile:checkpoint:text"}
+15:34:53 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+15:34:53 Completed Teststep: Then I must see text "Email" with arguments: [Email]
+15:34:53 Competed scenario: Expense Tracker invalid login Scenario with status SUCCESS
+15:34:53 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+15:34:53 Executing quit parameters: {}
+15:35:01 command: quit[ param-1: {}] Result: null
+15:35:01 UI-driver tear down complete...
+15:35:01 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+15:35:01 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+15:35:01 Driver: perfectoDriver
+15:35:01 Direct Driver Connect
+15:35:19 Executing setTimeout parameters: {"implicit":0}
+15:35:20 command: setTimeout[ param-1: {implicit=0}] Result: null
+15:35:20 driver init done
+15:35:20 Executing executeScript parameters: {"args":[{"name":"Expense Tracker VALID login Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Expense Data Driven Suite","Native Data Driven Expense IOS Test valid"," @validLogin"," @expenseTrackerDataDriven "]}],"script":"mobile:test:start"}
+15:35:20 
+
+Executing scenario: Expense Tracker VALID login Scenario - 
+15:35:20 Test Data{username=test@perfecto.com, password=test123}
+15:35:20 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+15:35:20 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+15:35:20 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+15:35:25 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+15:35:25 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+15:35:25 Invoking Teststep: Then I should see expense tracker Native login screen
+15:35:25 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker Native login screen"}],"script":"mobile:step:start"}
+15:35:25 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:35:25 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {}
+15:35:25 Executing findElement parameters: {"value":"type == 'XCUIElementTypeStaticText' AND name == 'Email'","using":"-ios predicate string"}
+15:35:26 command: findElement[ param-1: {value=type == 'XCUIElementTypeStaticText' AND name == 'Email', using=-ios predicate string}] Result: id: 11000000-0000-0000-0B1B-000000000000
+15:35:26 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {}] Result: OK
+15:35:26 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {"id":"11000000-0000-0000-0B1B-000000000000"}
+15:35:26 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {"id":"11000000-0000-0000-0B1B-000000000000"}] Result: isElementDisplayed:true
+15:35:26 Executing executeScript parameters: {"args":[{"message":"Verify Login screen title","status":true}],"script":"mobile:status:assert"}
+15:35:26 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:35:26 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+15:35:26 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+15:35:27 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-0B1B-000000000000
+15:35:27 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+15:35:27 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"id":"13000000-0000-0000-0B1B-000000000000"}
+15:35:27 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"id":"13000000-0000-0000-0B1B-000000000000"}] Result: isElementDisplayed:true
+15:35:27 Executing executeScript parameters: {"args":[{"message":"Verify Login screen Email","status":true}],"script":"mobile:status:assert"}
+15:35:27 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+15:35:27 Completed Teststep: Then I should see expense tracker Native login screen
+15:35:27 Invoking Teststep: When I login with VALID creds from datafile  "<username>" and "<password>" with arguments: [${username}, ${password}]
+15:35:27 Executing executeScript parameters: {"args":[{"name":"When I login with VALID creds from datafile  \"<username>\" and \"<password>\""}],"script":"mobile:step:start"}
+15:35:27 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:35:27 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+15:35:27 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+15:35:27 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-0B1B-000000000000
+15:35:27 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+15:35:27 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-0B1B-000000000000"}
+15:35:29 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-0B1B-000000000000"}] Result: sendKeysToElement:null
+15:35:29 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:35:29 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {}
+15:35:29 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com'","using":"-ios predicate string"}
+15:35:29 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com', using=-ios predicate string}] Result: id: 13000000-0000-0000-0B1B-000000000000
+15:35:29 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {}] Result: OK
+15:35:29 Executing getElementText element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {"id":"13000000-0000-0000-0B1B-000000000000"}
+15:35:29 command: getElementText[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {"id":"13000000-0000-0000-0B1B-000000000000"}] Result: getElementText:test@perfecto.com
+15:35:29 Executing executeScript parameters: {"args":[{"message":"Email was entered as expected","status":true}],"script":"mobile:status:assert"}
+15:35:30 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:35:30 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {}
+15:35:30 Executing findElement parameters: {"value":"type == 'XCUIElementTypeSecureTextField' AND name == 'login_password'","using":"-ios predicate string"}
+15:35:30 command: findElement[ param-1: {value=type == 'XCUIElementTypeSecureTextField' AND name == 'login_password', using=-ios predicate string}] Result: id: 16000000-0000-0000-0B1B-000000000000
+15:35:30 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {}] Result: OK
+15:35:30 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {"value":["test123"],"id":"16000000-0000-0000-0B1B-000000000000"}
+15:35:31 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {"value":["test123"],"id":"16000000-0000-0000-0B1B-000000000000"}] Result: sendKeysToElement:null
+15:35:31 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:35:31 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {}
+15:35:31 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'login_login_btn'","using":"-ios predicate string"}
+15:35:32 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'login_login_btn', using=-ios predicate string}] Result: id: 17000000-0000-0000-0B1B-000000000000
+15:35:32 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {}] Result: OK
+15:35:32 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {"id":"17000000-0000-0000-0B1B-000000000000"}
+15:35:33 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {"id":"17000000-0000-0000-0B1B-000000000000"}] Result: clickElement:null
+15:35:33 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+15:35:33 Completed Teststep: When I login with VALID creds from datafile  "<username>" and "<password>" with arguments: [${username}, ${password}]
+15:35:33 Invoking Teststep: Then I must see text "Expenses" with arguments: [Expenses]
+15:35:33 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Expenses\""}],"script":"mobile:step:start"}
+15:35:33 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Expenses","timeout":60}],"script":"mobile:checkpoint:text"}
+15:35:34 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+15:35:34 Completed Teststep: Then I must see text "Expenses" with arguments: [Expenses]
+15:35:34 Invoking Teststep: When I tap hamburger then 'About'
+15:35:34 Executing executeScript parameters: {"args":[{"name":"When I tap hamburger then 'About'"}],"script":"mobile:step:start"}
+15:35:35 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:35:35 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' parameters: {}
+15:35:35 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn'","using":"-ios predicate string"}
+15:35:35 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn', using=-ios predicate string}] Result: id: 82000000-0000-0000-0B1B-000000000000
+15:35:35 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' param-2: {}] Result: OK
+15:35:35 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' parameters: {"id":"82000000-0000-0000-0B1B-000000000000"}
+15:35:36 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' param-2: {"id":"82000000-0000-0000-0B1B-000000000000"}] Result: clickElement:null
+15:35:36 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:35:36 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_about_menu' parameters: {}
+15:35:36 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'list_about_menu'","using":"-ios predicate string"}
+15:35:36 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'list_about_menu', using=-ios predicate string}] Result: id: 7C000000-0000-0000-0B1B-000000000000
+15:35:36 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_about_menu' param-2: {}] Result: OK
+15:35:36 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_about_menu' parameters: {"id":"7C000000-0000-0000-0B1B-000000000000"}
+15:35:37 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_about_menu' param-2: {"id":"7C000000-0000-0000-0B1B-000000000000"}] Result: clickElement:null
+15:35:37 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+15:35:37 Completed Teststep: When I tap hamburger then 'About'
+15:35:37 Invoking Teststep: Then I must see text "Crash" with arguments: [Crash]
+15:35:37 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Crash\""}],"script":"mobile:step:start"}
+15:35:37 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Crash","timeout":60}],"script":"mobile:checkpoint:text"}
+15:35:41 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+15:35:41 Completed Teststep: Then I must see text "Crash" with arguments: [Crash]
+15:35:41 Invoking Teststep: When I tap 'Crash Me'
+15:35:41 Executing executeScript parameters: {"args":[{"name":"When I tap 'Crash Me'"}],"script":"mobile:step:start"}
+15:35:41 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+15:35:41 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'about_crash_me' parameters: {}
+15:35:41 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'about_crash_me'","using":"-ios predicate string"}
+15:35:41 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'about_crash_me', using=-ios predicate string}] Result: id: 92000000-0000-0000-0B1B-000000000000
+15:35:41 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'about_crash_me' param-2: {}] Result: OK
+15:35:41 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'about_crash_me' parameters: {"id":"92000000-0000-0000-0B1B-000000000000"}
+15:35:42 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'about_crash_me' param-2: {"id":"92000000-0000-0000-0B1B-000000000000"}] Result: clickElement:null
+15:35:42 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+15:35:42 Completed Teststep: When I tap 'Crash Me'
+15:35:42 Competed scenario: Expense Tracker VALID login Scenario with status SUCCESS
+15:35:42 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+15:35:42 Executing quit parameters: {}
+15:35:49 command: quit[ param-1: {}] Result: null
+15:35:50 UI-driver tear down complete...
+15:35:50 Preparing For Shut Down...
+15:35:50 Shut Down Completed...
+15:42:04 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+15:42:04 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+15:42:04 Driver: perfectoDriver
+15:42:04 Direct Driver Connect
+15:43:07 null
+15:43:07 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+15:43:08 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+15:43:08 Preparing For Shut Down...
+15:43:08 Shut Down Completed...
+16:43:10 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+16:43:10 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+16:43:10 Driver: perfectoDriver
+16:43:10 Direct Driver Connect
+16:44:12 null
+16:44:12 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+16:44:12 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+16:44:12 Preparing For Shut Down...
+16:44:12 Shut Down Completed...
+16:44:24 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+16:44:24 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+16:44:24 Driver: perfectoDriver
+16:44:24 Direct Driver Connect
+16:45:10 null
+16:45:10 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+16:45:30 Driver: perfectoDriver
+16:45:30 Direct Driver Connect
+16:46:15 null
+16:46:15 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+16:46:16 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+16:46:16 Preparing For Shut Down...
+16:46:16 Shut Down Completed...
+16:46:51 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+16:46:51 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+16:46:51 Driver: perfectoDriver
+16:46:51 Direct Driver Connect
+16:47:37 null
+16:47:37 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+16:47:57 Driver: perfectoDriver
+16:47:57 Direct Driver Connect
+16:48:42 null
+16:48:42 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+16:48:43 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+16:48:43 Preparing For Shut Down...
+16:48:43 Shut Down Completed...
+16:50:46 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+16:50:46 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+16:50:46 Driver: perfectoDriver
+16:50:46 Direct Driver Connect
+16:51:31 null
+16:51:31 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+16:51:51 Driver: perfectoDriver
+16:51:51 Direct Driver Connect
+16:52:37 null
+16:52:37 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+16:52:37 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+16:52:37 Preparing For Shut Down...
+16:52:37 Shut Down Completed...
+16:55:10 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+16:55:10 Driver: perfectoDriver
+16:55:10 Direct Driver Connect
+16:55:55 Executing setTimeout parameters: {"implicit":0}
+16:55:55 command: setTimeout[ param-1: {implicit=0}] Result: null
+16:55:55 driver init done
+16:55:55 Executing executeScript parameters: {"args":[{"name":"Biometrics Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["IOS Expense Tracker Test","Expense Fey Suite"," @IOS_Bio_expenseTracker "]}],"script":"mobile:test:start"}
+16:55:55 
+
+Executing scenario: Biometrics Scenario - 
+16:55:55 pkg: com.qmetry.qaf.automation.step
+16:55:55 pkg: com.quantum.steps
+16:55:55 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+16:55:55 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+16:55:55 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+16:56:00 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+16:56:00 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+16:56:00 Invoking Teststep: Then I should see expense tracker Native login screen
+16:56:00 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker Native login screen"}],"script":"mobile:step:start"}
+16:56:00 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+16:56:00 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {}
+16:56:00 Executing findElement parameters: {"value":"type == 'XCUIElementTypeStaticText' AND name == 'Email'","using":"-ios predicate string"}
+16:56:00 command: findElement[ param-1: {value=type == 'XCUIElementTypeStaticText' AND name == 'Email', using=-ios predicate string}] Result: id: 11000000-0000-0000-8C1C-000000000000
+16:56:00 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {}] Result: OK
+16:56:00 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {"id":"11000000-0000-0000-8C1C-000000000000"}
+16:56:01 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {"id":"11000000-0000-0000-8C1C-000000000000"}] Result: isElementDisplayed:true
+16:56:01 Executing executeScript parameters: {"args":[{"message":"Verify Login screen title","status":true}],"script":"mobile:status:assert"}
+16:56:01 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+16:56:01 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+16:56:01 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+16:56:01 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-8C1C-000000000000
+16:56:01 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+16:56:01 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"id":"13000000-0000-0000-8C1C-000000000000"}
+16:56:01 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"id":"13000000-0000-0000-8C1C-000000000000"}] Result: isElementDisplayed:true
+16:56:01 Executing executeScript parameters: {"args":[{"message":"Verify Login screen Email","status":true}],"script":"mobile:status:assert"}
+16:56:01 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+16:56:01 Completed Teststep: Then I should see expense tracker Native login screen
+16:56:01 Invoking Teststep: When I enter "test@perfecto.com" and "test123" in native login screen with arguments: [test@perfecto.com, test123]
+16:56:01 Executing executeScript parameters: {"args":[{"name":"When I enter \"test@perfecto.com\" and \"test123\" in native login screen"}],"script":"mobile:step:start"}
+16:56:02 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+16:56:02 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+16:56:02 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+16:56:02 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-8C1C-000000000000
+16:56:02 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+16:56:02 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-8C1C-000000000000"}
+16:56:03 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-8C1C-000000000000"}] Result: sendKeysToElement:null
+16:56:03 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+16:56:03 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {}
+16:56:03 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com'","using":"-ios predicate string"}
+16:56:04 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com', using=-ios predicate string}] Result: id: 13000000-0000-0000-8C1C-000000000000
+16:56:04 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {}] Result: OK
+16:56:04 Executing getElementText element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {"id":"13000000-0000-0000-8C1C-000000000000"}
+16:56:04 command: getElementText[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {"id":"13000000-0000-0000-8C1C-000000000000"}] Result: getElementText:test@perfecto.com
+16:56:04 Executing executeScript parameters: {"args":[{"message":"Email was entered as expected","status":true}],"script":"mobile:status:assert"}
+16:56:04 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+16:56:04 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {}
+16:56:04 Executing findElement parameters: {"value":"type == 'XCUIElementTypeSecureTextField' AND name == 'login_password'","using":"-ios predicate string"}
+16:56:04 command: findElement[ param-1: {value=type == 'XCUIElementTypeSecureTextField' AND name == 'login_password', using=-ios predicate string}] Result: id: 16000000-0000-0000-8C1C-000000000000
+16:56:04 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {}] Result: OK
+16:56:04 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {"value":["test123"],"id":"16000000-0000-0000-8C1C-000000000000"}
+16:56:06 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {"value":["test123"],"id":"16000000-0000-0000-8C1C-000000000000"}] Result: sendKeysToElement:null
+16:56:06 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+16:56:06 Completed Teststep: When I enter "test@perfecto.com" and "test123" in native login screen with arguments: [test@perfecto.com, test123]
+16:56:06 Invoking Teststep: Then I click the enable Biometrics
+16:56:06 Executing executeScript parameters: {"args":[{"name":"Then I click the enable Biometrics"}],"script":"mobile:step:start"}
+16:56:06 Executing findElement element: By.xpath: //*[@value="0"] parameters: {}
+16:56:06 Executing findElement parameters: {"value":"//*[@value=\"0\"]","using":"xpath"}
+16:56:06 command: findElement[ param-1: {value=//*[@value="0"], using=xpath}] Result: id: 19000000-0000-0000-8C1C-000000000000
+16:56:06 command: findElement[ param-1: By.xpath: //*[@value="0"] param-2: {}] Result: OK
+16:56:06 Executing clickElement element: By.xpath: //*[@value="0"] parameters: {"id":"19000000-0000-0000-8C1C-000000000000"}
+16:56:07 command: clickElement[ param-1: By.xpath: //*[@value="0"] param-2: {"id":"19000000-0000-0000-8C1C-000000000000"}] Result: clickElement:null
+16:56:07 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+16:56:07 Completed Teststep: Then I click the enable Biometrics
+16:56:07 Invoking Teststep: Then I click the login button
+16:56:07 Executing executeScript parameters: {"args":[{"name":"Then I click the login button"}],"script":"mobile:step:start"}
+16:56:07 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+16:56:07 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {}
+16:56:07 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'login_login_btn'","using":"-ios predicate string"}
+16:56:07 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'login_login_btn', using=-ios predicate string}] Result: id: 17000000-0000-0000-8C1C-000000000000
+16:56:07 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {}] Result: OK
+16:56:07 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {"id":"17000000-0000-0000-8C1C-000000000000"}
+16:56:08 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {"id":"17000000-0000-0000-8C1C-000000000000"}] Result: clickElement:null
+16:56:08 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+16:56:09 Completed Teststep: Then I click the login button
+16:56:09 Invoking Teststep: And I send success result for biometrics
+16:56:09 Executing executeScript parameters: {"args":[{"name":"And I send success result for biometrics"}],"script":"mobile:step:start"}
+16:56:09 Executing executeScript parameters: {"args":[{"resultAuth":"success","identifier":"io.perfecto.expense.tracker","errorType":"lockOut"}],"script":"mobile:sensorAuthentication:set"}
+16:56:09 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+16:56:09 Completed Teststep: And I send success result for biometrics
+16:56:09 Invoking Teststep: Then I should see expense tracker home screen
+16:56:09 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker home screen"}],"script":"mobile:step:start"}
+16:56:09 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+16:56:09 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' parameters: {}
+16:56:09 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn'","using":"-ios predicate string"}
+16:56:09 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn', using=-ios predicate string}] Result: id: 9C000000-0000-0000-8C1C-000000000000
+16:56:09 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' param-2: {}] Result: OK
+16:56:09 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' parameters: {"id":"9C000000-0000-0000-8C1C-000000000000"}
+16:56:10 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' param-2: {"id":"9C000000-0000-0000-8C1C-000000000000"}] Result: isElementDisplayed:true
+16:56:10 Executing executeScript parameters: {"args":[{"message":"Verify Home Screen.","status":true}],"script":"mobile:status:assert"}
+16:56:10 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+16:56:10 Completed Teststep: Then I should see expense tracker home screen
+16:56:10 Competed scenario: Biometrics Scenario with status SUCCESS
+16:56:10 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+16:56:10 Executing quit parameters: {}
+16:56:18 command: quit[ param-1: {}] Result: null
+16:56:18 UI-driver tear down complete...
+16:56:18 Preparing For Shut Down...
+16:56:18 Preparing For Shut Down...
+16:56:18 Shut Down Completed...
+16:57:15 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+16:57:15 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+16:57:15 Driver: perfectoDriver
+16:57:15 Direct Driver Connect
+16:58:01 null
+16:58:01 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+16:58:21 Driver: perfectoDriver
+16:58:21 Direct Driver Connect
+16:58:27 Preparing For Shut Down...
+16:58:27 Shut Down Completed...
+16:59:09 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+16:59:09 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+16:59:09 Driver: perfectoDriver
+16:59:09 Direct Driver Connect
+16:59:55 null
+16:59:55 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+17:00:15 Driver: perfectoDriver
+17:00:15 Direct Driver Connect
+17:01:03 null
+17:01:03 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+17:01:03 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+17:01:03 Preparing For Shut Down...
+17:01:03 Shut Down Completed...
+17:01:45 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+17:01:45 Driver: perfectoDriver
+17:01:45 Direct Driver Connect
+17:02:06 Executing setTimeout parameters: {"implicit":0}
+17:02:06 command: setTimeout[ param-1: {implicit=0}] Result: null
+17:02:06 driver init done
+17:02:06 Executing executeScript parameters: {"args":[{"name":"Biometrics Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["IOS Expense Tracker Test","Expense Fey Suite"," @IOS_Bio_expenseTracker "]}],"script":"mobile:test:start"}
+17:02:06 
+
+Executing scenario: Biometrics Scenario - 
+17:02:06 pkg: com.qmetry.qaf.automation.step
+17:02:06 pkg: com.quantum.steps
+17:02:06 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+17:02:06 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+17:02:06 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+17:02:11 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+17:02:11 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+17:02:11 Invoking Teststep: Then I should see expense tracker Native login screen
+17:02:11 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker Native login screen"}],"script":"mobile:step:start"}
+17:02:11 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+17:02:11 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {}
+17:02:11 Executing findElement parameters: {"value":"type == 'XCUIElementTypeStaticText' AND name == 'Email'","using":"-ios predicate string"}
+17:02:12 command: findElement[ param-1: {value=type == 'XCUIElementTypeStaticText' AND name == 'Email', using=-ios predicate string}] Result: id: 11000000-0000-0000-B51C-000000000000
+17:02:12 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {}] Result: OK
+17:02:12 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {"id":"11000000-0000-0000-B51C-000000000000"}
+17:02:12 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {"id":"11000000-0000-0000-B51C-000000000000"}] Result: isElementDisplayed:true
+17:02:12 Executing executeScript parameters: {"args":[{"message":"Verify Login screen title","status":true}],"script":"mobile:status:assert"}
+17:02:12 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+17:02:12 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+17:02:12 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+17:02:12 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-B51C-000000000000
+17:02:12 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+17:02:12 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"id":"13000000-0000-0000-B51C-000000000000"}
+17:02:13 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"id":"13000000-0000-0000-B51C-000000000000"}] Result: isElementDisplayed:true
+17:02:13 Executing executeScript parameters: {"args":[{"message":"Verify Login screen Email","status":true}],"script":"mobile:status:assert"}
+17:02:13 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+17:02:13 Completed Teststep: Then I should see expense tracker Native login screen
+17:02:13 Invoking Teststep: When I enter "test@perfecto.com" and "test123" in native login screen with arguments: [test@perfecto.com, test123]
+17:02:13 Executing executeScript parameters: {"args":[{"name":"When I enter \"test@perfecto.com\" and \"test123\" in native login screen"}],"script":"mobile:step:start"}
+17:02:13 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+17:02:13 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+17:02:13 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+17:02:13 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-B51C-000000000000
+17:02:13 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+17:02:13 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-B51C-000000000000"}
+17:02:15 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-B51C-000000000000"}] Result: sendKeysToElement:null
+17:02:15 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+17:02:15 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {}
+17:02:15 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com'","using":"-ios predicate string"}
+17:02:15 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com', using=-ios predicate string}] Result: id: 13000000-0000-0000-B51C-000000000000
+17:02:15 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {}] Result: OK
+17:02:15 Executing getElementText element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {"id":"13000000-0000-0000-B51C-000000000000"}
+17:02:16 command: getElementText[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {"id":"13000000-0000-0000-B51C-000000000000"}] Result: getElementText:test@perfecto.com
+17:02:16 Executing executeScript parameters: {"args":[{"message":"Email was entered as expected","status":true}],"script":"mobile:status:assert"}
+17:02:16 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+17:02:16 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {}
+17:02:16 Executing findElement parameters: {"value":"type == 'XCUIElementTypeSecureTextField' AND name == 'login_password'","using":"-ios predicate string"}
+17:02:16 command: findElement[ param-1: {value=type == 'XCUIElementTypeSecureTextField' AND name == 'login_password', using=-ios predicate string}] Result: id: 16000000-0000-0000-B51C-000000000000
+17:02:16 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {}] Result: OK
+17:02:16 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {"value":["test123"],"id":"16000000-0000-0000-B51C-000000000000"}
+17:02:17 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {"value":["test123"],"id":"16000000-0000-0000-B51C-000000000000"}] Result: sendKeysToElement:null
+17:02:17 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+17:02:17 Completed Teststep: When I enter "test@perfecto.com" and "test123" in native login screen with arguments: [test@perfecto.com, test123]
+17:02:17 Invoking Teststep: Then I click the enable Biometrics
+17:02:17 Executing executeScript parameters: {"args":[{"name":"Then I click the enable Biometrics"}],"script":"mobile:step:start"}
+17:02:17 Executing findElement element: By.xpath: //*[@value="0"] parameters: {}
+17:02:17 Executing findElement parameters: {"value":"//*[@value=\"0\"]","using":"xpath"}
+17:02:18 command: findElement[ param-1: {value=//*[@value="0"], using=xpath}] Result: id: 19000000-0000-0000-B51C-000000000000
+17:02:18 command: findElement[ param-1: By.xpath: //*[@value="0"] param-2: {}] Result: OK
+17:02:18 Executing clickElement element: By.xpath: //*[@value="0"] parameters: {"id":"19000000-0000-0000-B51C-000000000000"}
+17:02:18 command: clickElement[ param-1: By.xpath: //*[@value="0"] param-2: {"id":"19000000-0000-0000-B51C-000000000000"}] Result: clickElement:null
+17:02:18 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+17:02:18 Completed Teststep: Then I click the enable Biometrics
+17:02:18 Invoking Teststep: Then I click the login button
+17:02:18 Executing executeScript parameters: {"args":[{"name":"Then I click the login button"}],"script":"mobile:step:start"}
+17:02:19 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+17:02:19 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {}
+17:02:19 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'login_login_btn'","using":"-ios predicate string"}
+17:02:19 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'login_login_btn', using=-ios predicate string}] Result: id: 17000000-0000-0000-B51C-000000000000
+17:02:19 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {}] Result: OK
+17:02:19 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {"id":"17000000-0000-0000-B51C-000000000000"}
+17:02:21 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {"id":"17000000-0000-0000-B51C-000000000000"}] Result: clickElement:null
+17:02:21 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+17:02:21 Completed Teststep: Then I click the login button
+17:02:21 Invoking Teststep: And I send success result for biometrics
+17:02:21 Executing executeScript parameters: {"args":[{"name":"And I send success result for biometrics"}],"script":"mobile:step:start"}
+17:02:21 Executing executeScript parameters: {"args":[{"resultAuth":"success","identifier":"io.perfecto.expense.tracker","errorType":"lockOut"}],"script":"mobile:sensorAuthentication:set"}
+17:02:21 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+17:02:21 Completed Teststep: And I send success result for biometrics
+17:02:21 Invoking Teststep: Then I should see expense tracker home screen
+17:02:21 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker home screen"}],"script":"mobile:step:start"}
+17:02:21 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+17:02:21 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' parameters: {}
+17:02:21 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn'","using":"-ios predicate string"}
+17:02:22 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn', using=-ios predicate string}] Result: id: 9C000000-0000-0000-B51C-000000000000
+17:02:22 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' param-2: {}] Result: OK
+17:02:22 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' parameters: {"id":"9C000000-0000-0000-B51C-000000000000"}
+17:02:22 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' param-2: {"id":"9C000000-0000-0000-B51C-000000000000"}] Result: isElementDisplayed:true
+17:02:22 Executing executeScript parameters: {"args":[{"message":"Verify Home Screen.","status":true}],"script":"mobile:status:assert"}
+17:02:22 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+17:02:22 Completed Teststep: Then I should see expense tracker home screen
+17:02:22 Competed scenario: Biometrics Scenario with status SUCCESS
+17:02:22 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+17:02:22 Executing quit parameters: {}
+17:02:30 command: quit[ param-1: {}] Result: null
+17:02:30 UI-driver tear down complete...
+17:02:30 Preparing For Shut Down...
+17:02:30 Preparing For Shut Down...
+17:02:30 Shut Down Completed...
+18:05:43 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:05:43 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:05:43 Driver: perfectoRemoteDriver
+18:05:43 Driver: perfectoRemoteDriver
+18:05:43 Direct Driver Connect
+18:05:43 Direct Driver Connect
+18:05:53 Executing setTimeout parameters: {"implicit":0}
+18:05:54 command: setTimeout[ param-1: {implicit=0}] Result: null
+18:05:54 driver init done
+18:05:54 Executing executeScript parameters: {"args":[{"name":"search for term","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Web Demo Suite","Web Scenarios iOS Test"," @sampleTestCase "]}],"script":"mobile:test:start"}
+18:05:54 
+
+Executing scenario: search for term - 
+18:05:54 pkg: com.qmetry.qaf.automation.step
+18:05:54 pkg: com.quantum.steps
+18:05:54 Invoking Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+18:05:54 Executing executeScript parameters: {"args":[{"name":"Given I open browser to webpage \"https://www.wikipedia.org/\""}],"script":"mobile:step:start"}
+18:05:54 Executing get parameters: {"url":"https://www.wikipedia.org/"}
+18:05:54 command: get[ param-1: {url=https://www.wikipedia.org/}] Result: null
+18:05:54 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:05:54 Completed Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+18:05:54 Invoking Teststep: Then I must see text "The Free Encyclopedia" with arguments: [The Free Encyclopedia]
+18:05:54 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"The Free Encyclopedia\""}],"script":"mobile:step:start"}
+18:05:54 Executing executeScript parameters: {"args":[{"threshold":"100","content":"The Free Encyclopedia","timeout":60}],"script":"mobile:checkpoint:text"}
+18:05:58 Executing setTimeout parameters: {"implicit":0}
+18:05:58 command: setTimeout[ param-1: {implicit=0}] Result: null
+18:05:58 driver init done
+18:05:58 Executing executeScript parameters: {"args":[{"name":"open Wikipedia","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Web Demo Suite","Web Scenarios Android Test"," @first "]}],"script":"mobile:test:start"}
+18:05:59 
+
+Executing scenario: open Wikipedia - 
+18:05:59 pkg: com.qmetry.qaf.automation.step
+18:05:59 pkg: com.quantum.steps
+18:05:59 Invoking Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+18:05:59 Executing executeScript parameters: {"args":[{"name":"Given I open browser to webpage \"https://www.wikipedia.org/\""}],"script":"mobile:step:start"}
+18:05:59 Executing get parameters: {"url":"https://www.wikipedia.org/"}
+18:05:59 command: get[ param-1: {url=https://www.wikipedia.org/}] Result: null
+18:05:59 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:05:59 Completed Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+18:05:59 Invoking Teststep: Then I must see text "Wikipedia" with arguments: [Wikipedia]
+18:05:59 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Wikipedia\""}],"script":"mobile:step:start"}
+18:05:59 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Wikipedia","timeout":60}],"script":"mobile:checkpoint:text"}
+18:06:05 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:06:05 Completed Teststep: Then I must see text "Wikipedia" with arguments: [Wikipedia]
+18:06:05 Competed scenario: open Wikipedia with status SUCCESS
+18:06:05 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+18:06:05 Executing quit parameters: {}
+18:06:17 command: quit[ param-1: {}] Result: null
+18:06:17 UI-driver tear down complete...
+18:06:54 [31mcommand: executeScript[ param-1: {args=[{threshold=100, content=The Free Encyclopedia, timeout=60}], script=mobile:checkpoint:text}] Result: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'
+Driver info: driver.version: QAFExtendedWebDriver
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Command: [65645512-1854-40de-829d-29938f54c2f7, executeScript {args=[{threshold=100, content=The Free Encyclopedia, timeout=60}], script=mobile:checkpoint:text}]
+Capabilities {assert_javascript_enabled: true, audioStreamInfo: {"audioStreamingServerUrl":..., automationName: XCUITest, browserName: , bundleId: com.apple.mobilesafari, databaseEnabled: false, deviceName: 00008120-001635000CBBA01E, deviceSessionId: 65645512-1854-40de-829d-299..., entityType: remote_web_driver, executionId: 65645512-1854-40de-829d-299..., host: demo.perfectomobile.com, internalPureAppiumFlow: true, javascriptEnabled: true, locationContextEnabled: false, mcmExecutionId: mikejfey@hotmail.com_Remote..., model: iPhone.*, networkConnectionEnabled: false, openDeviceTimeout: 15, options: {automationName: Appium, browserName: , model: iPhone.*, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}, password: , platform: MAC, platformName: IOS, platformVersion: 17.5.1, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securePureAppiumFlow: false, securityToken: , serverConnector: , simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., streamInfo: {"url":"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: true, udid: 00008120-001635000CBBA01E, webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: 65645512-1854-40de-829d-29938f54c2f7[0m
+18:06:54 Failure Teststep: Then I must see text "The Free Encyclopedia" with arguments: [The Free Encyclopedia]
+org.openqa.selenium.TimeoutException: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'
+Driver info: driver.version: QAFExtendedWebDriver
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Command: [65645512-1854-40de-829d-29938f54c2f7, executeScript {args=[{threshold=100, content=The Free Encyclopedia, timeout=60}], script=mobile:checkpoint:text}]
+Capabilities {assert_javascript_enabled: true, audioStreamInfo: {"audioStreamingServerUrl":..., automationName: XCUITest, browserName: , bundleId: com.apple.mobilesafari, databaseEnabled: false, deviceName: 00008120-001635000CBBA01E, deviceSessionId: 65645512-1854-40de-829d-299..., entityType: remote_web_driver, executionId: 65645512-1854-40de-829d-299..., host: demo.perfectomobile.com, internalPureAppiumFlow: true, javascriptEnabled: true, locationContextEnabled: false, mcmExecutionId: mikejfey@hotmail.com_Remote..., model: iPhone.*, networkConnectionEnabled: false, openDeviceTimeout: 15, options: {automationName: Appium, browserName: , model: iPhone.*, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}, password: , platform: MAC, platformName: IOS, platformVersion: 17.5.1, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securePureAppiumFlow: false, securityToken: , serverConnector: , simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., streamInfo: {"url":"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: true, udid: 00008120-001635000CBBA01E, webStorageEnabled: false, xcuitestFindOptimizations: true}
+Session ID: 65645512-1854-40de-829d-29938f54c2f7
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52) ~[selenium-remote-driver-4.13.0.jar:?]
+	at java.util.function.Function.lambda$andThen$1(Function.java:88) ~[?:?]
+	at org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$9(RemoteWebDriverBuilder.java:448) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$10(RemoteWebDriverBuilder.java:455) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$11(RemoteWebDriverBuilder.java:460) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$12(RemoteWebDriverBuilder.java:470) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602) ~[selenium-remote-driver-4.13.0.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeSuper(QAFExtendedWebDriver.java:277) ~[quantum-3.1.5.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWithoutLog(QAFExtendedWebDriver.java:295) ~[quantum-3.1.5.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:344) ~[quantum-3.1.5.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:321) ~[quantum-3.1.5.jar:?]
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:727) ~[quantum-3.1.5.jar:?]
+	at com.quantum.utils.DeviceUtils.isText(DeviceUtils.java:499) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.DeviceUtils.assertVisualText(DeviceUtils.java:76) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.steps.PerfectoApplicationSteps.asserVisualText(PerfectoApplicationSteps.java:436) ~[quantum-3.1.5.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) ~[qaf-3.2.0.jar:3.1.5]
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237) ~[qaf-3.2.0.jar:3.1.5]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:714) ~[quantum-3.1.5.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:503) ~[quantum-3.1.5.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+18:06:54 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:06:54 Completed Teststep: Then I must see text "The Free Encyclopedia" with arguments: [The Free Encyclopedia]
+18:06:54 Competed scenario: search for term with status FAILURE
+18:06:55 Executing executeScript parameters: {"args":[{"success":false,"failureDescription":"Step:Then I must see text \"The Free Encyclopedia\" failed\n. Stack Trace: org.openqa.selenium.TimeoutException: java.net.http.HttpTimeoutException: request timed out\nBuild info: version: '4.13.0', revision: 'ba948ece5b*'\nSystem info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'\nDriver info: driver.version: QAFExtendedWebDriver\nBuild info: version: '4.13.0', revision: 'ba948ece5b*'\nSystem info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.1'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [65645512-1854-40de-829d-29938f54c2f7, executeScript {args=[{threshold=100, content=The Free Encyclopedia, timeout=60}], script=mobile:checkpoint:text}]\nCapabilities {assert_javascript_enabled: true, audioStreamInfo: {\"audioStreamingServerUrl\":..., automationName: XCUITest, browserName: , bundleId: com.apple.mobilesafari, databaseEnabled: false, deviceName: 00008120-001635000CBBA01E, deviceSessionId: 65645512-1854-40de-829d-299..., entityType: remote_web_driver, executionId: 65645512-1854-40de-829d-299..., host: demo.perfectomobile.com, internalPureAppiumFlow: true, javascriptEnabled: true, locationContextEnabled: false, mcmExecutionId: mikejfey@hotmail.com_Remote..., model: iPhone.*, networkConnectionEnabled: false, openDeviceTimeout: 15, options: {automationName: Appium, browserName: , model: iPhone.*, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}, password: , platform: MAC, platformName: IOS, platformVersion: 17.5.1, reportPdfUrl: https://demo.app.perfectomo..., scriptName: RemoteWebDriver, securePureAppiumFlow: false, securityToken: , serverConnector: , simpleIsVisibleCheck: true, stopUrl: https://demo.perfectomobile..., streamInfo: {\"url\":\"wss://ams-01.perfec..., takesScreenshot: true, testGridReportUrl: https://demo.app.perfectomo..., testRunWithPureAppiumFlow: true, udid: 00008120-001635000CBBA01E, webStorageEnabled: false, xcuitestFindOptimizations: true}\nSession ID: 65645512-1854-40de-829d-29938f54c2f7\n\tat .Then I must see text \"The Free Encyclopedia\"(src/main/resources/scenarios/ZDEMO/02sampleTestCase.feature:6)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\n\tat java.base/java.util.function.Function.lambda$andThen$1(Function.java:88)\n\tat org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$9(RemoteWebDriverBuilder.java:448)\n\tat org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$10(RemoteWebDriverBuilder.java:455)\n\tat org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$11(RemoteWebDriverBuilder.java:460)\n\tat org.openqa.selenium.remote.RemoteWebDriverBuilder.lambda$createExecutor$12(RemoteWebDriverBuilder.java:470)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeSuper(QAFExtendedWebDriver.java:277)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWithoutLog(QAFExtendedWebDriver.java:295)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:344)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:321)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:727)\n\tat com.quantum.utils.DeviceUtils.isText(DeviceUtils.java:499)\n\tat com.quantum.utils.DeviceUtils.assertVisualText(DeviceUtils.java:76)\n\tat com.quantum.steps.PerfectoApplicationSteps.asserVisualText(PerfectoApplicationSteps.java:436)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128)\n\tat com.qmetry.qaf.a..."}],"script":"mobile:test:end"}
+18:06:56 Executing quit parameters: {}
+18:07:03 command: quit[ param-1: {}] Result: null
+18:07:04 UI-driver tear down complete...
+18:07:04 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+18:07:04 Preparing For Shut Down...
+18:07:04 Preparing For Shut Down...
+18:07:04 Preparing For Shut Down...
+18:07:04 Shut Down Completed...
+18:10:54 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:10:54 Driver: perfectoRemoteDriver
+18:10:54 Direct Driver Connect
+18:11:08 Executing setTimeout parameters: {"implicit":0}
+18:11:08 command: setTimeout[ param-1: {implicit=0}] Result: null
+18:11:08 driver init done
+18:11:08 Executing executeScript parameters: {"args":[{"name":"open Wikipedia","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Web Demo Suite","Web Scenarios Android Test"," @first "]}],"script":"mobile:test:start"}
+18:11:08 
+
+Executing scenario: open Wikipedia - 
+18:11:08 pkg: com.qmetry.qaf.automation.step
+18:11:08 pkg: com.quantum.steps
+18:11:08 Invoking Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+18:11:08 Executing executeScript parameters: {"args":[{"name":"Given I open browser to webpage \"https://www.wikipedia.org/\""}],"script":"mobile:step:start"}
+18:11:08 Executing get parameters: {"url":"https://www.wikipedia.org/"}
+18:11:08 command: get[ param-1: {url=https://www.wikipedia.org/}] Result: null
+18:11:08 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:11:09 Completed Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+18:11:09 Invoking Teststep: Then I must see text "Wikipedia" with arguments: [Wikipedia]
+18:11:09 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Wikipedia\""}],"script":"mobile:step:start"}
+18:11:09 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Wikipedia","timeout":60}],"script":"mobile:checkpoint:text"}
+18:11:10 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:11:10 Completed Teststep: Then I must see text "Wikipedia" with arguments: [Wikipedia]
+18:11:10 Competed scenario: open Wikipedia with status SUCCESS
+18:11:10 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+18:11:11 Executing quit parameters: {}
+18:11:26 command: quit[ param-1: {}] Result: null
+18:11:26 UI-driver tear down complete...
+18:11:26 Preparing For Shut Down...
+18:11:26 Shut Down Completed...
+18:12:35 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+18:12:35 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:12:35 Driver: perfectoDriver
+18:12:35 Direct Driver Connect
+18:12:48 Executing setTimeout parameters: {"implicit":0}
+18:12:48 command: setTimeout[ param-1: {implicit=0}] Result: null
+18:12:48 driver init done
+18:12:48 Executing executeScript parameters: {"args":[{"name":"Expense Tracker VALID login Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Expense Fey Suite","Native Expense Android Test"," @validLogin"," @expenseTrackerDataDriven "]}],"script":"mobile:test:start"}
+18:12:48 
+
+Executing scenario: Expense Tracker VALID login Scenario - 
+18:12:48 Test Data{username=test@perfecto.com, password=test123}
+18:12:48 pkg: com.qmetry.qaf.automation.step
+18:12:48 pkg: com.quantum.steps
+18:12:48 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+18:12:48 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+18:12:49 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+18:12:49 Failure Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+java.lang.ClassCastException: Underlying driver is an RemoteWebDriver.  This step requires an AppiumDriver.
+	Set following properties to use required driver:
+		perfecto.capabilities.driverClass=io.appium.java_client.AppiumDriver
+		driver.name=perfectoDriver
+	at com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.AppiumUtils.getAppiumDriver(AppiumUtils.java:31) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:374) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479) ~[quantum-3.1.5.jar:?]
+	at com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92) ~[quantum-3.1.5.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) ~[qaf-3.2.0.jar:3.1.5]
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66) ~[qaf-3.2.0.jar:3.1.5]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:714) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:503) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+18:12:49 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:12:49 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+18:12:49 Competed scenario: Expense Tracker VALID login Scenario with status FAILURE
+18:12:49 Executing executeScript parameters: {"args":[{"success":false,"failureDescription":"Step:Given I start application by id \"io.perfecto.expense.tracker\" failed\n. Stack Trace: java.lang.ClassCastException: Underlying driver is an RemoteWebDriver.  This step requires an AppiumDriver.\n\tSet following properties to use required driver:\n\t\tperfecto.capabilities.driverClass=io.appium.java_client.AppiumDriver\n\t\tdriver.name=perfectoDriver\n\tat .Given I start application by id \"io.perfecto.expense.tracker\"(src/main/resources/scenarios/worksTAM/expenseTrackerDataDriven.feature:18)\n\tat com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420)\n\tat com.quantum.utils.AppiumUtils.getAppiumDriver(AppiumUtils.java:31)\n\tat com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:374)\n\tat com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479)\n\tat com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\n"}],"script":"mobile:test:end"}
+18:12:51 Executing quit parameters: {}
+18:13:03 command: quit[ param-1: {}] Result: null
+18:13:03 UI-driver tear down complete...
+18:13:03 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+18:13:03 Preparing For Shut Down...
+18:13:03 Shut Down Completed...
+18:16:28 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+18:16:28 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:16:28 Driver: perfectoDriver
+18:16:28 Direct Driver Connect
+18:16:42 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+18:17:02 Driver: perfectoDriver
+18:17:02 Direct Driver Connect
+18:17:15 Preparing For Shut Down...
+18:17:15 Shut Down Completed...
+18:17:29 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:17:29 Driver: perfectoRemoteDriver
+18:17:29 Direct Driver Connect
+18:18:12 Executing setTimeout parameters: {"implicit":0}
+18:18:12 command: setTimeout[ param-1: {implicit=0}] Result: null
+18:18:12 driver init done
+18:18:12 Executing executeScript parameters: {"args":[{"name":"open Wikipedia","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Web Wiki ios Test","Web Fey Suite"," @first "]}],"script":"mobile:test:start"}
+18:18:12 
+
+Executing scenario: open Wikipedia - 
+18:18:12 pkg: com.qmetry.qaf.automation.step
+18:18:12 pkg: com.quantum.steps
+18:18:12 Invoking Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+18:18:12 Executing executeScript parameters: {"args":[{"name":"Given I open browser to webpage \"https://www.wikipedia.org/\""}],"script":"mobile:step:start"}
+18:18:12 Executing get parameters: {"url":"https://www.wikipedia.org/"}
+18:18:13 command: get[ param-1: {url=https://www.wikipedia.org/}] Result: null
+18:18:13 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:18:13 Completed Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+18:18:13 Invoking Teststep: Then I must see text "Wikipedia" with arguments: [Wikipedia]
+18:18:13 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Wikipedia\""}],"script":"mobile:step:start"}
+18:18:13 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Wikipedia","timeout":60}],"script":"mobile:checkpoint:text"}
+18:18:14 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:18:14 Completed Teststep: Then I must see text "Wikipedia" with arguments: [Wikipedia]
+18:18:14 Competed scenario: open Wikipedia with status SUCCESS
+18:18:14 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+18:18:14 Executing quit parameters: {}
+18:18:24 command: quit[ param-1: {}] Result: null
+18:18:24 UI-driver tear down complete...
+18:18:24 Preparing For Shut Down...
+18:18:24 Preparing For Shut Down...
+18:18:24 Shut Down Completed...
+18:19:03 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+18:19:03 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:19:03 Driver: perfectoDriver
+18:19:03 Direct Driver Connect
+18:19:17 Executing setTimeout parameters: {"implicit":0}
+18:19:17 command: setTimeout[ param-1: {implicit=0}] Result: null
+18:19:17 driver init done
+18:19:17 Executing executeScript parameters: {"args":[{"name":"Expense Tracker VALID login Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Expense Fey Suite","Native Expense Android Test"," @validLogin"," @expenseTrackerDataDriven "]}],"script":"mobile:test:start"}
+18:19:17 
+
+Executing scenario: Expense Tracker VALID login Scenario - 
+18:19:17 Test Data{username=test@perfecto.com, password=test123}
+18:19:18 pkg: com.qmetry.qaf.automation.step
+18:19:18 pkg: com.quantum.steps
+18:19:18 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+18:19:18 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+18:19:18 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+18:19:18 Failure Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+java.lang.ClassCastException: Underlying driver is an RemoteWebDriver.  This step requires an AppiumDriver.
+	Set following properties to use required driver:
+		perfecto.capabilities.driverClass=io.appium.java_client.AppiumDriver
+		driver.name=perfectoDriver
+	at com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.AppiumUtils.getAppiumDriver(AppiumUtils.java:31) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:374) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479) ~[quantum-3.1.5.jar:?]
+	at com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92) ~[quantum-3.1.5.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) ~[qaf-3.2.0.jar:3.1.5]
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66) ~[qaf-3.2.0.jar:3.1.5]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:714) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:503) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+18:19:18 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:19:18 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+18:19:18 Competed scenario: Expense Tracker VALID login Scenario with status FAILURE
+18:19:18 Executing executeScript parameters: {"args":[{"success":false,"failureDescription":"Step:Given I start application by id \"io.perfecto.expense.tracker\" failed\n. Stack Trace: java.lang.ClassCastException: Underlying driver is an RemoteWebDriver.  This step requires an AppiumDriver.\n\tSet following properties to use required driver:\n\t\tperfecto.capabilities.driverClass=io.appium.java_client.AppiumDriver\n\t\tdriver.name=perfectoDriver\n\tat .Given I start application by id \"io.perfecto.expense.tracker\"(src/main/resources/scenarios/worksTAM/expenseTrackerDataDriven.feature:18)\n\tat com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420)\n\tat com.quantum.utils.AppiumUtils.getAppiumDriver(AppiumUtils.java:31)\n\tat com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:374)\n\tat com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479)\n\tat com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\n"}],"script":"mobile:test:end"}
+18:19:20 Executing quit parameters: {}
+18:19:32 command: quit[ param-1: {}] Result: null
+18:19:32 UI-driver tear down complete...
+18:19:32 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+18:19:32 Preparing For Shut Down...
+18:19:32 Shut Down Completed...
+18:21:13 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+18:21:13 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:21:13 Driver: perfectoDriver
+18:21:13 Direct Driver Connect
+18:21:29 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+18:21:49 Driver: perfectoDriver
+18:21:49 Direct Driver Connect
+18:22:02 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+18:22:22 Driver: perfectoDriver
+18:22:22 Direct Driver Connect
+18:22:35 Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+18:22:35 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+18:22:35 Preparing For Shut Down...
+18:22:35 Shut Down Completed...
+18:24:27 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+18:24:27 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:24:27 Driver: perfectoDriver
+18:24:27 Direct Driver Connect
+18:25:11 Preparing For Shut Down...
+18:25:18 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+18:25:18 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:25:18 Driver: perfectoDriver
+18:25:18 Direct Driver Connect
+18:25:32 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+18:25:52 Driver: perfectoDriver
+18:25:52 Direct Driver Connect
+18:26:05 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+18:26:08 Preparing For Shut Down...
+18:26:08 Shut Down Completed...
+18:28:39 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+18:28:39 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:28:39 Driver: perfectoDriver
+18:28:39 Direct Driver Connect
+18:29:09 Preparing For Shut Down...
+18:29:18 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+18:29:18 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:29:18 Driver: perfectoDriver
+18:29:18 Direct Driver Connect
+18:29:38 Executing setTimeout parameters: {"implicit":0}
+18:29:38 command: setTimeout[ param-1: {implicit=0}] Result: null
+18:29:38 driver init done
+18:29:38 Executing executeScript parameters: {"args":[{"name":"Expense Tracker VALID login Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Expense Fey Suite","Native Expense Android Test"," @validLogin"," @expenseTrackerDataDriven "]}],"script":"mobile:test:start"}
+18:29:38 
+
+Executing scenario: Expense Tracker VALID login Scenario - 
+18:29:38 Test Data{username=test@perfecto.com, password=test123}
+18:29:38 pkg: com.qmetry.qaf.automation.step
+18:29:38 pkg: com.quantum.steps
+18:29:38 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+18:29:38 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+18:29:38 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+18:29:39 Failure Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+java.lang.ClassCastException: Underlying driver is an RemoteWebDriver.  This step requires an AppiumDriver.
+	Set following properties to use required driver:
+		perfecto.capabilities.driverClass=io.appium.java_client.AppiumDriver
+		driver.name=perfectoDriver
+	at com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.AppiumUtils.getAppiumDriver(AppiumUtils.java:31) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:374) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479) ~[quantum-3.1.5.jar:?]
+	at com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92) ~[quantum-3.1.5.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) ~[qaf-3.2.0.jar:3.1.5]
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66) ~[qaf-3.2.0.jar:3.1.5]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:714) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:503) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+18:29:39 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:29:39 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+18:29:39 Competed scenario: Expense Tracker VALID login Scenario with status FAILURE
+18:29:39 Executing executeScript parameters: {"args":[{"success":false,"failureDescription":"Step:Given I start application by id \"io.perfecto.expense.tracker\" failed\n. Stack Trace: java.lang.ClassCastException: Underlying driver is an RemoteWebDriver.  This step requires an AppiumDriver.\n\tSet following properties to use required driver:\n\t\tperfecto.capabilities.driverClass=io.appium.java_client.AppiumDriver\n\t\tdriver.name=perfectoDriver\n\tat .Given I start application by id \"io.perfecto.expense.tracker\"(src/main/resources/scenarios/worksTAM/expenseTrackerDataDriven.feature:18)\n\tat com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420)\n\tat com.quantum.utils.AppiumUtils.getAppiumDriver(AppiumUtils.java:31)\n\tat com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:374)\n\tat com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479)\n\tat com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\n"}],"script":"mobile:test:end"}
+18:29:40 Executing quit parameters: {}
+18:29:51 command: quit[ param-1: {}] Result: null
+18:29:51 UI-driver tear down complete...
+18:29:51 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+18:29:51 Preparing For Shut Down...
+18:29:51 Shut Down Completed...
+18:30:51 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+18:30:51 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:30:51 Driver: perfectoDriver
+18:30:51 Direct Driver Connect
+18:32:19 null
+18:32:19 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+18:32:19 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+18:32:19 Preparing For Shut Down...
+18:32:19 Shut Down Completed...
+18:33:32 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+18:33:32 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:33:32 Driver: perfectoDriver
+18:33:32 Direct Driver Connect
+18:33:32 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+18:33:52 Driver: perfectoDriver
+18:33:52 Direct Driver Connect
+18:33:52 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+18:34:12 Preparing For Shut Down...
+18:34:12 Shut Down Completed...
+18:35:03 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+18:35:03 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:35:03 Driver: perfectoDriver
+18:35:03 Direct Driver Connect
+18:35:17 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+18:35:37 Driver: perfectoDriver
+18:35:37 Direct Driver Connect
+18:35:49 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+18:36:09 Driver: perfectoDriver
+18:36:09 Direct Driver Connect
+18:36:23 Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+18:36:23 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+18:36:23 Preparing For Shut Down...
+18:36:23 Shut Down Completed...
+18:37:20 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+18:37:20 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:37:20 Driver: perfectoDriver
+18:37:20 Direct Driver Connect
+18:37:37 Executing setTimeout parameters: {"implicit":0}
+18:37:37 command: setTimeout[ param-1: {implicit=0}] Result: null
+18:37:37 driver init done
+18:37:37 Executing executeScript parameters: {"args":[{"name":"Expense Tracker VALID login Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Expense Fey Suite","Native Expense Android Test"," @validLogin"," @expenseTrackerDataDriven "]}],"script":"mobile:test:start"}
+18:37:37 
+
+Executing scenario: Expense Tracker VALID login Scenario - 
+18:37:37 Test Data{username=test@perfecto.com, password=test123}
+18:37:37 pkg: com.qmetry.qaf.automation.step
+18:37:38 pkg: com.quantum.steps
+18:37:38 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+18:37:38 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+18:37:38 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+18:37:39 Failure Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+java.lang.ClassCastException: Underlying driver is an RemoteWebDriver.  This step requires an AppiumDriver.
+	Set following properties to use required driver:
+		perfecto.capabilities.driverClass=io.appium.java_client.AppiumDriver
+		driver.name=perfectoDriver
+	at com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.AppiumUtils.getAppiumDriver(AppiumUtils.java:31) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:374) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479) ~[quantum-3.1.5.jar:?]
+	at com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92) ~[quantum-3.1.5.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) ~[qaf-3.2.0.jar:3.1.5]
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66) ~[qaf-3.2.0.jar:3.1.5]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:714) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:503) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+18:37:39 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:37:39 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+18:37:39 Competed scenario: Expense Tracker VALID login Scenario with status FAILURE
+18:37:39 Executing executeScript parameters: {"args":[{"success":false,"failureDescription":"Step:Given I start application by id \"io.perfecto.expense.tracker\" failed\n. Stack Trace: java.lang.ClassCastException: Underlying driver is an RemoteWebDriver.  This step requires an AppiumDriver.\n\tSet following properties to use required driver:\n\t\tperfecto.capabilities.driverClass=io.appium.java_client.AppiumDriver\n\t\tdriver.name=perfectoDriver\n\tat .Given I start application by id \"io.perfecto.expense.tracker\"(src/main/resources/scenarios/worksTAM/expenseTrackerDataDriven.feature:18)\n\tat com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420)\n\tat com.quantum.utils.AppiumUtils.getAppiumDriver(AppiumUtils.java:31)\n\tat com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:374)\n\tat com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479)\n\tat com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\n"}],"script":"mobile:test:end"}
+18:37:40 Executing quit parameters: {}
+18:37:56 command: quit[ param-1: {}] Result: null
+18:37:56 UI-driver tear down complete...
+18:37:56 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+18:37:56 Preparing For Shut Down...
+18:37:56 Shut Down Completed...
+18:38:30 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+18:38:30 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:38:30 Driver: perfectoDriver
+18:38:30 Direct Driver Connect
+18:38:47 Executing setTimeout parameters: {"implicit":0}
+18:38:47 command: setTimeout[ param-1: {implicit=0}] Result: null
+18:38:47 driver init done
+18:38:47 Executing executeScript parameters: {"args":[{"name":"Expense Tracker VALID login Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Expense Fey Suite","Native Expense Android Test"," @validLogin"," @expenseTrackerDataDriven "]}],"script":"mobile:test:start"}
+18:38:47 
+
+Executing scenario: Expense Tracker VALID login Scenario - 
+18:38:47 Test Data{username=test@perfecto.com, password=test123}
+18:38:47 pkg: com.qmetry.qaf.automation.step
+18:38:47 pkg: com.quantum.steps
+18:38:47 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+18:38:47 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+18:38:47 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+18:38:48 Failure Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+java.lang.ClassCastException: Underlying driver is an RemoteWebDriver.  This step requires an AppiumDriver.
+	Set following properties to use required driver:
+		perfecto.capabilities.driverClass=io.appium.java_client.AppiumDriver
+		driver.name=perfectoDriver
+	at com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.AppiumUtils.getAppiumDriver(AppiumUtils.java:31) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:374) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479) ~[quantum-3.1.5.jar:?]
+	at com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92) ~[quantum-3.1.5.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) ~[qaf-3.2.0.jar:3.1.5]
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66) ~[qaf-3.2.0.jar:3.1.5]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:714) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:503) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+18:38:48 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:38:48 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+18:38:48 Competed scenario: Expense Tracker VALID login Scenario with status FAILURE
+18:38:48 Executing executeScript parameters: {"args":[{"success":false,"failureDescription":"Step:Given I start application by id \"io.perfecto.expense.tracker\" failed\n. Stack Trace: java.lang.ClassCastException: Underlying driver is an RemoteWebDriver.  This step requires an AppiumDriver.\n\tSet following properties to use required driver:\n\t\tperfecto.capabilities.driverClass=io.appium.java_client.AppiumDriver\n\t\tdriver.name=perfectoDriver\n\tat .Given I start application by id \"io.perfecto.expense.tracker\"(src/main/resources/scenarios/worksTAM/expenseTrackerDataDriven.feature:18)\n\tat com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420)\n\tat com.quantum.utils.AppiumUtils.getAppiumDriver(AppiumUtils.java:31)\n\tat com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:374)\n\tat com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479)\n\tat com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\n"}],"script":"mobile:test:end"}
+18:38:49 Executing quit parameters: {}
+18:39:01 command: quit[ param-1: {}] Result: null
+18:39:01 UI-driver tear down complete...
+18:39:01 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+18:39:01 Preparing For Shut Down...
+18:39:01 Shut Down Completed...
+18:40:04 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+18:40:05 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:40:05 Driver: perfectoDriver
+18:40:05 Direct Driver Connect
+18:40:22 Executing setTimeout parameters: {"implicit":0}
+18:40:22 command: setTimeout[ param-1: {implicit=0}] Result: null
+18:40:22 driver init done
+18:40:22 Executing executeScript parameters: {"args":[{"name":"Expense Tracker VALID login Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Expense Fey Suite","Native Expense Android Test"," @validLogin"," @expenseTrackerDataDriven "]}],"script":"mobile:test:start"}
+18:40:23 
+
+Executing scenario: Expense Tracker VALID login Scenario - 
+18:40:23 Test Data{username=test@perfecto.com, password=test123}
+18:40:23 pkg: com.qmetry.qaf.automation.step
+18:40:23 pkg: com.quantum.steps
+18:40:23 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+18:40:23 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+18:40:23 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+18:40:23 Failure Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+java.lang.ClassCastException: Underlying driver is an RemoteWebDriver.  This step requires an AppiumDriver.
+	Set following properties to use required driver:
+		perfecto.capabilities.driverClass=io.appium.java_client.AppiumDriver
+		driver.name=perfectoDriver
+	at com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.AppiumUtils.getAppiumDriver(AppiumUtils.java:31) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:374) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479) ~[quantum-3.1.5.jar:?]
+	at com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92) ~[quantum-3.1.5.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) ~[qaf-3.2.0.jar:3.1.5]
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66) ~[qaf-3.2.0.jar:3.1.5]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:714) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:503) [quantum-3.1.5.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+18:40:23 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:40:24 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+18:40:24 Competed scenario: Expense Tracker VALID login Scenario with status FAILURE
+18:40:24 Executing executeScript parameters: {"args":[{"success":false,"failureDescription":"Step:Given I start application by id \"io.perfecto.expense.tracker\" failed\n. Stack Trace: java.lang.ClassCastException: Underlying driver is an RemoteWebDriver.  This step requires an AppiumDriver.\n\tSet following properties to use required driver:\n\t\tperfecto.capabilities.driverClass=io.appium.java_client.AppiumDriver\n\t\tdriver.name=perfectoDriver\n\tat .Given I start application by id \"io.perfecto.expense.tracker\"(src/main/resources/scenarios/worksTAM/expenseTrackerDataDriven.feature:18)\n\tat com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420)\n\tat com.quantum.utils.AppiumUtils.getAppiumDriver(AppiumUtils.java:31)\n\tat com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:374)\n\tat com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479)\n\tat com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\n"}],"script":"mobile:test:end"}
+18:40:25 Executing quit parameters: {}
+18:40:41 command: quit[ param-1: {}] Result: null
+18:40:41 UI-driver tear down complete...
+18:40:41 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+18:40:41 Preparing For Shut Down...
+18:40:41 Shut Down Completed...
+18:41:55 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+18:41:55 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:41:55 Driver: perfectoDriver
+18:41:56 Direct Driver Connect
+18:43:00 null
+18:43:00 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+18:43:01 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+18:43:01 Preparing For Shut Down...
+18:43:01 Shut Down Completed...
+18:44:18 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+18:44:18 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:44:18 Driver: perfectoDriver
+18:44:18 Direct Driver Connect
+18:45:09 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+18:45:29 Driver: perfectoDriver
+18:45:29 Direct Driver Connect
+18:46:19 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+18:46:19 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+18:46:19 Preparing For Shut Down...
+18:46:19 Shut Down Completed...
+18:47:49 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+18:47:49 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:47:49 Driver: perfectoDriver
+18:47:49 Error while setting Driver class : io.appium.java_client.android.AppiumDriver
+18:47:49 Direct Driver Connect
+18:48:39 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+18:48:59 Driver: perfectoDriver
+18:48:59 Error while setting Driver class : io.appium.java_client.android.AppiumDriver
+18:48:59 Direct Driver Connect
+18:49:23 Preparing For Shut Down...
+18:49:23 Shut Down Completed...
+18:49:26 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+18:49:26 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:49:26 Driver: perfectoDriver
+18:49:26 Direct Driver Connect
+18:49:31 Preparing For Shut Down...
+18:49:31 Shut Down Completed...
+18:49:50 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+18:49:50 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:49:50 Driver: perfectoDriver
+18:49:50 Direct Driver Connect
+18:50:39 null
+18:50:39 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+18:50:59 Driver: perfectoDriver
+18:50:59 Direct Driver Connect
+18:51:50 null
+18:51:50 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+18:51:50 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+18:51:50 Preparing For Shut Down...
+18:51:50 Shut Down Completed...
+18:52:08 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+18:52:08 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:52:08 Driver: perfectoDriver
+18:52:08 Direct Driver Connect
+18:52:59 null
+18:52:59 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+18:53:19 Driver: perfectoDriver
+18:53:19 Direct Driver Connect
+18:54:10 null
+18:54:10 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+18:54:10 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+18:54:10 Preparing For Shut Down...
+18:54:10 Shut Down Completed...
+18:54:32 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:54:32 Driver: perfectoDriver
+18:54:32 Direct Driver Connect
+18:55:17 Executing setTimeout parameters: {"implicit":0}
+18:55:18 command: setTimeout[ param-1: {implicit=0}] Result: null
+18:55:18 driver init done
+18:55:18 Executing executeScript parameters: {"args":[{"name":"Biometrics Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["IOS Expense Tracker Test","Expense Fey Suite"," @IOS_Bio_expenseTracker "]}],"script":"mobile:test:start"}
+18:55:18 
+
+Executing scenario: Biometrics Scenario - 
+18:55:18 pkg: com.qmetry.qaf.automation.step
+18:55:18 pkg: com.quantum.steps
+18:55:18 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+18:55:18 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+18:55:18 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+18:55:23 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:55:23 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+18:55:23 Invoking Teststep: Then I should see expense tracker Native login screen
+18:55:23 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker Native login screen"}],"script":"mobile:step:start"}
+18:55:23 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+18:55:23 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {}
+18:55:23 Executing findElement parameters: {"value":"type == 'XCUIElementTypeStaticText' AND name == 'Email'","using":"-ios predicate string"}
+18:55:23 command: findElement[ param-1: {value=type == 'XCUIElementTypeStaticText' AND name == 'Email', using=-ios predicate string}] Result: id: 11000000-0000-0000-A71E-000000000000
+18:55:23 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {}] Result: OK
+18:55:23 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {"id":"11000000-0000-0000-A71E-000000000000"}
+18:55:24 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {"id":"11000000-0000-0000-A71E-000000000000"}] Result: isElementDisplayed:true
+18:55:24 Executing executeScript parameters: {"args":[{"message":"Verify Login screen title","status":true}],"script":"mobile:status:assert"}
+18:55:24 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+18:55:24 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+18:55:24 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+18:55:24 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-A71E-000000000000
+18:55:24 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+18:55:24 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"id":"13000000-0000-0000-A71E-000000000000"}
+18:55:24 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"id":"13000000-0000-0000-A71E-000000000000"}] Result: isElementDisplayed:true
+18:55:24 Executing executeScript parameters: {"args":[{"message":"Verify Login screen Email","status":true}],"script":"mobile:status:assert"}
+18:55:24 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:55:25 Completed Teststep: Then I should see expense tracker Native login screen
+18:55:25 Invoking Teststep: When I enter "test@perfecto.com" and "test123" in native login screen with arguments: [test@perfecto.com, test123]
+18:55:25 Executing executeScript parameters: {"args":[{"name":"When I enter \"test@perfecto.com\" and \"test123\" in native login screen"}],"script":"mobile:step:start"}
+18:55:25 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+18:55:25 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+18:55:25 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+18:55:25 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-A71E-000000000000
+18:55:25 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+18:55:25 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-A71E-000000000000"}
+18:55:27 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-A71E-000000000000"}] Result: sendKeysToElement:null
+18:55:27 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+18:55:27 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {}
+18:55:27 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com'","using":"-ios predicate string"}
+18:55:27 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com', using=-ios predicate string}] Result: id: 13000000-0000-0000-A71E-000000000000
+18:55:27 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {}] Result: OK
+18:55:27 Executing getElementText element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {"id":"13000000-0000-0000-A71E-000000000000"}
+18:55:27 command: getElementText[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {"id":"13000000-0000-0000-A71E-000000000000"}] Result: getElementText:test@perfecto.com
+18:55:27 Executing executeScript parameters: {"args":[{"message":"Email was entered as expected","status":true}],"script":"mobile:status:assert"}
+18:55:27 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+18:55:27 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {}
+18:55:27 Executing findElement parameters: {"value":"type == 'XCUIElementTypeSecureTextField' AND name == 'login_password'","using":"-ios predicate string"}
+18:55:28 command: findElement[ param-1: {value=type == 'XCUIElementTypeSecureTextField' AND name == 'login_password', using=-ios predicate string}] Result: id: 16000000-0000-0000-A71E-000000000000
+18:55:28 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {}] Result: OK
+18:55:28 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {"value":["test123"],"id":"16000000-0000-0000-A71E-000000000000"}
+18:55:29 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {"value":["test123"],"id":"16000000-0000-0000-A71E-000000000000"}] Result: sendKeysToElement:null
+18:55:29 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:55:29 Completed Teststep: When I enter "test@perfecto.com" and "test123" in native login screen with arguments: [test@perfecto.com, test123]
+18:55:29 Invoking Teststep: Then I click the enable Biometrics
+18:55:29 Executing executeScript parameters: {"args":[{"name":"Then I click the enable Biometrics"}],"script":"mobile:step:start"}
+18:55:29 Executing findElement element: By.xpath: //*[@value="0"] parameters: {}
+18:55:29 Executing findElement parameters: {"value":"//*[@value=\"0\"]","using":"xpath"}
+18:55:29 command: findElement[ param-1: {value=//*[@value="0"], using=xpath}] Result: id: 19000000-0000-0000-A71E-000000000000
+18:55:29 command: findElement[ param-1: By.xpath: //*[@value="0"] param-2: {}] Result: OK
+18:55:29 Executing clickElement element: By.xpath: //*[@value="0"] parameters: {"id":"19000000-0000-0000-A71E-000000000000"}
+18:55:30 command: clickElement[ param-1: By.xpath: //*[@value="0"] param-2: {"id":"19000000-0000-0000-A71E-000000000000"}] Result: clickElement:null
+18:55:30 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:55:30 Completed Teststep: Then I click the enable Biometrics
+18:55:30 Invoking Teststep: Then I click the login button
+18:55:30 Executing executeScript parameters: {"args":[{"name":"Then I click the login button"}],"script":"mobile:step:start"}
+18:55:30 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+18:55:30 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {}
+18:55:30 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'login_login_btn'","using":"-ios predicate string"}
+18:55:31 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'login_login_btn', using=-ios predicate string}] Result: id: 17000000-0000-0000-A71E-000000000000
+18:55:31 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {}] Result: OK
+18:55:31 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {"id":"17000000-0000-0000-A71E-000000000000"}
+18:55:32 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {"id":"17000000-0000-0000-A71E-000000000000"}] Result: clickElement:null
+18:55:32 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:55:32 Completed Teststep: Then I click the login button
+18:55:32 Invoking Teststep: And I send success result for biometrics
+18:55:32 Executing executeScript parameters: {"args":[{"name":"And I send success result for biometrics"}],"script":"mobile:step:start"}
+18:55:32 Executing executeScript parameters: {"args":[{"resultAuth":"success","identifier":"io.perfecto.expense.tracker","errorType":"lockOut"}],"script":"mobile:sensorAuthentication:set"}
+18:55:32 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:55:32 Completed Teststep: And I send success result for biometrics
+18:55:32 Invoking Teststep: Then I should see expense tracker home screen
+18:55:32 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker home screen"}],"script":"mobile:step:start"}
+18:55:32 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+18:55:32 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' parameters: {}
+18:55:32 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn'","using":"-ios predicate string"}
+18:55:33 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn', using=-ios predicate string}] Result: id: 9C000000-0000-0000-A71E-000000000000
+18:55:33 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' param-2: {}] Result: OK
+18:55:33 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' parameters: {"id":"9C000000-0000-0000-A71E-000000000000"}
+18:55:33 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' param-2: {"id":"9C000000-0000-0000-A71E-000000000000"}] Result: isElementDisplayed:true
+18:55:33 Executing executeScript parameters: {"args":[{"message":"Verify Home Screen.","status":true}],"script":"mobile:status:assert"}
+18:55:33 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:55:33 Completed Teststep: Then I should see expense tracker home screen
+18:55:33 Competed scenario: Biometrics Scenario with status SUCCESS
+18:55:33 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+18:55:33 Executing quit parameters: {}
+18:55:40 command: quit[ param-1: {}] Result: null
+18:55:40 UI-driver tear down complete...
+18:55:40 Preparing For Shut Down...
+18:55:40 Preparing For Shut Down...
+18:55:40 Shut Down Completed...
+18:56:18 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:56:18 Driver: perfectoRemoteDriver
+18:56:18 Direct Driver Connect
+18:56:48 Executing setTimeout parameters: {"implicit":0}
+18:56:48 command: setTimeout[ param-1: {implicit=0}] Result: null
+18:56:48 driver init done
+18:56:48 Executing executeScript parameters: {"args":[{"name":"open Wikipedia","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["fey smoke Web Wiki Android Test","Web Fey Suite"," @first "]}],"script":"mobile:test:start"}
+18:56:48 
+
+Executing scenario: open Wikipedia - 
+18:56:48 pkg: com.qmetry.qaf.automation.step
+18:56:48 pkg: com.quantum.steps
+18:56:48 Invoking Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+18:56:48 Executing executeScript parameters: {"args":[{"name":"Given I open browser to webpage \"https://www.wikipedia.org/\""}],"script":"mobile:step:start"}
+18:56:48 Executing get parameters: {"url":"https://www.wikipedia.org/"}
+18:56:49 command: get[ param-1: {url=https://www.wikipedia.org/}] Result: null
+18:56:49 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:56:49 Completed Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+18:56:49 Invoking Teststep: Then I must see text "Wikipedia" with arguments: [Wikipedia]
+18:56:49 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Wikipedia\""}],"script":"mobile:step:start"}
+18:56:49 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Wikipedia","timeout":60}],"script":"mobile:checkpoint:text"}
+18:56:51 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:56:51 Completed Teststep: Then I must see text "Wikipedia" with arguments: [Wikipedia]
+18:56:51 Competed scenario: open Wikipedia with status SUCCESS
+18:56:51 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+18:56:51 Executing quit parameters: {}
+18:57:07 command: quit[ param-1: {}] Result: null
+18:57:07 UI-driver tear down complete...
+18:57:07 Preparing For Shut Down...
+18:57:07 Preparing For Shut Down...
+18:57:07 Shut Down Completed...
+18:57:14 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:57:15 Driver: perfectoRemoteDriver
+18:57:15 Direct Driver Connect
+18:58:18 null
+18:58:18 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+18:58:18 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+18:58:18 Preparing For Shut Down...
+18:58:18 Preparing For Shut Down...
+18:58:18 Shut Down Completed...
+18:58:44 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:58:44 Driver: perfectoRemoteDriver
+18:58:44 Direct Driver Connect
+18:59:14 Executing setTimeout parameters: {"implicit":0}
+18:59:14 command: setTimeout[ param-1: {implicit=0}] Result: null
+18:59:14 driver init done
+18:59:14 Executing executeScript parameters: {"args":[{"name":"open Wikipedia","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["fey smoke Web Wiki Android Test","Web Fey Suite"," @first "]}],"script":"mobile:test:start"}
+18:59:14 
+
+Executing scenario: open Wikipedia - 
+18:59:14 pkg: com.qmetry.qaf.automation.step
+18:59:14 pkg: com.quantum.steps
+18:59:14 Invoking Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+18:59:14 Executing executeScript parameters: {"args":[{"name":"Given I open browser to webpage \"https://www.wikipedia.org/\""}],"script":"mobile:step:start"}
+18:59:14 Executing get parameters: {"url":"https://www.wikipedia.org/"}
+18:59:15 command: get[ param-1: {url=https://www.wikipedia.org/}] Result: null
+18:59:15 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:59:15 Completed Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+18:59:15 Invoking Teststep: Then I must see text "Wikipedia" with arguments: [Wikipedia]
+18:59:15 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Wikipedia\""}],"script":"mobile:step:start"}
+18:59:15 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Wikipedia","timeout":60}],"script":"mobile:checkpoint:text"}
+18:59:19 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+18:59:20 Completed Teststep: Then I must see text "Wikipedia" with arguments: [Wikipedia]
+18:59:20 Competed scenario: open Wikipedia with status SUCCESS
+18:59:20 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+18:59:20 Executing quit parameters: {}
+18:59:31 command: quit[ param-1: {}] Result: null
+18:59:31 UI-driver tear down complete...
+18:59:31 Preparing For Shut Down...
+18:59:31 Preparing For Shut Down...
+18:59:31 Shut Down Completed...
+18:59:49 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+18:59:49 Driver: perfectoRemoteDriver
+18:59:49 Direct Driver Connect
+19:00:51 null
+19:00:51 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:00:52 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+19:00:52 Preparing For Shut Down...
+19:00:52 Preparing For Shut Down...
+19:00:52 Shut Down Completed...
+19:03:39 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+19:03:39 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+19:03:39 Driver: perfectoDriver
+19:03:39 Direct Driver Connect
+19:04:29 null
+19:04:29 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:04:49 Driver: perfectoDriver
+19:04:49 Direct Driver Connect
+19:05:39 null
+19:05:39 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:05:39 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+19:05:39 Preparing For Shut Down...
+19:05:39 Shut Down Completed...
+19:09:06 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+19:09:06 Driver: perfectoRemoteDriver
+19:09:06 Direct Driver Connect
+19:09:36 Executing setTimeout parameters: {"implicit":0}
+19:09:36 command: setTimeout[ param-1: {implicit=0}] Result: null
+19:09:36 driver init done
+19:09:36 Executing executeScript parameters: {"args":[{"name":"open Wikipedia","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["fey smoke Web Wiki Android Test","Web Fey Suite"," @first "]}],"script":"mobile:test:start"}
+19:09:36 
+
+Executing scenario: open Wikipedia - 
+19:09:36 pkg: com.qmetry.qaf.automation.step
+19:09:36 pkg: com.quantum.steps
+19:09:36 Invoking Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+19:09:36 Executing executeScript parameters: {"args":[{"name":"Given I open browser to webpage \"https://www.wikipedia.org/\""}],"script":"mobile:step:start"}
+19:09:36 Executing get parameters: {"url":"https://www.wikipedia.org/"}
+19:09:36 command: get[ param-1: {url=https://www.wikipedia.org/}] Result: null
+19:09:36 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+19:09:37 Completed Teststep: Given I open browser to webpage "https://www.wikipedia.org/" with arguments: [https://www.wikipedia.org/]
+19:09:37 Invoking Teststep: Then I must see text "Wikipedia" with arguments: [Wikipedia]
+19:09:37 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Wikipedia\""}],"script":"mobile:step:start"}
+19:09:37 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Wikipedia","timeout":60}],"script":"mobile:checkpoint:text"}
+19:09:39 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+19:09:39 Completed Teststep: Then I must see text "Wikipedia" with arguments: [Wikipedia]
+19:09:39 Competed scenario: open Wikipedia with status SUCCESS
+19:09:39 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+19:09:39 Executing quit parameters: {}
+19:09:55 command: quit[ param-1: {}] Result: null
+19:09:55 UI-driver tear down complete...
+19:09:55 Preparing For Shut Down...
+19:09:55 Preparing For Shut Down...
+19:09:55 Shut Down Completed...
+19:10:18 Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+19:10:18 Driver: perfectoRemoteDriver
+19:10:18 Direct Driver Connect
+19:11:20 null
+19:11:20 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:11:20 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+19:11:20 Preparing For Shut Down...
+19:11:20 Preparing For Shut Down...
+19:11:20 Shut Down Completed...
