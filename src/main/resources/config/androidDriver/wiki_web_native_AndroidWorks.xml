@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Expense Fey Suite" verbose="0"
+<suite name="Web driver Suite" verbose="0" parallel="false"
 	   thread-count="100">
 	<listeners>
 		<listener class-name="com.quantum.listeners.QuantumReportiumListener" />
@@ -13,15 +13,13 @@
 		<parameter name="perfecto.capabilities.model" value="Galaxy.*"/>
 		<parameter name="enableAppiumBehavior" value="true"></parameter>
 		<parameter name="appiumVersion" value="latest"></parameter>
-		<parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
-		<parameter name="perfecto.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
 		<parameter name="perfecto.capabilities.automationName" value="Appium"/>
-
-
+		<parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"></parameter>
+		<parameter name="perfecto.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
 
 		<groups>
 			<run>
-				<include name="@validLogin" />
+				<include name="@first" />
 			</run>
 		</groups>
 		<classes>

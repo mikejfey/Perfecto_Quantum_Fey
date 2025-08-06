@@ -95,5 +95,8 @@ public class ExpenseTrackerSteps {
 	@Then ("I click the login button")
 	public void iClickLoginBtn(){new ExpenseTrackerLoginPage().clickLoginBtn();
 	}
+
+	@When ("I click the signup link")
+	public void iClickSignupLink(){new ExpenseTrackerLoginPage().clickSignup();}
 }
 

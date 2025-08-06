@@ -7,10 +7,13 @@
 
 	<test name="fey smoke Web Wiki Android Test" enabled="true"
 		  thread-count="3">
+		<parameter name="driver.name" value="perfectoDriver"/>
 
 		<parameter name="perfecto.capabilities.model" value="Galaxy.*"></parameter>
 		<parameter name="perfecto.additional.capabilities" value="{'perfecto:openDeviceTimeout':15}" />
 		<parameter name="perfecto.capabilities.automationName" value="Appium"/>
+
+
 
 		<groups>
 			<run>

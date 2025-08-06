@@ -45,6 +45,9 @@ public class ExpenseTrackerLoginPage extends WebDriverBaseTestPage<WebDriverTest
 	@FindBy(locator = "login.bio.enable")
 	private QAFWebElement enableBio;
 
+	@FindBy (locator = "login.signup.link")
+	private QAFWebElement signupLink;
+
 	public void verifyExpenseTrackerLoginScreen() {
 		Map<String, Object> params = new HashMap<>();
 		params.put("content", "Email");
@@ -142,6 +145,11 @@ public class ExpenseTrackerLoginPage extends WebDriverBaseTestPage<WebDriverTest
 	public void clickLoginBtn() {
 		loginlNativeButton.click();
 	}
+
+	public void	clickSignup() { signupLink.click(); }
 }
+
+
+
 
 
