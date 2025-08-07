@@ -9,7 +9,6 @@
 		  thread-count="3">
 
 		<parameter name="env.resources" value="src/main/resources/android"/>
-
 		<parameter name="driver.additional.capabilities" value="{'openDeviceTimeout':2}" />
 		<parameter name="perfecto.capabilities.automationName" value="UiAutomator2" />
 		<parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
@@ -29,3 +28,5 @@
 		</classes>
 	</test>
 </suite>
+
+

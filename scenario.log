@@ -14306,3 +14306,199 @@ java.lang.ClassCastException: Underlying driver is an AppiumDriver.  This step r
 19:17:36 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
 19:17:36 Driver: perfectoDriver
 19:17:36 Direct Driver Connect
+19:18:43 null
+19:18:43 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:18:44 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+19:18:44 Preparing For Shut Down...
+19:18:44 Preparing For Shut Down...
+19:18:44 Shut Down Completed...
+19:20:26 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+19:20:26 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+19:20:26 Driver: perfectoDriver
+19:20:26 Direct Driver Connect
+19:20:29 null
+19:20:29 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:20:49 Driver: perfectoDriver
+19:20:49 Direct Driver Connect
+19:20:51 null
+19:20:51 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:21:11 Driver: perfectoDriver
+19:21:11 Direct Driver Connect
+19:21:12 null
+19:21:12 Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:21:32 Driver: perfectoDriver
+19:21:32 Direct Driver Connect
+19:21:34 null
+19:21:34 Unable to create driver instance in 4th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:21:34 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+19:21:34 Preparing For Shut Down...
+19:21:34 Preparing For Shut Down...
+19:21:34 Shut Down Completed...
+19:22:41 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+19:22:41 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+19:22:41 Driver: perfectoDriver
+19:22:41 Direct Driver Connect
+19:22:44 null
+19:22:44 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:23:01 Preparing For Shut Down...
+19:23:01 Preparing For Shut Down...
+19:23:01 Shut Down Completed...
+19:23:06 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+19:23:06 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+19:23:06 Driver: perfectoDriver
+19:23:06 Direct Driver Connect
+19:24:12 null
+19:24:12 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:24:12 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+19:24:12 Preparing For Shut Down...
+19:24:12 Preparing For Shut Down...
+19:24:12 Shut Down Completed...
+19:24:29 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+19:24:29 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+19:24:29 Driver: perfectoDriver
+19:24:29 Direct Driver Connect
+19:24:30 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:24:50 Driver: perfectoDriver
+19:24:50 Direct Driver Connect
+19:24:50 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:25:10 Driver: perfectoDriver
+19:25:10 Direct Driver Connect
+19:25:10 Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:25:30 Driver: perfectoDriver
+19:25:30 Direct Driver Connect
+19:25:30 Unable to create driver instance in 4th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:25:30 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+19:25:30 Preparing For Shut Down...
+19:25:30 Preparing For Shut Down...
+19:25:30 Shut Down Completed...
+19:26:37 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+19:26:37 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+19:26:37 Driver: perfectoDriver
+19:26:37 Direct Driver Connect
+19:26:37 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:26:51 Preparing For Shut Down...
+19:26:51 Preparing For Shut Down...
+19:27:01 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+19:27:01 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+19:27:01 Driver: perfectoDriver
+19:27:01 Direct Driver Connect
+19:27:02 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:27:22 Driver: perfectoDriver
+19:27:22 Direct Driver Connect
+19:27:22 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:27:23 Preparing For Shut Down...
+19:27:23 Preparing For Shut Down...
+19:27:54 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+19:27:54 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+19:27:54 Driver: perfectoDriver
+19:27:54 Direct Driver Connect
+19:29:02 null
+19:29:02 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:29:02 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+19:29:02 Preparing For Shut Down...
+19:29:02 Preparing For Shut Down...
+19:29:02 Shut Down Completed...
+19:33:08 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+19:33:08 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+19:33:08 Driver: perfectoDriver
+19:33:08 Direct Driver Connect
+19:34:03 null
+19:34:03 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:34:14 Preparing For Shut Down...
+19:34:14 Preparing For Shut Down...
+19:34:14 Shut Down Completed...
+19:34:29 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+19:34:29 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+19:34:29 Driver: perfectoDriver
+19:34:29 Direct Driver Connect
+19:35:02 Executing setTimeout parameters: {"implicit":0}
+19:35:02 command: setTimeout[ param-1: {implicit=0}] Result: null
+19:35:02 driver init done
+19:35:02 Executing executeScript parameters: {"args":[{"name":"Expense Tracker VALID login Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Appium Demo Suite","Native Expense Android Test"," @validLogin"," @expenseTrackerDataDriven "]}],"script":"mobile:test:start"}
+19:35:03 
+
+Executing scenario: Expense Tracker VALID login Scenario - 
+19:35:03 Test Data{username=test@perfecto.com, password=test123}
+19:35:03 pkg: com.qmetry.qaf.automation.step
+19:35:03 pkg: com.quantum.steps
+19:35:03 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+19:35:03 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+19:35:03 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+19:35:03 Failure Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+java.lang.ClassCastException: Underlying driver is an AppiumDriver.  This step requires an IOSDriver.
+	Set following properties to use required driver:
+		perfecto.capabilities.driverClass=io.appium.java_client.ios.IOSDriver
+		driver.name=perfectoDriver
+	at com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.AppiumUtils.getIOSDriver(AppiumUtils.java:35) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:383) ~[quantum-3.1.5.jar:3.1.5]
+	at com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479) ~[quantum-3.1.5.jar:?]
+	at com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92) ~[quantum-3.1.5.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128) ~[qaf-3.2.0.jar:?]
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174) ~[qaf-3.2.0.jar:3.1.5]
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66) ~[qaf-3.2.0.jar:3.1.5]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:714) ~[quantum-3.1.5.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:503) ~[quantum-3.1.5.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+19:35:03 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+19:35:03 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+19:35:04 Competed scenario: Expense Tracker VALID login Scenario with status FAILURE
+19:35:04 Executing executeScript parameters: {"args":[{"success":false,"failureDescription":"Step:Given I start application by id \"io.perfecto.expense.tracker\" failed\n. Stack Trace: java.lang.ClassCastException: Underlying driver is an AppiumDriver.  This step requires an IOSDriver.\n\tSet following properties to use required driver:\n\t\tperfecto.capabilities.driverClass=io.appium.java_client.ios.IOSDriver\n\t\tdriver.name=perfectoDriver\n\tat .Given I start application by id \"io.perfecto.expense.tracker\"(src/main/resources/scenarios/worksTAM/expenseTrackerDataDriven.feature:18)\n\tat com.quantum.utils.AppiumUtils.checkType(AppiumUtils.java:420)\n\tat com.quantum.utils.AppiumUtils.getIOSDriver(AppiumUtils.java:35)\n\tat com.quantum.utils.DeviceUtils.switchToContext(DeviceUtils.java:383)\n\tat com.quantum.steps.PerfectoApplicationSteps.switchToContext(PerfectoApplicationSteps.java:479)\n\tat com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:92)\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)\n\tat java.base/java.lang.Thread.run(Thread.java:1583)\n"}],"script":"mobile:test:end"}
+19:35:04 Executing quit parameters: {}
+19:35:16 command: quit[ param-1: {}] Result: null
+19:35:16 UI-driver tear down complete...
+19:35:17 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+19:35:17 Preparing For Shut Down...
+19:35:17 Preparing For Shut Down...
+19:35:17 Shut Down Completed...
+19:35:58 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+19:35:58 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+19:35:58 Driver: perfectoDriver
+19:35:58 Direct Driver Connect
+19:37:06 null
+19:37:06 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:37:06 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
+19:37:06 Preparing For Shut Down...
+19:37:06 Preparing For Shut Down...
+19:37:06 Shut Down Completed...
+19:38:36 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+19:38:36 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+19:38:36 Driver: perfectoDriver
+19:38:36 Direct Driver Connect
+19:38:36 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:38:52 Preparing For Shut Down...
+19:38:52 Preparing For Shut Down...
+19:38:52 Shut Down Completed...
+19:38:56 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+19:38:56 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+19:38:56 Driver: perfectoDriver
+19:38:56 Direct Driver Connect
+19:38:57 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:39:09 Preparing For Shut Down...
+19:39:09 Preparing For Shut Down...
+19:39:09 Shut Down Completed...
+19:39:14 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+19:39:14 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+19:39:14 Driver: perfectoDriver
+19:39:14 Direct Driver Connect

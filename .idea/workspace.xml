@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="added a test for signup to Expense Tracker app">
-      <change afterPath="$PROJECT_DIR$/img/OpenWikipedia_1rx4sdrm7ma8k35778.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/SignupScenario_1g3qsw9ozejkw35947.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test-output/quantum-failed-suite/failed-suite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scenario.log" beforeDir="false" afterPath="$PROJECT_DIR$/scenario.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/androidDriver/AndroidDriver_expenseTrackerAndroid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/androidDriver/AndroidDriver_expenseTrackerAndroid.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/android/env.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/android/env.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/androidDriver/wiki_web_native_AndroidWorks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/androidDriver/wiki_web_native_AndroidWorks.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754510216605</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added a test for signup to Expense Tracker app">
+      <option name="closed" value="true" />
+      <created>1754525922662</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1754525922662</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
