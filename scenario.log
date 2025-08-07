@@ -14502,3 +14502,148 @@ java.lang.ClassCastException: Underlying driver is an AppiumDriver.  This step r
 19:39:14 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
 19:39:14 Driver: perfectoDriver
 19:39:14 Direct Driver Connect
+19:40:06 null
+19:40:06 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+19:40:26 Driver: perfectoDriver
+19:40:26 Direct Driver Connect
+19:40:54 Preparing For Shut Down...
+19:40:54 Preparing For Shut Down...
+19:40:54 Shut Down Completed...
+12:23:24 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+12:23:24 Driver: perfectoDriver
+12:23:24 Direct Driver Connect
+12:24:08 Executing setTimeout parameters: {"implicit":0}
+12:24:08 command: setTimeout[ param-1: {implicit=0}] Result: null
+12:24:08 driver init done
+12:24:08 Executing executeScript parameters: {"args":[{"name":"Biometrics Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["IOS Expense Tracker Test","Expense Fey Suite"," @IOS_Bio_expenseTracker "]}],"script":"mobile:test:start"}
+12:24:08 
+
+Executing scenario: Biometrics Scenario - 
+12:24:08 pkg: com.qmetry.qaf.automation.step
+12:24:09 pkg: com.quantum.steps
+12:24:09 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+12:24:09 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+12:24:09 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+12:24:14 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+12:24:14 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+12:24:14 Invoking Teststep: Then I should see expense tracker Native login screen
+12:24:14 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker Native login screen"}],"script":"mobile:step:start"}
+12:24:14 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+12:24:14 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {}
+12:24:14 Executing findElement parameters: {"value":"type == 'XCUIElementTypeStaticText' AND name == 'Email'","using":"-ios predicate string"}
+12:24:14 command: findElement[ param-1: {value=type == 'XCUIElementTypeStaticText' AND name == 'Email', using=-ios predicate string}] Result: id: 11000000-0000-0000-AB46-000000000000
+12:24:14 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {}] Result: OK
+12:24:14 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {"id":"11000000-0000-0000-AB46-000000000000"}
+12:24:15 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {"id":"11000000-0000-0000-AB46-000000000000"}] Result: isElementDisplayed:true
+12:24:15 Executing executeScript parameters: {"args":[{"message":"Verify Login screen title","status":true}],"script":"mobile:status:assert"}
+12:24:15 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+12:24:15 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+12:24:15 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+12:24:16 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-AB46-000000000000
+12:24:16 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+12:24:16 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"id":"13000000-0000-0000-AB46-000000000000"}
+12:24:16 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"id":"13000000-0000-0000-AB46-000000000000"}] Result: isElementDisplayed:true
+12:24:16 Executing executeScript parameters: {"args":[{"message":"Verify Login screen Email","status":true}],"script":"mobile:status:assert"}
+12:24:17 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+12:24:17 Completed Teststep: Then I should see expense tracker Native login screen
+12:24:17 Invoking Teststep: When I enter "test@perfecto.com" and "test123" in native login screen with arguments: [test@perfecto.com, test123]
+12:24:17 Executing executeScript parameters: {"args":[{"name":"When I enter \"test@perfecto.com\" and \"test123\" in native login screen"}],"script":"mobile:step:start"}
+12:24:17 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+12:24:17 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {}
+12:24:17 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND name == 'login_email'","using":"-ios predicate string"}
+12:24:17 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND name == 'login_email', using=-ios predicate string}] Result: id: 13000000-0000-0000-AB46-000000000000
+12:24:17 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {}] Result: OK
+12:24:17 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' parameters: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-AB46-000000000000"}
+12:24:19 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND name == 'login_email' param-2: {"value":["test@perfecto.com"],"id":"13000000-0000-0000-AB46-000000000000"}] Result: sendKeysToElement:null
+12:24:19 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+12:24:19 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {}
+12:24:19 Executing findElement parameters: {"value":"type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com'","using":"-ios predicate string"}
+12:24:20 command: findElement[ param-1: {value=type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com', using=-ios predicate string}] Result: id: 13000000-0000-0000-AB46-000000000000
+12:24:20 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {}] Result: OK
+12:24:20 Executing getElementText element: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' parameters: {"id":"13000000-0000-0000-AB46-000000000000"}
+12:24:20 command: getElementText[ param-1: Using -ios predicate string: type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com' param-2: {"id":"13000000-0000-0000-AB46-000000000000"}] Result: getElementText:test@perfecto.com
+12:24:20 Executing executeScript parameters: {"args":[{"message":"Email was entered as expected","status":true}],"script":"mobile:status:assert"}
+12:24:21 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+12:24:21 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {}
+12:24:21 Executing findElement parameters: {"value":"type == 'XCUIElementTypeSecureTextField' AND name == 'login_password'","using":"-ios predicate string"}
+12:24:22 command: findElement[ param-1: {value=type == 'XCUIElementTypeSecureTextField' AND name == 'login_password', using=-ios predicate string}] Result: id: 16000000-0000-0000-AB46-000000000000
+12:24:22 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {}] Result: OK
+12:24:22 Executing sendKeysToElement element: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' parameters: {"value":["test123"],"id":"16000000-0000-0000-AB46-000000000000"}
+12:24:23 command: sendKeysToElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeSecureTextField' AND name == 'login_password' param-2: {"value":["test123"],"id":"16000000-0000-0000-AB46-000000000000"}] Result: sendKeysToElement:null
+12:24:23 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+12:24:23 Completed Teststep: When I enter "test@perfecto.com" and "test123" in native login screen with arguments: [test@perfecto.com, test123]
+12:24:23 Invoking Teststep: Then I click the enable Biometrics
+12:24:23 Executing executeScript parameters: {"args":[{"name":"Then I click the enable Biometrics"}],"script":"mobile:step:start"}
+12:24:23 Executing findElement element: By.xpath: //*[@value="0"] parameters: {}
+12:24:23 Executing findElement parameters: {"value":"//*[@value=\"0\"]","using":"xpath"}
+12:24:24 command: findElement[ param-1: {value=//*[@value="0"], using=xpath}] Result: id: 19000000-0000-0000-AB46-000000000000
+12:24:24 command: findElement[ param-1: By.xpath: //*[@value="0"] param-2: {}] Result: OK
+12:24:24 Executing clickElement element: By.xpath: //*[@value="0"] parameters: {"id":"19000000-0000-0000-AB46-000000000000"}
+12:24:25 command: clickElement[ param-1: By.xpath: //*[@value="0"] param-2: {"id":"19000000-0000-0000-AB46-000000000000"}] Result: clickElement:null
+12:24:25 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+12:24:25 Completed Teststep: Then I click the enable Biometrics
+12:24:25 Invoking Teststep: Then I click the login button
+12:24:25 Executing executeScript parameters: {"args":[{"name":"Then I click the login button"}],"script":"mobile:step:start"}
+12:24:25 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+12:24:25 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {}
+12:24:25 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'login_login_btn'","using":"-ios predicate string"}
+12:24:26 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'login_login_btn', using=-ios predicate string}] Result: id: 17000000-0000-0000-AB46-000000000000
+12:24:26 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {}] Result: OK
+12:24:26 Executing clickElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' parameters: {"id":"17000000-0000-0000-AB46-000000000000"}
+12:24:27 command: clickElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'login_login_btn' param-2: {"id":"17000000-0000-0000-AB46-000000000000"}] Result: clickElement:null
+12:24:27 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+12:24:27 Completed Teststep: Then I click the login button
+12:24:27 Invoking Teststep: And I send success result for biometrics
+12:24:27 Executing executeScript parameters: {"args":[{"name":"And I send success result for biometrics"}],"script":"mobile:step:start"}
+12:24:27 Executing executeScript parameters: {"args":[{"resultAuth":"success","identifier":"io.perfecto.expense.tracker","errorType":"lockOut"}],"script":"mobile:sensorAuthentication:set"}
+12:24:27 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+12:24:27 Completed Teststep: And I send success result for biometrics
+12:24:27 Invoking Teststep: Then I should see expense tracker home screen
+12:24:27 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker home screen"}],"script":"mobile:step:start"}
+12:24:27 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+12:24:27 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' parameters: {}
+12:24:27 Executing findElement parameters: {"value":"type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn'","using":"-ios predicate string"}
+12:24:28 command: findElement[ param-1: {value=type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn', using=-ios predicate string}] Result: id: 9C000000-0000-0000-AB46-000000000000
+12:24:28 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' param-2: {}] Result: OK
+12:24:28 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' parameters: {"id":"9C000000-0000-0000-AB46-000000000000"}
+12:24:28 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn' param-2: {"id":"9C000000-0000-0000-AB46-000000000000"}] Result: isElementDisplayed:true
+12:24:28 Executing executeScript parameters: {"args":[{"message":"Verify Home Screen.","status":true}],"script":"mobile:status:assert"}
+12:24:29 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+12:24:29 Completed Teststep: Then I should see expense tracker home screen
+12:24:29 Competed scenario: Biometrics Scenario with status SUCCESS
+12:24:29 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+12:24:29 Executing quit parameters: {}
+12:24:37 command: quit[ param-1: {}] Result: null
+12:24:37 UI-driver tear down complete...
+12:24:37 Preparing For Shut Down...
+12:24:37 Preparing For Shut Down...
+12:24:37 Shut Down Completed...
+12:26:29 loading csv data file: src/main/resources/data/invalidExpenseLogins.csv
+12:26:29 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+12:26:29 Driver: perfectoDriver
+12:26:29 Direct Driver Connect
+12:26:50 Executing setTimeout parameters: {"implicit":0}
+12:26:50 command: setTimeout[ param-1: {implicit=0}] Result: null
+12:26:50 driver init done
+12:26:50 Executing executeScript parameters: {"args":[{"name":"Expense Tracker invalid login Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Native Data Driven Expense IOS Test invalid","Expense Data Driven Suite"," @expenseTrackerDataDriven "," @invalidLogin"]}],"script":"mobile:test:start"}
+12:26:50 
+
+Executing scenario: Expense Tracker invalid login Scenario - 
+12:26:50 Test Data{username=test@perfecto.com, password=badpw1}
+12:26:50 pkg: com.qmetry.qaf.automation.step
+12:26:50 pkg: com.quantum.steps
+12:26:50 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+12:26:50 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+12:26:50 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+12:26:55 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+12:26:55 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+12:26:55 Invoking Teststep: Then I should see expense tracker Native login screen
+12:26:55 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker Native login screen"}],"script":"mobile:step:start"}
+12:26:55 No class registerd for strategy-ios predicate string. Will use '-ios predicate string' as custom strategy
+12:26:55 Executing findElement element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {}
+12:26:55 Executing findElement parameters: {"value":"type == 'XCUIElementTypeStaticText' AND name == 'Email'","using":"-ios predicate string"}
+12:26:56 command: findElement[ param-1: {value=type == 'XCUIElementTypeStaticText' AND name == 'Email', using=-ios predicate string}] Result: id: 11000000-0000-0000-BF46-000000000000
+12:26:56 command: findElement[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {}] Result: OK
+12:26:56 Executing isElementDisplayed element: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' parameters: {"id":"11000000-0000-0000-BF46-000000000000"}
+12:26:56 command: isElementDisplayed[ param-1: Using -ios predicate string: type == 'XCUIElementTypeStaticText' AND name == 'Email' param-2: {"id":"11000000-0000-0000-BF46-000000000000"}] Result: isElementDisplayed:true
+12:26:56 Executing executeScript parameters: {"args":[{"message":"Verify Login screen title","status":true}],"script":"mobile:status:assert"}

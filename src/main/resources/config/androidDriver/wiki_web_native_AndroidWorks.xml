@@ -16,6 +16,9 @@
 		<parameter name="perfecto.capabilities.automationName" value="UIAutomator2"/>
 		<parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"></parameter>
 		<parameter name="perfecto.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
+		<parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}" />
+		<parameter name="perfecto.capabilities.screenshotOnError" value="false" />
+		<parameter name="perfecto.capabilities.takesScreenshot" value="true" />
 
 		<groups>
 			<run>
