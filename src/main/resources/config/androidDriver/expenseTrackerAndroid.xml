@@ -1,19 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Expense Fey Suite" verbose="0"
-	   thread-count="100">
+<suite name="Appium Demo Suite" verbose="0" parallel="tests">
 	<listeners>
 		<listener class-name="com.quantum.listeners.QuantumReportiumListener" />
 	</listeners>
-
+	<parameter name="driver.name" value="perfectoDriver"/>
 	<test name="Native Expense Android Test" enabled="true"
 		  thread-count="3">
-		<parameter name="perfecto.capabilities.model" value="(?!.*Tab).*"></parameter>
-		<parameter name="perfecto.additional.capabilities" value="{'perfecto:openDeviceTimeout':15}" />
-		<parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"></parameter>
-		<parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
-		<parameter name="driver.name" value="perfectoDriver"/>
+
 		<parameter name="env.resources" value="src/main/resources/android"/>
 
+		<parameter name="driver.additional.capabilities" value="{'openDeviceTimeout':2}" />
+		<parameter name="perfecto.capabilities.automationName" value="UiAutomator2" />
+		<parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
+		<parameter name="perfecto.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
+		<parameter name="perfecto.capabilities.noReset" value="true" />
+		<parameter name="perfecto.capabilities.deviceName" value="R5CWA2726XK" />
+		<parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}" />
 
 		<groups>
 			<run>

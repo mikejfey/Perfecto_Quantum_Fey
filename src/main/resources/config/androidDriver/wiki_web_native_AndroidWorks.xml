@@ -5,7 +5,7 @@
 		<listener class-name="com.quantum.listeners.QuantumReportiumListener" />
 	</listeners>
 	<parameter name="driver.name" value="perfectoDriver"/>
-	<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.AppiumDriver"/>
+	<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.UIAutomator2"/>
 
 	<test name="Native Expense Android Test  driver testing" enabled="true"
 		  thread-count="3">
@@ -13,7 +13,7 @@
 		<parameter name="perfecto.capabilities.model" value="Galaxy.*"/>
 		<parameter name="enableAppiumBehavior" value="true"></parameter>
 		<parameter name="appiumVersion" value="latest"></parameter>
-		<parameter name="perfecto.capabilities.automationName" value="Appium"/>
+		<parameter name="perfecto.capabilities.automationName" value="UIAutomator2"/>
 		<parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"></parameter>
 		<parameter name="perfecto.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
 

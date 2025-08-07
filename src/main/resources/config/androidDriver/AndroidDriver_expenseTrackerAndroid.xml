@@ -15,7 +15,7 @@
 		<parameter name="appiumVersion" value="latest"></parameter>
 		<parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
 		<parameter name="perfecto.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
-		<parameter name="perfecto.capabilities.automationName" value="Appium"/>
+		<parameter name="perfecto.capabilities.automationName" value="UIAutomator2"/>
 
 
 
