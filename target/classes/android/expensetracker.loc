@@ -15,3 +15,4 @@ login.invalid.ok=xxxx
 home.about.btn=//*[@text="About"]
 crash.crashme.btn=id=io.perfecto.expense.tracker:id/crash_me_button
 login.biometrics.checkbox=id=io.perfecto.expense.tracker:id/login_biometric_check_box
+browser.noThanks=xpath=//*[@resource-id="com.android.chrome:id/negative_button"]

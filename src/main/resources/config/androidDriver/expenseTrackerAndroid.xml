@@ -16,7 +16,7 @@
 		<parameter name="perfecto.capabilities.noReset" value="true" />
 		<parameter name="perfecto.capabilities.deviceName" value="R5CWA2726XK" />
 		<parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}" />
-
+		<parameter name="env.resources" value="src/main/resources/android"/>
 		<groups>
 			<run>
 				<include name="@validLogin" />

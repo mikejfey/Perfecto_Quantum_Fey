@@ -7,14 +7,18 @@ import java.util.Map;
 
 import com.qmetry.qaf.automation.step.QAFTestStepProvider;
 import com.qmetry.qaf.automation.ui.WebDriverTestBase;
+import com.quantum.pages.ExpenseTrackerLoginPage;
 import com.quantum.pages.GooglePage;
+import com.quantum.pages.WikiTestPage;
 import com.quantum.utils.DeviceUtils;
 import com.quantum.utils.DriverUtils;
 import com.quantum.utils.ReportUtils;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.apache.commons.math3.analysis.function.Exp;
 
 @QAFTestStepProvider
 public class GoogleStepDefs {
@@ -69,4 +73,9 @@ public class GoogleStepDefs {
 			}
 		}
 	}
-}
+
+	@And("I click no thanks button on chrome notification if it is displayed")
+	public void iShouldClickNothanks() {new WikiTestPage().clickNoThanks();}
+	}
+
+

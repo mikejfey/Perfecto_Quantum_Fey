@@ -5,21 +5,18 @@
 		<listener class-name="com.quantum.listeners.QuantumReportiumListener" />
 	</listeners>
 	<parameter name="driver.name" value="perfectoDriver"/>
-	<parameter name="perfecto.capabilities.driverClass" value="io.appium.java_client.UIAutomator2"/>
+
 
 	<test name="Native Expense Android Test  driver testing" enabled="true"
 		  thread-count="3">
 		<parameter name="perfecto.additional.capabilities" value="{'perfecto:openDeviceTimeout':15}" />
 		<parameter name="perfecto.capabilities.model" value="Galaxy.*"/>
-		<parameter name="enableAppiumBehavior" value="true"></parameter>
-		<parameter name="appiumVersion" value="latest"></parameter>
-		<parameter name="perfecto.capabilities.automationName" value="UIAutomator2"/>
-		<parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"></parameter>
-		<parameter name="perfecto.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
+		<parameter name="perfecto.capabilities.automationName" value="UiAutomator2"/>
+
 		<parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}" />
 		<parameter name="perfecto.capabilities.screenshotOnError" value="false" />
 		<parameter name="perfecto.capabilities.takesScreenshot" value="true" />
-
+		<parameter name="env.resources" value="src/main/resources/android"/>
 		<groups>
 			<run>
 				<include name="@first" />
