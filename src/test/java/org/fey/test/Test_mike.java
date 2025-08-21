@@ -66,8 +66,8 @@ public class Test_mike {
         PerfectoExecutionContext perfectoExecutionContext = new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
                 .withProject(new Project("Fey new testng proj", "1.0"))
                 .withJob(new Job("Fey Nightly Job", 45))
-                .withCustomFields(new CustomField("programmer", "Raghavendra Kundaragi"))
-                .withCustomFields(new CustomField("author", "rk@perforce.com"))
+                .withCustomFields(new CustomField("programmer", "Mike Fey"))
+                .withCustomFields(new CustomField("author", "mikejfey@hotmail.com"))
                 .withContextTags("Appiumv2.0")
                 .withWebDriver(driver)
                 .build();
