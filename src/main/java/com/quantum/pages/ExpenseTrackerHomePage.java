@@ -1,11 +1,15 @@
 package com.quantum.pages;
+import java.util.HashMap;
+import java.util.Map;
 
+import org.openqa.selenium.By;
 import com.qmetry.qaf.automation.core.ConfigurationManager;
 import com.qmetry.qaf.automation.ui.WebDriverBaseTestPage;
 import com.qmetry.qaf.automation.ui.annotations.FindBy;
 import com.qmetry.qaf.automation.ui.api.PageLocator;
 import com.qmetry.qaf.automation.ui.api.WebDriverTestPage;
 import com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement;
+import com.qmetry.qaf.automation.ui.webdriver.QAFWebElement;
 import com.quantum.utils.DriverUtils;
 import com.quantum.utils.ReportUtils;
 

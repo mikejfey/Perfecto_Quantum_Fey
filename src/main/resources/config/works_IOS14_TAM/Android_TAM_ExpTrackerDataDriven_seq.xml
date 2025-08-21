@@ -1,0 +1,63 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="data-driven Android Fey Suite" verbose="0"
+	   thread-count="100" parallel="false">
+	<listeners>
+		<listener class-name="com.quantum.listeners.QuantumReportiumListener" />
+	</listeners>
+
+
+	<test name="Native Expense Android Test valid login testing" enabled="true"
+		  thread-count="3">
+		<parameter name="driver.name" value="perfectoDriver"/>
+		<parameter name="perfecto.additional.capabilities" value="{'perfecto:openDeviceTimeout':15}" />
+		<parameter name="perfecto.capabilities.model" value="Galaxy.*"/>
+		<parameter name="perfecto.capabilities.enableAppiumBehavior" value="true" />
+		<parameter name="perfecto.capabilities.appiumVersion" value="latest" />
+		<parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
+		<parameter name="perfecto.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
+		<parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}" />
+		<parameter name="perfecto.capabilities.screenshotOnError" value="false" />
+		<parameter name="perfecto.capabilities.takesScreenshot" value="true" />
+		<parameter name="perfecto.capabilities.appiumVersion" value="1.22.3" />
+		<parameter name="perfecto.capabilities.automationVersion" value="1.70.1" />
+		<parameter name="env.resources" value="src/main/resources/android"/>
+
+
+
+		<groups>
+			<run>
+				<include name="@validLogin" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+
+	<test name="Native Expense Android Test INVLID login testing" enabled="true"
+		  thread-count="3">
+		<parameter name="driver.name" value="perfectoDriver"/>
+		<parameter name="perfecto.additional.capabilities" value="{'perfecto:openDeviceTimeout':15}" />
+		<parameter name="perfecto.capabilities.model" value="Galaxy.*"/>
+		<parameter name="perfecto.capabilities.enableAppiumBehavior" value="true" />
+		<parameter name="perfecto.capabilities.appiumVersion" value="latest" />
+		<parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
+		<parameter name="perfecto.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
+		<parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}" />
+		<parameter name="perfecto.capabilities.screenshotOnError" value="false" />
+		<parameter name="perfecto.capabilities.takesScreenshot" value="true" />
+		<parameter name="perfecto.capabilities.automationVersion" value="2.45.1" />
+		<parameter name="env.resources" value="src/main/resources/android"/>
+
+		<groups>
+			<run>
+				<include name="@invalidLogin" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+</suite>

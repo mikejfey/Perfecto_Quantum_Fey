@@ -4,19 +4,19 @@
 	<listeners>
 		<listener class-name="com.quantum.listeners.QuantumReportiumListener" />
 	</listeners>
-	<parameter name="driver.name" value="perfectoDriver"/>
-	<test name="Native Expense Android Test" enabled="true"
+
+	<test name="Native Expense Android Test driver fail" enabled="true"
 		  thread-count="3">
 
 		<parameter name="env.resources" value="src/main/resources/android"/>
+		<parameter name="uiAutomator2Options.setPlatformName" value="Android"/>
+		<parameter name="uiAutomator2Options.deviceName" value="R5CWA2726XK"/>
+		<parameter name="uiAutomator2Options.setApp" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
+		<parameter name="uiAutomator2Options.setAppPackage" value="io.perfecto.expense.tracker"/>
 		<parameter name="driver.additional.capabilities" value="{'openDeviceTimeout':2}" />
-		<parameter name="perfecto.capabilities.automationName" value="UiAutomator2" />
-		<parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
-		<parameter name="perfecto.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
-		<parameter name="perfecto.capabilities.noReset" value="true" />
-		<parameter name="perfecto.capabilities.deviceName" value="R5CWA2726XK" />
-		<parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}" />
-		<parameter name="env.resources" value="src/main/resources/android"/>
+		<parameter name="uiAutomator2Options.deviceName" value="R5CWA2726XK"/>
+		<parameter name="perfecto.capabilities.enableAppiumBehavior" value="true"/>
+
 		<groups>
 			<run>
 				<include name="@validLogin" />

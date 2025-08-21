@@ -4,32 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="added capabilities to take screenshots for every step">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/augFeypom.xml" afterDir="false" />
+    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="handling Chrome notification 'no thank you' button with try-catch if-else">
       <change afterPath="$PROJECT_DIR$/img/ExpenseTrackerInvalidLoginScenario_12x18y8a3i2wb54335.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/ExpenseTrackerInvalidLoginScenario_fh6m9djbluud52185.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/ExpenseTrackerInvalidLoginScenario_syl5l3nbwqiv52186.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/ExpenseTrackerInvalidLoginScenario_tqmj3x66i3jz54334.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ExpenseTrackerVALIDLoginScenario_14qr3q7uq5k2854337.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ExpenseTrackerVALIDLoginScenario_1kkqlgm7jlki452187.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ExpenseTrackerVALIDLoginScenario_fbawkfxpw4ng54336.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ExpenseTrackerVALIDLoginScenario_u5vtcdkgjpj752188.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantum/pages/WikiTestPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/Android_TAM_ExpTrackerDataDriven_seq.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/ValidLogin_Android_TAM_ExpTrackerDataDriven_seq.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_mike.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scenario.log" beforeDir="false" afterPath="$PROJECT_DIR$/scenario.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/steps/GoogleStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/steps/GoogleStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/javaTests/NativeAppiumPerfectoExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/pages/ExpenseTrackerHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/pages/ExpenseTrackerHomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/android/env.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/android/env.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/android/expensetracker.loc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/android/expensetracker.loc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/androidDriver/AndroidDriver_expenseTrackerAndroid.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/androidDriver/wiki_web_native_AndroidWorks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/androidDriver/wiki_web_native_AndroidWorks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/wiki_web_AndroidWorks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/wiki_web_AndroidWorks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/scenarios/worksTAM/mobileWebTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/scenarios/worksTAM/mobileWebTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/TAM_ExpTrackerDataDriven_seq.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/IOS_TAM_ExpTrackerDataDriven_seq.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/scenarios/worksTAM/expenseTrackerDataDriven.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/scenarios/worksTAM/expenseTrackerDataDriven.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/android/env.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/android/env.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/android/expensetracker.loc" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/android/expensetracker.loc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/quantum/steps/GoogleStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/quantum/steps/GoogleStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quantum/pages/ExpenseTrackerHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/quantum/pages/ExpenseTrackerHomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
@@ -74,7 +72,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "15",
-    "last_opened_file_path": "/Users/michafey/GitRepos/Perfecto_Quantum_Framework",
+    "last_opened_file_path": "/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.57714957",
@@ -83,18 +81,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/resources/scenarios/worksTAM" />
       <recent name="$PROJECT_DIR$/src/main/resources/config/androidDriver" />
       <recent name="$PROJECT_DIR$/src/main/resources/config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM" />
       <recent name="$PROJECT_DIR$/src/main/resources/config/androidDriver" />
       <recent name="$PROJECT_DIR$/src/main/resources/scenarios/worksTAM" />
       <recent name="$PROJECT_DIR$/src/main/resources/data" />
       <recent name="$PROJECT_DIR$/src/main/resources/config/ZDEMO" />
-      <recent name="$PROJECT_DIR$/src/main/resources/scenarios/works" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.quantum.pages" />
@@ -106,27 +104,8 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/androidDriver/wiki_web_native_AndroidWorks.xml">
-    <configuration name="Feature: mobileWebTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/scenarios/worksTAM/mobileWebTest.feature" />
-      <option name="GLUE" value="com.quantum.steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="quantum-starter" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: mobileWebTest" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="quantum-starter [clean,compile,install]" type="MavenRunConfiguration" factoryName="Maven">
+  <component name="RunManager" selected="Maven.quantum-starter [clean,test]">
+    <configuration name="quantum-starter [clean,install -U]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -153,9 +132,87 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="quantum-starter [clean,test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings">
+          <MavenGeneralSettings>
+            <option name="alwaysUpdateSnapshots" value="false" />
+            <option name="checksumPolicy" value="NOT_SET" />
+            <option name="emulateTerminal" value="false" />
+            <option name="failureBehavior" value="NOT_SET" />
+            <option name="localRepository" value="" />
+            <option name="mavenHome" value="Bundled (Maven 3)" />
+            <option name="nonRecursive" value="false" />
+            <option name="outputLevel" value="INFO" />
+            <option name="pluginUpdatePolicy" value="DEFAULT" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="showDialogWithAdvancedSettings" value="false" />
+            <option name="threads" />
+            <option name="useMavenConfig" value="true" />
+            <option name="usePluginRegistry" value="false" />
+            <option name="userSettingsFile" value="" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_mike.Fey_New_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="quantum-starter" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fey.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fey.test" />
+      <option name="MAIN_CLASS_NAME" value="org.fey.test.Test_mike" />
+      <option name="METHOD_NAME" value="Fey_New_Test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/androidDriver/AndroidDriver_expenseTrackerAndroid.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="quantum-starter" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/androidDriver/AndroidDriver_expenseTrackerAndroid.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -163,9 +220,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/androidDriver/wiki_web_native_AndroidWorks.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/androidDriver/FIXED_AndroidDriver_expenseTrackerAndroid.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="quantum-starter" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/androidDriver/wiki_web_native_AndroidWorks.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/androidDriver/FIXED_AndroidDriver_expenseTrackerAndroid.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -173,9 +230,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/TAM_ExpTrackerDataDriven_seq.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/Android_TAM_ExpTrackerDataDriven_seq.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="quantum-starter" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/TAM_ExpTrackerDataDriven_seq.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/Android_TAM_ExpTrackerDataDriven_seq.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -183,9 +240,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/wiki_web_AndroidWorks.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/ValidLogin_Android_TAM_ExpTrackerDataDriven_seq.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="quantum-starter" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/wiki_web_AndroidWorks.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/ValidLogin_Android_TAM_ExpTrackerDataDriven_seq.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -194,20 +251,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Feature: mobileWebTest" />
-      <item itemvalue="Maven.quantum-starter [clean,compile,install]" />
-      <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/wiki_web_AndroidWorks.xml" />
-      <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/TAM_ExpTrackerDataDriven_seq.xml" />
-      <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml" />
-      <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/androidDriver/wiki_web_native_AndroidWorks.xml" />
+      <item itemvalue="Maven.quantum-starter [clean,install -U]" />
+      <item itemvalue="Maven.quantum-starter [clean,test]" />
+      <item itemvalue="TestNG.Test_mike.Fey_New_Test" />
+      <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/androidDriver/AndroidDriver_expenseTrackerAndroid.xml" />
+      <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/androidDriver/FIXED_AndroidDriver_expenseTrackerAndroid.xml" />
+      <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/Android_TAM_ExpTrackerDataDriven_seq.xml" />
+      <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/ValidLogin_Android_TAM_ExpTrackerDataDriven_seq.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/androidDriver/wiki_web_native_AndroidWorks.xml" />
-        <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/wiki_web_AndroidWorks.xml" />
-        <item itemvalue="Cucumber Java.Feature: mobileWebTest" />
-        <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml" />
-        <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/TAM_ExpTrackerDataDriven_seq.xml" />
+        <item itemvalue="TestNG.Test_mike.Fey_New_Test" />
+        <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/Android_TAM_ExpTrackerDataDriven_seq.xml" />
+        <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/ValidLogin_Android_TAM_ExpTrackerDataDriven_seq.xml" />
+        <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/androidDriver/FIXED_AndroidDriver_expenseTrackerAndroid.xml" />
+        <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/androidDriver/AndroidDriver_expenseTrackerAndroid.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +358,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754587617634</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="handling Chrome notification 'no thank you' button with try-catch if-else">
+      <option name="closed" value="true" />
+      <created>1754770643055</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1754770643056</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -313,7 +379,8 @@
     <MESSAGE value="added a test for signup to Expense Tracker app" />
     <MESSAGE value="android driver updates" />
     <MESSAGE value="added capabilities to take screenshots for every step" />
-    <option name="LAST_COMMIT_MESSAGE" value="added capabilities to take screenshots for every step" />
+    <MESSAGE value="handling Chrome notification 'no thank you' button with try-catch if-else" />
+    <option name="LAST_COMMIT_MESSAGE" value="handling Chrome notification 'no thank you' button with try-catch if-else" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

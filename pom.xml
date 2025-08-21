@@ -11,10 +11,12 @@
 	<properties>
 		<testngXmlDir>src/main/resources/config</testngXmlDir>
 		<testngXmlFile>testng_mobile_desktop_web.xml</testngXmlFile>
-		<skipTests>true</skipTests>
+		<skipTests>false</skipTests>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<quantum.version>3.1.1</quantum.version>
-
+		<quantum.version>3.1.5</quantum.version>
+		<appium.client.version>8.6.0</appium.client.version>
+		<selenium.version>4.31.0</selenium.version>
+		<appium.version>9.4.0</appium.version>
 		<!--		<quantum.version>1.30.1</quantum.version>-->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -51,18 +53,12 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.2.5</version>
-
 				<configuration>
 					<argLine>-Dfile.encoding=${project.build.sourceEncoding}</argLine>
 					<systemPropertyVariables>
 						<!--<application.properties.file>
 							resources/application.properties</application.properties.file>-->
 					</systemPropertyVariables>
-
-					<suiteXmlFiles>
-						<suiteXmlFile>${testngXmlDir}/${testngXmlFile}</suiteXmlFile>
-					</suiteXmlFiles>
-					<skipTests>${skipTests}</skipTests>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -106,6 +102,13 @@
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
 			<version>33.1.0-jre</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>8.6.0</version>
 		</dependency>
 
 		<dependency>

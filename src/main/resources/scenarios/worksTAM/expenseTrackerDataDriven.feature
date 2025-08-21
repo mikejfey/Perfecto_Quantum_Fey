@@ -18,7 +18,7 @@ Feature: Expense Tracker Feature
     Given I start application by id "io.perfecto.expense.tracker"
     Then I should see expense tracker Native login screen
     When I login with VALID creds from datafile  "<username>" and "<password>"
-    Then I must see text "Expenses"
+    Then I must see text "expenses"
     When I tap hamburger then 'About'
     Then I must see text "Crash"
     When I tap 'Crash Me'
