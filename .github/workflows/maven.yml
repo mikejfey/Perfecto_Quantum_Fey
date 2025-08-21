@@ -28,7 +28,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Test with Maven
-      run: clean test -DsuiteXmlFile=smoke.xml
+      run: mvn clean test -DsuiteXmlFile=smoke.xml
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
