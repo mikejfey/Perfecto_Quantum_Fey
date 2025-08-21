@@ -23,9 +23,7 @@ import com.perfecto.reportium.test.TestContext;
 import com.perfecto.reportium.test.result.TestResultFactory;
 
 public class Test_mike {
-    public static void main(String[] args) throws MalformedURLException, IOException {
 
-    }
     @org.testng.annotations.Test
     public void Fey_New_Test() throws Exception {
         String browserName = "mobileOS";

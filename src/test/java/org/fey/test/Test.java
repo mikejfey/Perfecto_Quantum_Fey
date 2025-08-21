@@ -35,11 +35,7 @@ import com.perfecto.reportium.test.result.TestResultFactory;
  */
 public class Test {
 
-    public static void main(String[] args) throws MalformedURLException, IOException {
 
-
-
-    }
 
     @org.testng.annotations.Test
     public void Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW() throws Exception {
