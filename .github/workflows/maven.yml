@@ -9,10 +9,11 @@
 name: Fey Nightly Smoke - Native Perfecto Expense tracker
 
 on:
+  workflow_dispatch:
+
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+
   schedule:
     - cron: '30 0 * * *'
 
