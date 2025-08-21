@@ -78,7 +78,7 @@ public class Test {
         // Reporting client. For more details, see http://developers.perfectomobile.com/display/PD/Reporting
         PerfectoExecutionContext perfectoExecutionContext = new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
                 .withProject(new Project("Fey Appium v2.0 Demo Proj", "1.0"))
-                .withJob(new Job("Appium v2.0 Job", 45))
+                .withJob(new Job("Fey Nightly Job", 45))
                 .withCustomFields(new CustomField("programmer", "Raghavendra Kundaragi"))
                 .withCustomFields(new CustomField("author", "rk@perforce.com"))
                 .withContextTags("Appiumv2.0")
