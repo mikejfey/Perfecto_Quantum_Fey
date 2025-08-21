@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="added test.xml to run suite with maven&#10;updated POM with suiteXmlFile">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_mike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_mike.java" afterDir="false" />
+    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="scheduled gha job">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -421,7 +420,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755786004345</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="configure job for ci/cd">
+      <option name="closed" value="true" />
+      <created>1755792321035</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1755792321035</updated>
+    </task>
+    <task id="LOCAL-00015" summary="scheduled gha job">
+      <option name="closed" value="true" />
+      <created>1755792500432</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1755792500432</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -437,7 +452,9 @@
     <MESSAGE value="handling Chrome notification 'no thank you' button with try-catch if-else" />
     <MESSAGE value="fixed android driver capabilities to run native android app&#10;added testng test not using BDD framework" />
     <MESSAGE value="added test.xml to run suite with maven&#10;updated POM with suiteXmlFile" />
-    <option name="LAST_COMMIT_MESSAGE" value="added test.xml to run suite with maven&#10;updated POM with suiteXmlFile" />
+    <MESSAGE value="configure job for ci/cd" />
+    <MESSAGE value="scheduled gha job" />
+    <option name="LAST_COMMIT_MESSAGE" value="scheduled gha job" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
