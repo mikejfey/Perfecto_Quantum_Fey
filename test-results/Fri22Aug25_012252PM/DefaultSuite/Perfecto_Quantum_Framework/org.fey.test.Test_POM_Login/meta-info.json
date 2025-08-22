@@ -1,0 +1,21 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "name": "setUp",
+        "resultFileName": "SetUp"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1755886938856,
+      "duration": 33950,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

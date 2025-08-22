@@ -8,7 +8,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.remote.*;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-
+import org.testng.annotations.Test;
 import io.appium.java_client.android.*;
 import io.appium.java_client.android.options.UiAutomator2Options;
 
@@ -33,11 +33,9 @@ import com.perfecto.reportium.test.result.TestResultFactory;
  * @version 1.0
  *
  */
-public class Test {
+public class Test_Expense_Login {
 
-
-
-    @org.testng.annotations.Test
+    @Test
     public void Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW() throws Exception {
         String browserName = "mobileOS";
         DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -48,7 +46,7 @@ public class Test {
 
         uiAutomatorCaps.setPlatformName("Android");
         uiAutomatorCaps.setDeviceName("R5CWA2726XK");
-       // uiAutomator2Options.withBrowserName("Chrome");
+        // uiAutomator2Options.withBrowserName("Chrome");
         uiAutomatorCaps.setAutomationName("UiAutomator2");
         uiAutomatorCaps.setApp("PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk");
         uiAutomatorCaps.setAppPackage("io.perfecto.expense.tracker");
@@ -149,4 +147,5 @@ public class Test {
 
 
 }
+
 

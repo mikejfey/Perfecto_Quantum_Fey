@@ -22272,3 +22272,245 @@ Executing scenario: Expense Tracker invalid login Scenario -
 15:10:35 UI-driver tear down complete...
 15:10:35 Preparing For Shut Down...
 15:10:35 Shut Down Completed...
+14:15:37 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+14:15:37 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+14:15:37 Driver: perfectoDriver
+14:15:37 Direct Driver Connect
+14:16:11 Executing setTimeout parameters: {"implicit":0}
+14:16:11 command: setTimeout[ param-1: {implicit=0}] Result: null
+14:16:11 driver init done
+14:16:11 Executing executeScript parameters: {"args":[{"name":"Expense Tracker VALID login Scenario","projectName":"Perfecto_Quantum_Framework","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["Native Expense Android Test valid login testing","data-driven Android Fey Suite"," @validLogin"," @expenseTrackerDataDriven "]}],"script":"mobile:test:start"}
+14:16:11 
+
+Executing scenario: Expense Tracker VALID login Scenario - 
+14:16:11 Test Data{username=test@perfecto.com, password=test123}
+14:16:11 pkg: com.qmetry.qaf.automation.step
+14:16:11 pkg: com.quantum.steps
+14:16:11 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+14:16:11 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+14:16:11 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+14:16:13 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+14:16:13 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+14:16:13 Invoking Teststep: Then I should see expense tracker Native login screen
+14:16:13 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker Native login screen"}],"script":"mobile:step:start"}
+14:16:13 Executing findElement element: By.xpath: //*[@resource-id="io.perfecto.expense.tracker:id/img_icon"] parameters: {}
+14:16:13 Executing findElement parameters: {"value":"//*[@resource-id=\"io.perfecto.expense.tracker:id/img_icon\"]","using":"xpath"}
+14:16:15 command: findElement[ param-1: {value=//*[@resource-id="io.perfecto.expense.tracker:id/img_icon"], using=xpath}] Result: id: 00000000-0001-82d1-ffff-ffff00000013
+14:16:15 command: findElement[ param-1: By.xpath: //*[@resource-id="io.perfecto.expense.tracker:id/img_icon"] param-2: {}] Result: OK
+14:16:15 Executing isElementDisplayed element: By.xpath: //*[@resource-id="io.perfecto.expense.tracker:id/img_icon"] parameters: {"id":"00000000-0001-82d1-ffff-ffff00000013"}
+14:16:15 command: isElementDisplayed[ param-1: By.xpath: //*[@resource-id="io.perfecto.expense.tracker:id/img_icon"] param-2: {"id":"00000000-0001-82d1-ffff-ffff00000013"}] Result: isElementDisplayed:true
+14:16:15 Executing executeScript parameters: {"args":[{"message":"Verify Login screen title","status":true}],"script":"mobile:status:assert"}
+14:16:16 Executing findElement element: By.id: io.perfecto.expense.tracker:id/login_email parameters: {}
+14:16:16 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/login_email","using":"id"}
+14:16:17 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/login_email, using=id}] Result: id: 00000000-0001-82d1-ffff-ffff00000018
+14:16:17 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_email param-2: {}] Result: OK
+14:16:17 Executing isElementDisplayed element: By.id: io.perfecto.expense.tracker:id/login_email parameters: {"id":"00000000-0001-82d1-ffff-ffff00000018"}
+14:16:17 command: isElementDisplayed[ param-1: By.id: io.perfecto.expense.tracker:id/login_email param-2: {"id":"00000000-0001-82d1-ffff-ffff00000018"}] Result: isElementDisplayed:true
+14:16:17 Executing executeScript parameters: {"args":[{"message":"Verify Login screen Email","status":true}],"script":"mobile:status:assert"}
+14:16:18 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+14:16:18 Completed Teststep: Then I should see expense tracker Native login screen
+14:16:18 Invoking Teststep: When I login with VALID creds from datafile  "<username>" and "<password>" with arguments: [${username}, ${password}]
+14:16:18 Executing executeScript parameters: {"args":[{"name":"When I login with VALID creds from datafile  \"<username>\" and \"<password>\""}],"script":"mobile:step:start"}
+14:16:18 Executing findElement element: By.id: io.perfecto.expense.tracker:id/login_email parameters: {}
+14:16:18 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/login_email","using":"id"}
+14:16:19 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/login_email, using=id}] Result: id: 00000000-0001-82d1-ffff-ffff00000018
+14:16:19 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_email param-2: {}] Result: OK
+14:16:19 Executing sendKeysToElement element: By.id: io.perfecto.expense.tracker:id/login_email parameters: {"value":["test@perfecto.com"],"id":"00000000-0001-82d1-ffff-ffff00000018"}
+14:16:20 command: sendKeysToElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_email param-2: {"value":["test@perfecto.com"],"id":"00000000-0001-82d1-ffff-ffff00000018"}] Result: sendKeysToElement:null
+14:16:20 Executing findElement element: By.xpath: //*[@text='test@perfecto.com'] parameters: {}
+14:16:20 Executing findElement parameters: {"value":"//*[@text='test@perfecto.com']","using":"xpath"}
+14:16:21 command: findElement[ param-1: {value=//*[@text='test@perfecto.com'], using=xpath}] Result: id: 00000000-0001-82d1-ffff-ffff00000018
+14:16:21 command: findElement[ param-1: By.xpath: //*[@text='test@perfecto.com'] param-2: {}] Result: OK
+14:16:21 Executing getElementText element: By.xpath: //*[@text='test@perfecto.com'] parameters: {"id":"00000000-0001-82d1-ffff-ffff00000018"}
+14:16:21 command: getElementText[ param-1: By.xpath: //*[@text='test@perfecto.com'] param-2: {"id":"00000000-0001-82d1-ffff-ffff00000018"}] Result: getElementText:test@perfecto.com
+14:16:21 Executing executeScript parameters: {"args":[{"message":"Email was entered as expected","status":true}],"script":"mobile:status:assert"}
+14:16:22 Executing findElement element: By.id: io.perfecto.expense.tracker:id/login_password parameters: {}
+14:16:22 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/login_password","using":"id"}
+14:16:23 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/login_password, using=id}] Result: id: 00000000-0001-82d1-ffff-ffff0000001b
+14:16:23 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_password param-2: {}] Result: OK
+14:16:23 Executing sendKeysToElement element: By.id: io.perfecto.expense.tracker:id/login_password parameters: {"value":["test123"],"id":"00000000-0001-82d1-ffff-ffff0000001b"}
+14:16:26 command: sendKeysToElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_password param-2: {"value":["test123"],"id":"00000000-0001-82d1-ffff-ffff0000001b"}] Result: sendKeysToElement:null
+14:16:26 Executing findElement element: By.id: io.perfecto.expense.tracker:id/login_login_btn parameters: {}
+14:16:26 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/login_login_btn","using":"id"}
+14:16:27 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/login_login_btn, using=id}] Result: id: 00000000-0001-82d1-ffff-ffff0000001e
+14:16:27 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_login_btn param-2: {}] Result: OK
+14:16:27 Executing clickElement element: By.id: io.perfecto.expense.tracker:id/login_login_btn parameters: {"id":"00000000-0001-82d1-ffff-ffff0000001e"}
+14:16:27 command: clickElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_login_btn param-2: {"id":"00000000-0001-82d1-ffff-ffff0000001e"}] Result: clickElement:null
+14:16:27 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+14:16:27 Completed Teststep: When I login with VALID creds from datafile  "<username>" and "<password>" with arguments: [${username}, ${password}]
+14:16:27 Invoking Teststep: Then I must see text "expenses" with arguments: [expenses]
+14:16:27 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"expenses\""}],"script":"mobile:step:start"}
+14:16:27 Executing executeScript parameters: {"args":[{"threshold":"100","content":"expenses","timeout":60}],"script":"mobile:checkpoint:text"}
+14:16:30 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+14:16:31 Completed Teststep: Then I must see text "expenses" with arguments: [expenses]
+14:16:31 Invoking Teststep: When I tap hamburger then 'About'
+14:16:31 Executing executeScript parameters: {"args":[{"name":"When I tap hamburger then 'About'"}],"script":"mobile:step:start"}
+14:16:31 Executing findElement element: By.xpath: //*[@content-desc="Open Drawer"] parameters: {}
+14:16:31 Executing findElement parameters: {"value":"//*[@content-desc=\"Open Drawer\"]","using":"xpath"}
+14:16:31 command: findElement[ param-1: {value=//*[@content-desc="Open Drawer"], using=xpath}] Result: id: 00000000-0001-82d2-ffff-ffff00000030
+14:16:31 command: findElement[ param-1: By.xpath: //*[@content-desc="Open Drawer"] param-2: {}] Result: OK
+14:16:31 Executing clickElement element: By.xpath: //*[@content-desc="Open Drawer"] parameters: {"id":"00000000-0001-82d2-ffff-ffff00000030"}
+14:16:32 command: clickElement[ param-1: By.xpath: //*[@content-desc="Open Drawer"] param-2: {"id":"00000000-0001-82d2-ffff-ffff00000030"}] Result: clickElement:null
+14:16:32 Executing findElement element: By.xpath: //*[@text="About"] parameters: {}
+14:16:32 Executing findElement parameters: {"value":"//*[@text=\"About\"]","using":"xpath"}
+14:16:33 command: findElement[ param-1: {value=//*[@text="About"], using=xpath}] Result: id: 00000000-0001-82d2-ffff-ffff0000004d
+14:16:33 command: findElement[ param-1: By.xpath: //*[@text="About"] param-2: {}] Result: OK
+14:16:33 Executing clickElement element: By.xpath: //*[@text="About"] parameters: {"id":"00000000-0001-82d2-ffff-ffff0000004d"}
+14:16:34 command: clickElement[ param-1: By.xpath: //*[@text="About"] param-2: {"id":"00000000-0001-82d2-ffff-ffff0000004d"}] Result: clickElement:null
+14:16:34 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+14:16:34 Completed Teststep: When I tap hamburger then 'About'
+14:16:34 Invoking Teststep: Then I must see text "Crash" with arguments: [Crash]
+14:16:34 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Crash\""}],"script":"mobile:step:start"}
+14:16:34 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Crash","timeout":60}],"script":"mobile:checkpoint:text"}
+14:16:41 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+14:16:41 Completed Teststep: Then I must see text "Crash" with arguments: [Crash]
+14:16:41 Invoking Teststep: When I tap 'Crash Me'
+14:16:41 Executing executeScript parameters: {"args":[{"name":"When I tap 'Crash Me'"}],"script":"mobile:step:start"}
+14:16:41 Executing findElement element: By.id: io.perfecto.expense.tracker:id/crash_me_button parameters: {}
+14:16:41 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/crash_me_button","using":"id"}
+14:16:42 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/crash_me_button, using=id}] Result: id: 00000000-0001-82d3-ffff-ffff0000006b
+14:16:42 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/crash_me_button param-2: {}] Result: OK
+14:16:42 Executing clickElement element: By.id: io.perfecto.expense.tracker:id/crash_me_button parameters: {"id":"00000000-0001-82d3-ffff-ffff0000006b"}
+14:16:42 command: clickElement[ param-1: By.id: io.perfecto.expense.tracker:id/crash_me_button param-2: {"id":"00000000-0001-82d3-ffff-ffff0000006b"}] Result: clickElement:null
+14:16:42 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+14:16:42 Completed Teststep: When I tap 'Crash Me'
+14:16:42 Competed scenario: Expense Tracker VALID login Scenario with status SUCCESS
+14:16:42 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+14:16:42 Executing quit parameters: {}
+14:16:58 command: quit[ param-1: {}] Result: null
+14:16:58 UI-driver tear down complete...
+14:16:58 Preparing For Shut Down...
+14:16:58 Shut Down Completed...
+09:25:05 Using QAF Json Reporter
+09:25:05 QAF Json Reporter: {description=, name=setUp}
+09:25:05 Preparing For Shut Down...
+09:25:05 Shut Down Completed...
+09:35:10 Using QAF Json Reporter
+09:35:10 QAF Json Reporter: {description=, name=setUp}
+09:35:10 Preparing For Shut Down...
+09:35:10 Shut Down Completed...
+09:48:22 Using QAF Json Reporter
+09:48:22 QAF Json Reporter: {description=, name=setUp}
+09:48:25 Preparing For Shut Down...
+09:48:25 Shut Down Completed...
+10:13:35 Using QAF Json Reporter
+10:13:35 QAF Json Reporter: {description=, name=setUp}
+10:13:38 Preparing For Shut Down...
+10:13:38 Shut Down Completed...
+11:42:35 Using QAF Json Reporter
+11:42:35 QAF Json Reporter: {description=, name=setUp}
+11:42:35 Preparing For Shut Down...
+11:42:35 Shut Down Completed...
+11:44:38 Using QAF Json Reporter
+11:44:38 QAF Json Reporter: {description=, name=setUp}
+11:44:58 Preparing For Shut Down...
+11:44:58 Shut Down Completed...
+11:52:00 Using QAF Json Reporter
+11:52:00 QAF Json Reporter: {description=, name=setUp}
+11:52:05 Preparing For Shut Down...
+11:52:05 Shut Down Completed...
+12:13:46 Using QAF Json Reporter
+12:13:46 QAF Json Reporter: {description=, name=setUp}
+12:13:53 Preparing For Shut Down...
+12:13:53 Shut Down Completed...
+13:22:52 Using QAF Json Reporter
+13:22:52 QAF Json Reporter: {description=, name=setUp}
+13:23:00 Preparing For Shut Down...
+13:23:00 Shut Down Completed...
+13:24:41 Using QAF Json Reporter
+13:24:41 QAF Json Reporter: {description=, name=setUp}
+13:24:48 QAF Json Reporter: {description=, name=tearDown}
+13:24:48 Preparing For Shut Down...
+13:24:48 Shut Down Completed...
+13:26:41 Using QAF Json Reporter
+13:26:41 QAF Json Reporter: {description=, name=setUp}
+13:26:47 QAF Json Reporter: {description=, name=tearDown}
+13:26:47 Preparing For Shut Down...
+13:26:47 Shut Down Completed...
+13:32:10 Using QAF Json Reporter
+13:32:10 QAF Json Reporter: {description=, name=setUp}
+13:32:16 QAF Json Reporter: {description=, name=tearDown}
+13:32:16 Preparing For Shut Down...
+13:34:37 Using QAF Json Reporter
+13:34:37 QAF Json Reporter: {description=, name=setUp}
+13:34:44 QAF Json Reporter: {description=, name=tearDown}
+13:34:44 Preparing For Shut Down...
+13:39:06 Using QAF Json Reporter
+13:39:06 QAF Json Reporter: {description=, name=setUp}
+13:39:12 Preparing For Shut Down...
+13:44:28 Using QAF Json Reporter
+13:44:28 QAF Json Reporter: {description=, name=setUp}
+13:44:33 Preparing For Shut Down...
+13:44:33 Shut Down Completed...
+13:47:11 Using QAF Json Reporter
+13:47:11 QAF Json Reporter: {description=, name=setUp}
+13:47:17 Preparing For Shut Down...
+13:47:17 Shut Down Completed...
+13:53:14 Using QAF Json Reporter
+13:53:14 QAF Json Reporter: {description=, name=setUp}
+13:53:21 Preparing For Shut Down...
+13:53:21 Shut Down Completed...
+14:02:20 Using QAF Json Reporter
+14:02:20 QAF Json Reporter: {description=, name=setUp}
+14:02:26 Preparing For Shut Down...
+14:02:26 Shut Down Completed...
+14:05:54 Using QAF Json Reporter
+14:05:54 QAF Json Reporter: {description=, name=setUp}
+14:06:00 QAF Json Reporter: {description=, name=tearDown}
+14:06:00 Preparing For Shut Down...
+14:06:00 Shut Down Completed...
+14:07:43 Using QAF Json Reporter
+14:07:43 QAF Json Reporter: {description=, name=setUp}
+14:07:50 QAF Json Reporter: {description=, name=tearDown}
+14:07:50 Preparing For Shut Down...
+14:07:50 Shut Down Completed...
+14:09:45 Using QAF Json Reporter
+14:09:45 QAF Json Reporter: {description=, name=setUp}
+14:09:51 Preparing For Shut Down...
+14:23:07 Using QAF Json Reporter
+14:23:07 QAF Json Reporter: {description=, name=setUp}
+14:23:14 Preparing For Shut Down...
+14:23:14 Shut Down Completed...
+14:24:17 Using QAF Json Reporter
+14:24:17 QAF Json Reporter: {description=, name=setUp}
+14:24:24 Preparing For Shut Down...
+14:25:16 Using QAF Json Reporter
+14:25:16 QAF Json Reporter: {description=, name=setUp}
+14:25:23 Preparing For Shut Down...
+14:25:23 Shut Down Completed...
+14:29:47 Using QAF Json Reporter
+14:29:47 QAF Json Reporter: {description=, name=setUp}
+14:30:05 Preparing For Shut Down...
+14:30:05 Shut Down Completed...
+14:31:42 Using QAF Json Reporter
+14:31:42 QAF Json Reporter: {description=, name=setUp}
+14:31:48 Preparing For Shut Down...
+14:31:48 Shut Down Completed...
+14:33:37 Using QAF Json Reporter
+14:33:37 QAF Json Reporter: {description=, name=setUp}
+14:33:56 Preparing For Shut Down...
+14:33:56 Shut Down Completed...
+14:37:26 Using QAF Json Reporter
+14:37:26 QAF Json Reporter: {description=, name=setUp}
+14:37:32 Preparing For Shut Down...
+14:37:32 Shut Down Completed...
+14:45:24 Using QAF Json Reporter
+14:45:24 QAF Json Reporter: {description=, name=setUp}
+14:45:30 Preparing For Shut Down...
+14:45:30 Shut Down Completed...
+14:59:24 Using QAF Json Reporter
+14:59:24 QAF Json Reporter: {description=, name=setUp}
+14:59:47 Preparing For Shut Down...
+14:59:47 Shut Down Completed...
+15:08:03 Using QAF Json Reporter
+15:08:03 QAF Json Reporter: {description=, name=setUp}
+15:08:20 Preparing For Shut Down...
+15:08:20 Shut Down Completed...
+15:10:33 Using QAF Json Reporter
+15:10:33 QAF Json Reporter: {description=, name=setUp}
+15:10:54 Preparing For Shut Down...
+15:10:54 Shut Down Completed...
+15:13:56 Using QAF Json Reporter
+15:13:56 QAF Json Reporter: {description=, name=setUp}
+15:14:14 Preparing For Shut Down...
+15:14:14 Shut Down Completed...

@@ -3,7 +3,7 @@
 <suite name = "Glossier Regression">
     <test name = "All tests">
         <classes>
-            <class name="org.fey.test.Test"/>
+            <class name="org.fey.test.Test_Expense_Login"/>
             <class name="org.fey.test.Test_mike"/>
         </classes>
     </test>
