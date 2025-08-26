@@ -1,6 +1,4 @@
 package org.fey.test;
-import com.perfecto.reportium.test.result.TestResult;
-import com.quantum.pages.ExpenseTrackerLoginPage;
 import com.quantum.pages.POM_ExpenseLoginPage;
 import com.quantum.pages.POM_Expense_Homepage;
 import org.aspectj.lang.annotation.After;
@@ -97,7 +95,6 @@ public class Test_POM_Login {
         //loginPage.logingAs("test@perfecto.com");
         homepage = loginPage.logingAs("test@perfecto.com", "test123");
         String welcomeText = homepage.getWelcomeText();
-        //reportiumClient.testStop(TestResultFactory.createSuccess());
         //reportiumClient.testStop(TestResultFactory.createSuccess());
         //driver.quit();
        homepage.quitDriver();
