@@ -29,7 +29,7 @@ import com.perfecto.reportium.test.result.TestResultFactory;
  *	- using AppiumBy,
  *	- ShadowDOM elements : finding ShadowDOM element , click Element ShadowDOM
  *
- * @author Raghavendra Kundaragi
+ * @author Mike Fey
  * @version 1.0
  *
  */
