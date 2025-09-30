@@ -1,15 +1,13 @@
 package org.fey.test;
 import com.quantum.pages.POM_ExpenseLoginPage;
 import com.quantum.pages.POM_Expense_Homepage;
-import org.aspectj.lang.annotation.After;
+
 import org.openqa.selenium.*;
 import org.openqa.selenium.remote.*;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
-import org.testng.annotations.AfterClass;
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import org.testng.annotations.AfterMethod;
+i
 import io.appium.java_client.android.*;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import com.perfecto.reportium.client.ReportiumClient;
@@ -18,8 +16,6 @@ import com.perfecto.reportium.model.CustomField;
 import com.perfecto.reportium.model.Job;
 import com.perfecto.reportium.model.PerfectoExecutionContext;
 import com.perfecto.reportium.model.Project;
-import com.perfecto.reportium.test.TestContext;
-import com.perfecto.reportium.test.result.TestResultFactory;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -80,7 +76,7 @@ public class Test_POM_Login {
     }
 
 
-    @Test
+    @Test (groups ={"smoke"})
     public void testFeyValidLogin() {
         PerfectoExecutionContext perfectoExecutionContext = new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
                 .withProject(new Project("Fey Appium v2.0 Demo Proj", "1.0"))
@@ -97,7 +93,26 @@ public class Test_POM_Login {
         String welcomeText = homepage.getWelcomeText();
         //reportiumClient.testStop(TestResultFactory.createSuccess());
         //driver.quit();
-       homepage.quitDriver();
+        homepage.quitDriver();
+    }
+        @Test (groups ={"regression"})
+        public void testFeyValidLogin2() {
+            PerfectoExecutionContext perfectoExecutionContext = new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
+                    .withProject(new Project("Fey Appium v2.0 Demo Proj", "1.0"))
+                    .withJob(new Job("Fey POM  Nightly Job", 45))
+                    .withCustomFields(new CustomField("programmer", "Mike Fey POM"))
+                    .withCustomFields(new CustomField("author", "mikejfey@hotmail.com"))
+                    .withContextTags("Appiumv2.0")
+                    .withWebDriver(driver)
+                    .build();
+
+            loginPage.launchApp();
+            //loginPage.logingAs("test@perfecto.com");
+            homepage = loginPage.logingAs("test@perfecto.com", "test123");
+            String welcomeText = homepage.getWelcomeText();
+            //reportiumClient.testStop(TestResultFactory.createSuccess());
+            //driver.quit();
+            homepage.quitDriver();
     }
 
 

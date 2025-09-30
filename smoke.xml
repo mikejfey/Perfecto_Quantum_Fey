@@ -1,11 +1,26 @@
-<?xml version = "1.0" encoding = "UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name = "Glossier Regression">
-    <test name = "All tests">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Expense Fey POM Suite" verbose="0" parallel="tests"
+       thread-count="100">
+    <listeners>
+        <listener class-name="com.quantum.listeners.QuantumReportiumListener" />
+    </listeners>
+    <parameter name="driver.name" value="perfectoDriver"/>
+    <test name="IOS Expense Tracker Test" enabled="true" thread-count="3">
+        <parameter name="perfecto.additional.capabilities" value="{'perfecto:openDeviceTimeout':15}" />
+        <parameter name="perfecto.capabilities.model" value="iPhone-14.*"/>
+        <parameter name="perfecto.capabilities" value="{'perfecto:useVirtualDevice':true}" />
+        <parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
+        <parameter name="perfecto.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
+        <parameter name="perfecto.capabilities.iOSResign" value="true"/>
+        <parameter name="env.resources" value="src/main/resources/ios"/>
+        <parameter name="driver.capabilities.sensorInstrument" value="true"/>
+        <parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}" />
+        <parameter name="perfecto.capabilities.screenshotOnError" value="false" />
+        <parameter name="perfecto.capabilities.takesScreenshot" value="true" />
+
         <classes>
-            <class name="org.fey.test.Test_Expense_Login"/>
-            <class name="org.fey.test.Test_mike"/>
+            <class
+                    name="org.fey.test.SampleTestGroups" />
         </classes>
     </test>
-
 </suite>

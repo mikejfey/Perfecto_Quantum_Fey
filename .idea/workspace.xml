@@ -5,134 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="updated job info... programmer and author in test*.java files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantum/pages/POM_ExpenseLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantum/pages/POM_Expense_Homepage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_Expense_Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_POM_Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_012252PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_012252PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_012252PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_012252PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_012441PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_012441PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_012441PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_012441PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_012641PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_012641PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_012641PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_012641PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_013210PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_013210PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_013210PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_013210PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_013437PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_013437PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_013437PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_013437PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_013905PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_013905PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_013905PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_013905PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_014428PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_014428PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_014428PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_014428PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_014711PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_014711PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_014711PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_014711PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_015314PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_015314PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_015314PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_015314PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_020220PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_020220PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_020220PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_020220PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_020554PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_020554PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_020554PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_020554PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_020743PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_020743PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_020743PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_020743PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_020945PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_020945PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_020945PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_020945PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_022307PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_022307PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_022307PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_022307PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_022417PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_022417PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_022417PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_022417PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_022516PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_022516PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_022516PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_022516PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_022947PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_022947PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_022947PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_022947PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_023142PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_023142PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_023142PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_023142PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_023337PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_023337PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_023337PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_023337PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_023726PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_023726PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_023726PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_023726PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_024524PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_024524PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_024524PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_024524PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_025924PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_025924PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_025924PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_025924PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_030803PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_030803PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_030803PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_030803PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_031033PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_031033PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_031033PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_031033PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_094822AM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_094822AM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_094822AM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_094822AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_101335AM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_101335AM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_101335AM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_101335AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_114438AM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_114438AM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_114438AM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_114438AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_115200AM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_115200AM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_115200AM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_115200AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_121346PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_121346PM/DefaultSuite/Perfecto_Quantum_Framework/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_121346PM/DefaultSuite/Perfecto_Quantum_Framework/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Fri22Aug25_121346PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/QuantumPageObjModel/smokePOM2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/SampleTestGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/TestIosExpenseNoPOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/TestQuantumPOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testGroups.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scenario.log" beforeDir="false" afterPath="$PROJECT_DIR$/scenario.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/smoke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/smoke.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/invalidExpenseLogins.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/invalidExpenseLogins.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/testData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/testData.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/validExpenseLogins.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/validExpenseLogins.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_POM_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_POM_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_mike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_mike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,16 +38,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mikejfey&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mikejfey/Perfecto_Quantum_Fey.git&quot;,
+    &quot;accountId&quot;: &quot;0297c66b-b4c1-4949-a7dd-27b8393bb535&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2p8TDv6nDlWvmBCHFPsnb8p1scZ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -171,24 +67,47 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Maven.quantum-starter [clean,install -U].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.quantum-starter [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.quantum-starter [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.quantum-starter [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.quantum-starter [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.test.xml quantum-starter [clean,test].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/smoke.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOM2.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/Android_TAM_ExpTrackerDataDriven_seq.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/IOS_TAM_ExpTrackerDataDriven_seq.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/testGroups.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SampleTestGroups.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SampleTestGroups.testLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SampleTestGroups.testSearchOnAndroid.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SampleTestGroups.testSearchOniOS.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestIOSExpense.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestIosExpenseNoPOM.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestQuantumPOM.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestQuantumPOM.testPOMinQuantum.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;15&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.57714957&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources/config/QuantumPageObjModel" />
+      <recent name="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM" />
       <recent name="$PROJECT_DIR$/src/main/resources/scenarios/worksTAM" />
       <recent name="$PROJECT_DIR$/src/main/resources/config/androidDriver" />
-      <recent name="$PROJECT_DIR$/src/main/resources/config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM" />
@@ -207,13 +126,14 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Test_POM_Login">
+  <component name="RunManager" selected="TestNG.TestIosExpenseNoPOM">
     <configuration name="quantum-starter [clean,install -U]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
+            <option name="cmdOptions" />
             <option name="profiles">
               <set />
             </option>
@@ -224,9 +144,13 @@
                 <option value="-U" />
               </list>
             </option>
+            <option name="multimoduleDir" />
             <option name="pomFileName" />
             <option name="profilesMap">
               <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$" />
@@ -237,26 +161,7 @@
     </configuration>
     <configuration name="quantum-starter [clean,test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
-        <option name="myGeneralSettings">
-          <MavenGeneralSettings>
-            <option name="alwaysUpdateSnapshots" value="false" />
-            <option name="checksumPolicy" value="NOT_SET" />
-            <option name="emulateTerminal" value="false" />
-            <option name="failureBehavior" value="NOT_SET" />
-            <option name="localRepository" value="" />
-            <option name="mavenHome" value="Bundled (Maven 3)" />
-            <option name="nonRecursive" value="false" />
-            <option name="outputLevel" value="INFO" />
-            <option name="pluginUpdatePolicy" value="DEFAULT" />
-            <option name="printErrorStackTraces" value="false" />
-            <option name="showDialogWithAdvancedSettings" value="false" />
-            <option name="threads" />
-            <option name="useMavenConfig" value="true" />
-            <option name="usePluginRegistry" value="false" />
-            <option name="userSettingsFile" value="" />
-            <option name="workOffline" value="false" />
-          </MavenGeneralSettings>
-        </option>
+        <option name="myGeneralSettings" />
         <option name="myRunnerSettings">
           <MavenRunnerSettings>
             <option name="delegateBuildToMaven" value="false" />
@@ -268,13 +173,13 @@
               <map />
             </option>
             <option name="passParentEnv" value="true" />
-            <option name="runMavenInBackground" value="true" />
             <option name="skipTests" value="false" />
             <option name="vmOptions" value="" />
           </MavenRunnerSettings>
         </option>
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
+            <option name="cmdOptions" />
             <option name="profiles">
               <set />
             </option>
@@ -284,9 +189,13 @@
                 <option value="test" />
               </list>
             </option>
+            <option name="multimoduleDir" />
             <option name="pomFileName" />
             <option name="profilesMap">
               <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$" />
@@ -297,26 +206,7 @@
     </configuration>
     <configuration name="test.xml quantum-starter [clean,test]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
-        <option name="myGeneralSettings">
-          <MavenGeneralSettings>
-            <option name="alwaysUpdateSnapshots" value="false" />
-            <option name="checksumPolicy" value="NOT_SET" />
-            <option name="emulateTerminal" value="false" />
-            <option name="failureBehavior" value="NOT_SET" />
-            <option name="localRepository" value="" />
-            <option name="mavenHome" value="Bundled (Maven 3)" />
-            <option name="nonRecursive" value="false" />
-            <option name="outputLevel" value="INFO" />
-            <option name="pluginUpdatePolicy" value="DEFAULT" />
-            <option name="printErrorStackTraces" value="false" />
-            <option name="showDialogWithAdvancedSettings" value="false" />
-            <option name="threads" />
-            <option name="useMavenConfig" value="true" />
-            <option name="usePluginRegistry" value="false" />
-            <option name="userSettingsFile" value="" />
-            <option name="workOffline" value="false" />
-          </MavenGeneralSettings>
-        </option>
+        <option name="myGeneralSettings" />
         <option name="myRunnerSettings">
           <MavenRunnerSettings>
             <option name="delegateBuildToMaven" value="false" />
@@ -328,13 +218,13 @@
               <map />
             </option>
             <option name="passParentEnv" value="true" />
-            <option name="runMavenInBackground" value="true" />
             <option name="skipTests" value="false" />
             <option name="vmOptions" value="" />
           </MavenRunnerSettings>
         </option>
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
+            <option name="cmdOptions" />
             <option name="profiles">
               <set />
             </option>
@@ -342,12 +232,16 @@
               <list>
                 <option value="clean" />
                 <option value="test" />
-                <option value="-DsuiteXmlFile=smoke.xml" />
+                <option value="-DsuiteXmlFile=testGroups.xml" />
               </list>
             </option>
+            <option name="multimoduleDir" />
             <option name="pomFileName" />
             <option name="profilesMap">
               <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$" />
@@ -356,80 +250,111 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="Test_POM_Login" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SampleTestGroups" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="quantum-starter" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.fey.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="org.fey.test" />
-      <option name="MAIN_CLASS_NAME" value="org.fey.test.Test_POM_Login" />
+      <option name="MAIN_CLASS_NAME" value="org.fey.test.SampleTestGroups" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_POM_Login.testFeyValidLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestIosExpenseNoPOM" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="quantum-starter" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.fey.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="org.fey.test" />
-      <option name="MAIN_CLASS_NAME" value="org.fey.test.Test_POM_Login" />
-      <option name="METHOD_NAME" value="testFeyValidLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test_mike" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="quantum-starter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.fey.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.fey.test" />
-      <option name="MAIN_CLASS_NAME" value="org.fey.test.Test_mike" />
+      <option name="MAIN_CLASS_NAME" value="org.fey.test.TestIosExpenseNoPOM" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_mike.Fey_New_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/smoke.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="quantum-starter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.fey.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.fey.test" />
-      <option name="MAIN_CLASS_NAME" value="org.fey.test.Test_mike" />
-      <option name="METHOD_NAME" value="Fey_New_Test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/ValidLogin_Android_TAM_ExpTrackerDataDriven_seq.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="quantum-starter" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/ValidLogin_Android_TAM_ExpTrackerDataDriven_seq.xml" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/smoke.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/IOS_TAM_ExpTrackerDataDriven_seq.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="quantum-starter" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/IOS_TAM_ExpTrackerDataDriven_seq.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/testGroups.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="quantum-starter" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testGroups.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -440,21 +365,28 @@
       <item itemvalue="Maven.quantum-starter [clean,install -U]" />
       <item itemvalue="Maven.quantum-starter [clean,test]" />
       <item itemvalue="Maven.test.xml quantum-starter [clean,test]" />
-      <item itemvalue="TestNG.Test_POM_Login" />
-      <item itemvalue="TestNG.Test_POM_Login.testFeyValidLogin" />
-      <item itemvalue="TestNG.Test_mike" />
-      <item itemvalue="TestNG.Test_mike.Fey_New_Test" />
-      <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/ValidLogin_Android_TAM_ExpTrackerDataDriven_seq.xml" />
+      <item itemvalue="TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/smoke.xml" />
+      <item itemvalue="TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/IOS_TAM_ExpTrackerDataDriven_seq.xml" />
+      <item itemvalue="TestNG.SampleTestGroups" />
+      <item itemvalue="TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/testGroups.xml" />
+      <item itemvalue="TestNG.TestIosExpenseNoPOM" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Test_POM_Login" />
-        <item itemvalue="TestNG.Test_POM_Login.testFeyValidLogin" />
-        <item itemvalue="TestNG./Users/michafey/GitRepos/Perfecto_Quantum_Framework/src/main/resources/config/works_IOS14_TAM/ValidLogin_Android_TAM_ExpTrackerDataDriven_seq.xml" />
-        <item itemvalue="TestNG.Test_mike" />
-        <item itemvalue="TestNG.Test_mike.Fey_New_Test" />
+        <item itemvalue="TestNG.TestIosExpenseNoPOM" />
+        <item itemvalue="TestNG.SampleTestGroups" />
+        <item itemvalue="TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/testGroups.xml" />
+        <item itemvalue="TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/IOS_TAM_ExpTrackerDataDriven_seq.xml" />
+        <item itemvalue="TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/smoke.xml" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -601,7 +533,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755793284060</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="updated job info... programmer and author in test*.java files">
+      <option name="closed" value="true" />
+      <created>1758651655067</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1758651655067</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -621,7 +561,8 @@
     <MESSAGE value="scheduled gha job" />
     <MESSAGE value="added workflow_dispatch to run job manually" />
     <MESSAGE value="removed on: push so gha job won't run every push" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed on: push so gha job won't run every push" />
+    <MESSAGE value="updated job info... programmer and author in test*.java files" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated job info... programmer and author in test*.java files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -632,6 +573,10 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Perfecto_Quantum_Framework$_Users_michafey_GitRepos_Perfecto_Quantum_Framework_src_main_resources_config_androidDriver_wiki_web_native_AndroidWorks_xml.ic" NAME="$PROJECT_DIR$/src/main/resources/config/androidDriver/wiki_web_native_AndroidWorks.xml Coverage Results" MODIFIED="1754503912681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

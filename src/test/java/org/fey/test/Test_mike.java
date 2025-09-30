@@ -6,8 +6,6 @@ import java.util.*;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.remote.*;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 
 import io.appium.java_client.android.*;
 import io.appium.java_client.android.options.UiAutomator2Options;
@@ -21,10 +19,11 @@ import com.perfecto.reportium.model.PerfectoExecutionContext;
 import com.perfecto.reportium.model.Project;
 import com.perfecto.reportium.test.TestContext;
 import com.perfecto.reportium.test.result.TestResultFactory;
+import org.testng.annotations.Test;
 
 public class Test_mike {
 
-    @org.testng.annotations.Test
+    @Test(groups = {"smoke"})
     public void Fey_New_Test() throws Exception {
         String browserName = "mobileOS";
         DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -77,7 +76,7 @@ public class Test_mike {
             reportiumClient.testStart("Fey New testng", new TestContext("Appium_v2.0", "Android Web"));
 
             // write your code here
-            System.out.println("new test code");
+            System.out.println("new test code for smoke");
             // write your code here
 
 
