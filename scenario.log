@@ -23562,3 +23562,450 @@ Executing scenario: Expense Tracker VALID login Scenario -
 13:56:12 Preparing For Shut Down...
 14:11:42 Preparing For Shut Down...
 14:15:10 Preparing For Shut Down...
+16:21:56 Preparing For Shut Down...
+07:39:26 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+07:39:26 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+07:39:26 Driver: perfectoDriver
+07:39:26 Direct Driver Connect
+07:39:52 Executing setTimeout parameters: {"implicit":0}
+07:39:53 command: setTimeout[ param-1: {implicit=0}] Result: null
+07:39:53 driver init done
+07:39:53 Executing executeScript parameters: {"args":[{"name":"Expense Tracker VALID login Scenario","projectName":"Perfecto_Quantum_Fey","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["TAM Cass - don't reinstall app each time","data-driven Android Fey Suite"," @validLogin"," @expenseTrackerDataDriven "]}],"script":"mobile:test:start"}
+07:39:53 
+
+Executing scenario: Expense Tracker VALID login Scenario - 
+07:39:53 Test Data{username=test@perfecto.com, password=test123}
+07:39:53 pkg: com.qmetry.qaf.automation.step
+07:39:53 pkg: com.quantum.steps
+07:39:53 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+07:39:53 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+07:39:53 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+07:39:53 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:39:53 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+07:39:53 Invoking Teststep: Then I should see expense tracker Native login screen
+07:39:53 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker Native login screen"}],"script":"mobile:step:start"}
+07:39:54 Executing findElement element: By.xpath: //*[@resource-id="io.perfecto.expense.tracker:id/img_icon"] parameters: {}
+07:39:54 Executing findElement parameters: {"value":"//*[@resource-id=\"io.perfecto.expense.tracker:id/img_icon\"]","using":"xpath"}
+07:39:54 [31mcommand: findElement[ param-1: {value=//*[@resource-id="io.perfecto.expense.tracker:id/img_icon"], using=xpath}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '25'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Command: [58c7abf4-4174-4a2a-b260-998553423d69, findElement {value=//*[@resource-id="io.perfecto.expense.tracker:id/img_icon"], using=xpath}]
+Capabilities {appium:app: , appium:appPackage: io.perfecto.expense.tracker, appium:appiumVersion: 1.22.3, appium:assert_javascript_enabled: true, appium:audioStreamInfo: {"audioStreamingServerUrl":..., appium:automationName: UiAutomator2, appium:automationVersion: 1.70.1, appium:databaseEnabled: false, appium:desired: {appPackage: io.perfecto.expense.tracker, appiumVersion: 1.22.3, automationName: UiAutomator2, automationVersion: 1.70.1, browserName: , deviceName: R5CWA2726XK, platformName: Android, platformVersion: 14}, appium:deviceApiLevel: 34, appium:deviceManufacturer: samsung, appium:deviceModel: SM-S918U1, appium:deviceName: R5CWA2726XK, appium:deviceScreenDensity: 600, appium:deviceScreenSize: 1440x3088, appium:deviceSessionId: 58c7abf4-4174-4a2a-b260-998..., appium:deviceUDID: R5CWA2726XK, appium:enableAppiumBehavior: true, appium:entityType: appium_driver, appium:executionId: 58c7abf4-4174-4a2a-b260-998..., appium:host: demo.perfectomobile.com, appium:internalPureAppiumFlow: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:mcmExecutionId: mikejfey@hotmail.com_Remote..., appium:model: Galaxy.*, appium:networkConnectionEnabled: true, appium:password: , appium:pixelRatio: 3.75, appium:platformVersion: 14, appium:reportPdfUrl: https://demo.app.perfectomo..., appium:screenshotOnError: false, appium:scriptName: RemoteWebDriver, appium:securePureAppiumFlow: false, appium:securityToken: , appium:serverConnector: , appium:statBarHeight: 100, appium:stopUrl: https://demo.perfectomobile..., appium:streamInfo: {"url":"wss://ams-01.perfec..., appium:takesScreenshot: true, appium:testGridReportUrl: https://demo.app.perfectomo..., appium:testRunWithPureAppiumFlow: true, appium:viewportRect: {height: 2708, left: 0, top: 100, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 58c7abf4-4174-4a2a-b260-998553423d69[0m
+07:39:55 Executing findElement parameters: {"value":"//*[@resource-id=\"io.perfecto.expense.tracker:id/img_icon\"]","using":"xpath"}
+07:39:57 command: findElement[ param-1: {value=//*[@resource-id="io.perfecto.expense.tracker:id/img_icon"], using=xpath}] Result: id: 00000000-0000-0379-ffff-ffff00000013
+07:39:57 command: findElement[ param-1: By.xpath: //*[@resource-id="io.perfecto.expense.tracker:id/img_icon"] param-2: {}] Result: OK
+07:39:57 Executing isElementDisplayed element: By.xpath: //*[@resource-id="io.perfecto.expense.tracker:id/img_icon"] parameters: {"id":"00000000-0000-0379-ffff-ffff00000013"}
+07:39:57 command: isElementDisplayed[ param-1: By.xpath: //*[@resource-id="io.perfecto.expense.tracker:id/img_icon"] param-2: {"id":"00000000-0000-0379-ffff-ffff00000013"}] Result: isElementDisplayed:true
+07:39:57 Executing executeScript parameters: {"args":[{"message":"Verify Login screen title","status":true}],"script":"mobile:status:assert"}
+07:39:58 Executing findElement element: By.id: io.perfecto.expense.tracker:id/login_email parameters: {}
+07:39:58 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/login_email","using":"id"}
+07:39:59 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/login_email, using=id}] Result: id: 00000000-0000-0379-ffff-ffff00000018
+07:39:59 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_email param-2: {}] Result: OK
+07:39:59 Executing isElementDisplayed element: By.id: io.perfecto.expense.tracker:id/login_email parameters: {"id":"00000000-0000-0379-ffff-ffff00000018"}
+07:39:59 command: isElementDisplayed[ param-1: By.id: io.perfecto.expense.tracker:id/login_email param-2: {"id":"00000000-0000-0379-ffff-ffff00000018"}] Result: isElementDisplayed:true
+07:39:59 Executing executeScript parameters: {"args":[{"message":"Verify Login screen Email","status":true}],"script":"mobile:status:assert"}
+07:40:00 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:40:00 Completed Teststep: Then I should see expense tracker Native login screen
+07:40:00 Invoking Teststep: When I login with VALID creds from datafile  "<username>" and "<password>" with arguments: [${username}, ${password}]
+07:40:00 Executing executeScript parameters: {"args":[{"name":"When I login with VALID creds from datafile  \"<username>\" and \"<password>\""}],"script":"mobile:step:start"}
+07:40:00 Executing findElement element: By.id: io.perfecto.expense.tracker:id/login_email parameters: {}
+07:40:00 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/login_email","using":"id"}
+07:40:01 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/login_email, using=id}] Result: id: 00000000-0000-0379-ffff-ffff00000018
+07:40:01 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_email param-2: {}] Result: OK
+07:40:01 Executing sendKeysToElement element: By.id: io.perfecto.expense.tracker:id/login_email parameters: {"value":["test@perfecto.com"],"id":"00000000-0000-0379-ffff-ffff00000018"}
+07:40:01 command: sendKeysToElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_email param-2: {"value":["test@perfecto.com"],"id":"00000000-0000-0379-ffff-ffff00000018"}] Result: sendKeysToElement:null
+07:40:01 Executing findElement element: By.xpath: //*[@text='test@perfecto.com'] parameters: {}
+07:40:01 Executing findElement parameters: {"value":"//*[@text='test@perfecto.com']","using":"xpath"}
+07:40:03 command: findElement[ param-1: {value=//*[@text='test@perfecto.com'], using=xpath}] Result: id: 00000000-0000-0379-ffff-ffff00000018
+07:40:03 command: findElement[ param-1: By.xpath: //*[@text='test@perfecto.com'] param-2: {}] Result: OK
+07:40:03 Executing getElementText element: By.xpath: //*[@text='test@perfecto.com'] parameters: {"id":"00000000-0000-0379-ffff-ffff00000018"}
+07:40:03 command: getElementText[ param-1: By.xpath: //*[@text='test@perfecto.com'] param-2: {"id":"00000000-0000-0379-ffff-ffff00000018"}] Result: getElementText:test@perfecto.com
+07:40:03 Executing executeScript parameters: {"args":[{"message":"Email was entered as expected","status":true}],"script":"mobile:status:assert"}
+07:40:04 Executing findElement element: By.id: io.perfecto.expense.tracker:id/login_password parameters: {}
+07:40:04 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/login_password","using":"id"}
+07:40:05 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/login_password, using=id}] Result: id: 00000000-0000-0379-ffff-ffff0000001b
+07:40:05 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_password param-2: {}] Result: OK
+07:40:05 Executing sendKeysToElement element: By.id: io.perfecto.expense.tracker:id/login_password parameters: {"value":["test123"],"id":"00000000-0000-0379-ffff-ffff0000001b"}
+07:40:05 command: sendKeysToElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_password param-2: {"value":["test123"],"id":"00000000-0000-0379-ffff-ffff0000001b"}] Result: sendKeysToElement:null
+07:40:05 Executing findElement element: By.id: io.perfecto.expense.tracker:id/login_login_btn parameters: {}
+07:40:05 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/login_login_btn","using":"id"}
+07:40:07 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/login_login_btn, using=id}] Result: id: 00000000-0000-0379-ffff-ffff0000001e
+07:40:07 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_login_btn param-2: {}] Result: OK
+07:40:07 Executing clickElement element: By.id: io.perfecto.expense.tracker:id/login_login_btn parameters: {"id":"00000000-0000-0379-ffff-ffff0000001e"}
+07:40:08 command: clickElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_login_btn param-2: {"id":"00000000-0000-0379-ffff-ffff0000001e"}] Result: clickElement:null
+07:40:08 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:40:08 Completed Teststep: When I login with VALID creds from datafile  "<username>" and "<password>" with arguments: [${username}, ${password}]
+07:40:08 Invoking Teststep: Then I must see text "expenses" with arguments: [expenses]
+07:40:08 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"expenses\""}],"script":"mobile:step:start"}
+07:40:08 Executing executeScript parameters: {"args":[{"threshold":"100","content":"expenses","timeout":60}],"script":"mobile:checkpoint:text"}
+07:40:11 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:40:12 Completed Teststep: Then I must see text "expenses" with arguments: [expenses]
+07:40:12 Invoking Teststep: When I tap hamburger then 'About'
+07:40:12 Executing executeScript parameters: {"args":[{"name":"When I tap hamburger then 'About'"}],"script":"mobile:step:start"}
+07:40:12 Executing findElement element: By.xpath: //*[@content-desc="Open Drawer"] parameters: {}
+07:40:12 Executing findElement parameters: {"value":"//*[@content-desc=\"Open Drawer\"]","using":"xpath"}
+07:40:12 command: findElement[ param-1: {value=//*[@content-desc="Open Drawer"], using=xpath}] Result: id: 00000000-0000-037a-ffff-ffff00000030
+07:40:12 command: findElement[ param-1: By.xpath: //*[@content-desc="Open Drawer"] param-2: {}] Result: OK
+07:40:12 Executing clickElement element: By.xpath: //*[@content-desc="Open Drawer"] parameters: {"id":"00000000-0000-037a-ffff-ffff00000030"}
+07:40:13 command: clickElement[ param-1: By.xpath: //*[@content-desc="Open Drawer"] param-2: {"id":"00000000-0000-037a-ffff-ffff00000030"}] Result: clickElement:null
+07:40:13 Executing findElement element: By.xpath: //*[@text="About"] parameters: {}
+07:40:13 Executing findElement parameters: {"value":"//*[@text=\"About\"]","using":"xpath"}
+07:40:14 command: findElement[ param-1: {value=//*[@text="About"], using=xpath}] Result: id: 00000000-0000-037a-ffff-ffff0000004d
+07:40:14 command: findElement[ param-1: By.xpath: //*[@text="About"] param-2: {}] Result: OK
+07:40:14 Executing clickElement element: By.xpath: //*[@text="About"] parameters: {"id":"00000000-0000-037a-ffff-ffff0000004d"}
+07:40:14 command: clickElement[ param-1: By.xpath: //*[@text="About"] param-2: {"id":"00000000-0000-037a-ffff-ffff0000004d"}] Result: clickElement:null
+07:40:14 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:40:14 Completed Teststep: When I tap hamburger then 'About'
+07:40:14 Invoking Teststep: Then I must see text "Crash" with arguments: [Crash]
+07:40:14 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Crash\""}],"script":"mobile:step:start"}
+07:40:14 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Crash","timeout":60}],"script":"mobile:checkpoint:text"}
+07:40:21 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:40:21 Completed Teststep: Then I must see text "Crash" with arguments: [Crash]
+07:40:21 Invoking Teststep: When I tap 'Crash Me'
+07:40:21 Executing executeScript parameters: {"args":[{"name":"When I tap 'Crash Me'"}],"script":"mobile:step:start"}
+07:40:21 Executing findElement element: By.id: io.perfecto.expense.tracker:id/crash_me_button parameters: {}
+07:40:21 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/crash_me_button","using":"id"}
+07:40:22 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/crash_me_button, using=id}] Result: id: 00000000-0000-037b-ffff-ffff0000006b
+07:40:22 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/crash_me_button param-2: {}] Result: OK
+07:40:22 Executing clickElement element: By.id: io.perfecto.expense.tracker:id/crash_me_button parameters: {"id":"00000000-0000-037b-ffff-ffff0000006b"}
+07:40:23 command: clickElement[ param-1: By.id: io.perfecto.expense.tracker:id/crash_me_button param-2: {"id":"00000000-0000-037b-ffff-ffff0000006b"}] Result: clickElement:null
+07:40:23 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:40:23 Completed Teststep: When I tap 'Crash Me'
+07:40:23 Competed scenario: Expense Tracker VALID login Scenario with status SUCCESS
+07:40:23 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+07:40:23 Executing quit parameters: {}
+07:40:35 command: quit[ param-1: {}] Result: null
+07:40:35 UI-driver tear down complete...
+07:40:35 Preparing For Shut Down...
+07:40:35 Shut Down Completed...
+07:43:50 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+07:43:50 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+07:43:50 Driver: perfectoDriver
+07:43:50 Direct Driver Connect
+07:44:02 Executing setTimeout parameters: {"implicit":0}
+07:44:02 command: setTimeout[ param-1: {implicit=0}] Result: null
+07:44:02 driver init done
+07:44:02 Executing executeScript parameters: {"args":[{"name":"Expense Tracker VALID login Scenario","projectName":"Perfecto_Quantum_Fey","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["TAM Cass - don't reinstall app each time","data-driven Android Fey Suite"," @validLogin"," @expenseTrackerDataDriven "]}],"script":"mobile:test:start"}
+07:44:02 
+
+Executing scenario: Expense Tracker VALID login Scenario - 
+07:44:02 Test Data{username=test@perfecto.com, password=test123}
+07:44:02 pkg: com.qmetry.qaf.automation.step
+07:44:02 pkg: com.quantum.steps
+07:44:02 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+07:44:02 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+07:44:02 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+07:44:04 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:44:04 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+07:44:04 Invoking Teststep: Then I should see expense tracker Native login screen
+07:44:04 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker Native login screen"}],"script":"mobile:step:start"}
+07:44:04 Executing findElement element: By.xpath: //*[@resource-id="io.perfecto.expense.tracker:id/img_icon"] parameters: {}
+07:44:04 Executing findElement parameters: {"value":"//*[@resource-id=\"io.perfecto.expense.tracker:id/img_icon\"]","using":"xpath"}
+07:44:06 command: findElement[ param-1: {value=//*[@resource-id="io.perfecto.expense.tracker:id/img_icon"], using=xpath}] Result: id: 00000000-0000-0383-ffff-ffff00000013
+07:44:06 command: findElement[ param-1: By.xpath: //*[@resource-id="io.perfecto.expense.tracker:id/img_icon"] param-2: {}] Result: OK
+07:44:06 Executing isElementDisplayed element: By.xpath: //*[@resource-id="io.perfecto.expense.tracker:id/img_icon"] parameters: {"id":"00000000-0000-0383-ffff-ffff00000013"}
+07:44:06 command: isElementDisplayed[ param-1: By.xpath: //*[@resource-id="io.perfecto.expense.tracker:id/img_icon"] param-2: {"id":"00000000-0000-0383-ffff-ffff00000013"}] Result: isElementDisplayed:true
+07:44:06 Executing executeScript parameters: {"args":[{"message":"Verify Login screen title","status":true}],"script":"mobile:status:assert"}
+07:44:07 Executing findElement element: By.id: io.perfecto.expense.tracker:id/login_email parameters: {}
+07:44:07 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/login_email","using":"id"}
+07:44:08 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/login_email, using=id}] Result: id: 00000000-0000-0383-ffff-ffff00000018
+07:44:08 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_email param-2: {}] Result: OK
+07:44:08 Executing isElementDisplayed element: By.id: io.perfecto.expense.tracker:id/login_email parameters: {"id":"00000000-0000-0383-ffff-ffff00000018"}
+07:44:08 command: isElementDisplayed[ param-1: By.id: io.perfecto.expense.tracker:id/login_email param-2: {"id":"00000000-0000-0383-ffff-ffff00000018"}] Result: isElementDisplayed:true
+07:44:08 Executing executeScript parameters: {"args":[{"message":"Verify Login screen Email","status":true}],"script":"mobile:status:assert"}
+07:44:09 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:44:09 Completed Teststep: Then I should see expense tracker Native login screen
+07:44:09 Invoking Teststep: When I login with VALID creds from datafile  "<username>" and "<password>" with arguments: [${username}, ${password}]
+07:44:09 Executing executeScript parameters: {"args":[{"name":"When I login with VALID creds from datafile  \"<username>\" and \"<password>\""}],"script":"mobile:step:start"}
+07:44:09 Executing findElement element: By.id: io.perfecto.expense.tracker:id/login_email parameters: {}
+07:44:09 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/login_email","using":"id"}
+07:44:10 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/login_email, using=id}] Result: id: 00000000-0000-0383-ffff-ffff00000018
+07:44:10 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_email param-2: {}] Result: OK
+07:44:10 Executing sendKeysToElement element: By.id: io.perfecto.expense.tracker:id/login_email parameters: {"value":["test@perfecto.com"],"id":"00000000-0000-0383-ffff-ffff00000018"}
+07:44:10 command: sendKeysToElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_email param-2: {"value":["test@perfecto.com"],"id":"00000000-0000-0383-ffff-ffff00000018"}] Result: sendKeysToElement:null
+07:44:10 Executing findElement element: By.xpath: //*[@text='test@perfecto.com'] parameters: {}
+07:44:10 Executing findElement parameters: {"value":"//*[@text='test@perfecto.com']","using":"xpath"}
+07:44:12 command: findElement[ param-1: {value=//*[@text='test@perfecto.com'], using=xpath}] Result: id: 00000000-0000-0383-ffff-ffff00000018
+07:44:12 command: findElement[ param-1: By.xpath: //*[@text='test@perfecto.com'] param-2: {}] Result: OK
+07:44:12 Executing getElementText element: By.xpath: //*[@text='test@perfecto.com'] parameters: {"id":"00000000-0000-0383-ffff-ffff00000018"}
+07:44:12 command: getElementText[ param-1: By.xpath: //*[@text='test@perfecto.com'] param-2: {"id":"00000000-0000-0383-ffff-ffff00000018"}] Result: getElementText:test@perfecto.com
+07:44:12 Executing executeScript parameters: {"args":[{"message":"Email was entered as expected","status":true}],"script":"mobile:status:assert"}
+07:44:13 Executing findElement element: By.id: io.perfecto.expense.tracker:id/login_password parameters: {}
+07:44:13 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/login_password","using":"id"}
+07:44:14 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/login_password, using=id}] Result: id: 00000000-0000-0383-ffff-ffff0000001b
+07:44:14 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_password param-2: {}] Result: OK
+07:44:14 Executing sendKeysToElement element: By.id: io.perfecto.expense.tracker:id/login_password parameters: {"value":["test123"],"id":"00000000-0000-0383-ffff-ffff0000001b"}
+07:44:15 command: sendKeysToElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_password param-2: {"value":["test123"],"id":"00000000-0000-0383-ffff-ffff0000001b"}] Result: sendKeysToElement:null
+07:44:15 Executing findElement element: By.id: io.perfecto.expense.tracker:id/login_login_btn parameters: {}
+07:44:15 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/login_login_btn","using":"id"}
+07:44:16 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/login_login_btn, using=id}] Result: id: 00000000-0000-0383-ffff-ffff0000001e
+07:44:16 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_login_btn param-2: {}] Result: OK
+07:44:16 Executing clickElement element: By.id: io.perfecto.expense.tracker:id/login_login_btn parameters: {"id":"00000000-0000-0383-ffff-ffff0000001e"}
+07:44:17 command: clickElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_login_btn param-2: {"id":"00000000-0000-0383-ffff-ffff0000001e"}] Result: clickElement:null
+07:44:17 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:44:17 Completed Teststep: When I login with VALID creds from datafile  "<username>" and "<password>" with arguments: [${username}, ${password}]
+07:44:17 Invoking Teststep: Then I must see text "expenses" with arguments: [expenses]
+07:44:17 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"expenses\""}],"script":"mobile:step:start"}
+07:44:17 Executing executeScript parameters: {"args":[{"threshold":"100","content":"expenses","timeout":60}],"script":"mobile:checkpoint:text"}
+07:44:19 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:44:19 Completed Teststep: Then I must see text "expenses" with arguments: [expenses]
+07:44:19 Invoking Teststep: When I tap hamburger then 'About'
+07:44:19 Executing executeScript parameters: {"args":[{"name":"When I tap hamburger then 'About'"}],"script":"mobile:step:start"}
+07:44:19 Executing findElement element: By.xpath: //*[@content-desc="Open Drawer"] parameters: {}
+07:44:19 Executing findElement parameters: {"value":"//*[@content-desc=\"Open Drawer\"]","using":"xpath"}
+07:44:20 command: findElement[ param-1: {value=//*[@content-desc="Open Drawer"], using=xpath}] Result: id: 00000000-0000-0384-ffff-ffff00000030
+07:44:20 command: findElement[ param-1: By.xpath: //*[@content-desc="Open Drawer"] param-2: {}] Result: OK
+07:44:20 Executing clickElement element: By.xpath: //*[@content-desc="Open Drawer"] parameters: {"id":"00000000-0000-0384-ffff-ffff00000030"}
+07:44:20 command: clickElement[ param-1: By.xpath: //*[@content-desc="Open Drawer"] param-2: {"id":"00000000-0000-0384-ffff-ffff00000030"}] Result: clickElement:null
+07:44:20 Executing findElement element: By.xpath: //*[@text="About"] parameters: {}
+07:44:20 Executing findElement parameters: {"value":"//*[@text=\"About\"]","using":"xpath"}
+07:44:22 command: findElement[ param-1: {value=//*[@text="About"], using=xpath}] Result: id: 00000000-0000-0384-ffff-ffff0000004d
+07:44:22 command: findElement[ param-1: By.xpath: //*[@text="About"] param-2: {}] Result: OK
+07:44:22 Executing clickElement element: By.xpath: //*[@text="About"] parameters: {"id":"00000000-0000-0384-ffff-ffff0000004d"}
+07:44:22 command: clickElement[ param-1: By.xpath: //*[@text="About"] param-2: {"id":"00000000-0000-0384-ffff-ffff0000004d"}] Result: clickElement:null
+07:44:22 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:44:22 Completed Teststep: When I tap hamburger then 'About'
+07:44:22 Invoking Teststep: Then I must see text "Crash" with arguments: [Crash]
+07:44:22 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Crash\""}],"script":"mobile:step:start"}
+07:44:22 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Crash","timeout":60}],"script":"mobile:checkpoint:text"}
+07:44:27 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:44:28 Completed Teststep: Then I must see text "Crash" with arguments: [Crash]
+07:44:28 Invoking Teststep: When I tap 'Crash Me'
+07:44:28 Executing executeScript parameters: {"args":[{"name":"When I tap 'Crash Me'"}],"script":"mobile:step:start"}
+07:44:28 Executing findElement element: By.id: io.perfecto.expense.tracker:id/crash_me_button parameters: {}
+07:44:28 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/crash_me_button","using":"id"}
+07:44:29 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/crash_me_button, using=id}] Result: id: 00000000-0000-0385-ffff-ffff0000006b
+07:44:29 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/crash_me_button param-2: {}] Result: OK
+07:44:29 Executing clickElement element: By.id: io.perfecto.expense.tracker:id/crash_me_button parameters: {"id":"00000000-0000-0385-ffff-ffff0000006b"}
+07:44:29 command: clickElement[ param-1: By.id: io.perfecto.expense.tracker:id/crash_me_button param-2: {"id":"00000000-0000-0385-ffff-ffff0000006b"}] Result: clickElement:null
+07:44:29 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:44:29 Completed Teststep: When I tap 'Crash Me'
+07:44:29 Competed scenario: Expense Tracker VALID login Scenario with status SUCCESS
+07:44:29 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+07:44:29 Executing quit parameters: {}
+07:44:42 command: quit[ param-1: {}] Result: null
+07:44:42 UI-driver tear down complete...
+07:44:42 Preparing For Shut Down...
+07:44:42 Shut Down Completed...
+07:47:16 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+07:47:16 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+07:47:16 Driver: perfectoDriver
+07:47:16 Direct Driver Connect
+07:47:28 Executing setTimeout parameters: {"implicit":0}
+07:47:28 command: setTimeout[ param-1: {implicit=0}] Result: null
+07:47:28 driver init done
+07:47:28 Executing executeScript parameters: {"args":[{"name":"Expense Tracker VALID login Scenario","projectName":"Perfecto_Quantum_Fey","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["TAM Cass - don't reinstall app each time","data-driven Android Fey Suite"," @validLogin"," @expenseTrackerDataDriven "]}],"script":"mobile:test:start"}
+07:47:28 
+
+Executing scenario: Expense Tracker VALID login Scenario - 
+07:47:28 Test Data{username=test@perfecto.com, password=test123}
+07:47:28 pkg: com.qmetry.qaf.automation.step
+07:47:28 pkg: com.quantum.steps
+07:47:28 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+07:47:28 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+07:47:28 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+07:47:29 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:47:29 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+07:47:29 Invoking Teststep: Then I should see expense tracker Native login screen
+07:47:29 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker Native login screen"}],"script":"mobile:step:start"}
+07:47:30 Executing findElement element: By.xpath: //*[@resource-id="io.perfecto.expense.tracker:id/img_icon"] parameters: {}
+07:47:30 Executing findElement parameters: {"value":"//*[@resource-id=\"io.perfecto.expense.tracker:id/img_icon\"]","using":"xpath"}
+07:47:31 command: findElement[ param-1: {value=//*[@resource-id="io.perfecto.expense.tracker:id/img_icon"], using=xpath}] Result: id: 00000000-0000-0396-ffff-ffff00000013
+07:47:31 command: findElement[ param-1: By.xpath: //*[@resource-id="io.perfecto.expense.tracker:id/img_icon"] param-2: {}] Result: OK
+07:47:31 Executing isElementDisplayed element: By.xpath: //*[@resource-id="io.perfecto.expense.tracker:id/img_icon"] parameters: {"id":"00000000-0000-0396-ffff-ffff00000013"}
+07:47:31 command: isElementDisplayed[ param-1: By.xpath: //*[@resource-id="io.perfecto.expense.tracker:id/img_icon"] param-2: {"id":"00000000-0000-0396-ffff-ffff00000013"}] Result: isElementDisplayed:true
+07:47:31 Executing executeScript parameters: {"args":[{"message":"Verify Login screen title","status":true}],"script":"mobile:status:assert"}
+07:47:32 Executing findElement element: By.id: io.perfecto.expense.tracker:id/login_email parameters: {}
+07:47:32 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/login_email","using":"id"}
+07:47:33 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/login_email, using=id}] Result: id: 00000000-0000-0396-ffff-ffff00000018
+07:47:33 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_email param-2: {}] Result: OK
+07:47:33 Executing isElementDisplayed element: By.id: io.perfecto.expense.tracker:id/login_email parameters: {"id":"00000000-0000-0396-ffff-ffff00000018"}
+07:47:33 command: isElementDisplayed[ param-1: By.id: io.perfecto.expense.tracker:id/login_email param-2: {"id":"00000000-0000-0396-ffff-ffff00000018"}] Result: isElementDisplayed:true
+07:47:33 Executing executeScript parameters: {"args":[{"message":"Verify Login screen Email","status":true}],"script":"mobile:status:assert"}
+07:47:34 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:47:34 Completed Teststep: Then I should see expense tracker Native login screen
+07:47:34 Invoking Teststep: When I login with VALID creds from datafile  "<username>" and "<password>" with arguments: [${username}, ${password}]
+07:47:34 Executing executeScript parameters: {"args":[{"name":"When I login with VALID creds from datafile  \"<username>\" and \"<password>\""}],"script":"mobile:step:start"}
+07:47:35 Executing findElement element: By.id: io.perfecto.expense.tracker:id/login_email parameters: {}
+07:47:35 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/login_email","using":"id"}
+07:47:35 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/login_email, using=id}] Result: id: 00000000-0000-0396-ffff-ffff00000018
+07:47:35 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_email param-2: {}] Result: OK
+07:47:35 Executing sendKeysToElement element: By.id: io.perfecto.expense.tracker:id/login_email parameters: {"value":["test@perfecto.com"],"id":"00000000-0000-0396-ffff-ffff00000018"}
+07:47:36 command: sendKeysToElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_email param-2: {"value":["test@perfecto.com"],"id":"00000000-0000-0396-ffff-ffff00000018"}] Result: sendKeysToElement:null
+07:47:36 Executing findElement element: By.xpath: //*[@text='test@perfecto.com'] parameters: {}
+07:47:36 Executing findElement parameters: {"value":"//*[@text='test@perfecto.com']","using":"xpath"}
+07:47:37 command: findElement[ param-1: {value=//*[@text='test@perfecto.com'], using=xpath}] Result: id: 00000000-0000-0396-ffff-ffff00000018
+07:47:37 command: findElement[ param-1: By.xpath: //*[@text='test@perfecto.com'] param-2: {}] Result: OK
+07:47:37 Executing getElementText element: By.xpath: //*[@text='test@perfecto.com'] parameters: {"id":"00000000-0000-0396-ffff-ffff00000018"}
+07:47:37 command: getElementText[ param-1: By.xpath: //*[@text='test@perfecto.com'] param-2: {"id":"00000000-0000-0396-ffff-ffff00000018"}] Result: getElementText:test@perfecto.com
+07:47:37 Executing executeScript parameters: {"args":[{"message":"Email was entered as expected","status":true}],"script":"mobile:status:assert"}
+07:47:38 Executing findElement element: By.id: io.perfecto.expense.tracker:id/login_password parameters: {}
+07:47:38 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/login_password","using":"id"}
+07:47:39 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/login_password, using=id}] Result: id: 00000000-0000-0396-ffff-ffff0000001b
+07:47:39 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_password param-2: {}] Result: OK
+07:47:39 Executing sendKeysToElement element: By.id: io.perfecto.expense.tracker:id/login_password parameters: {"value":["test123"],"id":"00000000-0000-0396-ffff-ffff0000001b"}
+07:47:39 command: sendKeysToElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_password param-2: {"value":["test123"],"id":"00000000-0000-0396-ffff-ffff0000001b"}] Result: sendKeysToElement:null
+07:47:39 Executing findElement element: By.id: io.perfecto.expense.tracker:id/login_login_btn parameters: {}
+07:47:39 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/login_login_btn","using":"id"}
+07:47:41 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/login_login_btn, using=id}] Result: id: 00000000-0000-0396-ffff-ffff0000001e
+07:47:41 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_login_btn param-2: {}] Result: OK
+07:47:41 Executing clickElement element: By.id: io.perfecto.expense.tracker:id/login_login_btn parameters: {"id":"00000000-0000-0396-ffff-ffff0000001e"}
+07:47:41 command: clickElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_login_btn param-2: {"id":"00000000-0000-0396-ffff-ffff0000001e"}] Result: clickElement:null
+07:47:41 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:47:41 Completed Teststep: When I login with VALID creds from datafile  "<username>" and "<password>" with arguments: [${username}, ${password}]
+07:47:41 Invoking Teststep: Then I must see text "expenses" with arguments: [expenses]
+07:47:41 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"expenses\""}],"script":"mobile:step:start"}
+07:47:41 Executing executeScript parameters: {"args":[{"threshold":"100","content":"expenses","timeout":60}],"script":"mobile:checkpoint:text"}
+07:47:44 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:47:44 Completed Teststep: Then I must see text "expenses" with arguments: [expenses]
+07:47:44 Invoking Teststep: When I tap hamburger then 'About'
+07:47:44 Executing executeScript parameters: {"args":[{"name":"When I tap hamburger then 'About'"}],"script":"mobile:step:start"}
+07:47:44 Executing findElement element: By.xpath: //*[@content-desc="Open Drawer"] parameters: {}
+07:47:44 Executing findElement parameters: {"value":"//*[@content-desc=\"Open Drawer\"]","using":"xpath"}
+07:47:44 command: findElement[ param-1: {value=//*[@content-desc="Open Drawer"], using=xpath}] Result: id: 00000000-0000-0397-ffff-ffff00000030
+07:47:44 command: findElement[ param-1: By.xpath: //*[@content-desc="Open Drawer"] param-2: {}] Result: OK
+07:47:44 Executing clickElement element: By.xpath: //*[@content-desc="Open Drawer"] parameters: {"id":"00000000-0000-0397-ffff-ffff00000030"}
+07:47:45 command: clickElement[ param-1: By.xpath: //*[@content-desc="Open Drawer"] param-2: {"id":"00000000-0000-0397-ffff-ffff00000030"}] Result: clickElement:null
+07:47:45 Executing findElement element: By.xpath: //*[@text="About"] parameters: {}
+07:47:45 Executing findElement parameters: {"value":"//*[@text=\"About\"]","using":"xpath"}
+07:47:46 command: findElement[ param-1: {value=//*[@text="About"], using=xpath}] Result: id: 00000000-0000-0397-ffff-ffff0000004d
+07:47:46 command: findElement[ param-1: By.xpath: //*[@text="About"] param-2: {}] Result: OK
+07:47:46 Executing clickElement element: By.xpath: //*[@text="About"] parameters: {"id":"00000000-0000-0397-ffff-ffff0000004d"}
+07:47:46 command: clickElement[ param-1: By.xpath: //*[@text="About"] param-2: {"id":"00000000-0000-0397-ffff-ffff0000004d"}] Result: clickElement:null
+07:47:46 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:47:46 Completed Teststep: When I tap hamburger then 'About'
+07:47:46 Invoking Teststep: Then I must see text "Crash" with arguments: [Crash]
+07:47:46 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Crash\""}],"script":"mobile:step:start"}
+07:47:47 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Crash","timeout":60}],"script":"mobile:checkpoint:text"}
+07:47:52 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:47:52 Completed Teststep: Then I must see text "Crash" with arguments: [Crash]
+07:47:52 Invoking Teststep: When I tap 'Crash Me'
+07:47:52 Executing executeScript parameters: {"args":[{"name":"When I tap 'Crash Me'"}],"script":"mobile:step:start"}
+07:47:52 Executing findElement element: By.id: io.perfecto.expense.tracker:id/crash_me_button parameters: {}
+07:47:52 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/crash_me_button","using":"id"}
+07:47:53 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/crash_me_button, using=id}] Result: id: 00000000-0000-0398-ffff-ffff0000006b
+07:47:53 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/crash_me_button param-2: {}] Result: OK
+07:47:53 Executing clickElement element: By.id: io.perfecto.expense.tracker:id/crash_me_button parameters: {"id":"00000000-0000-0398-ffff-ffff0000006b"}
+07:47:53 command: clickElement[ param-1: By.id: io.perfecto.expense.tracker:id/crash_me_button param-2: {"id":"00000000-0000-0398-ffff-ffff0000006b"}] Result: clickElement:null
+07:47:53 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:47:54 Completed Teststep: When I tap 'Crash Me'
+07:47:54 Competed scenario: Expense Tracker VALID login Scenario with status SUCCESS
+07:47:54 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+07:47:54 Executing quit parameters: {}
+07:48:08 command: quit[ param-1: {}] Result: null
+07:48:08 UI-driver tear down complete...
+07:48:08 Preparing For Shut Down...
+07:48:08 Shut Down Completed...
+07:51:50 loading csv data file: src/main/resources/data/validExpenseLogins.csv
+07:51:50 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+07:51:50 Driver: perfectoDriver
+07:51:50 Direct Driver Connect
+07:52:02 Executing setTimeout parameters: {"implicit":0}
+07:52:02 command: setTimeout[ param-1: {implicit=0}] Result: null
+07:52:02 driver init done
+07:52:02 Executing executeScript parameters: {"args":[{"name":"Expense Tracker VALID login Scenario","projectName":"Perfecto_Quantum_Fey","customFields":["quantumFrameworkVersion=3.0.0"],"projectVersion":"1.0","tags":["TAM Case - don't reinstall app each time","data-driven Android Fey Suite"," @validLogin"," @expenseTrackerDataDriven "]}],"script":"mobile:test:start"}
+07:52:02 
+
+Executing scenario: Expense Tracker VALID login Scenario - 
+07:52:02 Test Data{username=test@perfecto.com, password=test123}
+07:52:02 pkg: com.qmetry.qaf.automation.step
+07:52:02 pkg: com.quantum.steps
+07:52:02 Invoking Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+07:52:02 Executing executeScript parameters: {"args":[{"name":"Given I start application by id \"io.perfecto.expense.tracker\""}],"script":"mobile:step:start"}
+07:52:02 Executing executeScript parameters: {"args":[{"identifier":"io.perfecto.expense.tracker"}],"script":"mobile:application:open"}
+07:52:03 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:52:03 Completed Teststep: Given I start application by id "io.perfecto.expense.tracker" with arguments: [io.perfecto.expense.tracker]
+07:52:03 Invoking Teststep: Then I should see expense tracker Native login screen
+07:52:03 Executing executeScript parameters: {"args":[{"name":"Then I should see expense tracker Native login screen"}],"script":"mobile:step:start"}
+07:52:03 Executing findElement element: By.xpath: //*[@resource-id="io.perfecto.expense.tracker:id/img_icon"] parameters: {}
+07:52:03 Executing findElement parameters: {"value":"//*[@resource-id=\"io.perfecto.expense.tracker:id/img_icon\"]","using":"xpath"}
+07:52:05 command: findElement[ param-1: {value=//*[@resource-id="io.perfecto.expense.tracker:id/img_icon"], using=xpath}] Result: id: 00000000-0000-03a9-ffff-ffff00000013
+07:52:05 command: findElement[ param-1: By.xpath: //*[@resource-id="io.perfecto.expense.tracker:id/img_icon"] param-2: {}] Result: OK
+07:52:05 Executing isElementDisplayed element: By.xpath: //*[@resource-id="io.perfecto.expense.tracker:id/img_icon"] parameters: {"id":"00000000-0000-03a9-ffff-ffff00000013"}
+07:52:05 command: isElementDisplayed[ param-1: By.xpath: //*[@resource-id="io.perfecto.expense.tracker:id/img_icon"] param-2: {"id":"00000000-0000-03a9-ffff-ffff00000013"}] Result: isElementDisplayed:true
+07:52:05 Executing executeScript parameters: {"args":[{"message":"Verify Login screen title","status":true}],"script":"mobile:status:assert"}
+07:52:06 Executing findElement element: By.id: io.perfecto.expense.tracker:id/login_email parameters: {}
+07:52:06 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/login_email","using":"id"}
+07:52:07 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/login_email, using=id}] Result: id: 00000000-0000-03a9-ffff-ffff00000018
+07:52:07 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_email param-2: {}] Result: OK
+07:52:07 Executing isElementDisplayed element: By.id: io.perfecto.expense.tracker:id/login_email parameters: {"id":"00000000-0000-03a9-ffff-ffff00000018"}
+07:52:07 command: isElementDisplayed[ param-1: By.id: io.perfecto.expense.tracker:id/login_email param-2: {"id":"00000000-0000-03a9-ffff-ffff00000018"}] Result: isElementDisplayed:true
+07:52:07 Executing executeScript parameters: {"args":[{"message":"Verify Login screen Email","status":true}],"script":"mobile:status:assert"}
+07:52:08 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:52:08 Completed Teststep: Then I should see expense tracker Native login screen
+07:52:08 Invoking Teststep: When I login with VALID creds from datafile  "<username>" and "<password>" with arguments: [${username}, ${password}]
+07:52:08 Executing executeScript parameters: {"args":[{"name":"When I login with VALID creds from datafile  \"<username>\" and \"<password>\""}],"script":"mobile:step:start"}
+07:52:08 Executing findElement element: By.id: io.perfecto.expense.tracker:id/login_email parameters: {}
+07:52:08 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/login_email","using":"id"}
+07:52:09 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/login_email, using=id}] Result: id: 00000000-0000-03a9-ffff-ffff00000018
+07:52:09 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_email param-2: {}] Result: OK
+07:52:09 Executing sendKeysToElement element: By.id: io.perfecto.expense.tracker:id/login_email parameters: {"value":["test@perfecto.com"],"id":"00000000-0000-03a9-ffff-ffff00000018"}
+07:52:10 command: sendKeysToElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_email param-2: {"value":["test@perfecto.com"],"id":"00000000-0000-03a9-ffff-ffff00000018"}] Result: sendKeysToElement:null
+07:52:10 Executing findElement element: By.xpath: //*[@text='test@perfecto.com'] parameters: {}
+07:52:10 Executing findElement parameters: {"value":"//*[@text='test@perfecto.com']","using":"xpath"}
+07:52:11 command: findElement[ param-1: {value=//*[@text='test@perfecto.com'], using=xpath}] Result: id: 00000000-0000-03a9-ffff-ffff00000018
+07:52:11 command: findElement[ param-1: By.xpath: //*[@text='test@perfecto.com'] param-2: {}] Result: OK
+07:52:11 Executing getElementText element: By.xpath: //*[@text='test@perfecto.com'] parameters: {"id":"00000000-0000-03a9-ffff-ffff00000018"}
+07:52:12 command: getElementText[ param-1: By.xpath: //*[@text='test@perfecto.com'] param-2: {"id":"00000000-0000-03a9-ffff-ffff00000018"}] Result: getElementText:test@perfecto.com
+07:52:12 Executing executeScript parameters: {"args":[{"message":"Email was entered as expected","status":true}],"script":"mobile:status:assert"}
+07:52:13 Executing findElement element: By.id: io.perfecto.expense.tracker:id/login_password parameters: {}
+07:52:13 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/login_password","using":"id"}
+07:52:14 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/login_password, using=id}] Result: id: 00000000-0000-03a9-ffff-ffff0000001b
+07:52:14 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_password param-2: {}] Result: OK
+07:52:14 Executing sendKeysToElement element: By.id: io.perfecto.expense.tracker:id/login_password parameters: {"value":["test123"],"id":"00000000-0000-03a9-ffff-ffff0000001b"}
+07:52:14 command: sendKeysToElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_password param-2: {"value":["test123"],"id":"00000000-0000-03a9-ffff-ffff0000001b"}] Result: sendKeysToElement:null
+07:52:14 Executing findElement element: By.id: io.perfecto.expense.tracker:id/login_login_btn parameters: {}
+07:52:14 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/login_login_btn","using":"id"}
+07:52:15 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/login_login_btn, using=id}] Result: id: 00000000-0000-03a9-ffff-ffff0000001e
+07:52:15 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_login_btn param-2: {}] Result: OK
+07:52:15 Executing clickElement element: By.id: io.perfecto.expense.tracker:id/login_login_btn parameters: {"id":"00000000-0000-03a9-ffff-ffff0000001e"}
+07:52:16 command: clickElement[ param-1: By.id: io.perfecto.expense.tracker:id/login_login_btn param-2: {"id":"00000000-0000-03a9-ffff-ffff0000001e"}] Result: clickElement:null
+07:52:16 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:52:16 Completed Teststep: When I login with VALID creds from datafile  "<username>" and "<password>" with arguments: [${username}, ${password}]
+07:52:16 Invoking Teststep: Then I must see text "expenses" with arguments: [expenses]
+07:52:16 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"expenses\""}],"script":"mobile:step:start"}
+07:52:16 Executing executeScript parameters: {"args":[{"threshold":"100","content":"expenses","timeout":60}],"script":"mobile:checkpoint:text"}
+07:52:19 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:52:19 Completed Teststep: Then I must see text "expenses" with arguments: [expenses]
+07:52:19 Invoking Teststep: When I tap hamburger then 'About'
+07:52:19 Executing executeScript parameters: {"args":[{"name":"When I tap hamburger then 'About'"}],"script":"mobile:step:start"}
+07:52:19 Executing findElement element: By.xpath: //*[@content-desc="Open Drawer"] parameters: {}
+07:52:19 Executing findElement parameters: {"value":"//*[@content-desc=\"Open Drawer\"]","using":"xpath"}
+07:52:20 command: findElement[ param-1: {value=//*[@content-desc="Open Drawer"], using=xpath}] Result: id: 00000000-0000-03aa-ffff-ffff00000030
+07:52:20 command: findElement[ param-1: By.xpath: //*[@content-desc="Open Drawer"] param-2: {}] Result: OK
+07:52:20 Executing clickElement element: By.xpath: //*[@content-desc="Open Drawer"] parameters: {"id":"00000000-0000-03aa-ffff-ffff00000030"}
+07:52:20 command: clickElement[ param-1: By.xpath: //*[@content-desc="Open Drawer"] param-2: {"id":"00000000-0000-03aa-ffff-ffff00000030"}] Result: clickElement:null
+07:52:20 Executing findElement element: By.xpath: //*[@text="About"] parameters: {}
+07:52:20 Executing findElement parameters: {"value":"//*[@text=\"About\"]","using":"xpath"}
+07:52:22 command: findElement[ param-1: {value=//*[@text="About"], using=xpath}] Result: id: 00000000-0000-03aa-ffff-ffff0000004d
+07:52:22 command: findElement[ param-1: By.xpath: //*[@text="About"] param-2: {}] Result: OK
+07:52:22 Executing clickElement element: By.xpath: //*[@text="About"] parameters: {"id":"00000000-0000-03aa-ffff-ffff0000004d"}
+07:52:22 command: clickElement[ param-1: By.xpath: //*[@text="About"] param-2: {"id":"00000000-0000-03aa-ffff-ffff0000004d"}] Result: clickElement:null
+07:52:22 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:52:22 Completed Teststep: When I tap hamburger then 'About'
+07:52:22 Invoking Teststep: Then I must see text "Crash" with arguments: [Crash]
+07:52:22 Executing executeScript parameters: {"args":[{"name":"Then I must see text \"Crash\""}],"script":"mobile:step:start"}
+07:52:22 Executing executeScript parameters: {"args":[{"threshold":"100","content":"Crash","timeout":60}],"script":"mobile:checkpoint:text"}
+07:52:27 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:52:27 Completed Teststep: Then I must see text "Crash" with arguments: [Crash]
+07:52:27 Invoking Teststep: When I tap 'Crash Me'
+07:52:27 Executing executeScript parameters: {"args":[{"name":"When I tap 'Crash Me'"}],"script":"mobile:step:start"}
+07:52:28 Executing findElement element: By.id: io.perfecto.expense.tracker:id/crash_me_button parameters: {}
+07:52:28 Executing findElement parameters: {"value":"io.perfecto.expense.tracker:id/crash_me_button","using":"id"}
+07:52:28 command: findElement[ param-1: {value=io.perfecto.expense.tracker:id/crash_me_button, using=id}] Result: id: 00000000-0000-03ab-ffff-ffff0000006b
+07:52:28 command: findElement[ param-1: By.id: io.perfecto.expense.tracker:id/crash_me_button param-2: {}] Result: OK
+07:52:28 Executing clickElement element: By.id: io.perfecto.expense.tracker:id/crash_me_button parameters: {"id":"00000000-0000-03ab-ffff-ffff0000006b"}
+07:52:29 command: clickElement[ param-1: By.id: io.perfecto.expense.tracker:id/crash_me_button param-2: {"id":"00000000-0000-03ab-ffff-ffff0000006b"}] Result: clickElement:null
+07:52:29 Executing executeScript parameters: {"args":[{}],"script":"mobile:step:end"}
+07:52:29 Completed Teststep: When I tap 'Crash Me'
+07:52:29 Competed scenario: Expense Tracker VALID login Scenario with status SUCCESS
+07:52:29 Executing executeScript parameters: {"args":[{"success":true}],"script":"mobile:test:end"}
+07:52:29 Executing quit parameters: {}
+07:52:46 command: quit[ param-1: {}] Result: null
+07:52:46 UI-driver tear down complete...
+07:52:46 Preparing For Shut Down...
+07:52:46 Shut Down Completed...
+08:29:00 Preparing For Shut Down...

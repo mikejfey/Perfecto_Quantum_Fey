@@ -7,7 +7,7 @@ import org.openqa.selenium.remote.*;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-i
+
 import io.appium.java_client.android.*;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import com.perfecto.reportium.client.ReportiumClient;

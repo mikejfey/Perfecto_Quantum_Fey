@@ -99,12 +99,12 @@ public class Test_Expense_Login {
             driver.executeScript("mobile:application:open", params);
             //driver.executeScript("mobile:launchApp", "io.perfecto.expense.tracker");
             System.out.println("enter username");
-            driver.findElement(By.xpath("(//*[@resource-id='io.perfecto.expense.tracker:id/login_email'])")).sendKeys("test@perfecto.com");
+            driver.findElement(By.xpath("//*[@resource-id='io.perfecto.expense.tracker:id/login_email']")).sendKeys("test@perfecto.com");
             Thread.sleep(10000);
             System.out.println("enter password");
-            driver.findElement(By.xpath("(//*[@resource-id='io.perfecto.expense.tracker:id/login_password'] | //*[@id='login_password'] | //*[@resource-id='login_password'])")).sendKeys("test123");
+            driver.findElement(By.xpath("//*[@resource-id='io.perfecto.expense.tracker:id/login_password'] | //*[@id='login_password'] | //*[@resource-id='login_password']")).sendKeys("test123");
             System.out.println("click login button");
-            driver.findElement(By.xpath("(//*[@resource-id='io.perfecto.expense.tracker:id/login_login_btn'] | //*[@id='login_login_btn'] | //*[@resource-id='login_login_btn'])")).click();
+            driver.findElement(By.xpath("//*[@resource-id='io.perfecto.expense.tracker:id/login_login_btn'] | //*[@id='login_login_btn'] | //*[@resource-id='login_login_btn']")).click();
             System.out.println("assert that 'Expenses' is displayed");
             Assert.assertTrue(driver.findElement(By.xpath("//*[@text='Expenses']")).isDisplayed());
 
