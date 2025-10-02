@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="changed test name">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/Anddroid_LaunchAppNoInstall.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/AndroidDoNotResetApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/iosDoNotResetApp.java" afterDir="false" />
+    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="added tests that don't re-install expenseTracker before each run">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantum-starter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quantum-starter.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scenario.log" beforeDir="false" afterPath="$PROJECT_DIR$/scenario.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/pages/ExpenseTrackerLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/pages/ExpenseTrackerLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/AndroidDoNotResetApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/AndroidDoNotResetApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/TestIosExpenseNoPOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/TestIosExpenseNoPOM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_Expense_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_Expense_Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_POM_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_POM_Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/quantum/pages/ExpenseTrackerLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/quantum/pages/ExpenseTrackerLoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_mike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_mike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/iosDoNotResetApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/iosDoNotResetApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +130,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.iosDoNotResetApp.feyTestPOMIosNoReset">
+  <component name="RunManager" selected="TestNG.AndroidDoNotResetApp.feyAndroidNoReset">
     <configuration name="quantum-starter [clean,install -U]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -320,10 +317,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/Anddroid_LaunchAppNoInstall.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestIosExpenseNoPOM" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="quantum-starter" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/Anddroid_LaunchAppNoInstall.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fey.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fey.test" />
+      <option name="MAIN_CLASS_NAME" value="org.fey.test.TestIosExpenseNoPOM" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -370,19 +374,19 @@
       <item itemvalue="Maven.quantum-starter [clean,test]" />
       <item itemvalue="Maven.test.xml quantum-starter [clean,test]" />
       <item itemvalue="TestNG.SampleTestGroups.testSearchOnAndroid" />
-      <item itemvalue="TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/Anddroid_LaunchAppNoInstall.xml" />
       <item itemvalue="TestNG.AndroidDoNotResetApp" />
       <item itemvalue="TestNG.AndroidDoNotResetApp.feyAndroidNoReset" />
       <item itemvalue="TestNG.iosDoNotResetApp" />
       <item itemvalue="TestNG.iosDoNotResetApp.feyTestPOMIosNoReset" />
+      <item itemvalue="TestNG.TestIosExpenseNoPOM" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.iosDoNotResetApp.feyTestPOMIosNoReset" />
-        <item itemvalue="TestNG.AndroidDoNotResetApp" />
-        <item itemvalue="TestNG.iosDoNotResetApp" />
         <item itemvalue="TestNG.AndroidDoNotResetApp.feyAndroidNoReset" />
-        <item itemvalue="TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/Anddroid_LaunchAppNoInstall.xml" />
+        <item itemvalue="TestNG.AndroidDoNotResetApp" />
+        <item itemvalue="TestNG.TestIosExpenseNoPOM" />
+        <item itemvalue="TestNG.iosDoNotResetApp.feyTestPOMIosNoReset" />
+        <item itemvalue="TestNG.iosDoNotResetApp" />
       </list>
     </recent_temporary>
   </component>
@@ -562,7 +566,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759260288902</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="added tests that don't re-install expenseTracker before each run">
+      <option name="closed" value="true" />
+      <created>1759424199451</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1759424199451</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -584,7 +596,8 @@
     <MESSAGE value="removed on: push so gha job won't run every push" />
     <MESSAGE value="updated job info... programmer and author in test*.java files" />
     <MESSAGE value="changed test name" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed test name" />
+    <MESSAGE value="added tests that don't re-install expenseTracker before each run" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tests that don't re-install expenseTracker before each run" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
