@@ -130,7 +130,7 @@ public class ExpenseTrackerLoginPage extends WebDriverBaseTestPage<WebDriverTest
 // use either the "identifier" or "name" parameter to identify the app
 		params.put("identifier", "io.perfecto.expense.tracker");
 		params.put("resultAuth", "success");  // may be either "fail" or "success"
-		params.put("errorType", "lockOut");  // may be authFailed, userCancel, userFallback, systemCancel, or lockout
+		params.put("errorType", "authFailed");  // may be authFailed, userCancel, userFallback, systemCancel, or lockout
 		driver.executeScript("mobile:sensorAuthentication:set", params);
 	}
 

@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="added tests that don't re-install expenseTracker before each run">
+    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="updated perfecto security token to use TAM demo cloud">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scenario.log" beforeDir="false" afterPath="$PROJECT_DIR$/scenario.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/pages/ExpenseTrackerLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/pages/ExpenseTrackerLoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/AndroidDoNotResetApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/AndroidDoNotResetApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/TestIosExpenseNoPOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/TestIosExpenseNoPOM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_Expense_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_Expense_Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_POM_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_POM_Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_mike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_mike.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/iosDoNotResetApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/iosDoNotResetApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quantum/pages/ExpenseTrackerLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/quantum/pages/ExpenseTrackerLoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testGroups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testGroups.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +66,7 @@
     "Maven.quantum-starter [compile].executor": "Run",
     "Maven.quantum-starter [test].executor": "Run",
     "Maven.quantum-starter [validate].executor": "Run",
+    "Maven.run smoke.executor": "Run",
     "Maven.test.xml quantum-starter [clean,test].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -130,7 +130,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AndroidDoNotResetApp.feyAndroidNoReset">
+  <component name="RunManager" selected="Maven.run smoke">
     <configuration name="quantum-starter [clean,install -U]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -208,7 +208,7 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="test.xml quantum-starter [clean,test]" type="MavenRunConfiguration" factoryName="Maven">
+    <configuration name="run smoke" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings">
@@ -372,7 +372,7 @@
     <list>
       <item itemvalue="Maven.quantum-starter [clean,install -U]" />
       <item itemvalue="Maven.quantum-starter [clean,test]" />
-      <item itemvalue="Maven.test.xml quantum-starter [clean,test]" />
+      <item itemvalue="Maven.run smoke" />
       <item itemvalue="TestNG.SampleTestGroups.testSearchOnAndroid" />
       <item itemvalue="TestNG.AndroidDoNotResetApp" />
       <item itemvalue="TestNG.AndroidDoNotResetApp.feyAndroidNoReset" />
@@ -382,11 +382,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.iosDoNotResetApp" />
         <item itemvalue="TestNG.AndroidDoNotResetApp.feyAndroidNoReset" />
         <item itemvalue="TestNG.AndroidDoNotResetApp" />
         <item itemvalue="TestNG.TestIosExpenseNoPOM" />
         <item itemvalue="TestNG.iosDoNotResetApp.feyTestPOMIosNoReset" />
-        <item itemvalue="TestNG.iosDoNotResetApp" />
       </list>
     </recent_temporary>
   </component>
@@ -574,7 +574,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759424199451</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="updated perfecto security token to use TAM demo cloud">
+      <option name="closed" value="true" />
+      <created>1759443990117</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1759443990117</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -597,7 +605,8 @@
     <MESSAGE value="updated job info... programmer and author in test*.java files" />
     <MESSAGE value="changed test name" />
     <MESSAGE value="added tests that don't re-install expenseTracker before each run" />
-    <option name="LAST_COMMIT_MESSAGE" value="added tests that don't re-install expenseTracker before each run" />
+    <MESSAGE value="updated perfecto security token to use TAM demo cloud" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated perfecto security token to use TAM demo cloud" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

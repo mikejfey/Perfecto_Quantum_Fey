@@ -3,6 +3,12 @@
 <suite name = "Fey smoke">
     <test name = "smoke tests in groups">
 
+        <groups>
+            <run>
+                <exclude name="smoke"/>
+            </run>
+        </groups>
+
         <classes>
             <class name="org.fey.test.SampleTestGroups"/>
         </classes>
