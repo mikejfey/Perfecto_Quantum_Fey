@@ -7,6 +7,8 @@ This Quantum starter kit is designed to get you up and running using the Quantum
 
 Begin with installing the dependencies below, and continue with the Getting Started procedure below.
 
+fey changed on github.com
+
 ### Dependencies
 There are several prerequisite dependencies you should install on your machine prior to starting to work with Quantum:
 
