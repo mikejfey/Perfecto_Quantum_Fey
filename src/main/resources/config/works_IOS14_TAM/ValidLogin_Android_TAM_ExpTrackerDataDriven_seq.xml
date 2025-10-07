@@ -23,7 +23,7 @@
 
 		<groups>
 			<run>
-				<include name="@validLogin" />
+				<include name="@expenseTrackerFey" />
 			</run>
 		</groups>
 		<classes>

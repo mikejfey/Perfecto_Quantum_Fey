@@ -17,10 +17,11 @@
         <parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}" />
         <parameter name="perfecto.capabilities.screenshotOnError" value="false" />
         <parameter name="perfecto.capabilities.takesScreenshot" value="true" />
+        <parameter name="automationName" value="XCUITest"></parameter>
 
         <classes>
             <class
-                    name="org.fey.test.SampleTestGroups" />
+                    name="org.fey.test.TestQuantumPOM" />
         </classes>
     </test>
 </suite>

@@ -2,11 +2,12 @@ package org.fey.test;
 
 
 
+import io.appium.java_client.ios.IOSDriver;
 import org.testng.annotations.Test;
 import com.quantum.pages.ExpenseTrackerLoginPage;
 
-
-
+import java.net.URL;
+import java.time.Duration;
 
 
 public class TestQuantumPOM {
@@ -52,8 +53,8 @@ public class TestQuantumPOM {
         IOSDriver driver = new IOSDriver(new URL(perfectoURL), capabilities);
        driver.manage().timeouts().implicitlyWait(Duration.ofMillis(15000));
        System.out.println("Driver used: " + driver);
+*/
 
-     */
       loginPage = new ExpenseTrackerLoginPage();
        loginPage.loginNative("test@perfecto.com","test123");
 
