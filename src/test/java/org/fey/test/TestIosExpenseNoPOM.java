@@ -64,7 +64,7 @@ public class TestIosExpenseNoPOM {
         // Reporting client. For more details, see http://developers.perfectomobile.com/display/PD/Reporting
         PerfectoExecutionContext perfectoExecutionContext = new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
                 .withProject(new Project("Fey Quantum POM try", "1.0"))
-                .withJob(new Job("Fey Quantum POM job", 45))
+                .withJob(new Job("Fey Quantum POM nightly cicd job", 45))
                 .withCustomFields(new CustomField("programmer", "Mike Fey"))
                 .withCustomFields(new CustomField("author", "mike.fey@perforce.com"))
                 .withContextTags("quantum")

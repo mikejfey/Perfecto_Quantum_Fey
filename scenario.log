@@ -26014,3 +26014,25 @@ java.lang.AssertionError: Text: 'Expenses' must be present
 15:35:06 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
 15:35:06 Preparing For Shut Down...
 15:35:06 Shut Down Completed...
+17:18:22 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+17:18:22 Driver: perfectoDriver
+17:18:22 Direct Driver Connect
+17:18:35 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+17:18:55 Driver: perfectoDriver
+17:18:55 Direct Driver Connect
+17:19:08 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+17:19:28 Driver: perfectoDriver
+17:19:28 Direct Driver Connect
+17:19:41 Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+17:19:41 Initializing Driver...browser_str:perfectoDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/,port:80
+17:19:41 Driver: perfectoDriver
+17:19:41 Direct Driver Connect
+17:19:54 Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+17:20:14 Driver: perfectoDriver
+17:20:14 Direct Driver Connect
+17:20:28 Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
+17:20:48 Driver: perfectoDriver
+17:20:48 Direct Driver Connect
+17:20:59 Preparing For Shut Down...
+17:20:59 Shut Down Completed...
+17:22:06 Preparing For Shut Down...

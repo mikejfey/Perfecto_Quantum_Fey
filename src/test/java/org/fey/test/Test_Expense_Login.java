@@ -39,7 +39,7 @@ public class Test_Expense_Login {
     public void Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW() throws Exception {
         String browserName = "mobileOS";
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        String host = "partners.perfectomobile.com";
+        String host = "demo.perfectomobile.com";
         String token = "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4YmI4YmZmZS1kMzBjLTQ2MjctYmMxMS0zNTYyMmY1ZDkyMGYifQ.eyJpYXQiOjE3NTk0Mjk3NTYsImp0aSI6IjIwNDliZmVlLTEwYmUtNGNkNy1iMDI3LTVkNDZjZDExYjU2NiIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvZGVtby1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2RlbW8tcGVyZmVjdG9tb2JpbGUtY29tIiwic3ViIjoiZDIxMDAzYzItMDY0Mi00MjVmLTg0ZDAtNzdiYjQ1ODU5MzVlIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiIyOGMyZjQxZS1jYjA3LTRhZDAtYjA3MS1jYzllOWYyNzA1MzgiLCJzZXNzaW9uX3N0YXRlIjoiN2IyMjBhZWYtM2Y1MC00NTk2LWE3ZTEtMzFiMDY2ZGM1MzAxIiwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MiLCJzaWQiOiI3YjIyMGFlZi0zZjUwLTQ1OTYtYTdlMS0zMWIwNjZkYzUzMDEifQ.GQTd314MFRHYM14RCJPKrC5auLRO9WWY1g-dFEo_Xr8";
 
         System.out.println("caps");
@@ -47,18 +47,20 @@ public class Test_Expense_Login {
         Map<String, Object> perfectoOptions = new HashMap<>();
 
         uiAutomatorCaps.setPlatformName("Android");
-        uiAutomatorCaps.setDeviceName("R5CWA2726XK");
+        //uiAutomatorCaps.setDeviceName("R5CWA2726XK");
         // uiAutomator2Options.withBrowserName("Chrome");
         uiAutomatorCaps.setAutomationName("UiAutomator2");
         uiAutomatorCaps.setApp("PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk");
         uiAutomatorCaps.setAppPackage("io.perfecto.expense.tracker");
         //uiAutomator2Options.setAppActivity("app.perfecto.com.expencemanager.ui.splash.SplashActivity");
         perfectoOptions.put("securityToken", token);
-        perfectoOptions.put("deviceName", "R5CWA2726XK");
+        //perfectoOptions.put("deviceName", "R5CWA2726XK");
         //perfectoOptions.put("app", "PUBLIC:raghav/v1.0/ExpenseHybridAppVer1.apk");
         //perfectoOptions.put("bundleId", "io.perfecto.expense.tracker.hybrid");
         perfectoOptions.put("appiumVersion", "1.22.3");
         perfectoOptions.put("automationVersion", "1.70.1");
+        perfectoOptions.put("model", "Galaxy.*");
+        perfectoOptions.put("automationName", "UiAutomator2");
         //perfectoOptions.put("autoInstrument", true);
         //perfectoOptions.put("sensorInstrument", true);
         //perfectoOptions.put("iOSResign", true);
@@ -77,9 +79,9 @@ public class Test_Expense_Login {
         // Reporting client. For more details, see http://developers.perfectomobile.com/display/PD/Reporting
         PerfectoExecutionContext perfectoExecutionContext = new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
                 .withProject(new Project("Fey Appium v2.0 Demo Proj", "1.0"))
-                .withJob(new Job("Fey Nightly Job", 45))
-                .withCustomFields(new CustomField("programmer", "Raghavendra Kundaragi"))
-                .withCustomFields(new CustomField("author", "rk@perforce.com"))
+                .withJob(new Job("Fey Nightly CI/CD Job", 45))
+                .withCustomFields(new CustomField("programmer", "Mike Fey"))
+                .withCustomFields(new CustomField("author", "mike.fey@perforce.com"))
                 .withContextTags("Appiumv2.0")
                 .withWebDriver(driver)
                 .build();
@@ -102,6 +104,7 @@ public class Test_Expense_Login {
             System.out.println("enter username");
             driver.findElement(By.xpath("//*[@resource-id='io.perfecto.expense.tracker:id/login_email']")).sendKeys("test@perfecto.com");
             Thread.sleep(10000);
+            reportiumClient.stepStart("login to expense tracker");
             System.out.println("enter password");
             driver.findElement(By.xpath("//*[@resource-id='io.perfecto.expense.tracker:id/login_password'] | //*[@id='login_password'] | //*[@resource-id='login_password']")).sendKeys("test123");
             System.out.println("click login button");
