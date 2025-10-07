@@ -27,4 +27,4 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Test with Maven
-      run: mvn clean test -DsuiteXmlFile=smokePOM.xml
+      run: mvn clean test -DsuiteXmlFile=src/main/resources/config/works_IOS14_TAM/ValidLogin_Android_TAM_ExpTrackerDataDriven_seq.xml
