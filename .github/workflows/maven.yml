@@ -27,4 +27,4 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Test with Maven
-      run: mvn clean test -DsuiteXmlFile=smoke.xml
+      run: mvn clean test -DsuiteXmlFile=smoke_GHA.xml
