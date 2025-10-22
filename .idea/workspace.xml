@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="change config xml for CICD in GHA">
+    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="added job name to ci">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -345,11 +346,11 @@
       <item itemvalue="Maven.quantum-starter [clean,test]" />
       <item itemvalue="Maven.run smoke" />
       <item itemvalue="TestNG.SampleTestGroups.testSearchOnAndroid" />
-      <item itemvalue="TestNG.TestIosExpenseNoPOM" />
-      <item itemvalue="TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/smoke.xml" />
-      <item itemvalue="TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml" />
       <item itemvalue="TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml" />
+      <item itemvalue="TestNG.TestIosExpenseNoPOM" />
+      <item itemvalue="TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml" />
       <item itemvalue="TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/testGroups.xml" />
+      <item itemvalue="TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/smoke.xml" />
     </list>
     <recent_temporary>
       <list>
@@ -593,7 +594,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761160615411</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="added job name to ci">
+      <option name="closed" value="true" />
+      <created>1761166145540</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1761166145540</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -632,7 +641,8 @@
     <MESSAGE value="working with BDD" />
     <MESSAGE value="fixed smoke.xml for CICD in GHA" />
     <MESSAGE value="change config xml for CICD in GHA" />
-    <option name="LAST_COMMIT_MESSAGE" value="change config xml for CICD in GHA" />
+    <MESSAGE value="added job name to ci" />
+    <option name="LAST_COMMIT_MESSAGE" value="added job name to ci" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
