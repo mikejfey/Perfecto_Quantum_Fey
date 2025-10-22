@@ -11,17 +11,17 @@ public class SampleTestGroups {
         System.out.println("Running smoke test: Login");
     }
 
-    @Test(groups = {"regression"})
+    @Test(groups = {"regression", "critical", "high-priority"})
     public void testCheckout() {
         System.out.println("Running regression test: Checkout");
     }
 
-    @Test(groups = {"smoke", "android"})
+    @Test(groups = {"regression", "low-priority", "android"})
     public void testSearchOnAndroid() {
         System.out.println("Running smoke test on Android");
     }
 
-    @Test(groups = {"ios"})
+    @Test(groups = {"ios", "smoke"})
     public void testSearchOniOS() {
         System.out.println("Running test on iOS");
     }

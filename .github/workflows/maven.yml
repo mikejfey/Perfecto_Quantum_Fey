@@ -27,4 +27,4 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Test with Maven
-      run: mvn clean test -DsuiteXmlFile=smoke_GHA.xml
+      run: mvn clean test -DsuiteXmlFile=src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml
