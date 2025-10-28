@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Appium Demo Suite" verbose="0" parallel="tests">
+	<listeners>
+		<listener class-name="com.quantum.listeners.QuantumReportiumListener" />
+	</listeners>
+
+	<test name="Native Expense Android Test driver fail" enabled="true"
+		  thread-count="3">
+
+		<parameter name="env.resources" value="src/main/resources/android"/>
+		<parameter name="uiAutomator2Options.setPlatformName" value="Android"/>
+		<parameter name="uiAutomator2Options.setApp" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
+		<parameter name="uiAutomator2Options.setAppPackage" value="io.perfecto.expense.tracker"/>
+		<parameter name="driver.additional.capabilities" value="{'openDeviceTimeout':2}" />
+        <!-- <parameter name="perfecto.capabilities.model" value="Galaxy.*"/> -->
+         <parameter name="uiAutomator2Options.deviceName" value="RFCX30181MV"/>
+		<parameter name="perfecto.capabilities.enableAppiumBehavior" value="true"/>
+        <parameter name="driver.capabilities.sensorInstrument" value="true"/>
+        <parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}" />
+        <parameter name="perfecto.capabilities.screenshotOnError" value="false" />
+        <parameter name="perfecto.capabilities.takesScreenshot" value="true" />
+        <parameter name="driver.capabilities.sensorInstrument" value="true"/>
+
+		<groups>
+			<run>
+				<include name="@IOS_Bio_expenseTracker" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+		</classes>
+	</test>
+</suite>
+
+

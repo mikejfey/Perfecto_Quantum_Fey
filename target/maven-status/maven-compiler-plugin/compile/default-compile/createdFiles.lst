@@ -1,10 +1,12 @@
-com/quantum/steps/GoogleStepDefs.class
 com/quantum/pages/POM_ExpenseLoginPage.class
+com/quantum/pages/ExpenseTrackerHomePage.class
+com/quantum/steps/FeySteps.class
+com/quantum/pages/WikiTestPage.class
+com/quantum/steps/GoogleStepDefs.class
 com/quantum/pages/ExpenseTrackerLoginPage.class
 com/quantum/steps/CommonStepsDefs.class
 com/quantum/steps/ExpenseTrackerSteps.class
 com/quantum/pages/ExpenseTrackerCrashPage.class
-com/quantum/pages/ExpenseTrackerHomePage.class
 com/quantum/pages/GooglePage.class
 com/quantum/pages/POM_Expense_Homepage.class
-com/quantum/pages/WikiTestPage.class
+com/quantum/steps/FeyStepdefs.class
