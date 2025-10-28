@@ -20,6 +20,7 @@ import com.perfecto.reportium.model.Project;
 import com.perfecto.reportium.test.TestContext;
 import com.perfecto.reportium.test.result.TestResultFactory;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 public class Test_mike {
 
@@ -73,12 +74,13 @@ public class Test_mike {
                 .withWebDriver(driver)
                 .build();
         ReportiumClient reportiumClient = new ReportiumClientFactory().createPerfectoReportiumClient(perfectoExecutionContext);
-
+        SoftAssert softAssert = new SoftAssert();
         try {
             reportiumClient.testStart("Fey New testng", new TestContext("Appium_v2.0", "Android Web"));
 
             // write your code here
             System.out.println("new test code for smoke");
+            softAssert.assertTrue(1 == 2, "1 is not equal to 2");
             // write your code here
 
 

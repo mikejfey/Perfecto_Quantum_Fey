@@ -9,6 +9,8 @@ import com.qmetry.qaf.automation.ui.api.WebDriverTestPage;
 import com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement;
 import com.quantum.utils.DriverUtils;
 import com.quantum.utils.ReportUtils;
+import org.testng.asserts.SoftAssert;
+
 public class ExpenseTrackerCrashPage extends WebDriverBaseTestPage<WebDriverTestPage> {
     @Override
     protected void openPage(PageLocator locator, Object... args) {
@@ -19,6 +21,7 @@ public class ExpenseTrackerCrashPage extends WebDriverBaseTestPage<WebDriverTest
     private QAFExtendedWebElement crashBtn;
 
     public void crashMe() {
+
         crashBtn.click();
     }
 }
