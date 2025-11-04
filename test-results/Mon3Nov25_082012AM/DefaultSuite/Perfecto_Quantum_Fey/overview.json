@@ -1,0 +1,28 @@
+{
+  "total": 0,
+  "pass": 0,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "org.fey.test.Test_POM_Login"
+  ],
+  "envInfo": {
+    "isfw-build-info": {},
+    "run-parameters": {
+      "resources": "src/main/resources/common",
+      "baseurl": ""
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "25",
+      "os.arch": "aarch64",
+      "host": "AMER-Mike-Fey",
+      "os.name": "Mac OS X",
+      "user.name": "mikefey",
+      "os.version": "15.6"
+    }
+  },
+  "startTime": 1762179598496,
+  "endTime": 1762179612112
+}

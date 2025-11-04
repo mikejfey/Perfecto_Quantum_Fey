@@ -15,8 +15,7 @@ public class ExpenseTrackerSteps {
 
 
     @Then("I should see expense tracker login screen")
-    public void verifyExpenseTrackerLogin() {
-        new ExpenseTrackerLoginPage().verifyExpenseTrackerLoginScreen();
+    public void verifyExpenseTrackerLogin() {new ExpenseTrackerLoginPage().verifyExpenseTrackerLoginScreen();
     }
 
     @Then("I should see expense tracker Native login screen")

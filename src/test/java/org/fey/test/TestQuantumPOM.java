@@ -19,7 +19,6 @@ public class TestQuantumPOM {
     public void testPOMinQuantum() throws Exception {
     /* want to use capabilities in env.properties.... not hard coded in @Test
         DesiredCapabilities capabilities = new DesiredCapabilities();
-
 // Standard W3C capabilities
         capabilities.setCapability("platformName", "iOS");
         capabilities.setCapability("browserName", "Safari");
@@ -56,6 +55,7 @@ public class TestQuantumPOM {
 */
 
       loginPage = new ExpenseTrackerLoginPage();
+      //System.out.println("driver used: " + driver);
        loginPage.loginNative("test@perfecto.com","test123");
 
 

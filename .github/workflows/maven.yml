@@ -27,4 +27,4 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Test with Maven
-      run: mvn clean test -Dreportium-job-name="Fey Nightly CI Smoke" -Dreportium-job-number=15 -DsuiteXmlFile=src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml
+      run: mvn clean test -Dreportium-job-name="Fey Nightly CI Smoke" -Dreportium-job-number=15 -DsuiteXmlFile=src/main/resources/config/works_IOS14_TAM/expenseTrackerAndroid_Biometrics.xml

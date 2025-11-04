@@ -4,13 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="added new test config xml for biometrics on androdid">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="added SoftAssert">
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_075343AM/DefaultSuite/Perfecto_Quantum_Fey/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_075343AM/DefaultSuite/Perfecto_Quantum_Fey/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_075343AM/DefaultSuite/Perfecto_Quantum_Fey/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_075343AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_075543AM/DefaultSuite/Perfecto_Quantum_Fey/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_075543AM/DefaultSuite/Perfecto_Quantum_Fey/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_075543AM/DefaultSuite/Perfecto_Quantum_Fey/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_075543AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_075945AM/DefaultSuite/Perfecto_Quantum_Fey/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_075945AM/DefaultSuite/Perfecto_Quantum_Fey/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_075945AM/DefaultSuite/Perfecto_Quantum_Fey/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_075945AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_081710AM/DefaultSuite/Perfecto_Quantum_Fey/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_081710AM/DefaultSuite/Perfecto_Quantum_Fey/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_081710AM/DefaultSuite/Perfecto_Quantum_Fey/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_081710AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_081850AM/DefaultSuite/Perfecto_Quantum_Fey/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_081850AM/DefaultSuite/Perfecto_Quantum_Fey/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_081850AM/DefaultSuite/Perfecto_Quantum_Fey/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_081850AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_082012AM/DefaultSuite/Perfecto_Quantum_Fey/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_082012AM/DefaultSuite/Perfecto_Quantum_Fey/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_082012AM/DefaultSuite/Perfecto_Quantum_Fey/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Mon3Nov25_082012AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/meta-info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/pages/ExpenseTrackerCrashPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/pages/ExpenseTrackerCrashPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/SampleTestGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/SampleTestGroups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/quantum/pages/ExpenseTrackerCrashPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/quantum/pages/ExpenseTrackerCrashPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/pages/ExpenseTrackerLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/pages/ExpenseTrackerLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/steps/ExpenseTrackerSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/steps/ExpenseTrackerSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/TestQuantumPOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/TestQuantumPOM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_POM_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_POM_Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +113,8 @@
     "TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/IOS_TAM_ExpTrackerDataDriven_seq.xml.executor": "Run",
     "TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/ValidLogin_Android_TAM_ExpTrackerDataDriven_seq.xml.executor": "Run",
     "TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/testGroups.xml.executor": "Run",
+    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/expenseTrackerAndroid_Biometrics.xml.executor": "Run",
+    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml.executor": "Run",
     "TestNG.AndroidDoNotResetApp.executor": "Run",
     "TestNG.AndroidDoNotResetApp.feyAndroidNoReset.executor": "Run",
     "TestNG.IosDoNotResetApp.feyTestPOMIosNoReset.executor": "Run",
@@ -102,6 +129,8 @@
     "TestNG.TestQuantumPOM.executor": "Run",
     "TestNG.TestQuantumPOM.testPOMinQuantum.executor": "Run",
     "TestNG.Test_Expense_Login.executor": "Run",
+    "TestNG.Test_POM_Login.executor": "Run",
+    "TestNG.Test_POM_Login.testFeyValidLogin.executor": "Run",
     "TestNG.iosDoNotResetApp.executor": "Run",
     "TestNG.iosDoNotResetApp.feyTestPOMIosNoReset.executor": "Run",
     "git-widget-placeholder": "main",
@@ -140,25 +169,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SampleTestGroups.testSearchOniOS">
-    <configuration name="Feature: expenseBiometrics" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="7" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/scenarios/worksTAM/expenseBiometrics.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="quantum-starter" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity" />
-      <option name="SUGGESTED_NAME" value="Feature: expenseBiometrics" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/expenseTrackerAndroid_Biometrics.xml">
     <configuration name="quantum-starter [clean,install -U]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -300,17 +311,78 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test_POM_Login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="perfectoPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fey.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fey.test" />
+      <option name="MAIN_CLASS_NAME" value="org.fey.test.Test_POM_Login" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_POM_Login.testFeyValidLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="perfectoPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fey.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fey.test" />
+      <option name="MAIN_CLASS_NAME" value="org.fey.test.Test_POM_Login" />
+      <option name="METHOD_NAME" value="testFeyValidLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/expenseTrackerAndroid_Biometrics.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="perfectoPOM" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/androidDriver/expenseTrackerAndroid_Biometrics.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="perfectoPOM" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Feature: expenseBiometrics" />
       <item itemvalue="Maven.quantum-starter [clean,install -U]" />
       <item itemvalue="Maven.quantum-starter [clean,test]" />
       <item itemvalue="Maven.run smoke" />
+      <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml" />
+      <item itemvalue="TestNG.Test_POM_Login" />
+      <item itemvalue="TestNG.Test_POM_Login.testFeyValidLogin" />
+      <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/expenseTrackerAndroid_Biometrics.xml" />
       <item itemvalue="TestNG.SampleTestGroups.testSearchOniOS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/expenseTrackerAndroid_Biometrics.xml" />
+        <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml" />
+        <item itemvalue="TestNG.Test_POM_Login" />
+        <item itemvalue="TestNG.Test_POM_Login.testFeyValidLogin" />
         <item itemvalue="TestNG.SampleTestGroups.testSearchOniOS" />
-        <item itemvalue="Cucumber Java.Feature: expenseBiometrics" />
       </list>
     </recent_temporary>
   </component>
@@ -586,7 +658,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761674888461</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="added SoftAssert">
+      <option name="closed" value="true" />
+      <created>1761676956980</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1761676956980</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -602,7 +682,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="changed data for TAM Exercise with biometrics" />
     <MESSAGE value="changed appium driver for android" />
     <MESSAGE value="cleaned up folders" />
     <MESSAGE value="testing android driver settings" />
@@ -627,7 +706,8 @@
     <MESSAGE value="added job name to ci" />
     <MESSAGE value="add smoke to job name with quotes" />
     <MESSAGE value="added new test config xml for biometrics on androdid" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new test config xml for biometrics on androdid" />
+    <MESSAGE value="added SoftAssert" />
+    <option name="LAST_COMMIT_MESSAGE" value="added SoftAssert" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

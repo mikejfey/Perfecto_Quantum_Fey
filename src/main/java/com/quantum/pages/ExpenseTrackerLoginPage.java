@@ -65,6 +65,7 @@ public class ExpenseTrackerLoginPage extends WebDriverBaseTestPage<WebDriverTest
 		//	}
 		ReportUtils.logAssert("Verify Login screen title", headerTextNative.isDisplayed());
 		ReportUtils.logAssert("Verify Login screen Email", emailNativeTextfield.isDisplayed());
+        System.out.println("the driver is " + driver);
 	}
 
 	public void loginNative(String email, String password) {
