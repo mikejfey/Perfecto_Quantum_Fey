@@ -14,7 +14,8 @@
 		<parameter name="uiAutomator2Options.setApp" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
 		<parameter name="uiAutomator2Options.setAppPackage" value="io.perfecto.expense.tracker"/>
 		<parameter name="driver.additional.capabilities" value="{'openDeviceTimeout':2}" />
-		<parameter name="uiAutomator2Options.deviceName" value="R5CWA2726XK"/>
+        <parameter name="perfecto.capabilities.model" value="Galaxy.*"/>
+		<!--<parameter name="uiAutomator2Options.deviceName" value="R5CWA2726XK"/>-->
 		<parameter name="perfecto.capabilities.enableAppiumBehavior" value="true"/>
 
 		<groups>

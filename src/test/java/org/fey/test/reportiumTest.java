@@ -13,6 +13,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import java.net.URL;
 import java.time.Duration;
@@ -71,16 +72,24 @@ public class reportiumTest {
         ReportiumClient reportiumClient = new ReportiumClientFactory().createPerfectoReportiumClient(perfectoExecutionContext);
 
         reportiumClient.testStart("fey reportium test", new TestContext("quantum"));
-
         reportiumClient.stepStart("login step ExpenseTracker");
         driver.findElement(By.xpath("//*[@name=\"login_email\"]")).sendKeys("test@perfecto.com");
         driver.findElement(By.xpath("//*[@name=\"login_password\"]")).sendKeys("test123");
         WebElement loginButton = driver.findElement(By.xpath("//*[@name=\"Login\"]"));
         loginButton.click();
 
-        reportiumClient.stepStart("try catch for a button that might not be found.  don't fail test");
+        reportiumClient.stepStart("soft assert to replace try-catch.  fake button...should fail");
         System.out.println("using try-catch to click button if displayed");
+        //WebElement button = driver.findElement(By.id("com.android.chrome:id/fey_example_button"));
+        SoftAssert softAssert = new SoftAssert();
         try {
+            boolean isDisplayed = driver.findElement(By.id("com.android.chrome:id/fey_example_button")).isDisplayed();
+            softAssert.assertTrue(isDisplayed, "Example button should be displayed");
+        } catch (Exception e) {
+            softAssert.fail("Example button not found: " + e.getMessage());
+        }
+// Continue with other assertions...
+/*        try {
             WebElement button = driver.findElement(By.id("com.android.chrome:id/fey_example_button"));
 
             if (button.isDisplayed()) {
@@ -92,7 +101,8 @@ public class reportiumTest {
         } catch (Exception e) {
             System.out.println("Button not found or other error: " + e.getMessage());
             // System.out.println("moving on to next steps");
-        }
+        }*/
+        softAssert.assertAll(); // Reports all failures at once
         reportiumClient.testStop(TestResultFactory.createSuccess());
         driver.quit();
     }

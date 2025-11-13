@@ -7,17 +7,14 @@
     <parameter name="uiAutomator2Options.setAppPackage" value="io.perfecto.expense.tracker"/>
     <parameter name="driver.additional.capabilities" value="{'openDeviceTimeout':2}"/>
     <parameter name="env.resources" value="src/main/resources/android"/>
-    <parameter name="perfecto.capabilities.screenshotOnError" value="false"/>
-    <parameter name="perfecto.capabilities.takesScreenshot" value="true"/>
     <parameter name="perfecto.capabilities.enableAppiumBehavior" value="true"/>
     <parameter name="uiAutomator2Options.setPlatformName" value="Android"/>
+    <parameter name="uiAutomator2Options.deviceName" value="R5CWA2726XK"/>
     <parameter name="perfecto.capabilities.model" value="Galaxy.*"/>
-    <parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}"/>
-    <parameter name="driver.capabilities.sensorInstrument" value="true"/>
     <parameter name="uiAutomator2Options.setApp" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
     <groups>
       <run>
-        <include name="@IOS_Bio_expenseTracker"/>
+        <include name="@expenseTrackerDataDriven"/>
       </run>
     </groups>
     <classes>
