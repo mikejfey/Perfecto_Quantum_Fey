@@ -48,7 +48,7 @@ public class Android_ADB_Call {
         perfectoOptions.put("useAppiumForWeb", true);
         perfectoOptions.put("javascriptEnabled", true);
         perfectoOptions.put("openDeviceTimeout", 5.0);
-        perfectoOptions.put("scriptName", "Android adb shell command");
+        //perfectoOptions.put("scriptName", "Android adb shell command");
         perfectoOptions.put("takesScreenshot", true);
         perfectoOptions.put("screenshotOnError", true);
         //perfectoOptions.put("app", "PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa");
@@ -68,7 +68,7 @@ public class Android_ADB_Call {
 
         // Reporting client. For more details, see http://developers.perfectomobile.com/display/PD/Reporting
         PerfectoExecutionContext perfectoExecutionContext = new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
-                .withProject(new Project("Fey Quantum POM try", "1.0"))
+                .withProject(new Project("Fey adb", "1.0"))
                 .withJob(new Job("Android ADB Make Phone Call", 45))
                 .withCustomFields(new CustomField("programmer", "Mike Fey"))
                 .withCustomFields(new CustomField("author", "mike.fey@perforce.com"))
@@ -76,8 +76,8 @@ public class Android_ADB_Call {
                 .withWebDriver(driver)
                 .build();
         ReportiumClient reportiumClient = new ReportiumClientFactory().createPerfectoReportiumClient(perfectoExecutionContext);
-
-        reportiumClient.stepStart("adb command");
+        reportiumClient.testStart("adb command to make a call", new TestContext("quantum"));
+        reportiumClient.stepStart("send adb command");
 
         try {
 
@@ -87,8 +87,7 @@ public class Android_ADB_Call {
             args.put("command", "am");
             args.put("args", new String[]{"start", "-a", "android.intent.action.CALL", "-d", "tel:" + telNumber});
             driver.executeScript("mobile: shell", args);
-            reportiumClient.stepStart("wait 15 seconds after calling");
-            driver.wait(15000);
+            reportiumClient.stepStart("answer your phone call");
 
         } catch (Exception e) {
             System.out.println("did not make call " + e.getMessage());

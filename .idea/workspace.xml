@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="added a simple reportiumTest.java">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Android_ADB_Call.java" afterDir="false" />
+    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="added adb calling script">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/reportiumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/reportiumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/quantum-failed-suite/failed-suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/quantum-failed-suite/failed-suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Android_ADB_Call.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Android_ADB_Call.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -668,7 +665,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762289908199</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="added adb calling script">
+      <option name="closed" value="true" />
+      <created>1763064512324</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1763064512324</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -684,7 +689,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="testing android driver settings" />
     <MESSAGE value="added a test for signup to Expense Tracker app" />
     <MESSAGE value="android driver updates" />
     <MESSAGE value="added capabilities to take screenshots for every step" />
@@ -709,7 +713,8 @@
     <MESSAGE value="added SoftAssert" />
     <MESSAGE value="changed maven.yml" />
     <MESSAGE value="added a simple reportiumTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a simple reportiumTest.java" />
+    <MESSAGE value="added adb calling script" />
+    <option name="LAST_COMMIT_MESSAGE" value="added adb calling script" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
