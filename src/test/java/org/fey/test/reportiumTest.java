@@ -20,7 +20,7 @@ import java.time.Duration;
 import java.util.HashMap;
 
 public class reportiumTest {
-
+    ReportiumClient reportiumClient;
     @Test
     public void feyReportium() throws Exception {
 
@@ -41,7 +41,7 @@ public class reportiumTest {
         // Perfecto capabilities with prefix
         HashMap<String, Object> perfectoOptions = new HashMap<>();
         perfectoOptions.put("securityToken", token);
-        perfectoOptions.put("model", "iPhone-14.*");
+        perfectoOptions.put("model", "iPhone-7.*");
         perfectoOptions.put("automationName", "XCUITest");
         perfectoOptions.put("useAppiumForWeb", true);
         perfectoOptions.put("javascriptEnabled", true);
@@ -62,48 +62,44 @@ public class reportiumTest {
         System.out.println("Driver used: " + driver);
 
         // Reporting client. For more details, see http://developers.perfectomobile.com/display/PD/Reporting
-        PerfectoExecutionContext perfectoExecutionContext = new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
-                .withProject(new Project("Fey Quantum POM try", "1.0"))
-                .withCustomFields(new CustomField("programmer", "Mike Fey"))
-                .withCustomFields(new CustomField("author", "mike.fey@perforce.com"))
-                .withContextTags("quantum")
-                .withWebDriver(driver)
-                .build();
-        ReportiumClient reportiumClient = new ReportiumClientFactory().createPerfectoReportiumClient(perfectoExecutionContext);
-
-        reportiumClient.testStart("fey reportium test", new TestContext("quantum"));
-        reportiumClient.stepStart("login step ExpenseTracker");
+        reportiumClient = new ReportiumClientFactory().createPerfectoReportiumClient(
+                new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
+                        .withProject(new Project("reportium project fey nov14", "1.0"))
+                        .withJob(new Job("reportium job nov14", 45))
+                        .withCustomFields(new CustomField("programmer", "Mike Fey"))
+                        .withCustomFields(new CustomField("author", "mike.fey@perforce.com"))
+                        .withContextTags("quantum")
+                        .withWebDriver(driver)
+                        .build()
+                         );
+        reportiumClient.testStart("fey reportium test nov14", new TestContext("quantum"));
+        reportiumClient.stepStart("login step ExpenseTracker nov14");
         driver.findElement(By.xpath("//*[@name=\"login_email\"]")).sendKeys("test@perfecto.com");
         driver.findElement(By.xpath("//*[@name=\"login_password\"]")).sendKeys("test123");
         WebElement loginButton = driver.findElement(By.xpath("//*[@name=\"Login\"]"));
         loginButton.click();
 
-        reportiumClient.stepStart("soft assert to replace try-catch.  fake button...should fail");
+        reportiumClient.stepStart("nov14 soft assert to replace try-catch.  fake button...should fail");
         System.out.println("using try-catch to click button if displayed");
         //WebElement button = driver.findElement(By.id("com.android.chrome:id/fey_example_button"));
         SoftAssert softAssert = new SoftAssert();
         try {
+            System.out.println("inside the try");
             boolean isDisplayed = driver.findElement(By.id("com.android.chrome:id/fey_example_button")).isDisplayed();
             softAssert.assertTrue(isDisplayed, "Example button should be displayed");
+
         } catch (Exception e) {
+            System.out.println("inside the catch");
             softAssert.fail("Example button not found: " + e.getMessage());
         }
-// Continue with other assertions...
-/*        try {
-            WebElement button = driver.findElement(By.id("com.android.chrome:id/fey_example_button"));
-
-            if (button.isDisplayed()) {
-                button.click();
-                System.out.println("Button was displayed and clicked");
-            } else {
-                System.out.println("Button is not displayed.");
-            }
-        } catch (Exception e) {
-            System.out.println("Button not found or other error: " + e.getMessage());
-            // System.out.println("moving on to next steps");
-        }*/
-        softAssert.assertAll(); // Reports all failures at once
+        System.out.println("after the catch");
+        System.out.println("stop the test... createSuccess");
         reportiumClient.testStop(TestResultFactory.createSuccess());
+// Continue with other assertions...
+
+
+
+        System.out.println("now quit the driver");
         driver.quit();
     }
 

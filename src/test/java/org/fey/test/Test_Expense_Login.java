@@ -34,7 +34,7 @@ import com.perfecto.reportium.test.result.TestResultFactory;
  *
  */
 public class Test_Expense_Login {
-
+ReportiumClient reportiumClient;
     @Test
     public void Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW() throws Exception {
         String browserName = "mobileOS";
@@ -77,16 +77,16 @@ public class Test_Expense_Login {
         driver.manage().timeouts().implicitlyWait(Duration.ofMillis(15000));
 
         // Reporting client. For more details, see http://developers.perfectomobile.com/display/PD/Reporting
-        PerfectoExecutionContext perfectoExecutionContext = new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
-                .withProject(new Project("Fey Appium v2.0 Demo Proj", "1.0"))
-                .withJob(new Job("Fey Nightly CI/CD Job", 45))
-                .withCustomFields(new CustomField("programmer", "Mike Fey"))
-                .withCustomFields(new CustomField("author", "mike.fey@perforce.com"))
-                .withContextTags("Appiumv2.0")
-                .withWebDriver(driver)
-                .build();
-        ReportiumClient reportiumClient = new ReportiumClientFactory().createPerfectoReportiumClient(perfectoExecutionContext);
-
+        reportiumClient = new ReportiumClientFactory().createPerfectoReportiumClient(
+                new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
+                        .withProject(new Project("reportium project fey nov14", "1.0"))
+                        .withJob(new Job("reportium job nov14", 45))
+                        .withCustomFields(new CustomField("programmer", "Mike Fey"))
+                        .withCustomFields(new CustomField("author", "mike.fey@perforce.com"))
+                        .withContextTags("quantum")
+                        .withWebDriver(driver)
+                        .build()
+        );
         try {
             reportiumClient.testStart("Fey Appium testng expense tracker login", new TestContext("Appium_v2.0", "Android Web"));
 

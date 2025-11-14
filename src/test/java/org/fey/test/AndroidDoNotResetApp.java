@@ -21,7 +21,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class AndroidDoNotResetApp {
-
+ReportiumClient reportiumClient;
     @Test
     public void feyAndroidNoReset() throws Exception {
 
@@ -68,17 +68,18 @@ public class AndroidDoNotResetApp {
         System.out.println("Driver used: " + driver);
 
         // Reporting client. For more details, see http://developers.perfectomobile.com/display/PD/Reporting
-        PerfectoExecutionContext perfectoExecutionContext = new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
-                .withProject(new Project("Fey Quantum POM try", "1.0"))
-                .withJob(new Job("Fey Quantum POM job", 45))
-                .withCustomFields(new CustomField("programmer", "Mike Fey"))
-                .withCustomFields(new CustomField("author", "mike.fey@perforce.com"))
-                .withContextTags("quantum")
-                .withWebDriver(driver)
-                .build();
-        ReportiumClient reportiumClient = new ReportiumClientFactory().createPerfectoReportiumClient(perfectoExecutionContext);
+        reportiumClient = new ReportiumClientFactory().createPerfectoReportiumClient(
+                new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
+                        .withProject(new Project("reportium project fey nov14", "1.0"))
+                        .withJob(new Job("reportium job nov14", 45))
+                        .withCustomFields(new CustomField("programmer", "Mike Fey"))
+                        .withCustomFields(new CustomField("author", "mike.fey@perforce.com"))
+                        .withContextTags("quantum")
+                        .withWebDriver(driver)
+                        .build()
+        );
 
-        reportiumClient.testStart("Android don't reset app each test", new TestContext("quantum"));
+       ;
         Map<String, Object> params1 = new HashMap<>();
         params1.put("identifier", "io.perfecto.expense.tracker");
         driver.executeScript("mobile:application:open", params1);

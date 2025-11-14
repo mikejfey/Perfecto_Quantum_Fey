@@ -5,8 +5,6 @@
 		<listener class-name="com.quantum.listeners.QuantumReportiumListener" />
 	</listeners>
 
-
-
 	<test name="Native POM in Quantum" enabled="true"
 		  thread-count="3">
 		<parameter name="perfecto.additional.capabilities" value="{'perfecto:openDeviceTimeout':15}" />
@@ -22,12 +20,9 @@
 		<parameter name="perfecto.capabilities.takesScreenshot" value="true" />
 
 		<classes>
-			<class
-					name="org.fey.test.TestQuantumPOM" />
+<!--			<class name="org.fey.test.POM.QuantumPageObjMod"/>-->
+           <class name="org.fey.test.reportiumTest"/>
 		</classes>
 	</test>
-
-
-
 
 </suite>

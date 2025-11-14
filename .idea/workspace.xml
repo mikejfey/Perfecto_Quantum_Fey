@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="added adb calling script">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/POM/QuantumPageObjMod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Fri14Nov25_102553AM/DefaultSuite/Perfecto_Quantum_Fey/org.fey.test.Test_POM_Login/SetUp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Fri14Nov25_102553AM/DefaultSuite/Perfecto_Quantum_Fey/org.fey.test.Test_POM_Login/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Fri14Nov25_102553AM/DefaultSuite/Perfecto_Quantum_Fey/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Fri14Nov25_102553AM/meta-info.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/QuantumPageObjModel/smokePOM2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/QuantumPageObjModel/smokePOM2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/AndroidDoNotResetApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/AndroidDoNotResetApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Android_ADB_Call.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Android_ADB_Call.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/TestIosExpenseNoPOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/TestIosExpenseNoPOM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_Expense_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_Expense_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_POM_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_POM_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_mike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_mike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/iosDoNotResetApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/iosDoNotResetApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/reportiumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/reportiumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/quantum-failed-suite/failed-suite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-results/meta-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/test-results/meta-info.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +99,7 @@
     "TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/IOS_TAM_ExpTrackerDataDriven_seq.xml.executor": "Run",
     "TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/ValidLogin_Android_TAM_ExpTrackerDataDriven_seq.xml.executor": "Run",
     "TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/testGroups.xml.executor": "Run",
+    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOM2.xml.executor": "Run",
     "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml.executor": "Run",
     "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/expenseTrackerAndroid_Biometrics.xml.executor": "Run",
     "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml.executor": "Run",
@@ -91,6 +107,8 @@
     "TestNG.AndroidDoNotResetApp.feyAndroidNoReset.executor": "Run",
     "TestNG.Android_ADB_Call.adbMakeCall.executor": "Run",
     "TestNG.IosDoNotResetApp.feyTestPOMIosNoReset.executor": "Run",
+    "TestNG.QuantumPageObjMod.executor": "Run",
+    "TestNG.QuantumPageObjMod.quantumPageObjModTest.executor": "Run",
     "TestNG.SampleTestGroups.executor": "Run",
     "TestNG.SampleTestGroups.testCheckout.executor": "Run",
     "TestNG.SampleTestGroups.testLogin.executor": "Run",
@@ -115,7 +133,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.57714957",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.excludes"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -144,7 +162,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Android_ADB_Call.adbMakeCall">
+  <component name="RunManager" selected="TestNG.reportiumTest.feyReportium">
     <configuration name="quantum-starter [clean,install -U]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -268,24 +286,6 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="AndroidDoNotResetApp.feyAndroidNoReset" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="perfectoPOM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.fey.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.fey.test" />
-      <option name="MAIN_CLASS_NAME" value="org.fey.test.AndroidDoNotResetApp" />
-      <option name="METHOD_NAME" value="feyAndroidNoReset" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Android_ADB_Call.adbMakeCall" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="perfectoPOM" />
       <extension name="coverage">
@@ -304,17 +304,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="QuantumPageObjMod.quantumPageObjModTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="perfectoPOM" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fey.test.POM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fey.test.POM" />
+      <option name="MAIN_CLASS_NAME" value="org.fey.test.POM.QuantumPageObjMod" />
+      <option name="METHOD_NAME" value="quantumPageObjModTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reportiumTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_POM_Login.testFeyValidLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="perfectoPOM" />
       <extension name="coverage">
         <pattern>
@@ -323,8 +331,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.fey.test" />
-      <option name="MAIN_CLASS_NAME" value="org.fey.test.reportiumTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="org.fey.test.Test_POM_Login" />
+      <option name="METHOD_NAME" value="testFeyValidLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOM2.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="perfectoPOM" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/QuantumPageObjModel/smokePOM2.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -353,19 +372,19 @@
       <item itemvalue="Maven.quantum-starter [clean,install -U]" />
       <item itemvalue="Maven.quantum-starter [clean,test]" />
       <item itemvalue="Maven.run smoke" />
-      <item itemvalue="TestNG.AndroidDoNotResetApp.feyAndroidNoReset" />
+      <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOM2.xml" />
+      <item itemvalue="TestNG.QuantumPageObjMod.quantumPageObjModTest" />
+      <item itemvalue="TestNG.Test_POM_Login.testFeyValidLogin" />
       <item itemvalue="TestNG.Android_ADB_Call.adbMakeCall" />
-      <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml" />
       <item itemvalue="TestNG.reportiumTest.feyReportium" />
-      <item itemvalue="TestNG.reportiumTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Android_ADB_Call.adbMakeCall" />
-        <item itemvalue="TestNG.AndroidDoNotResetApp.feyAndroidNoReset" />
         <item itemvalue="TestNG.reportiumTest.feyReportium" />
-        <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml" />
-        <item itemvalue="TestNG.reportiumTest" />
+        <item itemvalue="TestNG.Test_POM_Login.testFeyValidLogin" />
+        <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOM2.xml" />
+        <item itemvalue="TestNG.QuantumPageObjMod.quantumPageObjModTest" />
+        <item itemvalue="TestNG.Android_ADB_Call.adbMakeCall" />
       </list>
     </recent_temporary>
   </component>
@@ -673,7 +692,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763064512324</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="added adb calling script">
+      <option name="closed" value="true" />
+      <created>1763065560312</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1763065560312</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

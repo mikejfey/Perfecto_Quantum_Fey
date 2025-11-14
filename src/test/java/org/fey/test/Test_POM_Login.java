@@ -1,4 +1,5 @@
 package org.fey.test;
+import com.perfecto.reportium.test.TestContext;
 import com.perfecto.reportium.test.result.TestResultFactory;
 import com.quantum.pages.POM_ExpenseLoginPage;
 import com.quantum.pages.POM_Expense_Homepage;
@@ -90,7 +91,7 @@ public class Test_POM_Login {
                 .withContextTags("Appiumv2.0")
                 .withWebDriver(driver)
                 .build();
-
+        reportiumClient.testStart("nov14 Expense Login IOS", new TestContext("quantum"));
         loginPage.launchApp();
         //loginPage.logingAs("test@perfecto.com");
         homepage = loginPage.logingAs("test@perfecto.com", "test123");

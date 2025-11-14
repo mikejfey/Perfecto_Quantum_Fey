@@ -20,7 +20,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Android_ADB_Call {
-
+ReportiumClient reportiumClient;
     @Test
     public void adbMakeCall() throws Exception {
 
@@ -67,15 +67,16 @@ public class Android_ADB_Call {
         System.out.println("Driver used: " + driver);
 
         // Reporting client. For more details, see http://developers.perfectomobile.com/display/PD/Reporting
-        PerfectoExecutionContext perfectoExecutionContext = new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
-                .withProject(new Project("Fey adb", "1.0"))
-                .withJob(new Job("Android ADB Make Phone Call", 45))
-                .withCustomFields(new CustomField("programmer", "Mike Fey"))
-                .withCustomFields(new CustomField("author", "mike.fey@perforce.com"))
-                .withContextTags("quantum")
-                .withWebDriver(driver)
-                .build();
-        ReportiumClient reportiumClient = new ReportiumClientFactory().createPerfectoReportiumClient(perfectoExecutionContext);
+        reportiumClient = new ReportiumClientFactory().createPerfectoReportiumClient(
+                new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
+                        .withProject(new Project("reportium project fey nov14", "1.0"))
+                        .withJob(new Job("reportium job nov14", 45))
+                        .withCustomFields(new CustomField("programmer", "Mike Fey"))
+                        .withCustomFields(new CustomField("author", "mike.fey@perforce.com"))
+                        .withContextTags("quantum")
+                        .withWebDriver(driver)
+                        .build()
+        );
         reportiumClient.testStart("adb command to make a call", new TestContext("quantum"));
         reportiumClient.stepStart("send adb command");
 

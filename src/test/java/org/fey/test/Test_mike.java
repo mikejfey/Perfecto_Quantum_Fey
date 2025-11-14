@@ -23,7 +23,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class Test_mike {
-
+ReportiumClient reportiumClient;
     @Test(groups = {"smoke"})
     public void Fey_New_Test() throws Exception {
         String browserName = "mobileOS";
@@ -65,15 +65,17 @@ public class Test_mike {
         driver.manage().timeouts().implicitlyWait(Duration.ofMillis(15000));
 
         // Reporting client. For more details, see http://developers.perfectomobile.com/display/PD/Reporting
-        PerfectoExecutionContext perfectoExecutionContext = new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
-                .withProject(new Project("Fey new testng proj", "1.0"))
-                .withJob(new Job("Fey Nightly Job", 45))
-                .withCustomFields(new CustomField("programmer", "Mike Fey"))
-                .withCustomFields(new CustomField("author", "mikejfey@hotmail.com"))
-                .withContextTags("Appiumv2.0")
-                .withWebDriver(driver)
-                .build();
-        ReportiumClient reportiumClient = new ReportiumClientFactory().createPerfectoReportiumClient(perfectoExecutionContext);
+        reportiumClient = new ReportiumClientFactory().createPerfectoReportiumClient(
+                new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
+                        .withProject(new Project("reportium project fey nov14", "1.0"))
+                        .withJob(new Job("reportium job nov14", 45))
+                        .withCustomFields(new CustomField("programmer", "Mike Fey"))
+                        .withCustomFields(new CustomField("author", "mike.fey@perforce.com"))
+                        .withContextTags("quantum")
+                        .withWebDriver(driver)
+                        .build()
+        );
+
         SoftAssert softAssert = new SoftAssert();
         try {
             reportiumClient.testStart("Fey New testng", new TestContext("Appium_v2.0", "Android Web"));
