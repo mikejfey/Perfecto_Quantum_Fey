@@ -70,18 +70,24 @@ public class ExpenseTrackerLoginPage extends WebDriverBaseTestPage<WebDriverTest
 
 	public void loginNative(String email, String password) {
 		emailNativeTextfield.sendKeys(email);
-		ReportUtils.logAssert("Email was entered as expected", emailNativeTextfield.getText().equalsIgnoreCase(email));
+		//ReportUtils.logAssert("Email was entered as expected", emailNativeTextfield.getText().equalsIgnoreCase("wrong@email.com"));
+        ReportUtils.logVerify("Email was entered logVerify", emailNativeTextfield.getText().equalsIgnoreCase("wrong@email.com"));
+      //  ReportUtils.logVerify("email entered verify throw", emailNativeTextfield.getText().equalsIgnoreCase("wrong@email.com"), Throwable e);
+        
 		passwordlNativeTextfield.sendKeys(password);
 
-		if(DriverUtils.isIOS()) {
+/*		if(DriverUtils.isIOS()) {
 		DriverUtils.getIOSDriver().hideKeyboard();
 	}else {
 			DriverUtils.getAndroidDriver().hideKeyboard();
-		}
-
-		//loginlNativeButton.click();
-
+		}*/
 	}
+    public void droidLogin(String email, String password) {
+        emailNativeTextfield.sendKeys(email);
+        ReportUtils.logAssert("Email was entered as expected", loginlEmailTextFieldValue.getText().equalsIgnoreCase(email));
+        passwordlNativeTextfield.sendKeys(password);
+        loginlNativeButton.click();
+    }
 
 	public void loginWithInvalidData(String email, String password) {
 		emailNativeTextfield.sendKeys(email);

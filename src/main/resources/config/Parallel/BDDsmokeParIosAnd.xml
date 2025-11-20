@@ -1,0 +1,63 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Expense POM no bdd" verbose="0" parallel="true"
+	   thread-count="100">
+	<listeners>
+		<listener class-name="com.quantum.listeners.QuantumReportiumListener" />
+	</listeners>
+
+   <!-- <method-selectors>
+        <method-selector>
+            <selector-class name="com.qmetry.qaf.automation.testng.pro.QAFMethodSelector"/>
+        </method-selector>
+    </method-selectors>-->
+
+    <test name="IOS smoke parallel" enabled="true"
+		  thread-count="10">
+        <parameter name="perfecto.additional.capabilities" value="{'perfecto:openDeviceTimeout':15}" />
+        <parameter name="perfecto.capabilities.model" value="iPhone-11.*"/>
+        <parameter name="perfecto.capabilities" value="{'perfecto:useVirtualDevice':true}" />
+        <parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
+        <parameter name="perfecto.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
+        <parameter name="perfecto.capabilities.iOSResign" value="true"/>
+        <parameter name="env.resources" value="src/main/resources/ios"/>
+        <parameter name="driver.capabilities.sensorInstrument" value="true"/>
+        <parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}" />
+        <parameter name="perfecto.capabilities.screenshotOnError" value="false" />
+        <parameter name="perfecto.capabilities.takesScreenshot" value="true" />
+
+        <groups>
+            <run>
+                <include name="@smoke" />
+            </run>
+        </groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+		</classes>
+	</test>
+
+    <test name="Android smoke parallel" enabled="true"
+          thread-count="10">
+        <parameter name="driver.name" value="perfectoDriver"/>
+        <parameter name="perfecto.additional.capabilities" value="{'perfecto:openDeviceTimeout':15}" />
+        <parameter name="perfecto.capabilities.model" value="Galaxy.*"/>
+        <parameter name="perfecto.capabilities.enableAppiumBehavior" value="true" />
+        <parameter name="perfecto.capabilities.appiumVersion" value="latest" />
+        <parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
+        <parameter name="perfecto.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
+        <parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}" />
+        <parameter name="perfecto.capabilities.screenshotOnError" value="false" />
+        <parameter name="perfecto.capabilities.takesScreenshot" value="true" />
+        <parameter name="perfecto.capabilities.appiumVersion" value="1.22.3" />
+        <!-- <parameter name="perfecto.capabilities.automationVersion" value="1.70.1" /> -->
+        <parameter name="env.resources" value="src/main/resources/android"/>
+
+                <groups>
+                    <run>
+                        <include name="@smoke" />
+                    </run>
+                </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+</suite>
