@@ -42,7 +42,7 @@ public class ExpenseTrackerHomePage extends WebDriverBaseTestPage<WebDriverTestP
 	
 	
 	public void verifyHomeScreen() {
-		ReportUtils.logAssert("Verify Home Screen.", menuBtn.isDisplayed());
+		ReportUtils.logVerify("Verify Home Screen.", menuBtn.isDisplayed());
 	}
 	
 	public void enterExpenseDetails() {

@@ -14,6 +14,8 @@ import com.qmetry.qaf.automation.ui.api.WebDriverTestPage;
 import com.quantum.pages.ExpenseTrackerCrashPage;
 import com.quantum.pages.ExpenseTrackerHomePage;
 import com.quantum.pages.ExpenseTrackerLoginPage;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import com.qmetry.qaf.automation.ui.webdriver.QAFWebDriver;
 
@@ -24,14 +26,21 @@ import java.util.Map;
 public class QuantumPageObjMod extends WebDriverTestCase {
 
     ReportiumClient reportiumClient;
-    ExpenseTrackerLoginPage loginPage2;
-    ExpenseTrackerHomePage homePage2;
+    protected ExpenseTrackerLoginPage loginPage2;
+    protected ExpenseTrackerHomePage homePage2;
 
 
     /*  @Override
        protected void openPage(PageLocator locator, Object... args) {
 
        }*/
+
+    @BeforeClass(alwaysRun = true)
+    public void initPages() throws Exception {
+        loginPage2 = new ExpenseTrackerLoginPage();
+        homePage2 = new ExpenseTrackerHomePage();
+    }
+
     @MetaData("{'feature':'login','type':'sanity'}")
     @Test(groups = {"sanity"})
 
@@ -48,17 +57,19 @@ public class QuantumPageObjMod extends WebDriverTestCase {
                         .withWebDriver(driver)
                         .build()
         );
+
         reportiumClient.testStart("TC-001: Quantum POM with no BDD sanity", new TestContext("quantum"));
         reportiumClient.stepStart("login from ExpenseTrackerLoginPage class");
         try {
             loginPage2.droidLogin("test@perfecto.com", "test123");
             homePage2.verifyHomeScreen();
-            reportiumClient.testStop(TestResultFactory.createSuccess());
         } catch (Exception e) {
             System.out.println("could not login " + e.getMessage());
             reportiumClient.testStop(TestResultFactory.createFailure("failed to login"));
-
         }
+
+        reportiumClient.testStop(TestResultFactory.createSuccess());
+        driver.quit();
         //is this a good way to end gracefully...  should it go in @AfterSuite
            /* if (driver != null) {
                 driver.quit();
@@ -66,14 +77,13 @@ public class QuantumPageObjMod extends WebDriverTestCase {
             }*/
     }
 
-    @MetaData("{'feature':'login','type':'smoke'}")
+   /* @MetaData("{'feature':'login','type':'smoke'}")
     @Test(groups = {"smoke"})
 
     public void quantumPageObjModTestSmoke() throws Exception {
         QAFWebDriver driver = getDriver();
         System.out.println("using this driver " + driver);
-        loginPage2 = new ExpenseTrackerLoginPage();
-        homePage2 = new ExpenseTrackerHomePage();
+
         reportiumClient = new ReportiumClientFactory().createPerfectoReportiumClient(
                 new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
                         .withProject(new Project("POM project fey nov17 smoke", "1.0"))
@@ -85,22 +95,20 @@ public class QuantumPageObjMod extends WebDriverTestCase {
         );
         reportiumClient.testStart("TC-001: Quantum POM with no BDD smoke", new TestContext("quantum"));
         reportiumClient.stepStart("login from ExpenseTrackerLoginPage class");
-        Map<String, Object> params = new HashMap();
-        params.put("message", "hello");
-        params.put("status", false);
-        driver.executeScript("mobile:status:assert", params);
+        loginPage2 = new ExpenseTrackerLoginPage();
+        homePage2 = new ExpenseTrackerHomePage();
 
         try {
             loginPage2.droidLogin("test@perfecto.com", "test123");
             homePage2.verifyHomeScreen();
-            reportiumClient.testStop(TestResultFactory.createSuccess());
         } catch (Exception e) {
             System.out.println("could not login " + e.getMessage());
             reportiumClient.testStop(TestResultFactory.createFailure("failed to login"));
         }
-            /*if (driver != null) {
+        reportiumClient.testStop(TestResultFactory.createSuccess());
+            if (driver != null) {
                 driver.quit(); // This releases the device
                 System.out.println("Driver quit successfully, device released.");
-            }*/
-    }
+            }
+    }*/
 }

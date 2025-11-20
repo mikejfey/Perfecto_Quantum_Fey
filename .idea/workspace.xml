@@ -4,24 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="change ReportiumClientFactory implementation">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/Parallel/BDDsmokeParIosAnd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/QuantumPageObjModel/smokePOMAndroid.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/QuantumPageObjModel/smokePOM_both.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/QuantumPageObjModel/smokePOM_iOS.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/scenarios/parallel_xDev/TC-2.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/scenarios/parallel_xDev/TC-3.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/scenarios/sandbox/expenseTrackerNativeInvalidValid.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="updated page object model test class and test.xmls">
+      <change afterPath="$PROJECT_DIR$/test-results/Thu20Nov25_020827PM/ExpensePOMNoBdd/NativePOMInQuantum/org.fey.test.POM.QuantumPageObjMod/BeforeMethod.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Thu20Nov25_020827PM/ExpensePOMNoBdd/NativePOMInQuantum/org.fey.test.POM.QuantumPageObjMod/BeforeMethod0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Thu20Nov25_020827PM/ExpensePOMNoBdd/NativePOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Thu20Nov25_020827PM/ExpensePOMNoBdd/NativePOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Thu20Nov25_020827PM/meta-info.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/pages/ExpenseTrackerHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/pages/ExpenseTrackerHomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/pages/ExpenseTrackerLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/pages/ExpenseTrackerLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/QuantumPageObjModel/smokePOM2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/IOS_TAM_ExpTrackerDataDriven_seq.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/works_IOS14_TAM/IOS_TAM_ExpTrackerDataDriven_seq.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/scenarios/sandbox/expenseTrackerNativeHappy.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/scenarios/parallel_xDev/TC-1.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/POM/QuantumPageObjMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/POM/QuantumPageObjMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quantum/pages/ExpenseTrackerHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/quantum/pages/ExpenseTrackerHomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/quantum/pages/ExpenseTrackerLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/quantum/pages/ExpenseTrackerLoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-results/meta-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/test-results/meta-info.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,10 +342,10 @@
       <item itemvalue="Maven.quantum-starter [clean,test]" />
       <item itemvalue="Maven.run smoke" />
       <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/Parallel/smokeParIosAnd.xml" />
+      <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOM2.xml" />
       <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOMAndroid.xml" />
       <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOM_both.xml" />
       <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOM_iOS.xml" />
-      <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOM2.xml" />
     </list>
     <recent_temporary>
       <list>
@@ -682,7 +677,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763139018659</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="updated page object model test class and test.xmls">
+      <option name="closed" value="true" />
+      <created>1763666801055</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1763666801055</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -698,7 +701,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="android driver updates" />
     <MESSAGE value="added capabilities to take screenshots for every step" />
     <MESSAGE value="handling Chrome notification 'no thank you' button with try-catch if-else" />
     <MESSAGE value="fixed android driver capabilities to run native android app&#10;added testng test not using BDD framework" />
@@ -723,7 +725,8 @@
     <MESSAGE value="added a simple reportiumTest.java" />
     <MESSAGE value="added adb calling script" />
     <MESSAGE value="change ReportiumClientFactory implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="change ReportiumClientFactory implementation" />
+    <MESSAGE value="updated page object model test class and test.xmls" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated page object model test class and test.xmls" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
