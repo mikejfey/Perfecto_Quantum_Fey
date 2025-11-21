@@ -1,0 +1,38 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "name": "beforeMethod",
+        "resultFileName": "BeforeMethod"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1763669287961,
+      "duration": 19541,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "name": "beforeMethod",
+        "resultFileName": "BeforeMethod0"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1763669287960,
+      "duration": 22626,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

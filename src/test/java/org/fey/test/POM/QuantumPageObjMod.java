@@ -9,18 +9,10 @@ import com.perfecto.reportium.test.TestContext;
 import com.perfecto.reportium.test.result.TestResultFactory;
 import com.qmetry.qaf.automation.data.MetaData;
 import com.qmetry.qaf.automation.ui.WebDriverTestCase;
-import com.qmetry.qaf.automation.ui.api.PageLocator;
-import com.qmetry.qaf.automation.ui.api.WebDriverTestPage;
-import com.quantum.pages.ExpenseTrackerCrashPage;
 import com.quantum.pages.ExpenseTrackerHomePage;
 import com.quantum.pages.ExpenseTrackerLoginPage;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import com.qmetry.qaf.automation.ui.webdriver.QAFWebDriver;
-
-import java.util.HashMap;
-import java.util.Map;
 
 
 public class QuantumPageObjMod extends WebDriverTestCase {
@@ -28,22 +20,18 @@ public class QuantumPageObjMod extends WebDriverTestCase {
     ReportiumClient reportiumClient;
     protected ExpenseTrackerLoginPage loginPage2;
     protected ExpenseTrackerHomePage homePage2;
-
-
     /*  @Override
        protected void openPage(PageLocator locator, Object... args) {
-
        }*/
-
     @BeforeClass(alwaysRun = true)
     public void initPages() throws Exception {
         loginPage2 = new ExpenseTrackerLoginPage();
         homePage2 = new ExpenseTrackerHomePage();
+        QAFWebDriver driver = getDriver();
     }
 
     @MetaData("{'feature':'login','type':'sanity'}")
     @Test(groups = {"sanity"})
-
     public void quantumPageObjModTestSanity() throws Exception {
         QAFWebDriver driver = getDriver();
         System.out.println("using this driver " + driver);
@@ -57,7 +45,6 @@ public class QuantumPageObjMod extends WebDriverTestCase {
                         .withWebDriver(driver)
                         .build()
         );
-
         reportiumClient.testStart("TC-001: Quantum POM with no BDD sanity", new TestContext("quantum"));
         reportiumClient.stepStart("login from ExpenseTrackerLoginPage class");
         try {
@@ -67,19 +54,11 @@ public class QuantumPageObjMod extends WebDriverTestCase {
             System.out.println("could not login " + e.getMessage());
             reportiumClient.testStop(TestResultFactory.createFailure("failed to login"));
         }
-
         reportiumClient.testStop(TestResultFactory.createSuccess());
-        driver.quit();
-        //is this a good way to end gracefully...  should it go in @AfterSuite
-           /* if (driver != null) {
-                driver.quit();
-                System.out.println("Driver quit successfully, device released.");
-            }*/
     }
 
-   /* @MetaData("{'feature':'login','type':'smoke'}")
+    @MetaData("{'feature':'login','type':'smoke'}")
     @Test(groups = {"smoke"})
-
     public void quantumPageObjModTestSmoke() throws Exception {
         QAFWebDriver driver = getDriver();
         System.out.println("using this driver " + driver);
@@ -110,5 +89,14 @@ public class QuantumPageObjMod extends WebDriverTestCase {
                 driver.quit(); // This releases the device
                 System.out.println("Driver quit successfully, device released.");
             }
-    }*/
+    }
+
+    @AfterClass(alwaysRun = true)
+    public void tearDown() throws Exception {
+        QAFWebDriver driver = getDriver();
+        if (driver != null) {
+            driver.quit(); // This releases the device
+            System.out.println("Driver quit successfully, device released.");
+        }
+    }
 }
