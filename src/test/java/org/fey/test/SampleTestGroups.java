@@ -7,7 +7,7 @@ import org.testng.asserts.SoftAssert;
 
 public class SampleTestGroups extends WebDriverTestCase {
 
-    @Test(groups = {"security"})
+    @Test(groups = {"smoke"})
 
     public void testLogin() {
         System.out.println("Running smoke test: Login");
