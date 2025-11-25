@@ -96,7 +96,7 @@ ReportiumClient reportiumClient;
             driver.findElement(By.xpath("//*[@resource-id='io.perfecto.expense.tracker:id/list_add_btn']")).click();
 
             Map<String, Object> paramsStart = new HashMap<>();
-            paramsStart.put("repositoryFile", "PUBLIC:Checkscan.png");
+            paramsStart.put("repositoryFile", "PUBLIC:CoffeeReceipt.jpg");
             paramsStart.put("identifier", "io.perfecto.expense.tracker");
             driver.executeScript("mobile:image.injection:start", paramsStart);
 

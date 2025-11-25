@@ -1,12 +1,13 @@
 package org.fey.test;
 
+import com.qmetry.qaf.automation.ui.WebDriverTestCase;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 
-public class SampleTestGroups {
+public class SampleTestGroups extends WebDriverTestCase {
 
-    @Test(groups = {"smoke"})
+    @Test(groups = {"security"})
 
     public void testLogin() {
         System.out.println("Running smoke test: Login");

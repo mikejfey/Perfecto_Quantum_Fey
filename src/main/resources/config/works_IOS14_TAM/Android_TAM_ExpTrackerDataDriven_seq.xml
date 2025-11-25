@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="data-driven Android Fey Suite" verbose="0"
-	   thread-count="100" parallel="false">
+	   thread-count="100" parallel="tests">
 	<listeners>
 		<listener class-name="com.quantum.listeners.QuantumReportiumListener" />
 	</listeners>
