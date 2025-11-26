@@ -23,7 +23,7 @@ public class Test_HCSC_Appium2Smoke {
 ReportiumClient reportiumClient;
     @Test(groups = {"smoke"})
     public void Fey_New_Test() throws Exception {
-        //String token = "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4YmI4YmZmZS1kMzBjLTQ2MjctYmMxMS0zNTYyMmY1ZDkyMGYifQ.eyJpYXQiOjE3NTk0Mjk3NTYsImp0aSI6IjIwNDliZmVlLTEwYmUtNGNkNy1iMDI3LTVkNDZjZDExYjU2NiIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvZGVtby1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2RlbW8tcGVyZmVjdG9tb2JpbGUtY29tIiwic3ViIjoiZDIxMDAzYzItMDY0Mi00MjVmLTg0ZDAtNzdiYjQ1ODU5MzVlIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiIyOGMyZjQxZS1jYjA3LTRhZDAtYjA3MS1jYzllOWYyNzA1MzgiLCJzZXNzaW9uX3N0YXRlIjoiN2IyMjBhZWYtM2Y1MC00NTk2LWE3ZTEtMzFiMDY2ZGM1MzAxIiwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MiLCJzaWQiOiI3YjIyMGFlZi0zZjUwLTQ1OTYtYTdlMS0zMWIwNjZkYzUzMDEifQ.GQTd314MFRHYM14RCJPKrC5auLRO9WWY1g-dFEo_Xr8";
+        // String token = "<token>";
         String token = "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIyZmE2ZmEzMC0xYzQwLTRlOTAtYjJkNC1mOTYwZWUwMjk0YTQifQ.eyJpYXQiOjE3NjQwODk0NDQsImp0aSI6IjI1MGVmMDZkLTRmZDUtNDJlMS1iMWU0LWRkODVjOGQ1MzBmYSIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvaGNzYy1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2hjc2MtcGVyZmVjdG9tb2JpbGUtY29tIiwic3ViIjoiZjkwNDE0NzgtM2JmZC00ZWM3LTkxZTYtMWEwZWFjZGE1MWFhIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiJlZDRhYmIxNi0xMjkwLTQ1MWYtODBiNS1hYmNmMzllMjQ1OWUiLCJzZXNzaW9uX3N0YXRlIjoiMGQ4MjFmNDYtZjExYS00ODZiLWJjOGMtMDdiNTc4MjA1YzFhIiwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MiLCJzaWQiOiIwZDgyMWY0Ni1mMTFhLTQ4NmItYmM4Yy0wN2I1NzgyMDVjMWEifQ.ko4ufxTzYmMPTwgxx_6i7j9b8LCY6O7_fz1kjAjn7xs";
         System.out.println("caps new test");
         UiAutomator2Options uiAutomatorCaps = new UiAutomator2Options();
@@ -47,11 +47,11 @@ ReportiumClient reportiumClient;
         // Reporting client. For more details, see http://developers.perfectomobile.com/display/PD/Reporting
         reportiumClient = new ReportiumClientFactory().createPerfectoReportiumClient(
                 new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
-                        .withProject(new Project("reportium project fey nov14", "1.0"))
-                        .withJob(new Job("reportium job nov14", 45))
+                        .withProject(new Project("appium2", "1.0"))
+                        .withJob(new Job("appium2 tests", 1))
                         .withCustomFields(new CustomField("programmer", "Mike Fey"))
                         .withCustomFields(new CustomField("author", "mike.fey@perforce.com"))
-                        .withContextTags("quantum")
+                        .withContextTags("appium2")
                         .withWebDriver(driver)
                         .build()
         );

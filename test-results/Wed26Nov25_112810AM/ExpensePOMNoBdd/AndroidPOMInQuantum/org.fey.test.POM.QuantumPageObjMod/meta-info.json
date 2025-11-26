@@ -1,0 +1,21 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "name": "initPages",
+        "resultFileName": "InitPages"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1764178062650,
+      "duration": 27698,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

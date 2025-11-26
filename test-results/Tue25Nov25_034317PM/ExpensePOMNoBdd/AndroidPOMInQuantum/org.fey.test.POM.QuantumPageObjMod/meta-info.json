@@ -1,0 +1,38 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "name": "initPages",
+        "resultFileName": "InitPages"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1764106971146,
+      "duration": 26032,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "name": "tearDown",
+        "resultFileName": "TearDown"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1764107007035,
+      "duration": 11484,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}
