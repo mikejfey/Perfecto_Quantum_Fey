@@ -30,11 +30,13 @@ ReportiumClient reportiumClient;
         Map<String, Object> perfectoOptions = new HashMap<>();
 
         uiAutomatorCaps.setPlatformName("Android");
-        uiAutomatorCaps.setAutomationName("UiAutomator2");
+       uiAutomatorCaps.setAutomationName("UiAutomator2");
+        //uiAutomatorCaps.setAutomationName("XCUITest");
         perfectoOptions.put("securityToken", token);
         perfectoOptions.put("deviceName", "45201FDJG001AZ");
-        perfectoOptions.put("appiumVersion", "1.22.3");
-        perfectoOptions.put("automationVersion", "1.70.1");
+       // perfectoOptions.put("deviceName", "00008027-001C09893622002E");
+        perfectoOptions.put("appiumVersion", "2.4.1");
+        perfectoOptions.put("automationVersion", "2.45.1");
         perfectoOptions.put("javascriptEnabled", true);
         perfectoOptions.put("openDeviceTimeout", 5.0);
         perfectoOptions.put("scriptName", "Appium_v2.0 Android Web Test");

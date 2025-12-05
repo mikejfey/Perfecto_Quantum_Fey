@@ -1,17 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Expense POM no bdd" verbose="0" parallel="false"
-	   thread-count="100">
+<suite name="Expense POM no bdd" verbose="0" parallel="false" thread-count="10">
 <!--	<listeners>
 		<listener class-name="com.quantum.listeners.QuantumReportiumListener" />  only need this with BDD
 	</listeners>-->
 
-   <!-- <method-selectors>
-        <method-selector>
-            <selector-class name="com.qmetry.qaf.automation.testng.pro.QAFMethodSelector"/>
-        </method-selector>
-    </method-selectors>-->
 
-    <test name="Native POM in Quantum" enabled="true"
+    <test name="IOS POM in Quantum" enabled="true"
 		  thread-count="3">
         <parameter name="perfecto.additional.capabilities" value="{'perfecto:openDeviceTimeout':15}" />
         <parameter name="perfecto.capabilities.model" value="iPhone-11.*"/>
@@ -24,6 +18,7 @@
         <parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}" />
         <parameter name="perfecto.capabilities.screenshotOnError" value="false" />
         <parameter name="perfecto.capabilities.takesScreenshot" value="true" />
+        <parameter name="perfecto.capabilities.automationVersion" value="6.1.0" />
 
 <!--        <groups>
             <run>

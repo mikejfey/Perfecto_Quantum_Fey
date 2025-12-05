@@ -1,0 +1,13 @@
+{
+  "name": "Expense POM no bdd",
+  "status": "pass",
+  "tests": [
+    "ExpensePOMNoBdd/NativePOMInQuantum"
+  ],
+  "total": 0,
+  "pass": 0,
+  "fail": 0,
+  "skip": 0,
+  "startTime": 1764781034169,
+  "endTime": 1764781059289
+}

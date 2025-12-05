@@ -1,0 +1,15 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "setTimeout",
+      "args": [
+        "{implicit=0}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 98
+    }
+  ],
+  "checkPoints": [],
+  "errorTrace": null
+}

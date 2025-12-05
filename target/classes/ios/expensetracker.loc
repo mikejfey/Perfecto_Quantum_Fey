@@ -1,8 +1,8 @@
-login.email.textFieldValue=-ios predicate string=type == 'XCUIElementTypeTextField' AND value == 'test@perfecto.com'
+login.email.textFieldValue=-ios predicate string=type == 'XCUIElementTypeTextField' AND name == 'login_email'
 login.emailNative.textfield=-ios predicate string=type == 'XCUIElementTypeTextField' AND name == 'login_email'
 login.headerTextNative.label=-ios predicate string=type == 'XCUIElementTypeStaticText' AND name == 'Email'
 login.passwordNative.textfield=-ios predicate string=type == 'XCUIElementTypeSecureTextField' AND name == 'login_password'
-login.loginNative.btn=-ios predicate string=type == 'XCUIElementTypeButton' AND name == 'login_login_btn'
+login.loginNative.btn=-ios predicate string=type == 'XCUIElementTypeButton' AND label == 'Login'
 home.menu.btn=-ios predicate string=type == 'XCUIElementTypeButton' AND name == 'list_left_menu_btn'
 home.add.btn=name=list_add_btn
 home.head.dropdown=name=edit_head

@@ -5,178 +5,159 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="added Test_HCSC_Appium2Smoke for appium2">
-      <change afterPath="$PROJECT_DIR$/test-results/Tue25Nov25_033845PM/ExpensePOMNoBdd/NativePOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Tue25Nov25_033845PM/ExpensePOMNoBdd/NativePOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Tue25Nov25_033845PM/ExpensePOMNoBdd/NativePOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Tue25Nov25_033845PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Tue25Nov25_034317PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Tue25Nov25_034317PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/TearDown.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Tue25Nov25_034317PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Tue25Nov25_034317PM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Tue25Nov25_034317PM/ExpensePOMNoBdd/IosPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Tue25Nov25_034317PM/ExpensePOMNoBdd/IosPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Tue25Nov25_034317PM/ExpensePOMNoBdd/IosPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Tue25Nov25_034317PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Tue25Nov25_034442PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Tue25Nov25_034442PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/TearDown.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Tue25Nov25_034442PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Tue25Nov25_034442PM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Tue25Nov25_034442PM/ExpensePOMNoBdd/IosPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Tue25Nov25_034442PM/ExpensePOMNoBdd/IosPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Tue25Nov25_034442PM/ExpensePOMNoBdd/IosPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Tue25Nov25_034442PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_073627AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_073627AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/TearDown.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_073627AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_073627AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_073627AM/ExpensePOMNoBdd/IosPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_073627AM/ExpensePOMNoBdd/IosPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_073627AM/ExpensePOMNoBdd/IosPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_073627AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_074055AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_074055AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_074055AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_074055AM/ExpensePOMNoBdd/IosPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_074055AM/ExpensePOMNoBdd/IosPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_074055AM/ExpensePOMNoBdd/IosPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_074055AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_074421AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_074421AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_074421AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_074421AM/ExpensePOMNoBdd/IosPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_074421AM/ExpensePOMNoBdd/IosPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_074421AM/ExpensePOMNoBdd/IosPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_074421AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_081054AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_081054AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_081054AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_081054AM/ExpensePOMNoBdd/IosPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_081054AM/ExpensePOMNoBdd/IosPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_081054AM/ExpensePOMNoBdd/IosPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_081054AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_081530AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_081530AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_081530AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_081530AM/ExpensePOMNoBdd/IosPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_081530AM/ExpensePOMNoBdd/IosPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_081530AM/ExpensePOMNoBdd/IosPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_081530AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_083849AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_083849AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_083849AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_083849AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_084336AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_084336AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_084336AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_084336AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_084636AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_084636AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_084636AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_084636AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_084803AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_084803AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_084803AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_084803AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_090330AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_090330AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_090330AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_090330AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_090713AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_090713AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_090713AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_090713AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_091309AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_091309AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_091309AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_091309AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_091547AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_091547AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_091547AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_091547AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_091920AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_091920AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_091920AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_091920AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_112810AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_112810AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_112810AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_112810AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_113336AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_113336AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_113336AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_113336AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_113832AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_113832AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_113832AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_113832AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_114103AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_114103AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_114103AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_114103AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_114222AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_114222AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_114222AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_114222AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_114530AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_114530AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_114530AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_114530AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_115132AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_115132AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_115132AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_115132AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_115438AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_115438AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_115438AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_115438AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_115701AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_115701AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_115701AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_115701AM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_120504PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_120504PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_120504PM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_120504PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_120908PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_120908PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_120908PM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_120908PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_123024PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_123024PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_123024PM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_123024PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_123234PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_123234PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_123234PM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_123234PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_123636PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_123636PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_123636PM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_123636PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_123830PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_123830PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_123830PM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_123830PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_124113PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_124113PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_124113PM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_124113PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_125445PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_125445PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_125445PM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_125445PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_125635PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_125635PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_125635PM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_125635PM/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_125808PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_125808PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_125808PM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_125808PM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_HCSC_RamaCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/se/Se4Sample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/quantum-failed-suite/failed-suite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Tue2Dec25_072823AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Tue2Dec25_072823AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Tue2Dec25_072823AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Tue2Dec25_072823AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Tue2Dec25_073252AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Tue2Dec25_073252AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Tue2Dec25_073252AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Tue2Dec25_073252AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Tue2Dec25_073430AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Tue2Dec25_073430AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Tue2Dec25_073430AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Tue2Dec25_073430AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_094753PM/ExpensePOMNoBdd/NativePOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_094753PM/ExpensePOMNoBdd/NativePOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_094753PM/ExpensePOMNoBdd/NativePOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed26Nov25_094753PM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_093904AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_093904AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_093904AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_093904AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_095251AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_095251AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_095251AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_095251AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_095621AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_095621AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_095621AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_095621AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_101511AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_101511AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_101511AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_101511AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_102628AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_102628AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_102628AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_102628AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_102752AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_102752AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_102752AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_102752AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_103201AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_103201AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_103201AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_103201AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_103403AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_103403AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_103403AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_103403AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_103524AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_103524AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_103524AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_103524AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_103947AM/ExpensePOMNoBdd/NativePOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_103947AM/ExpensePOMNoBdd/NativePOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_103947AM/ExpensePOMNoBdd/NativePOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_103947AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_104945AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_104945AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_104945AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_104945AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_105552AM/ExpensePOMNoBdd/NativePOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_105552AM/ExpensePOMNoBdd/NativePOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_105552AM/ExpensePOMNoBdd/NativePOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_105552AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_105739AM/ExpensePOMNoBdd/NativePOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_105739AM/ExpensePOMNoBdd/NativePOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_105739AM/ExpensePOMNoBdd/NativePOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_105739AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_110012AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_110012AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_110012AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_110012AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_110446AM/ExpensePOMNoBdd/IOSPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_110446AM/ExpensePOMNoBdd/IOSPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_110446AM/ExpensePOMNoBdd/IOSPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_110446AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_110831AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_110831AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_110831AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_110831AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_113528AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_113528AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_113528AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_113528AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_113824AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_113824AM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_113824AM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_113824AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_115320AM/ExpensePOMNoBdd/IOSPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_115320AM/ExpensePOMNoBdd/IOSPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_115320AM/ExpensePOMNoBdd/IOSPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_115320AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_115604AM/ExpensePOMNoBdd/IOSPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_115604AM/ExpensePOMNoBdd/IOSPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_115604AM/ExpensePOMNoBdd/IOSPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_115604AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_115806AM/ExpensePOMNoBdd/IOSPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_115806AM/ExpensePOMNoBdd/IOSPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_115806AM/ExpensePOMNoBdd/IOSPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_115806AM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_120918PM/ExpensePOMNoBdd/IOSPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_120918PM/ExpensePOMNoBdd/IOSPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_120918PM/ExpensePOMNoBdd/IOSPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_120918PM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_121357PM/ExpensePOMNoBdd/IOSPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_121357PM/ExpensePOMNoBdd/IOSPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_121357PM/ExpensePOMNoBdd/IOSPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_121357PM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_121530PM/ExpensePOMNoBdd/IOSPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_121530PM/ExpensePOMNoBdd/IOSPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_121530PM/ExpensePOMNoBdd/IOSPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_121530PM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_122936PM/ExpensePOMNoBdd/IOSPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_122936PM/ExpensePOMNoBdd/IOSPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_122936PM/ExpensePOMNoBdd/IOSPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_122936PM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_123201PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_123201PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_123201PM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_123201PM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_123228PM/ExpensePOMNoBdd/IOSPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_123228PM/ExpensePOMNoBdd/IOSPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_123228PM/ExpensePOMNoBdd/IOSPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_123228PM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_123550PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_123550PM/ExpensePOMNoBdd/AndroidPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_123550PM/ExpensePOMNoBdd/AndroidPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_123550PM/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_123604PM/ExpensePOMNoBdd/IOSPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/InitPages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_123604PM/ExpensePOMNoBdd/IOSPOMInQuantum/org.fey.test.POM.QuantumPageObjMod/meta-info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_123604PM/ExpensePOMNoBdd/IOSPOMInQuantum/overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/Wed3Dec25_123604PM/meta-info.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/QuantumPageObjModel/smokePOMAndroid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/QuantumPageObjModel/1_smokePomGroupsTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/pages/ExpenseTrackerLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/pages/ExpenseTrackerLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/QuantumPageObjModel/1_smokePomGroupsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/QuantumPageObjModel/1_smokePomGroupsTest_droid.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/QuantumPageObjModel/smokePOM_both.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/QuantumPageObjModel/smokePOM_both.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/QuantumPageObjModel/smokePOM_iOS.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/QuantumPageObjModel/2_smokePOM_iOS.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ios/expensetracker.loc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ios/expensetracker.loc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/POM/QuantumPageObjMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/POM/QuantumPageObjMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/TestIosExpenseNoPOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/TestIosExpenseNoPOM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_HCSC_Appium2Smoke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_HCSC_Appium2Smoke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_POM_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_POM_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_mike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_mike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/axeHighlighter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/axeHighlighter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quantum/pages/ExpenseTrackerLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/quantum/pages/ExpenseTrackerLoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/testData.xls" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/testData.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ios/expensetracker.loc" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ios/expensetracker.loc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/runAxe.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/runAxe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/startHighlighter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/startHighlighter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-results/meta-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/test-results/meta-info.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -227,6 +208,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Se4Sample.executor": "Run",
     "Cucumber Java.Feature: expenseBiometrics.executor": "Run",
     "Cucumber Java.Scenario: Expense Tracker VALID login Scenario.executor": "Run",
     "Cucumber Java.Scenario: Login with valid credentials.executor": "Run",
@@ -242,6 +224,7 @@
     "Maven.test.xml quantum-starter [clean,test].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/smoke.xml.executor": "Run",
@@ -258,6 +241,8 @@
     "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/Parallel/BDDsmokeParIosAnd.xml.executor": "Run",
     "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/Parallel/smokeParIosAnd.xml.executor": "Run",
     "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/1_smokePomGroupsTest.xml.executor": "Run",
+    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/1_smokePomGroupsTest_droid.xml.executor": "Run",
+    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/2_smokePOM_iOS.xml.executor": "Run",
     "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOM2.xml.executor": "Run",
     "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOMAndroid.xml.executor": "Run",
     "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOM_both.xml.executor": "Run",
@@ -279,6 +264,8 @@
     "TestNG.SampleTestGroups.testLogin.executor": "Run",
     "TestNG.SampleTestGroups.testSearchOnAndroid.executor": "Run",
     "TestNG.SampleTestGroups.testSearchOniOS.executor": "Run",
+    "TestNG.Se4Sample.executor": "Run",
+    "TestNG.Se4Sample.testSelenium4Sample.executor": "Run",
     "TestNG.TestIOSExpense.executor": "Run",
     "TestNG.TestIosExpenseNoPOM.executor": "Run",
     "TestNG.TestIosExpenseNoPOM.feyTestPOMIos.executor": "Run",
@@ -287,9 +274,13 @@
     "TestNG.Test_Expense_ImageInj.Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW.executor": "Run",
     "TestNG.Test_Expense_ImageInj.executor": "Run",
     "TestNG.Test_Expense_Login.executor": "Run",
+    "TestNG.Test_HCSC_Appium2Smoke.Fey_New_Test.executor": "Run",
     "TestNG.Test_HCSC_Appium2Smoke.executor": "Run",
+    "TestNG.Test_HCSC_RamaCode.HCSC_Rama_code.executor": "Run",
+    "TestNG.Test_HCSC_RamaCode.executor": "Run",
     "TestNG.Test_POM_Login.executor": "Run",
     "TestNG.Test_POM_Login.testFeyValidLogin.executor": "Run",
+    "TestNG.Test_mike.Fey_New_Test.executor": "Run",
     "TestNG.iosDoNotResetApp.executor": "Run",
     "TestNG.iosDoNotResetApp.feyTestPOMIosNoReset.executor": "Run",
     "TestNG.reportiumTest.executor": "Run",
@@ -298,9 +289,10 @@
     "jdk.selected.JAVA_MODULE": "15",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/Parallel",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.57714957",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.excludes"
   }
 }]]></component>
@@ -330,7 +322,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/1_smokePomGroupsTest.xml">
+  <component name="RunManager" selected="TestNG.Test_HCSC_RamaCode.HCSC_Rama_code">
     <configuration name="quantum-starter [clean,install -U]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -454,16 +446,16 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="QuantumPageObjMod" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Se4Sample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="perfectoPOM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fey.test.POM.*" />
+          <option name="PATTERN" value="org.fey.test.se.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.fey.test.POM" />
-      <option name="MAIN_CLASS_NAME" value="org.fey.test.POM.QuantumPageObjMod" />
+      <option name="PACKAGE_NAME" value="org.fey.test.se" />
+      <option name="MAIN_CLASS_NAME" value="org.fey.test.se.Se4Sample" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -471,7 +463,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_HCSC_Appium2Smoke" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Se4Sample.testSelenium4Sample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="perfectoPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fey.test.se.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fey.test.se" />
+      <option name="MAIN_CLASS_NAME" value="org.fey.test.se.Se4Sample" />
+      <option name="METHOD_NAME" value="testSelenium4Sample" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_HCSC_RamaCode" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="perfectoPOM" />
       <extension name="coverage">
         <pattern>
@@ -480,7 +490,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.fey.test" />
-      <option name="MAIN_CLASS_NAME" value="org.fey.test.Test_HCSC_Appium2Smoke" />
+      <option name="MAIN_CLASS_NAME" value="org.fey.test.Test_HCSC_RamaCode" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -488,30 +498,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/1_smokePomGroupsTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_HCSC_RamaCode.HCSC_Rama_code" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="perfectoPOM" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/QuantumPageObjModel/1_smokePomGroupsTest.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fey.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fey.test" />
+      <option name="MAIN_CLASS_NAME" value="org.fey.test.Test_HCSC_RamaCode" />
+      <option name="METHOD_NAME" value="HCSC_Rama_code" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOMAndroid.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_mike.Fey_New_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="perfectoPOM" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/QuantumPageObjModel/smokePOMAndroid.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/testGroups.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="perfectoPOM" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config/QuantumPageObjModel/testGroups.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fey.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fey.test" />
+      <option name="MAIN_CLASS_NAME" value="org.fey.test.Test_mike" />
+      <option name="METHOD_NAME" value="Fey_New_Test" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -522,19 +538,19 @@
       <item itemvalue="Maven.quantum-starter [clean,install -U]" />
       <item itemvalue="Maven.quantum-starter [clean,test]" />
       <item itemvalue="Maven.run smoke" />
-      <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/1_smokePomGroupsTest.xml" />
-      <item itemvalue="TestNG.QuantumPageObjMod" />
-      <item itemvalue="TestNG.Test_HCSC_Appium2Smoke" />
-      <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOMAndroid.xml" />
-      <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/testGroups.xml" />
+      <item itemvalue="TestNG.Test_HCSC_RamaCode" />
+      <item itemvalue="TestNG.Test_HCSC_RamaCode.HCSC_Rama_code" />
+      <item itemvalue="TestNG.Se4Sample" />
+      <item itemvalue="TestNG.Se4Sample.testSelenium4Sample" />
+      <item itemvalue="TestNG.Test_mike.Fey_New_Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/1_smokePomGroupsTest.xml" />
-        <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOMAndroid.xml" />
-        <item itemvalue="TestNG.QuantumPageObjMod" />
-        <item itemvalue="TestNG.Test_HCSC_Appium2Smoke" />
-        <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/testGroups.xml" />
+        <item itemvalue="TestNG.Test_HCSC_RamaCode.HCSC_Rama_code" />
+        <item itemvalue="TestNG.Test_HCSC_RamaCode" />
+        <item itemvalue="TestNG.Test_mike.Fey_New_Test" />
+        <item itemvalue="TestNG.Se4Sample" />
+        <item itemvalue="TestNG.Se4Sample.testSelenium4Sample" />
       </list>
     </recent_temporary>
   </component>
@@ -906,7 +922,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764090144624</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="added Test_HCSC_Appium2Smoke for appium2">
+      <option name="closed" value="true" />
+      <created>1764185456850</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1764185456850</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

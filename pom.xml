@@ -93,7 +93,7 @@
             <artifactId>java-client</artifactId>
             <version>8.6.0</version>
         </dependency>
-
+/
         <dependency>
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-core</artifactId>

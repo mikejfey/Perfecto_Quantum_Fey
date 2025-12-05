@@ -46,24 +46,24 @@ public class QuantumPageObjMod extends WebDriverTestCase {
 
     }
 
-
-    @Test(groups = {"smoke"})
+    @Test(groups={"sanity"})
     public void quantumPageObjModTestSanity() throws Exception {
 
         reportiumClient.testStart("TC-001: Quantum POM with no BDD sanity", new TestContext("quantum"));
         reportiumClient.stepStart("login from ExpenseTrackerLoginPage class");
         try {
-            loginPage2.droidLogin("test@perfecto.com", "test123");
+            loginPage2.droidLogin("test29@perfecto.com", "test123");
+            reportiumClient.stepStart("verify homescreen");
             homePage2.verifyHomeScreen();
+            reportiumClient.testStop(TestResultFactory.createSuccess());
 
         } catch (Exception e) {
-            System.out.println("could not login " + e.getMessage());
+            System.out.println("could not login error" + e.getMessage());
             reportiumClient.testStop(TestResultFactory.createFailure("failed to login"));
         }
-        reportiumClient.testStop(TestResultFactory.createSuccess());
     }
 
-    /*@Test(groups = {"smoke"})
+/*    @Test(groups = {"smoke"})
     public void quantumPageObjModTestSmoke() throws Exception {
 
         reportiumClient.testStart("TC-001: Quantum POM with no BDD smoke", new TestContext("quantum"));
@@ -79,7 +79,7 @@ public class QuantumPageObjMod extends WebDriverTestCase {
         reportiumClient.testStop(TestResultFactory.createSuccess());
     }*/
 
-/*    @AfterSuite(alwaysRun = true)
+    /*@AfterSuite(alwaysRun = true)
     public void tearDown() throws Exception {
        // QAFWebDriver driver = getDriver();
         if (getDriver() != null) {

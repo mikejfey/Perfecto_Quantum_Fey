@@ -50,8 +50,9 @@ public class Test_POM_Login {
         perfectoOptions.put("deviceName", "R5CWA2726XK");
         //perfectoOptions.put("app", "PUBLIC:raghav/v1.0/ExpenseHybridAppVer1.apk");
         //perfectoOptions.put("bundleId", "io.perfecto.expense.tracker.hybrid");
-        perfectoOptions.put("appiumVersion", "1.22.3");
+        //perfectoOptions.put("appiumVersion", "1.22.3");
         perfectoOptions.put("automationVersion", "1.70.1");
+        perfectoOptions.put("device", true);
         //perfectoOptions.put("autoInstrument", true);
         //perfectoOptions.put("sensorInstrument", true);
         //perfectoOptions.put("iOSResign", true);

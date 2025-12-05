@@ -14,7 +14,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 
-
 import java.net.URL;
 import java.time.Duration;
 import java.util.HashMap;
@@ -26,7 +25,6 @@ ReportiumClient reportiumClient;
 
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
-
 // Standard W3C capabilities
         capabilities.setCapability("platformName", "iOS");
         // capabilities.setCapability("browserName", "Safari");
@@ -52,6 +50,7 @@ ReportiumClient reportiumClient;
         perfectoOptions.put("app", "PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa");
         perfectoOptions.put("bundleId", "io.perfecto.expense.tracker");
         perfectoOptions.put("iOSResign", true);
+        perfectoOptions.put("automationVersion", "6.1.0");
         capabilities.setCapability("perfecto:options", perfectoOptions);
 
 
