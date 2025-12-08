@@ -51,6 +51,7 @@ public class Test_POM_Login {
         //perfectoOptions.put("app", "PUBLIC:raghav/v1.0/ExpenseHybridAppVer1.apk");
         //perfectoOptions.put("bundleId", "io.perfecto.expense.tracker.hybrid");
         //perfectoOptions.put("appiumVersion", "1.22.3");
+        //
         perfectoOptions.put("automationVersion", "1.70.1");
         perfectoOptions.put("device", true);
         //perfectoOptions.put("autoInstrument", true);
