@@ -29,7 +29,7 @@ ReportiumClient reportiumClient;
         capabilities.setCapability("platformName", "iOS");
         // capabilities.setCapability("browserName", "Safari");
 
-        // Appium capabilities with prefix
+        // Appium capabilities with prefix appium:
         // capabilities.setCapability("appium:automationName", "XCUITest");
         // capabilities.setCapability("appium:deviceModel", "iPhone-14.*");
 

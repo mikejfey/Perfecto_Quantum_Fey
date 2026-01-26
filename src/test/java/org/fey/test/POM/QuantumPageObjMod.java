@@ -26,7 +26,7 @@ public class QuantumPageObjMod extends WebDriverTestCase {
    // protected QAFWebDriver driver = getDriver();
 /*      @Override
        protected void openPage(PageLocator locator, Object... args) {
-       }*/
+       }  not neeed*/
     @BeforeTest(alwaysRun = true)
     public void initPages() throws Exception {
         QAFExtendedWebDriver driver = getDriver();

@@ -28,7 +28,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-//import org.springframework.util.Assert;
+//import org.springframework.util.Assert;  not used
 
 import com.perfecto.reportium.client.DigitalZoomClient;
 import com.perfecto.reportium.client.ReportiumClient;

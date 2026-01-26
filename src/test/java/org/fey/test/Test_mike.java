@@ -27,7 +27,7 @@ ReportiumClient reportiumClient;
     @Test(groups = {"smoke"})
     public void Fey_New_Test() throws Exception {
         String browserName = "mobileOS";
-       //DesiredCapabilities uiAutomatorCaps = new DesiredCapabilities();
+       //DesiredCapabilities uiAutomatorCaps = new DesiredCapabilities(); 
         String host = "partners.perfectomobile.com";
         String token = "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4YmI4YmZmZS1kMzBjLTQ2MjctYmMxMS0zNTYyMmY1ZDkyMGYifQ.eyJpYXQiOjE3Njk0NDg5ODEsImp0aSI6ImViYmNiNzQwLTUzM2UtNDM0OC1hZTkyLTY1MGJiMWY5YWYyYSIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvZGVtby1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2RlbW8tcGVyZmVjdG9tb2JpbGUtY29tIiwic3ViIjoiZDIxMDAzYzItMDY0Mi00MjVmLTg0ZDAtNzdiYjQ1ODU5MzVlIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiI0OTFkNjA4MC1mNzA5LTQwM2UtOGEzOS0wNzI4MTZhMDMxMWMiLCJzZXNzaW9uX3N0YXRlIjoiNDZkZDQxOTAtNWJiOS00YmMxLWI1NzMtM2UwOGRjNzFlMjg1Iiwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MiLCJzaWQiOiI0NmRkNDE5MC01YmI5LTRiYzEtYjU3My0zZTA4ZGM3MWUyODUifQ.alorMqVM6yWasyG_z9IMpCMxaAE-tgLHyTDLjRaMMPM";
         System.out.println("caps new test");
@@ -36,7 +36,7 @@ ReportiumClient reportiumClient;
 
        //uiAutomatorCaps.setPlatformName("Android");
         uiAutomatorCaps.setCapability("platformName", "Android");
-       //uiAutomatorCaps.setCapability("perfecto:deviceName", "R5CWA2726XK");
+       //uiAutomatorCaps.setCapability("perfecto:deviceName", "");
         uiAutomatorCaps.setCapability("perfect:automationName", "UiAutomator2");
         uiAutomatorCaps.setDeviceName("R5CWA2726XK");
         //uiAutomatorCaps.setDeviceName("R5CWA2726XK");
