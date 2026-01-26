@@ -13,6 +13,7 @@ import com.qmetry.qaf.automation.ui.api.PageLocator;
 import com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver;
 import com.quantum.pages.ExpenseTrackerHomePage;
 import com.quantum.pages.ExpenseTrackerLoginPage;
+import org.openqa.selenium.By;
 import org.testng.annotations.*;
 import com.qmetry.qaf.automation.ui.webdriver.QAFWebDriver;
 
@@ -52,10 +53,12 @@ public class QuantumPageObjMod extends WebDriverTestCase {
         reportiumClient.testStart("TC-001: Quantum POM with no BDD sanity", new TestContext("quantum"));
         reportiumClient.stepStart("login from ExpenseTrackerLoginPage class");
         try {
-            loginPage2.droidLogin("test29@perfecto.com", "test123");
+            loginPage2.droidLogin("test@perfecto.com", "test123");
             reportiumClient.stepStart("verify homescreen");
             homePage2.verifyHomeScreen();
+            getDriver().findElement(By.xpath("//*[@content-desc=\"Open Drawer\"]")).click();
             reportiumClient.testStop(TestResultFactory.createSuccess());
+
 
         } catch (Exception e) {
             System.out.println("could not login error" + e.getMessage());

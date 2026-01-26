@@ -13,13 +13,13 @@
 		<parameter name="perfecto.capabilities.model" value="Galaxy.*"/>
 		<parameter name="perfecto.capabilities.enableAppiumBehavior" value="true" />
 		<parameter name="perfecto.capabilities.appiumVersion" value="latest" />
-		<parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
+        <parameter name="uiAutomator2Options.setApp" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.3.apk"/>
 		<parameter name="perfecto.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
 		<parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}" />
 		<parameter name="perfecto.capabilities.screenshotOnError" value="false" />
 		<parameter name="perfecto.capabilities.takesScreenshot" value="true" />
-		<parameter name="perfecto.capabilities.appiumVersion" value="1.22.3" />
-		<!-- <parameter name="perfecto.capabilities.automationVersion" value="1.70.1" /> -->
+		<parameter name="perfecto.capabilities.appiumVersion" value="1.22.3" /><parameter name="perfecto.capabilities.automationVersion" value="2.45.1" />
+        <!-- <parameter name="perfecto.capabilities.automationVersion" value="1.70.1" /> -->
 		<parameter name="env.resources" value="src/main/resources/android"/>
 
 
@@ -42,7 +42,7 @@
 		<parameter name="perfecto.capabilities.model" value="Galaxy.*"/>
 		<parameter name="perfecto.capabilities.enableAppiumBehavior" value="true" />
 		<parameter name="perfecto.capabilities.appiumVersion" value="latest" />
-		<parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
+        <parameter name="uiAutomator2Options.setApp" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.3.apk"/>
 		<parameter name="perfecto.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
 		<parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}" />
 		<parameter name="perfecto.capabilities.screenshotOnError" value="false" />

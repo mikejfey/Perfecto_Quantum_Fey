@@ -42,7 +42,7 @@
         <parameter name="perfecto.capabilities.model" value="Galaxy.*"/>
         <parameter name="perfecto.capabilities.enableAppiumBehavior" value="true" />
         <parameter name="perfecto.capabilities.appiumVersion" value="latest" />
-        <parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
+        <parameter name="uiAutomator2Options.setApp" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.3.apk"/>
         <parameter name="perfecto.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
         <parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}" />
         <parameter name="perfecto.capabilities.screenshotOnError" value="false" />
