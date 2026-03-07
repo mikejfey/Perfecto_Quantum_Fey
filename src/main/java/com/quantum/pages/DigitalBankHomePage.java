@@ -37,8 +37,19 @@ public class DigitalBankHomePage extends WebDriverBaseTestPage<WebDriverTestPage
             toolBar.click();
             logoutButton.click();
                 System.out.println("its an android... there is a logout button");
-            	}
+            	} else {
+                    System.out.println("its an ios... need AI");
+            Boolean result = (Boolean) driver.executeScript("perfecto:ai:user-action",
+                    Map.of(
+                            "action", "tap the tool bar icon in the upper right corner",
+                            "reasoning", false,
+                            "outputVariable", false
+                    )
+            );
+
+            }
+        }
     }
 
-}
+
 
