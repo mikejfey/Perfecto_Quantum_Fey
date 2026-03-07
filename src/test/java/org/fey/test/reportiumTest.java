@@ -71,7 +71,7 @@ public class reportiumTest {
                         .build()
                          );
         reportiumClient.testStart("fey reportium test nov14", new TestContext("quantum"));
-        reportiumClient.stepStart("login step ExpenseTracker nov14");
+       reportiumClient.stepStart("login step ExpenseTracker nov14");
         driver.findElement(By.xpath("//*[@name=\"login_email\"]")).sendKeys("test@perfecto.com");
         driver.findElement(By.xpath("//*[@name=\"login_password\"]")).sendKeys("test123");
         WebElement loginButton = driver.findElement(By.xpath("//*[@name=\"Login\"]"));
@@ -92,7 +92,7 @@ public class reportiumTest {
         }
         System.out.println("after the catch");
         System.out.println("stop the test... createSuccess");
-        reportiumClient.testStop(TestResultFactory.createSuccess());
+        reportiumClient.testStop(TestResultFactory.createFailure("failed"));
 // Continue with other assertions...
 
 

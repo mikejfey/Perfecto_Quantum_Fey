@@ -1,0 +1,42 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Digital Bank" verbose="1" parallel="none" thread-count="10" preserve-order="true">
+
+        <listeners>
+            <listener class-name="com.quantum.listeners.QuantumReportiumListener" />
+        </listeners>
+
+
+    <test name="DigitalBank iOS Quantum" enabled="true"
+          thread-count="3">
+        <parameter name="env.resources" value="src/main/resources/ios"/>
+<!--        <parameter name="perfecto.capabilities.deviceName" value="00008030-000925AA2E10802E"/>-->
+        <parameter name="perfecto.capabilities.model" value="iPhone-15.*"/>
+        <parameter name="perfecto.capabilities.location" value="NA-US.*"/>
+        <parameter name="perfecto.capabilities.noReset" value="false"/>
+        <parameter name="perfecto.capabilities.fullReset" value="true"/>
+<!--        <parameter name="dataReset" value="false"></parameter>-->
+        <parameter name="perfecto.capabilities.app" value="PUBLIC:DigitalBank.ipa"/>
+        <parameter name="perfecto.capabilities.bundleId" value="demodbank.perforce.com"/>
+        <parameter name="perfecto.capabilities.iOSResign" value="true"/>
+        <parameter name="env.resources" value="src/main/resources/ios"/>
+        <parameter name="driver.capabilities.sensorInstrument" value="true"/>
+        <parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}" />
+        <parameter name="perfecto.capabilities.screenshotOnError" value="false" />
+        <parameter name="perfecto.capabilities.takesScreenshot" value="true" />
+        <parameter name="driver.additional.capabilities" value="{'openDeviceTimeout':2}" />
+        <parameter name="perfecto.capabilities.enableAppiumBehavior" value="true"/>
+
+        <groups>
+            <run>
+                <include name="@feyLoginTest" />
+            </run>
+        </groups>
+        <classes>
+            <class
+                    name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+        </classes>
+    </test>
+</suite>
+
+
+

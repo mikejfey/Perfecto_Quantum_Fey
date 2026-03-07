@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Digital Bank" verbose="1" parallel="none" thread-count="10" preserve-order="true">
+
+        <listeners>
+            <listener class-name="com.quantum.listeners.QuantumReportiumListener" />
+        </listeners>
+
+
+    <test name="DigitalBank Android Quantum" enabled="true"
+          thread-count="3">
+        <parameter name="env.resources" value="src/main/resources/android"/>
+        <parameter name="perfecto.capabilities.deviceName" value="RFCW32CA12J"/>
+        <parameter name="perfecto.capabilities.noReset" value="false"/>
+        <parameter name="perfecto.capabilities.fullReset" value="true"/>
+<!--        <parameter name="dataReset" value="false"></parameter>-->
+        <parameter name="perfecto.capabilities.app" value="PUBLIC:Digital-Bank-1.5.apk"/>
+        <parameter name="perfecto.capabilities.appPackage" value="xyz.digitalbank.demo"/>
+        <parameter name="driver.additional.capabilities" value="{'openDeviceTimeout':2}" />
+        <parameter name="perfecto.capabilities.screenshotOnError" value="false" />
+        <parameter name="perfecto.capabilities.takesScreenshot" value="true" />
+<!--        <parameter name="perfecto.capabilities.model" value="Galaxy S.*"/>-->
+        <parameter name="perfecto.capabilities.enableAppiumBehavior" value="true"/>
+
+        <groups>
+            <run>
+                <include name="@feyLoginTest" />
+            </run>
+        </groups>
+        <classes>
+            <class
+                    name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+        </classes>
+    </test>
+</suite>
+

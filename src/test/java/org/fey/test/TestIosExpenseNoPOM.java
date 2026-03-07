@@ -79,6 +79,7 @@ ReportiumClient reportiumClient;
         WebElement loginButton = driver.findElement(By.xpath("//*[@name=\"Login\"]"));
         loginButton.click();
 
+
         reportiumClient.stepStart("try catch for a button that might not be found.  don't fail test");
         System.out.println("using try-catch to click button if displayed");
         try {

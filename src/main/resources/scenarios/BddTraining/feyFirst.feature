@@ -15,6 +15,7 @@ Feature: login functionality
     And User enters invalid password "xyz"
     Then User should get proper warning message
 
+
     @feyNew
     Scenario: login existing customer
       Given User navigates to login page

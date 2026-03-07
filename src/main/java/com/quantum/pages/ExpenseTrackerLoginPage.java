@@ -87,6 +87,7 @@ public class ExpenseTrackerLoginPage extends WebDriverBaseTestPage<WebDriverTest
         ReportUtils.logVerify("Email was entered as expected", emailNativeTextfield.getText().equalsIgnoreCase(email));
         passwordlNativeTextfield.sendKeys(password);
         loginlNativeButton.click();
+
     }
 
 	public void loginWithInvalidData(String email, String password) {

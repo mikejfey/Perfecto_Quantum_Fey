@@ -1,0 +1,36 @@
+loginPage.email.textField=xpath=//*[@label="Enter UserName"]
+loginPage.password.textField=xpath=//*[@label="Enter Password"]
+loginPage.signUpHere=xpath=//*[@label="Sign Up Here"]
+loginPage.loginButton=xpath=//*[@label="Click Login"]
+registerPage.firstName=
+registerPage.lastName=id=xyz.digitalbank.demo:id/LnameInput
+registerPage.maleRadio=id=xyz.digitalbank.demo:id/maleRadioButton
+registerPage.femaleRadio=id=xyz.digitalbank.demo:id/femaleRadioButton
+registerPage.DOB=id=xyz.digitalbank.demo:id/dobInput
+registerPage.SSN=id=xyz.digitalbank.demo:id/ssnInput
+registerPage.email=id=xyz.digitalbank.demo:id/emailInput
+registerPage.password=id=xyz.digitalbank.demo:id/passwordInput
+registerPage.address=id=xyz.digitalbank.demo:id/addressInput
+registerPage.region=id=xyz.digitalbank.demo:id/regionInput
+registerPage.locality=id=xyz.digitalbank.demo:id/localityInput
+registerPage.zipcode=id=xyz.digitalbank.demo:id/zipCodeInput
+registerPage.country=id=xyz.digitalbank.demo:id/countryInput
+registerPage.homePhone=id=xyz.digitalbank.demo:id/homephoneInput
+registerPage.workPhone=id=xyz.digitalbank.demo:id/workphoneInput
+registerPage.mobilePhone=id=xyz.digitalbank.demo:id/mobilephoneInput
+registerPage.agreeCheck=id=xyz.digitalbank.demo:id/agreeCheckBox
+registerPage.registerButton=xpath=//*[@resource-id="xyz.digitalbank.demo:id/regBtn"]
+registerPage.cancelButton=id=xyz.digitalbank.demo:id/cancelBtn
+homePage.toolBar.icon=xpath=//*[@label="Digital Bank"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]/XCUIElementTypeStaticText[1]]
+homePage.bottomNav.pieChart=xpath=//*[@label="chart pie"]
+
+
+
+
+
+//*[@label="chart pie"]
+
+
+
+
+
