@@ -23,6 +23,20 @@ registerPage.registerButton=xpath=//*[@resource-id="xyz.digitalbank.demo:id/regB
 registerPage.cancelButton=id=xyz.digitalbank.demo:id/cancelBtn
 homePage.toolBar.icon=id=xyz.digitalbank.demo:id/toolbar_image
 homePage.toolBar.logout=id=xyz.digitalbank.demo:id/link_logout
+homePage.acctSelector=xpath=//*[@resource-id="android:id/text1"]
+homePage.acctSelector.savings=//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ListView[1]/android.widget.CheckedTextView[1]
+homePage.acctSelector.checking=//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ListView[1]/android.widget.CheckedTextView[2]
+navigation.bar.atm=xpath=//*[@resource-id="xyz.digitalbank.demo:id/action_atm_search"]//*[@resource-id="xyz.digitalbank.demo:id/navigation_bar_item_icon_view"]
+navigation.bar.transfer=xpath=//*[@resource-id="xyz.digitalbank.demo:id/action_transfer"]//*[@resource-id="xyz.digitalbank.demo:id/navigation_bar_item_icon_view"]
+navigation.bar.home=xpath=//*[@resource-id="xyz.digitalbank.demo:id/action_check_accounts"]//*[@resource-id="xyz.digitalbank.demo:id/navigation_bar_item_icon_container"]
+atmPage.allowWhileUsing=id=com.android.permissioncontroller:id/permission_allow_foreground_only_button
+atmPage.atmGPS=xpath=//*[@resource-id="xyz.digitalbank.demo:id/checkbox1"]
+atmPage.getLocation=id=xyz.digitalbank.demo:id/getLocationButton
+transferPage.depositAmount=id=xyz.digitalbank.demo:id/amountEditText
+transferPage.description=id=xyz.digitalbank.demo:id/descriptionEditText
+transferPage.submit=id=xyz.digitalbank.demo:id/submitButton
+transferPage.checkImage=id=xyz.digitalbank.demo:id/cameraIcon
+transferPage.allowCamera=id=com.android.permissioncontroller:id/permission_allow_foreground_only_button
 
 
 

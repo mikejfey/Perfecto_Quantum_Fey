@@ -11,16 +11,29 @@ Feature: bank flow
 
 Feature: login flow
 
-  @feyLoginTest
+  @feySmokeTest
   Scenario: Digital Bank login flow Fey
     Given I launch Digital Banking app on iOS or Android
     Then I should see the Digital Bank Login Screen
     When I login into Digital Banking
     Then I should see text "Account"
+    And I test the Savings flow
+    Then I should see text "Savings"
+    And I test the Checking flow
+    Then The checking account should display
+    And I logout of Digital Banking app
+
+  @e2e
+  Scenario: Digital Bank login flow Fey
+    Given I launch Digital Banking app on iOS or Android
+    Then I should see the Digital Bank Login Screen
+    When I login into Digital Banking
+    Then I should see text "Account"
+    Then I test the Savings flow
     And I logout of Digital Banking app
     Then I should see text "LOGIN"
-
-
+    When I test a search for the ATM
+    Then I should see text "State"
 
 
 

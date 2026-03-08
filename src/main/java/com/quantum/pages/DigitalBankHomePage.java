@@ -31,6 +31,18 @@ public class DigitalBankHomePage extends WebDriverBaseTestPage<WebDriverTestPage
     @FindBy(locator = "homePage.bottomNav.pieChart")
     private QAFExtendedWebElement pieChart;
 
+    @FindBy(locator = "navigation.bar.home")
+    private QAFExtendedWebElement navigationBarHome;
+
+    @FindBy(locator = "homePage.acctSelector")
+    private QAFExtendedWebElement acctSelector;
+
+    @FindBy(locator = "homePage.acctSelector.savings")
+    private QAFExtendedWebElement acctSelectorSavings;
+
+    @FindBy(locator = "homePage.acctSelector.checking")
+    private QAFExtendedWebElement acctSelectorChecking;
+
     public void logout() {
 
         if(DriverUtils.getDriver().getCapabilities().getCapability("platformName").toString().equalsIgnoreCase("android")) {
@@ -49,7 +61,36 @@ public class DigitalBankHomePage extends WebDriverBaseTestPage<WebDriverTestPage
 
             }
         }
+
+    public void selectIndividualSavingsAccount() throws InterruptedException {
+        if(DriverUtils.getDriver().getCapabilities().getCapability("platformName").toString().equalsIgnoreCase("android")) {
+            acctSelector.click();
+            acctSelectorSavings.click();
+            Thread.sleep(2000);
+
+
+        } else {
+            System.out.println("its an ios... need AI");
+        }
+
+         }
+
+    public void selectIndividualCheckingAccount() throws InterruptedException {
+        if(DriverUtils.getDriver().getCapabilities().getCapability("platformName").toString().equalsIgnoreCase("android")) {
+            acctSelector.click();
+            acctSelectorChecking.click();
+        } else {
+            System.out.println("its an ios... need AI");
+        }
+
+      }
+
+      public void softAssertCheckingAccount() throws InterruptedException {
+        if(DriverUtils.getDriver().getCapabilities().getCapability("platformName").toString().equalsIgnoreCase("android")) {
+            ReportUtils.logVerify("Savings flow test",acctSelector.isDisplayed());
+        } else {
+        System.out.println("its an ios... need AI");
+            }
+      }
     }
-
-
 

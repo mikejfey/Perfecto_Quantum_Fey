@@ -39,5 +39,21 @@ public class DigitalBankSteps {
     @Given("I launch Digital Banking app on iOS or Android")
     public void iLaunchDigitalBankingAppOnIOS() {
         System.out.println("Launching Digital Banking app on iOS or Android");
+
+
+    }
+    @Then("I test the Savings flow")
+    public void iTestTheSavingsFlow() throws InterruptedException {
+        new DigitalBankHomePage().selectIndividualSavingsAccount();
+    }
+
+    @When("I test the Checking flow")
+    public void iTestTheCheckingFlow() throws InterruptedException {
+        new DigitalBankHomePage().selectIndividualCheckingAccount();
+    }
+
+    @Then("The checking account should display")
+    public void theCheckingAccountShouldDisplay() throws InterruptedException {
+        new DigitalBankHomePage().softAssertCheckingAccount();
     }
 }
