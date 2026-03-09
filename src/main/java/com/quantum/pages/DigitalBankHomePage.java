@@ -43,6 +43,7 @@ public class DigitalBankHomePage extends WebDriverBaseTestPage<WebDriverTestPage
     @FindBy(locator = "homePage.acctSelector.checking")
     private QAFExtendedWebElement acctSelectorChecking;
 
+
     public void logout() {
 
         if(DriverUtils.getDriver().getCapabilities().getCapability("platformName").toString().equalsIgnoreCase("android")) {
@@ -71,6 +72,7 @@ public class DigitalBankHomePage extends WebDriverBaseTestPage<WebDriverTestPage
 
         } else {
             System.out.println("its an ios... need AI");
+            acctSelector.click();
         }
 
          }
@@ -91,6 +93,14 @@ public class DigitalBankHomePage extends WebDriverBaseTestPage<WebDriverTestPage
         } else {
         System.out.println("its an ios... need AI");
             }
+      }
+
+      public void navToATM() throws InterruptedException {
+          if(DriverUtils.getDriver().getCapabilities().getCapability("platformName").toString().equalsIgnoreCase("android")) {
+              ReportUtils.logVerify("Savings flow test",acctSelector.isDisplayed());
+          } else {
+              System.out.println("its an ios... need AI");
+          }
       }
     }
 

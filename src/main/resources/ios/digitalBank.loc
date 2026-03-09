@@ -23,12 +23,23 @@ registerPage.registerButton=xpath=//*[@resource-id="xyz.digitalbank.demo:id/regB
 registerPage.cancelButton=id=xyz.digitalbank.demo:id/cancelBtn
 homePage.toolBar.icon=xpath=//*[@label="Digital Bank"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]/XCUIElementTypeStaticText[1]]
 homePage.bottomNav.pieChart=xpath=//*[@label="chart pie"]
+homePage.acctSelector=xpath=//*[@resource-id="ios:id/text1"]
+navigation.bar.atm=xpath=//*[@label="ATM"]
+navigation.bar.transfer=xpath=//*[@label="Transfer"]
+navigation.bar.home=xpath=//*[@label="Welcome"]
+atmPage.allowWhileUsing=xpath=//*[@label="Allow While Using App"]
+atmPage.ios.atmGPS.sliderEnabled=xpath=//XCUIElementTypeSwitch[@value="1"]
+atmPage.ios.atmGPS.sliderDisabled=xpath=//XCUIElementTypeWindow/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeSwitch[1]
+atmPage.getLocation=xpath=//XCUIElementTypeButton[@label="Get Location"]
+transferPage.amount=id=xyz.digitalbank.demo:id/amountEditText
+transferPage.desc=id=xyz.digitalbank.demo:id/descriptionEditText
+transferPage.submit=id=xyz.digitalbank.demo:id/submitButton
 
 
 
 
 
-//*[@label="chart pie"]
+
 
 
 

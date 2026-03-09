@@ -56,4 +56,25 @@ public class DigitalBankSteps {
     public void theCheckingAccountShouldDisplay() throws InterruptedException {
         new DigitalBankHomePage().softAssertCheckingAccount();
     }
+
+    @When("I Navigate to the ATM page")
+    public void iNavToATM() {
+        new DigitalBankNavBarPage().navigateToATM();
+    }
+    @Then("I find an ATM")
+    public void iFindANATM() {
+        new DigitalBankAtmPage().findATM();
+    }
+
+    @When("I navigate to the Transfer page")
+    public void iNavigateToTheTransferPage() {
+        new DigitalBankNavBarPage().navigateToTransfer();
+
+    }
+    @And("I transfer to credit")
+    public void iTransferToCredit() {
+        new DigitalBankTransferPage().makeTransfer();
+
+    }
+
 }

@@ -1,7 +1,7 @@
 @digitalBank
 Feature: bank flow
 
-  @feyDigitalBankTest
+  @E2EfeyDigitalBankTes5t
   Scenario: Digital Bank E2E flow Fey
     Given I launch Digital Banking app on iOS or Android
     Then I should see the Digital Bank Login Screen
@@ -12,7 +12,7 @@ Feature: bank flow
 Feature: login flow
 
   @feySmokeTest
-  Scenario: Digital Bank login flow Fey
+  Scenario: Digital Bank Checking and Savings flow
     Given I launch Digital Banking app on iOS or Android
     Then I should see the Digital Bank Login Screen
     When I login into Digital Banking
@@ -23,17 +23,27 @@ Feature: login flow
     Then The checking account should display
     And I logout of Digital Banking app
 
-  @e2e
-  Scenario: Digital Bank login flow Fey
+  @ATM
+  Scenario: Digital Bank Find ATM Flow
     Given I launch Digital Banking app on iOS or Android
     Then I should see the Digital Bank Login Screen
     When I login into Digital Banking
     Then I should see text "Account"
-    Then I test the Savings flow
-    And I logout of Digital Banking app
-    Then I should see text "LOGIN"
-    When I test a search for the ATM
+    When I Navigate to the ATM page
+    And I find an ATM
     Then I should see text "State"
+
+  @Transfer
+  Scenario: Digital Bank Transfer Flow
+    Given I launch Digital Banking app on iOS or Android
+    Then I should see the Digital Bank Login Screen
+    When I login into Digital Banking
+    Then I should see text "Account"
+    When I navigate to the Transfer page
+    And I transfer to credit
+    Then I should see text "Deposit"
+
+
 
 
 

@@ -28,7 +28,7 @@
 
         <groups>
             <run>
-                <include name="@feyLoginTest" />
+                <include name="@Transfer" />
             </run>
         </groups>
         <classes>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite allow-return-values="false" configfailurepolicy="skip" data-provider-thread-count="10" group-by-instances="false" guice-stage="DEVELOPMENT" junit="false" name="Digital Bank - Failed" parallel="none" preserve-order="true" skipfailedinvocationcounts="false" thread-count="10">
+  <listeners>
+    <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
+  </listeners>
+  <test allow-return-values="false" group-by-instances="false" junit="false" name="DigitalBank iOS Quantum" preserve-order="true" skipfailedinvocationcounts="false" thread-count="3">
+    <parameter name="perfecto.capabilities.iOSResign" value="true"/>
+    <parameter name="perfecto.capabilities.takesScreenshot" value="true"/>
+    <parameter name="perfecto.capabilities.enableAppiumBehavior" value="true"/>
+    <parameter name="perfecto.capabilities.fullReset" value="true"/>
+    <parameter name="perfecto.capabilities.app" value="PUBLIC:DigitalBank.ipa"/>
+    <parameter name="driver.additional.capabilities" value="{'openDeviceTimeout':2}"/>
+    <parameter name="env.resources" value="src/main/resources/ios"/>
+    <parameter name="perfecto.capabilities.screenshotOnError" value="false"/>
+    <parameter name="perfecto.capabilities.noReset" value="false"/>
+    <parameter name="perfecto.capabilities.bundleId" value="demodbank.perforce.com"/>
+    <parameter name="perfecto.capabilities.location" value="NA-US.*"/>
+    <parameter name="perfecto.capabilities.model" value="iPhone-15.*"/>
+    <parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}"/>
+    <parameter name="driver.capabilities.sensorInstrument" value="true"/>
+    <groups>
+      <run>
+        <include name="@digitalBank"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+    </classes>
+  </test> <!-- DigitalBank iOS Quantum -->
+</suite><!-- Digital Bank - Failed -->

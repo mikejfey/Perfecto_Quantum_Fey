@@ -24,7 +24,7 @@
 
         <groups>
             <run>
-                <include name="@feyLoginTest" />
+                <include name="@ATM" />
             </run>
         </groups>
         <classes>

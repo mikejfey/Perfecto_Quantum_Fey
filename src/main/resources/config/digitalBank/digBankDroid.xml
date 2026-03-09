@@ -23,7 +23,7 @@
 
         <groups>
             <run>
-                <include name="@feySmokeTest" />
+                <include name="@Transfer" />
             </run>
         </groups>
         <classes>
