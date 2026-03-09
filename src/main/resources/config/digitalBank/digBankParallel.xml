@@ -9,7 +9,7 @@
     <test name="DigitalBank Android Quantum" enabled="true"
           thread-count="3">
         <parameter name="env.resources" value="src/main/resources/android"/>
-<!--        <parameter name="perfecto.capabilities.deviceName" value="RFCW32CA12J"/>-->
+    <!--    <parameter name="perfecto.capabilities.deviceName" value="RFCW32CA12J"/>-->
         <parameter name="perfecto.capabilities.noReset" value="false"/>
         <parameter name="perfecto.capabilities.fullReset" value="true"/>
 <!--        <parameter name="dataReset" value="false"></parameter>-->
@@ -55,7 +55,7 @@
 
         <groups>
             <run>
-                <include name="@feyLoginTest" />
+                <include name="@ATM" />
             </run>
         </groups>
         <classes>
