@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Fey Nightly Smoke - Native Perfecto Expense tracker
+name: Digital Banking CI workflow
 
 on:
   workflow_dispatch:
