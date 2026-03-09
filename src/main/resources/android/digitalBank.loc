@@ -32,6 +32,7 @@ navigation.bar.home=xpath=//*[@resource-id="xyz.digitalbank.demo:id/action_check
 atmPage.allowWhileUsing=id=com.android.permissioncontroller:id/permission_allow_foreground_only_button
 atmPage.atmGPS=xpath=//*[@resource-id="xyz.digitalbank.demo:id/checkbox1"]
 atmPage.getLocation=id=xyz.digitalbank.demo:id/getLocationButton
+atmPage.showLocation=id=xyz.digitalbank.demo:id/responseTextView
 transferPage.depositAmount=id=xyz.digitalbank.demo:id/amountEditText
 transferPage.description=id=xyz.digitalbank.demo:id/descriptionEditText
 transferPage.submit=id=xyz.digitalbank.demo:id/submitButton

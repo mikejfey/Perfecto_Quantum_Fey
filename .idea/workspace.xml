@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="DigitalBanking exercise added ATM and Transfer flows">
+    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="DigitalBanking exercise changed parallel test.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/pages/DigitalBankAtmPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/pages/DigitalBankAtmPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/pages/DigitalBankHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/pages/DigitalBankHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/pages/DigitalBankTransferPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/pages/DigitalBankTransferPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/steps/DigitalBankSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/steps/DigitalBankSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/android/digitalBank.loc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/android/digitalBank.loc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config/digitalBank/digBankParallel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/digitalBank/digBankParallel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/scenarios/digitalBank/digitalBank.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/scenarios/digitalBank/digitalBank.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/quantum-failed-suite/failed-suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/quantum-failed-suite/failed-suite.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +180,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/digitalBank/digBankIOS.xml">
+  <component name="RunManager" selected="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/digitalBank/digBankParallel.xml">
     <configuration name="quantum-starter [clean,install -U]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -365,9 +373,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/digitalBank/digBankParallel.xml" />
         <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/digitalBank/digBankIOS.xml" />
         <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/digitalBank/digBankDroid.xml" />
-        <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/digitalBank/digBankParallel.xml" />
         <item itemvalue="TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml" />
         <item itemvalue="TestNG.reportiumTest" />
       </list>
@@ -388,14 +396,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732146586808</updated>
-    </task>
-    <task id="LOCAL-00004" summary="changed appium driver for android">
-      <option name="closed" value="true" />
-      <created>1754439251622</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1754439251622</updated>
     </task>
     <task id="LOCAL-00005" summary="cleaned up folders">
       <option name="closed" value="true" />
@@ -781,7 +781,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773086421075</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="DigitalBanking exercise changed parallel test.xml">
+      <option name="closed" value="true" />
+      <created>1773086697276</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1773086697276</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -797,7 +805,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added tests that don't re-install expenseTracker before each run" />
     <MESSAGE value="updated perfecto security token to use TAM demo cloud" />
     <MESSAGE value="played with device clean capabilities and running smoke group" />
     <MESSAGE value="working with BDD" />
@@ -822,7 +829,8 @@
     <MESSAGE value="DigitalBanking exercise added AI to ios logout" />
     <MESSAGE value="DigitalBanking exercise added checking and savings flows" />
     <MESSAGE value="DigitalBanking exercise added ATM and Transfer flows" />
-    <option name="LAST_COMMIT_MESSAGE" value="DigitalBanking exercise added ATM and Transfer flows" />
+    <MESSAGE value="DigitalBanking exercise changed parallel test.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="DigitalBanking exercise changed parallel test.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

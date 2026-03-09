@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite allow-return-values="false" configfailurepolicy="skip" data-provider-thread-count="10" group-by-instances="false" guice-stage="DEVELOPMENT" junit="false" name="Digital Bank - Failed" parallel="none" preserve-order="true" skipfailedinvocationcounts="false" thread-count="10">
+<suite allow-return-values="false" configfailurepolicy="skip" data-provider-thread-count="10" group-by-instances="false" guice-stage="DEVELOPMENT" junit="false" name="Digital Bank - Failed" parallel="tests" preserve-order="true" skipfailedinvocationcounts="false" thread-count="10" verbose="0">
   <listeners>
     <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
   </listeners>
-  <test allow-return-values="false" group-by-instances="false" junit="false" name="DigitalBank iOS Quantum" preserve-order="true" skipfailedinvocationcounts="false" thread-count="3">
+  <test allow-return-values="false" group-by-instances="false" junit="false" name="DigitalBank iOS Quantum" parallel="tests" preserve-order="true" skipfailedinvocationcounts="false" thread-count="3" verbose="0">
     <parameter name="perfecto.capabilities.iOSResign" value="true"/>
     <parameter name="perfecto.capabilities.takesScreenshot" value="true"/>
     <parameter name="perfecto.capabilities.enableAppiumBehavior" value="true"/>

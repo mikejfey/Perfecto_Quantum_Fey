@@ -62,7 +62,7 @@ public class DigitalBankSteps {
         new DigitalBankNavBarPage().navigateToATM();
     }
     @Then("I find an ATM")
-    public void iFindANATM() {
+    public void iFindANATM() throws InterruptedException {
         new DigitalBankAtmPage().findATM();
     }
 
@@ -72,9 +72,14 @@ public class DigitalBankSteps {
 
     }
     @And("I transfer to credit")
-    public void iTransferToCredit() {
+    public void iTransferToCredit() throws InterruptedException {
         new DigitalBankTransferPage().makeTransfer();
 
+    }
+
+    @Then("I should see atm location")
+    public void iShouldSeeATMLocation() throws InterruptedException {
+        new DigitalBankAtmPage().atmLocationVerify();
     }
 
 }

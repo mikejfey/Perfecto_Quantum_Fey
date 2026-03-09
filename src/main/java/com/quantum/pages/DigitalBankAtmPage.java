@@ -30,11 +30,16 @@ public class DigitalBankAtmPage extends WebDriverBaseTestPage<WebDriverTestPage>
     @FindBy(locator = "atmPage.getLocation")
     private QAFExtendedWebElement atmPageGetLocation;
 
-    public void findATM() {
+    @FindBy(locator = "atmPage.showLocation")
+    private QAFExtendedWebElement atmPageShowLocation;
+
+    public void findATM() throws InterruptedException {
         if(DriverUtils.getDriver().getCapabilities().getCapability("platformName").toString().equalsIgnoreCase("android")) {
            atmPageAllowWhileUsing.click();
            atmPageGps.click();
            atmPageGetLocation.click();
+           //Thread.sleep(2000);
+            ReportUtils.logVerify("atm location",atmPageShowLocation.isDisplayed());
 
             System.out.println("its an android... there is a logout button");
         } else {
@@ -42,7 +47,7 @@ public class DigitalBankAtmPage extends WebDriverBaseTestPage<WebDriverTestPage>
             System.out.println("its an ios... GPS is the default");
             Boolean result = (Boolean) driver.executeScript("perfecto:ai:user-action",
                     Map.of(
-                            "action", "tap 'get location'",
+                            "action", "tap 'get location' if a popup appears, select 'allow'",
                             "reasoning", false,
                             "outputVariable", false
                     )
@@ -52,11 +57,20 @@ public class DigitalBankAtmPage extends WebDriverBaseTestPage<WebDriverTestPage>
 
     }
 
+    public void atmLocationVerify() throws InterruptedException {
+        if(DriverUtils.getDriver().getCapabilities().getCapability("platformName").toString().equalsIgnoreCase("android")) {
+            ReportUtils.logVerify("atm location",atmPageShowLocation.isDisplayed());
+
+            System.out.println("its an android... there is a logout button");
+        } else {
+
+            System.out.println("its an ios... GPS is the default");
+
+        }
+
+    }
+
 }
 
 
 
-/*
-atmPage.allowWhileUsing=id=com.android.permissioncontroller:id/permission_allow_foreground_only_button
-atmPage.atmGPS=xpath=//*[@resource-id="xyz.digitalbank.demo:id/checkbox1"]
-atmPage.getLocation=id=xyz.digitalbank.demo:id/getLocationButton*/

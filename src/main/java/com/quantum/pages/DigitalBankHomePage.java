@@ -72,7 +72,13 @@ public class DigitalBankHomePage extends WebDriverBaseTestPage<WebDriverTestPage
 
         } else {
             System.out.println("its an ios... need AI");
-            acctSelector.click();
+            Boolean result = (Boolean) driver.executeScript("perfecto:ai:user-action",
+                    Map.of(
+                            "action", "tap the Account Selection dropdown",
+                            "reasoning", false,
+                            "outputVariable", false
+                    )
+            );
         }
 
          }
@@ -83,6 +89,14 @@ public class DigitalBankHomePage extends WebDriverBaseTestPage<WebDriverTestPage
             acctSelectorChecking.click();
         } else {
             System.out.println("its an ios... need AI");
+            Boolean result = (Boolean) driver.executeScript("perfecto:ai:user-action",
+                    Map.of(
+                            "action", "tap the Account Selection dropdown",
+                            "reasoning", false,
+                            "outputVariable", false
+                    )
+            );
+
         }
 
       }

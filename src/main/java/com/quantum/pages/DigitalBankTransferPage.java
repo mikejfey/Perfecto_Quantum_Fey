@@ -30,19 +30,29 @@ public class DigitalBankTransferPage extends WebDriverBaseTestPage<WebDriverTest
     @FindBy(locator = "transferPage.submit")
     private QAFExtendedWebElement submit;
 
-    public void makeTransfer() {
+    public void makeTransfer() throws InterruptedException {
         if(DriverUtils.getDriver().getCapabilities().getCapability("platformName").toString().equalsIgnoreCase("android")) {
             depositAmount.click();
             depositAmount.sendKeys("50");
             description.click();
             description.sendKeys("pay check");
             submit.click();
+            Thread.sleep(3000);
             System.out.println("its an android..");
         } else {
             System.out.println("its an ios... need AI");
 
         }
     }
+    public void validateAtmLocation() {
+         if(DriverUtils.getDriver().getCapabilities().getCapability("platformName").toString().equalsIgnoreCase("android")) {
+
+        System.out.println("its an android..");
+    } else {
+             System.out.println("its an ios... need AI");
+         }
+    }
+
 }
 
 

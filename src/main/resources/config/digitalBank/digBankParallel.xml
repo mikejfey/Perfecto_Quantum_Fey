@@ -24,7 +24,7 @@
 
         <groups>
             <run>
-                <include name="@ATM" />
+                <include name="@DigitalBankingE2e" />
             </run>
         </groups>
         <classes>
@@ -55,7 +55,7 @@
 
         <groups>
             <run>
-                <include name="@ATM" />
+                <include name="@DigitalBankingE2e" />
             </run>
         </groups>
         <classes>
