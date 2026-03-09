@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="DigitalBanking exercise changed parallel test.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/pages/DigitalBankAtmPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/pages/DigitalBankAtmPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/pages/DigitalBankHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/pages/DigitalBankHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/pages/DigitalBankTransferPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/pages/DigitalBankTransferPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/steps/DigitalBankSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/steps/DigitalBankSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/android/digitalBank.loc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/android/digitalBank.loc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/digitalBank/digBankParallel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/digitalBank/digBankParallel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/scenarios/digitalBank/digitalBank.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/scenarios/digitalBank/digitalBank.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/quantum-failed-suite/failed-suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/quantum-failed-suite/failed-suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -396,14 +389,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732146586808</updated>
-    </task>
-    <task id="LOCAL-00005" summary="cleaned up folders">
-      <option name="closed" value="true" />
-      <created>1754444164255</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1754444164255</updated>
     </task>
     <task id="LOCAL-00006" summary="testing android driver settings">
       <option name="closed" value="true" />
@@ -789,7 +774,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773086697276</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="DigitalBanking exercise changed parallel test.xml">
+      <option name="closed" value="true" />
+      <created>1773096412149</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1773096412149</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

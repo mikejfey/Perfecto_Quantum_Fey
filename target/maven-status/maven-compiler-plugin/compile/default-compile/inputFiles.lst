@@ -1,11 +1,14 @@
 /Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/java/com/quantum/pages/ExpenseTrackerCrashPage.java
 /Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/java/com/quantum/steps/CommonStepsDefs.java
 /Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/java/com/quantum/pages/DigitalBankRegisterPage.java
+/Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/java/com/quantum/pages/DigitalBankAtmPage.java
 /Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/java/com/quantum/pages/DigitalBankHomePage.java
 /Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/java/com/quantum/pages/POM_Expense_Homepage.java
 /Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/java/com/quantum/steps/FeySteps.java
+/Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/java/com/quantum/pages/DigitalBankTransferPage.java
 /Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/java/com/quantum/pages/WikiTestPage.java
 /Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/java/com/quantum/pages/DigitalBankLoginPage.java
+/Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/java/com/quantum/pages/DigitalBankNavBarPage.java
 /Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/java/com/quantum/pages/GooglePage.java
 /Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/java/com/quantum/pages/POM_ExpenseLoginPage.java
 /Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/java/com/quantum/pages/ExpenseTrackerHomePage.java
