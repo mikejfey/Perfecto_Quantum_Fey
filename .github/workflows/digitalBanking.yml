@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Digital Banking CI workflow
+name: Digital Banking GHA CI workflow
 
 on:
   workflow_dispatch:
