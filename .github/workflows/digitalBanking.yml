@@ -27,4 +27,4 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Test with Maven
-      run: mvn clean test -Dreportium-job-name="Fey GHA CI DigitalBanking" -Dreportium-job-number=22 -DsuiteXmlFile=src/main/resources/config/digitalBank/digBankParallel.xml
+      run: mvn clean test -Dreportium-job-name="Fey GHA CI DigitalBanking" -Dreportium-job-number=regression -DsuiteXmlFile=src/main/resources/config/digitalBank/digBankParallel.xml
