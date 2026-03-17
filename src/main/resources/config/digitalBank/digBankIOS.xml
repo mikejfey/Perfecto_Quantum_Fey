@@ -28,7 +28,7 @@
 
         <groups>
             <run>
-                <include name="@Transfer" />
+                <include name="@DigitalBankingE2e" />
             </run>
         </groups>
         <classes>

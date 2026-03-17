@@ -74,7 +74,7 @@ public class DigitalBankHomePage extends WebDriverBaseTestPage<WebDriverTestPage
             System.out.println("its an ios... need AI");
             Boolean result = (Boolean) driver.executeScript("perfecto:ai:user-action",
                     Map.of(
-                            "action", "tap the Account Selection dropdown",
+                            "action", "tap the Account Selection dropdown.  If it doesn't move then do nothing",
                             "reasoning", false,
                             "outputVariable", false
                     )
@@ -91,7 +91,7 @@ public class DigitalBankHomePage extends WebDriverBaseTestPage<WebDriverTestPage
             System.out.println("its an ios... need AI");
             Boolean result = (Boolean) driver.executeScript("perfecto:ai:user-action",
                     Map.of(
-                            "action", "tap the Account Selection dropdown",
+                            "action", "tap the Account Selection dropdown.  If it doesn't move then do nothing",
                             "reasoning", false,
                             "outputVariable", false
                     )

@@ -42,7 +42,7 @@ Feature: login flow
     Then I should see text "Account"
     When I navigate to the Transfer page
     And I transfer to credit
-    Then I should see text "Deposit"
+    Then I should see text "Transaction"
     And I logout of Digital Banking app
 
 
@@ -61,7 +61,7 @@ Feature: login flow
     Then I should see atm location
     When I navigate to the Transfer page
     And I transfer to credit
-    Then I should see text "Deposit"
+    Then I should see text "Transaction"
     And I logout of Digital Banking app
 
 
