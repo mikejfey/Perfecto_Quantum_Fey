@@ -21,7 +21,7 @@ registerPage.mobilePhone=id=xyz.digitalbank.demo:id/mobilephoneInput
 registerPage.agreeCheck=id=xyz.digitalbank.demo:id/agreeCheckBox
 registerPage.registerButton=xpath=//*[@resource-id="xyz.digitalbank.demo:id/regBtn"]
 registerPage.cancelButton=id=xyz.digitalbank.demo:id/cancelBtn
-homePage.toolBar.icon=xpath=//*[@label="Digital Bank"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]/XCUIElementTypeStaticText[1]]
+homePage.toolBar.logout=xpath=//XCUIElementTypeWindow/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]
 homePage.bottomNav.pieChart=xpath=//*[@label="chart pie"]
 homePage.acctSelector=xpath=//*[@resource-id="ios:id/text1"]
 navigation.bar.atm=xpath=//*[@label="ATM"]
