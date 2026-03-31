@@ -31,9 +31,15 @@ atmPage.allowWhileUsing=xpath=//*[@label="Allow While Using App"]
 atmPage.ios.atmGPS.sliderEnabled=xpath=//XCUIElementTypeSwitch[@value="1"]
 atmPage.ios.atmGPS.sliderDisabled=xpath=//XCUIElementTypeWindow/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeSwitch[1]
 atmPage.getLocation=xpath=//XCUIElementTypeButton[@label="Get Location"]
-transferPage.amount=id=xyz.digitalbank.demo:id/amountEditText
-transferPage.desc=id=xyz.digitalbank.demo:id/descriptionEditText
-transferPage.submit=id=xyz.digitalbank.demo:id/submitButton
+transferPage.depositAmount=xpath=//*[@value="Enter Amount"]
+transferPage.description=xpath=//*[@value="Enter Description"]
+transferPage.submit=xpath=//*[@value="Submit "]
+
+
+
+
+
+
 
 
 

@@ -40,8 +40,13 @@ public class DigitalBankTransferPage extends WebDriverBaseTestPage<WebDriverTest
             Thread.sleep(3000);
             System.out.println("its an android..");
         } else {
-            System.out.println("its an ios... need AI");
-
+            System.out.println("its an ios...");
+            depositAmount.click();
+            depositAmount.sendKeys("50");
+            description.click();
+            description.sendKeys("pay check");
+            submit.click();
+            Thread.sleep(3000);
         }
     }
     public void validateAtmLocation() {
