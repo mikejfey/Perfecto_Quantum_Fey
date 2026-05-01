@@ -1,3 +1,9 @@
 {
-    "java.compile.nullAnalysis.mode": "automatic"
+    "java.compile.nullAnalysis.mode": "automatic",
+
+    "cucumberautocomplete.steps": [
+        "/Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/java/com/quantum/steps/*.java"
+    ],
+    "cucumberautocomplete.syncfeatures": "/Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/scenarios/digitalBank/*feature",
+    "cucumberautocomplete.strictGherkinCompletion": true
 }

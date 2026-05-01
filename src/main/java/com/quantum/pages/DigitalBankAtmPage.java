@@ -41,7 +41,7 @@ public class DigitalBankAtmPage extends WebDriverBaseTestPage<WebDriverTestPage>
            //Thread.sleep(2000);
             ReportUtils.logVerify("atm location",atmPageShowLocation.isDisplayed());
 
-            System.out.println("its an android... there is a logout button");
+            System.out.println("its an android... ");
         } else {
 
             System.out.println("its an ios... GPS is the default");
@@ -61,7 +61,7 @@ public class DigitalBankAtmPage extends WebDriverBaseTestPage<WebDriverTestPage>
         if(DriverUtils.getDriver().getCapabilities().getCapability("platformName").toString().equalsIgnoreCase("android")) {
             ReportUtils.logVerify("atm location",atmPageShowLocation.isDisplayed());
 
-            System.out.println("its an android... there is a logout button");
+            System.out.println("its an android... ");
         } else {
 
             System.out.println("its an ios... GPS is the default");

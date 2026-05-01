@@ -17,11 +17,12 @@ import org.testng.annotations.Test;
 import java.net.URL;
 import java.time.Duration;
 import java.util.HashMap;
+import java.util.Map;
 
-public class TestIosExpenseNoPOM {
+public class expenseAppReSign {
 ReportiumClient reportiumClient;
     @Test
-    public void feyTestPOMIos() throws Exception {
+    public void feyTestIos() throws Exception {
 
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -47,9 +48,9 @@ ReportiumClient reportiumClient;
         perfectoOptions.put("scriptName", "Fey iosResign-true");
         perfectoOptions.put("takesScreenshot", true);
         perfectoOptions.put("screenshotOnError", true);
-        perfectoOptions.put("app", "PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa");
-        perfectoOptions.put("bundleId", "io.perfecto.expense.tracker");
-        perfectoOptions.put("iOSResign", true);
+       // perfectoOptions.put("app", "PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa");
+      //  perfectoOptions.put("bundleId", "io.perfecto.expense.tracker");
+      //  perfectoOptions.put("iOSResign", true);
         perfectoOptions.put("automationVersion", "6.1.0");
         capabilities.setCapability("perfecto:options", perfectoOptions);
 
@@ -71,7 +72,21 @@ ReportiumClient reportiumClient;
                         .withWebDriver(driver)
                         .build()
         );
-        reportiumClient.testStart("iosResign true", new TestContext("quantum"));
+        reportiumClient.testStart("fey-mobile:application:inst", new TestContext("quantum"));
+
+        reportiumClient.stepStart("install and re-sign app");
+   // install and sign app
+        HashMap<String, Object> params2 = new HashMap<>();
+        params2.put("file", "PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa");
+        params2.put("instrument","noinstrument");
+        params2.put("resign","true");
+        driver.executeScript("mobile:application:install", params2);
+
+//start app
+        HashMap<String, Object> params3 = new HashMap<>();
+
+        params3.put("identifier", "io.perfecto.expense.tracker");
+        driver.executeScript("mobile:application:open", params3);
 
         reportiumClient.stepStart("login ExpenseTracker");
         driver.findElement(By.xpath("//*[@name=\"login_email\"]")).sendKeys("test@perfecto.com");

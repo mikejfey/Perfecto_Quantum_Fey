@@ -49,7 +49,7 @@ import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 import org.testng.annotations.Test;
 
-public class Se4Sample{
+public class WindowsChromeTest {
 
     @SuppressWarnings({"unused"})
     @Test(groups = {"sanity"})
@@ -195,5 +195,4 @@ public class Se4Sample{
 
         }
     }
-
 }

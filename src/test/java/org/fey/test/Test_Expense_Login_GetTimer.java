@@ -1,17 +1,4 @@
 package org.fey.test;
-import java.io.*;
-import java.net.*;
-import java.time.Duration;
-import java.util.*;
-
-import org.openqa.selenium.*;
-import org.openqa.selenium.remote.*;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
-import org.testng.annotations.Test;
-import io.appium.java_client.android.*;
-import io.appium.java_client.android.options.UiAutomator2Options;
-
 
 import com.perfecto.reportium.client.ReportiumClient;
 import com.perfecto.reportium.client.ReportiumClientFactory;
@@ -21,6 +8,18 @@ import com.perfecto.reportium.model.PerfectoExecutionContext;
 import com.perfecto.reportium.model.Project;
 import com.perfecto.reportium.test.TestContext;
 import com.perfecto.reportium.test.result.TestResultFactory;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.options.UiAutomator2Options;
+import org.openqa.selenium.By;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import java.net.URL;
+import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  *
@@ -33,7 +32,7 @@ import com.perfecto.reportium.test.result.TestResultFactory;
  * @version 1.0
  *
  */
-public class Test_Expense_Login {
+public class Test_Expense_Login_GetTimer {
 ReportiumClient reportiumClient;
     @Test
     public void Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW() throws Exception {
@@ -47,36 +46,27 @@ ReportiumClient reportiumClient;
         Map<String, Object> perfectoOptions = new HashMap<>();
 
         uiAutomatorCaps.setPlatformName("Android");
-        //uiAutomatorCaps.setDeviceName("R5CWA2726XK");
-        // uiAutomator2Options.withBrowserName("Chrome");
         uiAutomatorCaps.setAutomationName("UiAutomator2");
         uiAutomatorCaps.setApp("PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk");
         uiAutomatorCaps.setAppPackage("io.perfecto.expense.tracker");
-        //uiAutomator2Options.setAppActivity("app.perfecto.com.expencemanager.ui.splash.SplashActivity");
         perfectoOptions.put("securityToken", token);
-        //perfectoOptions.put("deviceName", "R5CWA2726XK");
-        //perfectoOptions.put("app", "PUBLIC:raghav/v1.0/ExpenseHybridAppVer1.apk");
-        //perfectoOptions.put("bundleId", "io.perfecto.expense.tracker.hybrid");
+
         perfectoOptions.put("appiumVersion", "1.22.3");
         perfectoOptions.put("automationVersion", "1.70.1");
         perfectoOptions.put("model", "Galaxy.*");
         perfectoOptions.put("automationName", "UiAutomator2");
-        //perfectoOptions.put("autoInstrument", true);
-        //perfectoOptions.put("sensorInstrument", true);
-        //perfectoOptions.put("iOSResign", true);
-        //perfectoOptions.put("autoLaunch", true);
         perfectoOptions.put("javascriptEnabled", true);
         perfectoOptions.put("openDeviceTimeout", 5.0);
-        perfectoOptions.put("scriptName", "Appium_v2.0 Android Web Test");
-        //perfectoOptions.put("takesScreenshot", false);
-        //perfectoOptions.put("screenshotOnError", true);
+        perfectoOptions.put("scriptName", "Appium_v2.0 Android Web Test - get.timer");
+        perfectoOptions.put("takesScreenshot", true);
+        perfectoOptions.put("screenshotOnError", true);
+
         uiAutomatorCaps.setCapability("perfecto:options", perfectoOptions);
         System.out.println("caps done");
         AndroidDriver driver = new AndroidDriver(new URL("https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub"), uiAutomatorCaps);
         System.out.println("driver init");
         driver.manage().timeouts().implicitlyWait(Duration.ofMillis(15000));
 
-        // Reporting client. For more details, see http://developers.perfectomobile.com/display/PD/Reporting
         reportiumClient = new ReportiumClientFactory().createPerfectoReportiumClient(
                 new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
                         .withProject(new Project("reportium project fey nov14", "1.0"))
@@ -88,7 +78,7 @@ ReportiumClient reportiumClient;
                         .build()
         );
         try {
-            reportiumClient.testStart("Fey Appium testng expense tracker login", new TestContext("Appium_v2.0", "Android Web"));
+            reportiumClient.testStart("Fey Appium testng expense tracker login get.timer command", new TestContext("Appium_v2.0", "Android Web"));
 
             // write your code here
             System.out.println("test code");
@@ -96,6 +86,7 @@ ReportiumClient reportiumClient;
 
             //driver.get("https://www.nhl.com");
             //declare the Map for script parameters
+
             Map<String, Object> params = new HashMap<>();
             System.out.println("open expense app");
             params.put("identifier", "io.perfecto.expense.tracker");
@@ -105,6 +96,12 @@ ReportiumClient reportiumClient;
             driver.findElement(By.xpath("//*[@resource-id='io.perfecto.expense.tracker:id/login_email']")).sendKeys("test@perfecto.com");
             Thread.sleep(10000);
             reportiumClient.stepStart("login to expense tracker");
+
+            Map<String, Object> timerParms = new HashMap<>();
+            timerParms.put("timerId", "feyTime");
+            driver.executeScript("mobile:timer:start", timerParms);
+
+
             System.out.println("enter password");
             driver.findElement(By.xpath("//*[@resource-id='io.perfecto.expense.tracker:id/login_password'] | //*[@id='login_password'] | //*[@resource-id='login_password']")).sendKeys("test123");
             System.out.println("click login button");
@@ -112,17 +109,16 @@ ReportiumClient reportiumClient;
             System.out.println("assert that 'Expenses' is displayed");
             Assert.assertTrue(driver.findElement(By.xpath("//*[@text='Expenses']")).isDisplayed());
 
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
+            Map<String, Object> timerStopParms = new HashMap<>();
+            timerStopParms.put("timerId", "feyTime");
+            driver.executeScript("mobile:timer:stop", timerStopParms);
 
-
-
-
-
-            // reportiumClient.testStep("step1"); // this is a logical step for reporting
-            // add commands...
-            // reportiumClient.testStep("step2");
-            // more commands...
+            Map<String, Object> timerInfoParms = new HashMap<>();
+            timerInfoParms.put("units", "milliseconds");
+            timerInfoParms.put("timerId", "feyTime");
+            driver.executeScript("mobile:timer:info", timerInfoParms);
 
 
             reportiumClient.testStop(TestResultFactory.createSuccess());
