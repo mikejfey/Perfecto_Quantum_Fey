@@ -107,7 +107,7 @@ public class ExpenseTrackerLoginPage extends WebDriverBaseTestPage<WebDriverTest
 		if ("ios".equalsIgnoreCase(platform) || "linux".equalsIgnoreCase(platform)) {
 			loginlInvalidOk.click();
 		} else {
-			driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+			//driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		}
 
 		emailNativeTextfield.clear();

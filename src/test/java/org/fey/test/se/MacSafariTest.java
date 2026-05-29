@@ -40,12 +40,12 @@ import com.perfecto.reportium.model.Project;
 import com.perfecto.reportium.test.TestContext;
 import com.perfecto.reportium.test.result.TestResultFactory;
 
-import io.appium.java_client.MobileBy;
+//import io.appium.java_client.MobileBy;
 //import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.clipboard.ClipboardContentType;
 import io.appium.java_client.clipboard.HasClipboard;
-import io.appium.java_client.remote.MobileCapabilityType;
+//import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 import org.testng.annotations.Test;

@@ -6,7 +6,7 @@
         </listeners>
 
 
-    <test name="DigitalBank Android Quantum" enabled="true"
+    <test name="DigitalBank Android Outside" enabled="true"
           thread-count="3">
         <parameter name="env.resources" value="src/main/resources/android"/>
         <parameter name="perfecto.capabilities.deviceName" value="RFCW32CA12J"/>
@@ -23,7 +23,7 @@
 
         <groups>
             <run>
-                <include name="@Transfer" />
+                <include name="@DigBankOutside" />
             </run>
         </groups>
         <classes>

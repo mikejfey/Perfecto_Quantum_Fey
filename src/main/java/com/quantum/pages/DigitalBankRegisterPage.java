@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.concurrent.*;
 
 import io.appium.java_client.AppiumBy;
-import io.appium.java_client.MobileBy;
+
 import org.openqa.selenium.By;
 
 import com.qmetry.qaf.automation.ui.WebDriverBaseTestPage;
@@ -15,7 +15,7 @@ import com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement;
 import com.qmetry.qaf.automation.ui.webdriver.QAFWebElement;
 import com.quantum.utils.DriverUtils;
 import com.quantum.utils.ReportUtils;
-import io.appium.java_client.MobileBy;
+//import io.appium.java_client.MobileBy;
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;

@@ -15,9 +15,8 @@
         <testngXmlFile>testng_mobile_desktop_web.xml</testngXmlFile>
         <skipTests>false</skipTests>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <appium.client.version>8.6.0</appium.client.version>
+        <appium.client.version>10.1.0</appium.client.version>
         <selenium.version>4.31.0</selenium.version>
-        <appium.version>9.4.0</appium.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <quantum.version>3.1.8</quantum.version>
@@ -90,7 +89,7 @@
         <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
-            <version>8.6.0</version>
+            <version>${appium.client.version}</version>
         </dependency>
 
         <dependency>
