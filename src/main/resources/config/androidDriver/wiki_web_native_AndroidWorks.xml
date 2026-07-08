@@ -9,14 +9,15 @@
 
 	<test name="Native Expense Android Test  driver testing" enabled="true"
 		  thread-count="3">
-		<parameter name="perfecto.additional.capabilities" value="{'perfecto:openDeviceTimeout':15}" />
-		<parameter name="perfecto.capabilities.model" value="Galaxy.*"/>
-		<parameter name="perfecto.capabilities.automationName" value="UiAutomator2"/>
-
-		<parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}" />
-		<parameter name="perfecto.capabilities.screenshotOnError" value="false" />
-		<parameter name="perfecto.capabilities.takesScreenshot" value="true" />
-		<parameter name="env.resources" value="src/main/resources/android"/>
+        <parameter name="env.resources" value="src/main/resources/android"/>
+        <!-- <parameter name="perfecto.capabilities.deviceName" value="RFCW32CA12J"/>-->
+        <parameter name="perfecto.capabilities.noReset" value="false"/>
+        <parameter name="perfecto.capabilities.fullReset" value="true"/>
+        <!--        <parameter name="dataReset" value="false"></parameter>-->
+        <parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk"/>
+        <parameter name="perfecto.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
+        <parameter name="perfecto.capabilities.model" value="Galaxy S.*"/>
+        <parameter name="perfecto.capabilities.enableAppiumBehavior" value="true"/>
 		<groups>
 			<run>
 				<include name="@first" />

@@ -57,7 +57,7 @@ ReportiumClient reportiumClient;
         //perfectoOptions.put("deviceName", "R5CWA2726XK");
         //perfectoOptions.put("app", "PUBLIC:raghav/v1.0/ExpenseHybridAppVer1.apk");
         //perfectoOptions.put("bundleId", "io.perfecto.expense.tracker.hybrid");
-       perfectoOptions.put("appiumVersion", "2.4.1");
+       //perfectoOptions.put("appiumVersion", "2.4.1");
         //perfectoOptions.put("automationVersion", "2.45.1");
         perfectoOptions.put("model", "Galaxy.*");
         perfectoOptions.put("automationName", "UiAutomator2");
@@ -70,6 +70,7 @@ ReportiumClient reportiumClient;
         perfectoOptions.put("scriptName", "Appium_v2.0 Android Web Test");
         perfectoOptions.put("takesScreenshot", true);
         perfectoOptions.put("screenshotOnError", false);
+        perfectoOptions.put("skipLogCapture", false);
         uiAutomatorCaps.setCapability("perfecto:options", perfectoOptions);
         System.out.println("caps done");
         AndroidDriver driver = new AndroidDriver(new URL("https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub"), uiAutomatorCaps);
@@ -89,6 +90,9 @@ ReportiumClient reportiumClient;
         );
         try {
             reportiumClient.testStart("Fey Appium testng expense tracker login", new TestContext("Appium_v2.0", "Android Web"));
+            Map<String, Object> parsLog = new HashMap<>();
+            parsLog.put("tail", 300);
+            String reStr = (String) driver.executeScript("mobile:device:log", parsLog);
 
             // write your code here
             System.out.println("test code");

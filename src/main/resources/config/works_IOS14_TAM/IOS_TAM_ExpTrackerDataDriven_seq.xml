@@ -10,7 +10,6 @@
 	<test name="Native Data Driven Expense IOS Test invalid" enabled="true"
 		  thread-count="3">
 
-		<parameter name="perfecto.additional.capabilities" value="{'perfecto:openDeviceTimeout':15}" />
 		<parameter name="perfecto.capabilities.model" value="iPhone-7.*"/>
 		<parameter name="perfecto.capabilities" value="{'perfecto:useVirtualDevice':true}" />
 		<parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>
@@ -19,9 +18,6 @@
 		<parameter name="env.resources" value="src/main/resources/ios"/>
 		<parameter name="perfecto.capabilities.automationName" value="Appium"/>
 		<parameter name="driver.capabilities.sensorInstrument" value="true"/>
-		<parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}" />
-		<parameter name="perfecto.capabilities.screenshotOnError" value="false" />
-		<parameter name="perfecto.capabilities.takesScreenshot" value="true" />
 		<groups>
 			<run>
 				<include name="@invalidLogin" />
@@ -36,7 +32,6 @@
 	<test name="Native Data Driven Expense IOS Test valid" enabled="true"
 		  thread-count="3">
 
-		<parameter name="perfecto.additional.capabilities" value="{'perfecto:openDeviceTimeout':15}" />
 		<parameter name="perfecto.capabilities.model" value="iPhone-7.*"/>
 		<parameter name="perfecto.capabilities" value="{'perfecto:useVirtualDevice':true}" />
 		<parameter name="perfecto.capabilities.app" value="PUBLIC:ExpenseTracker/Native/InvoiceApp1.0.ipa"/>

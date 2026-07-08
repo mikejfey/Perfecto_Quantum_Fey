@@ -34,7 +34,7 @@ public class WindowsPerforceWeb {
             {
 
                 String host = "demo.perfectomobile.com";
-                String token = "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4YmI4YmZmZS1kMzBjLTQ2MjctYmMxMS0zNTYyMmY1ZDkyMGYifQ.eyJpYXQiOjE3Njk0NDg5ODEsImp0aSI6ImViYmNiNzQwLTUzM2UtNDM0OC1hZTkyLTY1MGJiMWY5YWYyYSIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvZGVtby1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2RlbW8tcGVyZmVjdG9tb2JpbGUtY29tIiwic3ViIjoiZDIxMDAzYzItMDY0Mi00MjVmLTg0ZDAtNzdiYjQ1ODU5MzVlIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiI0OTFkNjA4MC1mNzA5LTQwM2UtOGEzOS0wNzI4MTZhMDMxMWMiLCJzZXNzaW9uX3N0YXRlIjoiNDZkZDQxOTAtNWJiOS00YmMxLWI1NzMtM2UwOGRjNzFlMjg1Iiwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MiLCJzaWQiOiI0NmRkNDE5MC01YmI5LTRiYzEtYjU3My0zZTA4ZGM3MWUyODUifQ.alorMqVM6yWasyG_z9IMpCMxaAE-tgLHyTDLjRaMMPM";
+                String token = "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4YmI4YmZmZS1kMzBjLTQ2MjctYmMxMS0zNTYyMmY1ZDkyMGYifQ.eyJpYXQiOjE3Nzc5OTc4MjYsImp0aSI6ImQ0OWRhNzQzLTNkNjEtNDk4MC1iZGI1LTZmODJjYzRmYzI2MiIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvZGVtby1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2RlbW8tcGVyZmVjdG9tb2JpbGUtY29tIiwic3ViIjoiZDIxMDAzYzItMDY0Mi00MjVmLTg0ZDAtNzdiYjQ1ODU5MzVlIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiJhMzI4ZTU0Mi01Mjk2LTRhNTItOGYwNS0wMDAxZDMwMTU2MjkiLCJzZXNzaW9uX3N0YXRlIjoiM2I2MmZhYzUtNTc4Ny00MDJkLWFjYzItNGU2OTMxYzIyYTYzIiwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MiLCJzaWQiOiIzYjYyZmFjNS01Nzg3LTQwMmQtYWNjMi00ZTY5MzFjMjJhNjMifQ.ht7QuCYxG6M7OPKYMQfVJx3E2d8JYPfVDv1_TJEMH1Y";
 
                 String myWUT = "https://www.perforce.com";
                 String projectName = "Customer-WebTests-S4";
@@ -52,6 +52,7 @@ public class WindowsPerforceWeb {
                 perfectoOptions.put("resolution", "1920x1080");
                 perfectoOptions.put("securityToken", token);
                 perfectoOptions.put("scriptName", "Windows-Chrome-Webtest-Perforce");
+                perfectoOptions.put("captureHAR", true);
                 browserOptions.setCapability("perfecto:options", perfectoOptions);
 
                 RemoteWebDriver driver = new RemoteWebDriver(new URL("https://" + host + "/nexperience/perfectomobile/wd/hub/"), browserOptions);

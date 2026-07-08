@@ -15,9 +15,6 @@
 <!--        <parameter name="dataReset" value="false"></parameter>-->
         <parameter name="perfecto.capabilities.app" value="PUBLIC:Digital-Bank-1.5.apk"/>
         <parameter name="perfecto.capabilities.appPackage" value="xyz.digitalbank.demo"/>
-        <parameter name="driver.additional.capabilities" value="{'openDeviceTimeout':2}" />
-        <parameter name="perfecto.capabilities.screenshotOnError" value="false" />
-        <parameter name="perfecto.capabilities.takesScreenshot" value="true" />
         <parameter name="perfecto.capabilities.model" value="Galaxy S.*"/>
         <parameter name="perfecto.capabilities.location" value="NA-US.*"/>
         <parameter name="perfecto.capabilities.enableAppiumBehavior" value="true"/>
@@ -47,10 +44,6 @@
         <parameter name="perfecto.capabilities.iOSResign" value="true"/>
         <parameter name="env.resources" value="src/main/resources/ios"/>
         <parameter name="driver.capabilities.sensorInstrument" value="true"/>
-        <parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}" />
-        <parameter name="perfecto.capabilities.screenshotOnError" value="false" />
-        <parameter name="perfecto.capabilities.takesScreenshot" value="true" />
-        <parameter name="driver.additional.capabilities" value="{'openDeviceTimeout':2}" />
         <parameter name="perfecto.capabilities.enableAppiumBehavior" value="true"/>
 
         <groups>
@@ -73,9 +66,6 @@
         <!--        <parameter name="dataReset" value="false"></parameter>-->
         <parameter name="perfecto.capabilities.app" value="PUBLIC:Digital-Bank-1.5.apk"/>
         <parameter name="perfecto.capabilities.appPackage" value="xyz.digitalbank.demo"/>
-        <parameter name="driver.additional.capabilities" value="{'openDeviceTimeout':2}" />
-        <parameter name="perfecto.capabilities.screenshotOnError" value="false" />
-        <parameter name="perfecto.capabilities.takesScreenshot" value="true" />
         <parameter name="perfecto.capabilities.model" value="Galaxy S.*"/>
         <parameter name="perfecto.capabilities.location" value="NA-US.*"/>
         <parameter name="perfecto.capabilities.enableAppiumBehavior" value="true"/>
@@ -105,10 +95,6 @@
         <parameter name="perfecto.capabilities.iOSResign" value="true"/>
         <parameter name="env.resources" value="src/main/resources/ios"/>
         <parameter name="driver.capabilities.sensorInstrument" value="true"/>
-        <parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}" />
-        <parameter name="perfecto.capabilities.screenshotOnError" value="false" />
-        <parameter name="perfecto.capabilities.takesScreenshot" value="true" />
-        <parameter name="driver.additional.capabilities" value="{'openDeviceTimeout':2}" />
         <parameter name="perfecto.capabilities.enableAppiumBehavior" value="true"/>
 
         <groups>
@@ -131,9 +117,6 @@
         <!--        <parameter name="dataReset" value="false"></parameter>-->
         <parameter name="perfecto.capabilities.app" value="PUBLIC:Digital-Bank-1.5.apk"/>
         <parameter name="perfecto.capabilities.appPackage" value="xyz.digitalbank.demo"/>
-        <parameter name="driver.additional.capabilities" value="{'openDeviceTimeout':2}" />
-        <parameter name="perfecto.capabilities.screenshotOnError" value="false" />
-        <parameter name="perfecto.capabilities.takesScreenshot" value="true" />
         <parameter name="perfecto.capabilities.model" value="Galaxy S.*"/>
         <parameter name="perfecto.capabilities.location" value="NA-US.*"/>
         <parameter name="perfecto.capabilities.enableAppiumBehavior" value="true"/>
@@ -163,10 +146,6 @@
         <parameter name="perfecto.capabilities.iOSResign" value="true"/>
         <parameter name="env.resources" value="src/main/resources/ios"/>
         <parameter name="driver.capabilities.sensorInstrument" value="true"/>
-        <parameter name="perfecto.additional.capabilities" value="{'perfecto:takesScreenshot':true}" />
-        <parameter name="perfecto.capabilities.screenshotOnError" value="false" />
-        <parameter name="perfecto.capabilities.takesScreenshot" value="true" />
-        <parameter name="driver.additional.capabilities" value="{'openDeviceTimeout':2}" />
         <parameter name="perfecto.capabilities.enableAppiumBehavior" value="true"/>
 
         <groups>

@@ -3,15 +3,13 @@
   <listeners>
     <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
   </listeners>
-  <test allow-return-values="false" group-by-instances="false" junit="false" name="DigitalBank Android Outside" preserve-order="true" skipfailedinvocationcounts="false" thread-count="3">
-    <parameter name="perfecto.capabilities.deviceName" value="RFCW32CA12J"/>
+  <test allow-return-values="false" group-by-instances="false" junit="false" name="DigitalBank Android" preserve-order="true" skipfailedinvocationcounts="false" thread-count="3">
     <parameter name="driver.additional.capabilities" value="{'openDeviceTimeout':2}"/>
     <parameter name="env.resources" value="src/main/resources/android"/>
     <parameter name="perfecto.capabilities.appPackage" value="xyz.digitalbank.demo"/>
-    <parameter name="perfecto.capabilities.screenshotOnError" value="false"/>
     <parameter name="perfecto.capabilities.noReset" value="false"/>
-    <parameter name="perfecto.capabilities.takesScreenshot" value="true"/>
     <parameter name="perfecto.capabilities.enableAppiumBehavior" value="true"/>
+    <parameter name="perfecto.capabilities.model" value="Galaxy S.*"/>
     <parameter name="perfecto.capabilities.fullReset" value="true"/>
     <parameter name="perfecto.capabilities.app" value="PUBLIC:Digital-Bank-1.5.apk"/>
     <groups>
@@ -22,5 +20,5 @@
     <classes>
       <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
     </classes>
-  </test> <!-- DigitalBank Android Outside -->
+  </test> <!-- DigitalBank Android -->
 </suite><!-- Digital Bank - Failed -->

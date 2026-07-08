@@ -19,6 +19,7 @@ import com.perfecto.reportium.model.PerfectoExecutionContext;
 import com.perfecto.reportium.model.Project;
 import com.perfecto.reportium.test.TestContext;
 import com.perfecto.reportium.test.result.TestResultFactory;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -29,7 +30,7 @@ ReportiumClient reportiumClient;
         String browserName = "mobileOS";
        //DesiredCapabilities uiAutomatorCaps = new DesiredCapabilities(); 
         String host = "partners.perfectomobile.com";
-        String token = "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4YmI4YmZmZS1kMzBjLTQ2MjctYmMxMS0zNTYyMmY1ZDkyMGYifQ.eyJpYXQiOjE3Njk0NDg5ODEsImp0aSI6ImViYmNiNzQwLTUzM2UtNDM0OC1hZTkyLTY1MGJiMWY5YWYyYSIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvZGVtby1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2RlbW8tcGVyZmVjdG9tb2JpbGUtY29tIiwic3ViIjoiZDIxMDAzYzItMDY0Mi00MjVmLTg0ZDAtNzdiYjQ1ODU5MzVlIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiI0OTFkNjA4MC1mNzA5LTQwM2UtOGEzOS0wNzI4MTZhMDMxMWMiLCJzZXNzaW9uX3N0YXRlIjoiNDZkZDQxOTAtNWJiOS00YmMxLWI1NzMtM2UwOGRjNzFlMjg1Iiwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MiLCJzaWQiOiI0NmRkNDE5MC01YmI5LTRiYzEtYjU3My0zZTA4ZGM3MWUyODUifQ.alorMqVM6yWasyG_z9IMpCMxaAE-tgLHyTDLjRaMMPM";
+        String token = "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4YmI4YmZmZS1kMzBjLTQ2MjctYmMxMS0zNTYyMmY1ZDkyMGYifQ.eyJpYXQiOjE3Nzc5OTc4MjYsImp0aSI6ImQ0OWRhNzQzLTNkNjEtNDk4MC1iZGI1LTZmODJjYzRmYzI2MiIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvZGVtby1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2RlbW8tcGVyZmVjdG9tb2JpbGUtY29tIiwic3ViIjoiZDIxMDAzYzItMDY0Mi00MjVmLTg0ZDAtNzdiYjQ1ODU5MzVlIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiJhMzI4ZTU0Mi01Mjk2LTRhNTItOGYwNS0wMDAxZDMwMTU2MjkiLCJzZXNzaW9uX3N0YXRlIjoiM2I2MmZhYzUtNTc4Ny00MDJkLWFjYzItNGU2OTMxYzIyYTYzIiwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MiLCJzaWQiOiIzYjYyZmFjNS01Nzg3LTQwMmQtYWNjMi00ZTY5MzFjMjJhNjMifQ.ht7QuCYxG6M7OPKYMQfVJx3E2d8JYPfVDv1_TJEMH1Y";
         System.out.println("caps new test");
         UiAutomator2Options uiAutomatorCaps = new UiAutomator2Options();
         Map<String, Object> perfectoOptions = new HashMap<>();
@@ -86,7 +87,7 @@ ReportiumClient reportiumClient;
             // write your code here
             System.out.println("new test code for smoke");
             softAssert.assertTrue(1 == 2, "1 is not equal to 2");
-            // write your code here
+           Assert.assertEquals(5, 2 + 2, "2 plus 2 is way not equal to 5");
 
 
 
@@ -94,8 +95,11 @@ ReportiumClient reportiumClient;
         } catch (Exception e) {
             reportiumClient.testStop(TestResultFactory.createFailure(e.getMessage(), e));
             e.printStackTrace();
+            System.out.println("the hard assert failed");
         } finally {
             try {
+                System.out.println("in the finally try after hard assert fails");
+                reportiumClient.testStop(TestResultFactory.createFailure("failed in finally try after hard assert fails", null));
                 driver.quit();
 
                 // Retrieve the URL to the DigitalZoom Report (= Reportium Application) for an aggregated view over the execution

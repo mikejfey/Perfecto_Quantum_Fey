@@ -6,24 +6,22 @@
         </listeners>
 
 
-    <test name="DigitalBank Android Outside" enabled="true"
+    <test name="DigitalBank Android" enabled="true"
           thread-count="3">
         <parameter name="env.resources" value="src/main/resources/android"/>
-        <parameter name="perfecto.capabilities.deviceName" value="RFCW32CA12J"/>
+       <!-- <parameter name="perfecto.capabilities.deviceName" value="RFCW32CA12J"/>-->
         <parameter name="perfecto.capabilities.noReset" value="false"/>
         <parameter name="perfecto.capabilities.fullReset" value="true"/>
 <!--        <parameter name="dataReset" value="false"></parameter>-->
         <parameter name="perfecto.capabilities.app" value="PUBLIC:Digital-Bank-1.5.apk"/>
         <parameter name="perfecto.capabilities.appPackage" value="xyz.digitalbank.demo"/>
-        <parameter name="driver.additional.capabilities" value="{'openDeviceTimeout':2}" />
-        <parameter name="perfecto.capabilities.screenshotOnError" value="false" />
-        <parameter name="perfecto.capabilities.takesScreenshot" value="true" />
-<!--        <parameter name="perfecto.capabilities.model" value="Galaxy S.*"/>-->
+      <parameter name="perfecto.capabilities.model" value="Galaxy S.*"/>
         <parameter name="perfecto.capabilities.enableAppiumBehavior" value="true"/>
+        <parameter name="driver.additional.capabilities" value="{'openDeviceTimeout':2}" />
 
         <groups>
             <run>
-                <include name="@DigBankOutside" />
+                <include name="@DigitalBankingE2e" />
             </run>
         </groups>
         <classes>
