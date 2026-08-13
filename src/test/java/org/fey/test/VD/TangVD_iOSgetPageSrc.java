@@ -20,7 +20,7 @@ import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TangVD_iOS {
+public class TangVD_iOSgetPageSrc {
 ReportiumClient reportiumClient;
     @Test
     public void feyTestVDIos() throws Exception {

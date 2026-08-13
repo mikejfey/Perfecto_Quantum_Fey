@@ -29776,3 +29776,35 @@ See https://github.com/google/gson/blob/main/Troubleshooting.md#unexpected-json-
 12:44:02 Unable to create driver instance in 4th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout.seconds' appropriately to set retry timeout on driver initialization failure.com/thoughtworks/selenium/CommandProcessor
 12:44:02 Quantum Failed TestNG Xml file generated - test-output/quantum-failed-suite/failed-suite.xml
 12:44:02 Preparing For Shut Down...
+09:51:56 [TestNG] Running:
+  /Users/mikefey/Library/Caches/JetBrains/IntelliJIdea2025.2/temp-testng-customsuite.xml
+
+09:52:42 Preparing For Shut Down...
+09:53:48 [TestNG] Running:
+  /Users/mikefey/Library/Caches/JetBrains/IntelliJIdea2025.2/temp-testng-customsuite.xml
+
+09:54:33 Preparing For Shut Down...
+09:57:09 [TestNG] Running:
+  /Users/mikefey/Library/Caches/JetBrains/IntelliJIdea2025.2/temp-testng-customsuite.xml
+
+09:57:52 Preparing For Shut Down...
+06:40:04 [TestNG] Running:
+  /Users/mikefey/Library/Caches/JetBrains/IntelliJIdea2025.2/temp-testng-customsuite.xml
+
+06:40:47 Preparing For Shut Down...
+09:12:48 [TestNG] Running:
+  /Users/mikefey/Library/Caches/JetBrains/IntelliJIdea2025.2/temp-testng-customsuite.xml
+
+09:13:34 Preparing For Shut Down...
+09:17:22 [TestNG] Running:
+  /Users/mikefey/Library/Caches/JetBrains/IntelliJIdea2025.2/temp-testng-customsuite.xml
+
+09:17:47 Preparing For Shut Down...
+09:19:28 [TestNG] Running:
+  /Users/mikefey/Library/Caches/JetBrains/IntelliJIdea2025.2/temp-testng-customsuite.xml
+
+09:20:08 Preparing For Shut Down...
+09:21:47 [TestNG] Running:
+  /Users/mikefey/Library/Caches/JetBrains/IntelliJIdea2025.2/temp-testng-customsuite.xml
+
+09:22:34 Preparing For Shut Down...

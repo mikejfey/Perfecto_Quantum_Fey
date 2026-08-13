@@ -35,7 +35,7 @@ public class DigitalBankNavBarPage extends WebDriverBaseTestPage<WebDriverTestPa
 
             Boolean result = (Boolean) driver.executeScript("perfecto:ai:user-action",
                     Map.of(
-                            "action", "tap ATM in the lower right",
+                            "action", "tap the ATM icon in the lower right menu of the screen",
                             "reasoning", false,
                             "outputVariable", false
                     )
