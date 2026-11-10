@@ -82,8 +82,18 @@ public class WindowsPerforceWeb {
 
                     reportiumClient.testStart(scriptname, new TestContext("fey Se 4 WebTest", "SampleCode", isshared));
 
+                    Map<String, Object> parsNv = new HashMap<>();
+                    parsNv.put("generateHarFile", "true");
+                    driver.executeScript("mobile:vnetwork:start", parsNv);
                     reportiumClient.stepStart("Navigate to the Website");
-                    driver.get(myWUT);
+                    driver.get("https://www.perforce.com");
+                    driver.get("https://www.perforce.com/customers");
+                    driver.get("https://www.perforce.com/downloads");
+
+                    Map<String, Object> parsNvStop = new HashMap<>();
+                    parsNvStop.put("pcapFile", "true");
+                    driver.executeScript("mobile:vnetwork:stop", parsNvStop);
+
 
                     reportiumClient.stepStart("Clear Disclaimer - If needed");
                     params.clear();
@@ -94,25 +104,6 @@ public class WindowsPerforceWeb {
 
                    //String textCheck = (String) driver.findElement(By.xpath("//*[contains(text(),'fey')]"));
 
-                    WebElement textCheck = driver.findElement(By.xpath("//*[contains(text(),'fey')]"));
-                    String textValidate = driver.toString();
-
-                    if (textValidate.equalsIgnoreCase("true")) {
-                        //successful checkpoint code
-                        try {
-                            reportiumClient.reportiumAssert("Text Found", true);
-                            params.clear();
-                            params.put("label", "agree");
-                            params.put("timeout", "15");
-                            params.put("threshold", "80");
-                            driver.executeScript("mobile:button-text:click", params);
-                        } catch (Exception e) {
-                        }
-
-                    } else {
-                        // failed checkpoint code
-                        reportiumClient.reportiumAssert("Text Not Found - No Issue", false);
-                    }
 
 
                     reportiumClient.reportiumAssert("Successful Test Run", true);

@@ -49,7 +49,7 @@ ReportiumClient reportiumClient;
         //uiAutomatorCaps.setDeviceName("R5CWA2726XK");
         // uiAutomator2Options.withBrowserName("Chrome");
         uiAutomatorCaps.setAutomationName("UiAutomator2");
-        uiAutomatorCaps.setApp("PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk");
+        uiAutomatorCaps.setApp("PUBLIC:ExpenseAppVer.apk");
         uiAutomatorCaps.setAppPackage("io.perfecto.expense.tracker");
         //uiAutomator2Options.setAppActivity("app.perfecto.com.expencemanager.ui.splash.SplashActivity");
         perfectoOptions.put("securityToken", token);
@@ -78,6 +78,10 @@ ReportiumClient reportiumClient;
                         .withWebDriver(driver)
                         .build()
         );
+
+        String reportURL = reportiumClient.getReportUrl();
+
+        System.out.println("Perfecto Report URL: " + reportURL);
         try {
             reportiumClient.testStart("Fey accessibility Example", new TestContext("Appium_v2.0", "Android Web"));
             reportiumClient.stepStart("launch Expense Tracker setup");
@@ -98,10 +102,14 @@ ReportiumClient reportiumClient;
 
             reportiumClient.stepStart("login to expense tracker");
             Thread.sleep(1000);
+
             Map<String, Object> paramsAcc = new HashMap<>();
             paramsAcc.put("tag", "login-screen");
             driver.executeScript("mobile:checkAccessibility:audit", paramsAcc);
+            paramsAcc.clear();
+
             driver.findElement(By.xpath("//*[@resource-id='io.perfecto.expense.tracker:id/login_email']")).sendKeys("test@perfecto.com");
+
             Thread.sleep(10000);
 
             System.out.println("enter password");
@@ -126,6 +134,8 @@ ReportiumClient reportiumClient;
 
             reportiumClient.testStop(TestResultFactory.createSuccess());
         } catch (Exception e) {
+
+
             reportiumClient.testStop(TestResultFactory.createFailure(e.getMessage(), e));
             e.printStackTrace();
         } finally {
@@ -133,12 +143,12 @@ ReportiumClient reportiumClient;
                 driver.quit();
 
                 // Retrieve the URL to the DigitalZoom Report (= Reportium Application) for an aggregated view over the execution
-                String reportURL = reportiumClient.getReportUrl();
-
-                // Retrieve the URL to the Execution Summary PDF Report
-                String reportPdfUrl = (String)(driver.getCapabilities().getCapability("reportPdfUrl"));
-                // For detailed documentation on how to export the Execution Summary PDF Report, the Single Test report and other attachments such as
-                // video, images, device logs, vitals and network files - see http://developers.perfectomobile.com/display/PD/Exporting+the+Reports
+//                String reportURL = reportiumClient.getReportUrl();
+//
+//                // Retrieve the URL to the Execution Summary PDF Report
+//                String reportPdfUrl = (String)(driver.getCapabilities().getCapability("reportPdfUrl"));
+//                // For detailed documentation on how to export the Execution Summary PDF Report, the Single Test report and other attachments such as
+//                // video, images, device logs, vitals and network files - see http://developers.perfectomobile.com/display/PD/Exporting+the+Reports
 
             } catch (Exception e) {
                 e.printStackTrace();

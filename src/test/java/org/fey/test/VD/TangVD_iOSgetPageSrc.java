@@ -92,6 +92,9 @@ ReportiumClient reportiumClient;
         }
 
         reportiumClient.testStop(TestResultFactory.createSuccess());
+        String reportURL = reportiumClient.getReportUrl();
+
+        System.out.println("Perfecto Report URL: " + reportURL);
         driver.quit();
     }
 

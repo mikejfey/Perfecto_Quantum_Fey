@@ -80,17 +80,16 @@ ReportiumClient reportiumClient;
                         .build()
         );
         try {
-            reportiumClient.testStart("Fey Appium testng expense tracker login", new TestContext("Appium_v2.0", "Android Web"));
+            reportiumClient.testStart("Fey Expense login android", new TestContext("Appium_v2.0", "Android Web"));
             Map<String, Object> parsLog = new HashMap<>();
             parsLog.put("tail", 300);
             String reStr = (String) driver.executeScript("mobile:device:log", parsLog);
 
-            // write your code here
-            System.out.println("test code");
-            // write your code here
 
-            //driver.get("https://www.nhl.com");
-            //declare the Map for script parameters
+            Map<String, Object> parsNv = new HashMap<>();
+            parsNv.put("generateHarFile", "true");
+            driver.executeScript("mobile:vnetwork:start", parsNv);
+
             Map<String, Object> params = new HashMap<>();
             System.out.println("open expense app");
             params.put("identifier", "io.perfecto.expense.tracker");
@@ -111,14 +110,9 @@ ReportiumClient reportiumClient;
 
 
 
-
-
-
-            // reportiumClient.testStep("step1"); // this is a logical step for reporting
-            // add commands...
-            // reportiumClient.testStep("step2");
-            // more commands...
-
+            Map<String, Object> parsNvStop = new HashMap<>();
+            parsNvStop.put("pcapFile", "true");
+            driver.executeScript("mobile:vnetwork:stop", parsNvStop);
 
             reportiumClient.testStop(TestResultFactory.createSuccess());
         } catch (Exception e) {

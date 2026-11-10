@@ -20,6 +20,8 @@ import java.net.URL;
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
+import io.appium.java_client.android.nativekey.AndroidKey;
+import io.appium.java_client.android.nativekey.KeyEvent;
 
 /**
  *
@@ -39,22 +41,20 @@ ReportiumClient reportiumClient;
         String browserName = "mobileOS";
         DesiredCapabilities capabilities = new DesiredCapabilities();
         String host = "demo.perfectomobile.com";
-        String token = "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4YmI4YmZmZS1kMzBjLTQ2MjctYmMxMS0zNTYyMmY1ZDkyMGYifQ.eyJpYXQiOjE3Njk0NDg5ODEsImp0aSI6ImViYmNiNzQwLTUzM2UtNDM0OC1hZTkyLTY1MGJiMWY5YWYyYSIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvZGVtby1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2RlbW8tcGVyZmVjdG9tb2JpbGUtY29tIiwic3ViIjoiZDIxMDAzYzItMDY0Mi00MjVmLTg0ZDAtNzdiYjQ1ODU5MzVlIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiI0OTFkNjA4MC1mNzA5LTQwM2UtOGEzOS0wNzI4MTZhMDMxMWMiLCJzZXNzaW9uX3N0YXRlIjoiNDZkZDQxOTAtNWJiOS00YmMxLWI1NzMtM2UwOGRjNzFlMjg1Iiwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MiLCJzaWQiOiI0NmRkNDE5MC01YmI5LTRiYzEtYjU3My0zZTA4ZGM3MWUyODUifQ.alorMqVM6yWasyG_z9IMpCMxaAE-tgLHyTDLjRaMMPM";
+        String token = "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4YmI4YmZmZS1kMzBjLTQ2MjctYmMxMS0zNTYyMmY1ZDkyMGYifQ.eyJpYXQiOjE3Nzc5OTc4MjYsImp0aSI6ImQ0OWRhNzQzLTNkNjEtNDk4MC1iZGI1LTZmODJjYzRmYzI2MiIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvZGVtby1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2RlbW8tcGVyZmVjdG9tb2JpbGUtY29tIiwic3ViIjoiZDIxMDAzYzItMDY0Mi00MjVmLTg0ZDAtNzdiYjQ1ODU5MzVlIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiJhMzI4ZTU0Mi01Mjk2LTRhNTItOGYwNS0wMDAxZDMwMTU2MjkiLCJzZXNzaW9uX3N0YXRlIjoiM2I2MmZhYzUtNTc4Ny00MDJkLWFjYzItNGU2OTMxYzIyYTYzIiwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MiLCJzaWQiOiIzYjYyZmFjNS01Nzg3LTQwMmQtYWNjMi00ZTY5MzFjMjJhNjMifQ.ht7QuCYxG6M7OPKYMQfVJx3E2d8JYPfVDv1_TJEMH1Y";
         System.out.println("caps");
         UiAutomator2Options uiAutomatorCaps = new UiAutomator2Options();
 
         Map<String, Object> perfectoOptions = new HashMap<>();
         uiAutomatorCaps.setPlatformName("Android");
         uiAutomatorCaps.setAutomationName("UiAutomator2");
-        uiAutomatorCaps.setApp("PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk");
+        uiAutomatorCaps.setApp("PRIVATE:ExpenseAppVer1ScriptInstFey.apk");
         uiAutomatorCaps.setAppPackage("io.perfecto.expense.tracker");
         perfectoOptions.put("securityToken", token);
-        perfectoOptions.put("appiumVersion", "1.22.3");
-        perfectoOptions.put("automationVersion", "1.70.1");
         //perfectoOptions.put("model", "Galaxy.*");
-        perfectoOptions.put("deviceName", "RFCX30181MV");
-        perfectoOptions.put("autoInstrument", true);
-        perfectoOptions.put("sensorInstrument", true);
+        perfectoOptions.put("deviceName", "R3CY90QKKFX");
+       /* perfectoOptions.put("autoInstrument", true);
+        perfectoOptions.put("sensorInstrument", true);*/
         perfectoOptions.put("javascriptEnabled", true);
         perfectoOptions.put("openDeviceTimeout", 5.0);
         //perfectoOptions.put("scriptName", " Android Web Test");
@@ -91,8 +91,11 @@ ReportiumClient reportiumClient;
             driver.findElement(By.xpath("//*[@resource-id='io.perfecto.expense.tracker:id/login_login_btn'] | //*[@id='login_login_btn'] | //*[@resource-id='login_login_btn']")).click();
             System.out.println("assert that 'Expenses' is displayed");
             Assert.assertTrue(driver.findElement(By.xpath("//*[@text='Expenses']")).isDisplayed());
-            // image injection steps
+
+            reportiumClient.stepStart("create expense with image injection");
             driver.findElement(By.xpath("//*[@resource-id='io.perfecto.expense.tracker:id/list_add_btn']")).click();
+
+
 
             Map<String, Object> paramsStart = new HashMap<>();
             paramsStart.put("repositoryFile", "PUBLIC:CoffeeReceipt.jpg");
@@ -103,10 +106,18 @@ ReportiumClient reportiumClient;
             driver.findElement(By.xpath("//*[@resource-id='io.perfecto.expense.tracker:id/btn_attach_camera']")).click();
             driver.findElement(By.xpath("//*[@resource-id='android:id/button1']")).click();
             driver.findElement(By.xpath("//*[@resource-id='io.perfecto.expense.tracker:id/view_view_attach_btn']")).click();
+            driver.pressKey(new KeyEvent(AndroidKey.VOLUME_DOWN));
+            driver.pressKey(new KeyEvent(AndroidKey.VOLUME_DOWN));
+            driver.pressKey(new KeyEvent(AndroidKey.BACK));
+            driver.findElement(By.xpath("//*[@resource-id='io.perfecto.expense.tracker:id/removeAttachment']")).click();
 
-            Map<String, Object> paramsBack = new HashMap<>();
+           // driver.findElement(By.xpath("//*[@resource-id='io.perfecto.expense.tracker:id/add_save_btn']")).click();
+
+           /* Map<String, Object> paramsBack = new HashMap<>();
             paramsBack.put("keySequence", "BACK");
-            driver.executeScript("mobile:presskey", paramsBack);
+            driver.executeScript("mobile:presskey", paramsBack);*/
+            //driver.navigate().back();
+
 
             Map<String, Object> paramsStop = new HashMap<>();
             driver.executeScript("mobile:image.injection:stop", paramsStop);

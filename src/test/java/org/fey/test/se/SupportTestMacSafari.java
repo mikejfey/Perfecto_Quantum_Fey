@@ -42,7 +42,7 @@ public class SupportTestMacSafari {
             perfectoOptions.put("platformVersion", "macOS Tahoe");
             perfectoOptions.put("browserName", "Safari");
             perfectoOptions.put("browserVersion", "26");
-            perfectoOptions.put("location", "NA-US-PHX");
+            perfectoOptions.put("location", "NA-US-BOS");
             perfectoOptions.put("resolution", "1920x1080");
             perfectoOptions.put("securityToken", token);
             perfectoOptions.put("scriptName", "Mac-safari-Webtest-Perforce");
