@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="new tests appium3, accessibility, reportium">
+    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="refactors bestExamples">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scenario.log" beforeDir="false" afterPath="$PROJECT_DIR$/scenario.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/AccessibilityExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/BestExamples/AccessibilityExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Appium3Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/BestExamples/Appium3Testing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/ReportingURLExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/BestExamples/ReportingURLExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/ReportiumExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/BestExamples/ReportiumExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_Expense_ImageInj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/BestExamples/Test_Expense_ImageInj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_Expense_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_Expense_Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_Expense_fingerprint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/BestExamples/Test_Expense_fingerprint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_mike.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -336,6 +328,23 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="AccessibilityExample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="perfectoPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fey.test.BestExamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fey.test.BestExamples" />
+      <option name="MAIN_CLASS_NAME" value="org.fey.test.BestExamples.AccessibilityExample" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AccessibilityExample.Fey_Accessibility_Example" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="perfectoPOM" />
       <extension name="coverage">
@@ -364,24 +373,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.fey.test" />
       <option name="MAIN_CLASS_NAME" value="org.fey.test.BestExamples.Appium3Testing" />
-      <option name="METHOD_NAME" value="Fey_ReportingURL_Example" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReportingURLExample.Fey_ReportingURL_Example" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="perfectoPOM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.fey.test.BestExamples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.fey.test" />
-      <option name="MAIN_CLASS_NAME" value="org.fey.test.BestExamples.ReportingURLExample" />
       <option name="METHOD_NAME" value="Fey_ReportingURL_Example" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -430,19 +421,19 @@
       <item itemvalue="Maven.quantum-starter [clean,install -U]" />
       <item itemvalue="Maven.quantum-starter [clean,test]" />
       <item itemvalue="Maven.run smoke" />
+      <item itemvalue="TestNG.AccessibilityExample" />
       <item itemvalue="TestNG.AccessibilityExample.Fey_Accessibility_Example" />
       <item itemvalue="TestNG.Appium3Testing.Fey_ReportingURL_Example" />
-      <item itemvalue="TestNG.ReportingURLExample.Fey_ReportingURL_Example" />
       <item itemvalue="TestNG.Test_mike.Fey_New_Test" />
       <item itemvalue="TestNG.Test_Expense_Login.Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.AccessibilityExample.Fey_Accessibility_Example" />
+        <item itemvalue="TestNG.AccessibilityExample" />
         <item itemvalue="TestNG.Test_Expense_Login.Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW" />
         <item itemvalue="TestNG.Appium3Testing.Fey_ReportingURL_Example" />
         <item itemvalue="TestNG.Test_mike.Fey_New_Test" />
-        <item itemvalue="TestNG.ReportingURLExample.Fey_ReportingURL_Example" />
       </list>
     </recent_temporary>
   </component>
@@ -461,14 +452,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732146586808</updated>
-    </task>
-    <task id="LOCAL-00025" summary="fixed smoke.xml for CICD in GHA">
-      <option name="closed" value="true" />
-      <created>1759876148247</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1759876148247</updated>
     </task>
     <task id="LOCAL-00026" summary="fixed smoke.xml for CICD in GHA">
       <option name="closed" value="true" />
@@ -854,7 +837,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794338716489</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="refactors bestExamples">
+      <option name="closed" value="true" />
+      <created>1794400987211</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1794400987211</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -870,7 +861,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added test for image injection Test_Expense_ImageInj.java" />
     <MESSAGE value="updated Page Obj Model" />
     <MESSAGE value="added Test_HCSC_Appium2Smoke for appium2" />
     <MESSAGE value="added Test_HCSC_RamaCode for appium2 upgrade testing" />
@@ -895,7 +885,8 @@
     <MESSAGE value="upgraded to Quantum 3.2.4 and deleted takescreetshot and openDeviceTimeout capabilities" />
     <MESSAGE value="added AccessibilityExample" />
     <MESSAGE value="new tests appium3, accessibility, reportium" />
-    <option name="LAST_COMMIT_MESSAGE" value="new tests appium3, accessibility, reportium" />
+    <MESSAGE value="refactors bestExamples" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactors bestExamples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

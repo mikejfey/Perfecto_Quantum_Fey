@@ -140,6 +140,7 @@ ReportiumClient reportiumClient;
             e.printStackTrace();
         } finally {
             try {
+                System.out.println("quit driver");
                 driver.quit();
 
                 // Retrieve the URL to the DigitalZoom Report (= Reportium Application) for an aggregated view over the execution

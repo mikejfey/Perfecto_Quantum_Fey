@@ -15,11 +15,11 @@
         <testngXmlFile>testng_mobile_desktop_web.xml</testngXmlFile>
         <skipTests>false</skipTests>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <appium.client.version>10.1.0</appium.client.version>
+       <!-- <appium.client.version>10.1.0</appium.client.version>-->
         <selenium.version>4.31.0</selenium.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <quantum.version>3.2.4</quantum.version>
+        <quantum.version>3.2.9</quantum.version>
     </properties>
 
     <build>

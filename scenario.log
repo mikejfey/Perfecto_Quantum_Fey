@@ -30086,3 +30086,11 @@ See https://github.com/google/gson/blob/main/Troubleshooting.md#unexpected-json-
   /Users/mikefey/Library/Caches/JetBrains/IntelliJIdea2025.2/temp-testng-customsuite.xml
 
 06:41:05 Preparing For Shut Down...
+06:56:53 [TestNG] Running:
+  /Users/mikefey/Library/Caches/JetBrains/IntelliJIdea2025.2/temp-testng-customsuite.xml
+
+06:57:33 Preparing For Shut Down...
+06:58:25 [TestNG] Running:
+  /Users/mikefey/Library/Caches/JetBrains/IntelliJIdea2025.2/temp-testng-customsuite.xml
+
+06:59:06 Preparing For Shut Down...
