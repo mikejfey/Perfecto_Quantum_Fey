@@ -50,7 +50,7 @@ ReportiumClient reportiumClient;
         //uiAutomatorCaps.setDeviceName("R5CWA2726XK");
         // uiAutomator2Options.withBrowserName("Chrome");
         uiAutomatorCaps.setAutomationName("UiAutomator2");
-        uiAutomatorCaps.setApp("PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk");
+        uiAutomatorCaps.setApp("PUBLIC:ExpenseAppVer.apk");
         uiAutomatorCaps.setAppPackage("io.perfecto.expense.tracker");
         //uiAutomator2Options.setAppActivity("app.perfecto.com.expencemanager.ui.splash.SplashActivity");
         perfectoOptions.put("securityToken", token);

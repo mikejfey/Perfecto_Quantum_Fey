@@ -1,4 +1,4 @@
-package org.fey.test;
+package org.fey.test.BestExamples;
 
 import com.perfecto.reportium.client.ReportiumClient;
 import com.perfecto.reportium.client.ReportiumClientFactory;
@@ -32,7 +32,7 @@ import java.util.Map;
  * @version 1.0
  *
  */
-public class Appium3Testing {
+public class ReportingURLExample {
 ReportiumClient reportiumClient;
     @Test
     public void Fey_ReportingURL_Example() throws Exception {
@@ -53,12 +53,11 @@ ReportiumClient reportiumClient;
         uiAutomatorCaps.setAppPackage("io.perfecto.expense.tracker");
         //uiAutomator2Options.setAppActivity("app.perfecto.com.expencemanager.ui.splash.SplashActivity");
         perfectoOptions.put("securityToken", token);
-       // perfectoOptions.put("appiumVersion", "3.6.0");
         perfectoOptions.put("model", "Galaxy.*");
         perfectoOptions.put("automationName", "UiAutomator2");
         perfectoOptions.put("javascriptEnabled", true);
         perfectoOptions.put("openDeviceTimeout", 5.0);
-        perfectoOptions.put("scriptName", "feyAppiumPinning");
+        perfectoOptions.put("scriptName", "FeyReportingURLExample");
         perfectoOptions.put("takesScreenshot", true);
         perfectoOptions.put("screenshotOnError", false);
         perfectoOptions.put("skipLogCapture", false);
@@ -71,8 +70,8 @@ ReportiumClient reportiumClient;
         // Reporting client. For more details, see http://developers.perfectomobile.com/display/PD/Reporting
         reportiumClient = new ReportiumClientFactory().createPerfectoReportiumClient(
                 new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
-                        .withProject(new Project("appium3 pipeline fey", "1.0"))
-                        .withJob(new Job("appium3 pipe fey", 45))
+                        .withProject(new Project("accessibility pipeline fey", "1.0"))
+                        .withJob(new Job("accessibility pipe fey", 45))
                         .withCustomFields(new CustomField("programmer", "Mike Fey"))
                         .withCustomFields(new CustomField("author", "mike.fey@perforce.com"))
                         .withContextTags("quantum")
@@ -84,7 +83,7 @@ ReportiumClient reportiumClient;
 
         System.out.println("Perfecto Report URL: " + reportURL);
         try {
-            reportiumClient.testStart("Fey appium pinning", new TestContext("Appium_vxxx", "Android Web"));
+            reportiumClient.testStart("Fey Reporting URL Example", new TestContext("Appium_v2.0", "Android Web"));
             reportiumClient.stepStart("launch Expense Tracker setup");
             Map<String, Object> parsLog = new HashMap<>();
             parsLog.put("tail", 300);

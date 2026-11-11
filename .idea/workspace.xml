@@ -4,26 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="added AccessibilityExample">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Any_Android_Dev.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Appium3Testing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/DigBank/DigBankTransferAndroid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/ReportingURLExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_Expense_NoReportium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_Expense_fingerprint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/VD/Test_Expense_ImageInj_Emulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/VD/VD_FaceBiometrics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/VD/VD_FingerPrintBiometrics.java" afterDir="false" />
+    <list default="true" id="d1608d69-8c4b-4948-8b20-159cf25e86ab" name="Changes" comment="new tests appium3, accessibility, reportium">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scenario.log" beforeDir="false" afterPath="$PROJECT_DIR$/scenario.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/AccessibilityExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/AccessibilityExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_Expense_ImageInj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_Expense_ImageInj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/AccessibilityExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/BestExamples/AccessibilityExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Appium3Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/BestExamples/Appium3Testing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/ReportingURLExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/BestExamples/ReportingURLExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/ReportiumExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/BestExamples/ReportiumExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_Expense_ImageInj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/BestExamples/Test_Expense_ImageInj.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_Expense_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_Expense_Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/VD/TangVD_iOSgetPageSrc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/VD/TangVD_iOSgetPageSrc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/se/MacSafariPerforce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/se/MacSafariPerforce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/se/MacSafariTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/se/SupportTestMacSafari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/se/SupportTestMacSafari.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/se/WindowsPerforceWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/se/WindowsPerforceWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_Expense_fingerprint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fey/test/BestExamples/Test_Expense_fingerprint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fey/test/Test_mike.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,129 +61,129 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Se4Sample.executor": "Run",
-    "Cucumber Java.Feature: expenseBiometrics.executor": "Run",
-    "Cucumber Java.Scenario: Expense Tracker VALID login Scenario.executor": "Run",
-    "Cucumber Java.Scenario: Login with valid credentials.executor": "Run",
-    "Cucumber Java.Scenario: login existing customer.executor": "Run",
-    "Maven.perfectoPOM [clean].executor": "Run",
-    "Maven.perfectoPOM [compile].executor": "Run",
-    "Maven.quantum-starter [clean,install -U].executor": "Run",
-    "Maven.quantum-starter [clean].executor": "Run",
-    "Maven.quantum-starter [compile].executor": "Run",
-    "Maven.quantum-starter [test].executor": "Run",
-    "Maven.quantum-starter [validate].executor": "Run",
-    "Maven.run smoke.executor": "Run",
-    "Maven.test.xml quantum-starter [clean,test].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/smoke.xml.executor": "Run",
-    "TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/Anddroid_LaunchAppNoInstall.xml.executor": "Run",
-    "TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/IosLaunchAppNoInstall.xml.executor": "Run",
-    "TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOM2.xml.executor": "Run",
-    "TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml.executor": "Run",
-    "TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/expenseTrackerAndroid_Biometrics.xml.executor": "Run",
-    "TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/Android_TAM_ExpTrackerDataDriven_seq.xml.executor": "Run",
-    "TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml.executor": "Run",
-    "TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/IOS_TAM_ExpTrackerDataDriven_seq.xml.executor": "Run",
-    "TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/ValidLogin_Android_TAM_ExpTrackerDataDriven_seq.xml.executor": "Run",
-    "TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/testGroups.xml.executor": "Run",
-    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/Parallel/BDDsmokeParIosAnd.xml.executor": "Run",
-    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/Parallel/smokeParIosAnd.xml.executor": "Run",
-    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/1_smokePomGroupsTest.xml.executor": "Run",
-    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/1_smokePomGroupsTest_droid.xml.executor": "Run",
-    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/2_smokePOM_iOS.xml.executor": "Run",
-    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOM2.xml.executor": "Run",
-    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOMAndroid.xml.executor": "Run",
-    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOM_both.xml.executor": "Run",
-    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOM_iOS.xml.executor": "Run",
-    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/testGroups.xml.executor": "Run",
-    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml.executor": "Run",
-    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/expenseTrackerAndroid_Biometrics.xml.executor": "Run",
-    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/wiki_web_native_AndroidWorks.xml.executor": "Run",
-    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/digitalBank/digBankDroid.xml.executor": "Run",
-    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/digitalBank/digBankIOS.xml.executor": "Run",
-    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/digitalBank/digBankParallel.xml.executor": "Run",
-    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/Android_TAM_ExpTrackerDataDriven_seq.xml.executor": "Run",
-    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml.executor": "Run",
-    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/IOS_TAM_ExpTrackerDataDriven_seq.xml.executor": "Run",
-    "TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/ValidLogin_Android_TAM_ExpTrackerDataDriven_seq.xml.executor": "Run",
-    "TestNG.AccessibilityExample.Fey_Accessibility_Example.executor": "Run",
-    "TestNG.AccessibilityExample.executor": "Run",
-    "TestNG.AndroidDoNotResetApp.executor": "Run",
-    "TestNG.AndroidDoNotResetApp.feyAndroidNoReset.executor": "Run",
-    "TestNG.Android_ADB_Call.adbMakeCall.executor": "Run",
-    "TestNG.Any_Android_Dev.Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW.executor": "Run",
-    "TestNG.Appium3Testing.Fey_ReportingURL_Example.executor": "Run",
-    "TestNG.IosDoNotResetApp.feyTestPOMIosNoReset.executor": "Run",
-    "TestNG.MacSafariPerforce.executor": "Run",
-    "TestNG.MacSafariPerforce.testSelenium4SampleMac.executor": "Run",
-    "TestNG.MacSafariTest.testSelenium4SampleMac.executor": "Run",
-    "TestNG.QuantumPageObjMod.executor": "Run",
-    "TestNG.QuantumPageObjMod.quantumPageObjModTest.executor": "Run",
-    "TestNG.ReportingURLExample.Fey_ReportingURL_Example.executor": "Run",
-    "TestNG.ReportingURLExample.executor": "Run",
-    "TestNG.ReportiumExample.Fey_Reportium_Example.executor": "Run",
-    "TestNG.SampleTestGroups.executor": "Run",
-    "TestNG.SampleTestGroups.testCheckout.executor": "Run",
-    "TestNG.SampleTestGroups.testLogin.executor": "Run",
-    "TestNG.SampleTestGroups.testSearchOnAndroid.executor": "Run",
-    "TestNG.SampleTestGroups.testSearchOniOS.executor": "Run",
-    "TestNG.Se4Sample.executor": "Run",
-    "TestNG.Se4Sample.testSelenium4Sample.executor": "Run",
-    "TestNG.SupportTestMacSafari.supportMacSafari.executor": "Run",
-    "TestNG.TangVD_iOS.executor": "Run",
-    "TestNG.TangVD_iOS.feyTestPOMIos.executor": "Run",
-    "TestNG.TangVD_iOS.feyTestVDIos.executor": "Run",
-    "TestNG.TangVD_iOSgetPageSrc.executor": "Run",
-    "TestNG.TestIOSExpense.executor": "Run",
-    "TestNG.TestIosExpenseNoPOM.executor": "Run",
-    "TestNG.TestIosExpenseNoPOM.feyTestPOMIos.executor": "Run",
-    "TestNG.TestQuantumPOM.executor": "Run",
-    "TestNG.TestQuantumPOM.testPOMinQuantum.executor": "Run",
-    "TestNG.Test_Expense_ImageInj.Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW.executor": "Run",
-    "TestNG.Test_Expense_ImageInj.executor": "Run",
-    "TestNG.Test_Expense_ImageInj_Emulator.Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW.executor": "Run",
-    "TestNG.Test_Expense_Login.Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW.executor": "Run",
-    "TestNG.Test_Expense_Login.executor": "Run",
-    "TestNG.Test_Expense_Login_GetTimer.Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW.executor": "Run",
-    "TestNG.Test_Expense_Login_GetTimer.executor": "Run",
-    "TestNG.Test_Expense_Login_StF_Appium2.Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW.executor": "Run",
-    "TestNG.Test_Expense_NoReportium.Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW.executor": "Run",
-    "TestNG.Test_Expense_fingerprint.Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW.executor": "Run",
-    "TestNG.Test_HCSC_Appium2Smoke.Fey_New_Test.executor": "Run",
-    "TestNG.Test_HCSC_Appium2Smoke.executor": "Run",
-    "TestNG.Test_HCSC_RamaCode.HCSC_Rama_code.executor": "Run",
-    "TestNG.Test_HCSC_RamaCode.executor": "Run",
-    "TestNG.Test_POM_Login.executor": "Run",
-    "TestNG.Test_POM_Login.testFeyValidLogin.executor": "Run",
-    "TestNG.Test_mike.Fey_New_Test.executor": "Run",
-    "TestNG.VD_FaceBiometrics.feyTestVDIos.executor": "Run",
-    "TestNG.VD_FingerPrintBiometrics.feyTestVDIos.executor": "Run",
-    "TestNG.WindowsChromeTest.testSelenium4Sample.executor": "Run",
-    "TestNG.WindowsPerforceWeb.testSelenium4Web.executor": "Run",
-    "TestNG.expenseAppReSign.feyTestIos.executor": "Run",
-    "TestNG.iosDoNotResetApp.executor": "Run",
-    "TestNG.iosDoNotResetApp.feyTestPOMIosNoReset.executor": "Run",
-    "TestNG.reportiumTest.executor": "Run",
-    "TestNG.reportiumTest.feyReportium.executor": "Run",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "15",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.57714957",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "inlay.hints"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Se4Sample.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: expenseBiometrics.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Expense Tracker VALID login Scenario.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Login with valid credentials.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: login existing customer.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.perfectoPOM [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.perfectoPOM [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.quantum-starter [clean,install -U].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.quantum-starter [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.quantum-starter [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.quantum-starter [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.quantum-starter [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.run smoke.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.test.xml quantum-starter [clean,test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/smoke.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/Anddroid_LaunchAppNoInstall.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/IosLaunchAppNoInstall.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOM2.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/expenseTrackerAndroid_Biometrics.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/Android_TAM_ExpTrackerDataDriven_seq.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/IOS_TAM_ExpTrackerDataDriven_seq.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/ValidLogin_Android_TAM_ExpTrackerDataDriven_seq.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/Documents/GitHub/Perfecto_Quantum_Fey/testGroups.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/Parallel/BDDsmokeParIosAnd.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/Parallel/smokeParIosAnd.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/1_smokePomGroupsTest.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/1_smokePomGroupsTest_droid.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/2_smokePOM_iOS.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOM2.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOMAndroid.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOM_both.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/smokePOM_iOS.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/QuantumPageObjModel/testGroups.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/expenseTrackerAndroid.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/expenseTrackerAndroid_Biometrics.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/androidDriver/wiki_web_native_AndroidWorks.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/digitalBank/digBankDroid.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/digitalBank/digBankIOS.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/digitalBank/digBankParallel.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/Android_TAM_ExpTrackerDataDriven_seq.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/Biometric_expenseTrackerIOS.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/IOS_TAM_ExpTrackerDataDriven_seq.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config/works_IOS14_TAM/ValidLogin_Android_TAM_ExpTrackerDataDriven_seq.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AccessibilityExample.Fey_Accessibility_Example.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AccessibilityExample.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AndroidDoNotResetApp.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AndroidDoNotResetApp.feyAndroidNoReset.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Android_ADB_Call.adbMakeCall.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Any_Android_Dev.Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Appium3Testing.Fey_ReportingURL_Example.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.IosDoNotResetApp.feyTestPOMIosNoReset.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MacSafariPerforce.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MacSafariPerforce.testSelenium4SampleMac.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MacSafariTest.testSelenium4SampleMac.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.QuantumPageObjMod.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.QuantumPageObjMod.quantumPageObjModTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ReportingURLExample.Fey_ReportingURL_Example.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ReportingURLExample.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ReportiumExample.Fey_Reportium_Example.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SampleTestGroups.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SampleTestGroups.testCheckout.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SampleTestGroups.testLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SampleTestGroups.testSearchOnAndroid.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SampleTestGroups.testSearchOniOS.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Se4Sample.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Se4Sample.testSelenium4Sample.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SupportTestMacSafari.supportMacSafari.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TangVD_iOS.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TangVD_iOS.feyTestPOMIos.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TangVD_iOS.feyTestVDIos.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TangVD_iOSgetPageSrc.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestIOSExpense.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestIosExpenseNoPOM.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestIosExpenseNoPOM.feyTestPOMIos.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestQuantumPOM.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestQuantumPOM.testPOMinQuantum.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test_Expense_ImageInj.Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test_Expense_ImageInj.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test_Expense_ImageInj_Emulator.Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test_Expense_Login.Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test_Expense_Login.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test_Expense_Login_GetTimer.Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test_Expense_Login_GetTimer.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test_Expense_Login_StF_Appium2.Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test_Expense_NoReportium.Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test_Expense_fingerprint.Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test_HCSC_Appium2Smoke.Fey_New_Test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test_HCSC_Appium2Smoke.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test_HCSC_RamaCode.HCSC_Rama_code.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test_HCSC_RamaCode.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test_POM_Login.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test_POM_Login.testFeyValidLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test_mike.Fey_New_Test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.VD_FaceBiometrics.feyTestVDIos.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.VD_FingerPrintBiometrics.feyTestVDIos.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WindowsChromeTest.testSelenium4Sample.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WindowsPerforceWeb.testSelenium4Web.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.expenseAppReSign.feyTestIos.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.iosDoNotResetApp.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.iosDoNotResetApp.feyTestPOMIosNoReset.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.reportiumTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.reportiumTest.feyReportium.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;15&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mikefey/GitHub/Perfecto_Quantum_Fey/src/main/resources/config&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.57714957&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/config" />
@@ -221,7 +212,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Appium3Testing.Fey_ReportingURL_Example">
+  <component name="RunManager" selected="TestNG.AccessibilityExample.Fey_Accessibility_Example">
     <configuration name="quantum-starter [clean,install -U]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -345,17 +336,17 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="Appium3Testing.Fey_ReportingURL_Example" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AccessibilityExample.Fey_Accessibility_Example" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="perfectoPOM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fey.test.*" />
+          <option name="PATTERN" value="org.fey.test.BestExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.fey.test" />
-      <option name="MAIN_CLASS_NAME" value="org.fey.test.Appium3Testing" />
-      <option name="METHOD_NAME" value="Fey_ReportingURL_Example" />
+      <option name="PACKAGE_NAME" value="org.fey.test.BestExamples" />
+      <option name="MAIN_CLASS_NAME" value="org.fey.test.BestExamples.AccessibilityExample" />
+      <option name="METHOD_NAME" value="Fey_Accessibility_Example" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -363,17 +354,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReportingURLExample" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Appium3Testing.Fey_ReportingURL_Example" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="perfectoPOM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fey.test.*" />
+          <option name="PATTERN" value="org.fey.test.BestExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.fey.test" />
-      <option name="MAIN_CLASS_NAME" value="org.fey.test.ReportingURLExample" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="org.fey.test.BestExamples.Appium3Testing" />
+      <option name="METHOD_NAME" value="Fey_ReportingURL_Example" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -384,12 +376,12 @@
       <module name="perfectoPOM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fey.test.*" />
+          <option name="PATTERN" value="org.fey.test.BestExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.fey.test" />
-      <option name="MAIN_CLASS_NAME" value="org.fey.test.ReportingURLExample" />
+      <option name="MAIN_CLASS_NAME" value="org.fey.test.BestExamples.ReportingURLExample" />
       <option name="METHOD_NAME" value="Fey_ReportingURL_Example" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -402,7 +394,7 @@
       <module name="perfectoPOM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fey.test.*" />
+          <option name="PATTERN" value="org.fey.test.BestExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -420,7 +412,7 @@
       <module name="perfectoPOM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fey.test.*" />
+          <option name="PATTERN" value="org.fey.test.BestExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -438,19 +430,19 @@
       <item itemvalue="Maven.quantum-starter [clean,install -U]" />
       <item itemvalue="Maven.quantum-starter [clean,test]" />
       <item itemvalue="Maven.run smoke" />
+      <item itemvalue="TestNG.AccessibilityExample.Fey_Accessibility_Example" />
       <item itemvalue="TestNG.Appium3Testing.Fey_ReportingURL_Example" />
-      <item itemvalue="TestNG.ReportingURLExample" />
       <item itemvalue="TestNG.ReportingURLExample.Fey_ReportingURL_Example" />
       <item itemvalue="TestNG.Test_mike.Fey_New_Test" />
       <item itemvalue="TestNG.Test_Expense_Login.Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AccessibilityExample.Fey_Accessibility_Example" />
+        <item itemvalue="TestNG.Test_Expense_Login.Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW" />
         <item itemvalue="TestNG.Appium3Testing.Fey_ReportingURL_Example" />
         <item itemvalue="TestNG.Test_mike.Fey_New_Test" />
         <item itemvalue="TestNG.ReportingURLExample.Fey_ReportingURL_Example" />
-        <item itemvalue="TestNG.Test_Expense_Login.Fey_Appium_v2_0_By_using_NewCapabilitiesOptons_AW" />
-        <item itemvalue="TestNG.ReportingURLExample" />
       </list>
     </recent_temporary>
   </component>
@@ -469,14 +461,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732146586808</updated>
-    </task>
-    <task id="LOCAL-00024" summary="working with BDD">
-      <option name="closed" value="true" />
-      <created>1759873722332</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1759873722332</updated>
     </task>
     <task id="LOCAL-00025" summary="fixed smoke.xml for CICD in GHA">
       <option name="closed" value="true" />
@@ -862,7 +846,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786648882819</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="new tests appium3, accessibility, reportium">
+      <option name="closed" value="true" />
+      <created>1794338716489</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1794338716489</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -878,7 +870,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="updated page object model test class and test.xmls" />
     <MESSAGE value="added test for image injection Test_Expense_ImageInj.java" />
     <MESSAGE value="updated Page Obj Model" />
     <MESSAGE value="added Test_HCSC_Appium2Smoke for appium2" />
@@ -903,7 +894,8 @@
     <MESSAGE value="appium 2 upgrade stuff" />
     <MESSAGE value="upgraded to Quantum 3.2.4 and deleted takescreetshot and openDeviceTimeout capabilities" />
     <MESSAGE value="added AccessibilityExample" />
-    <option name="LAST_COMMIT_MESSAGE" value="added AccessibilityExample" />
+    <MESSAGE value="new tests appium3, accessibility, reportium" />
+    <option name="LAST_COMMIT_MESSAGE" value="new tests appium3, accessibility, reportium" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

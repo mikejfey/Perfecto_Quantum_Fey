@@ -1,15 +1,4 @@
-package org.fey.test;
-import java.io.*;
-import java.net.*;
-import java.time.Duration;
-import java.util.*;
-
-import org.openqa.selenium.*;
-import org.openqa.selenium.remote.*;
-
-import io.appium.java_client.android.*;
-import io.appium.java_client.android.options.UiAutomator2Options;
-
+package org.fey.test.BestExamples;
 
 import com.perfecto.reportium.client.ReportiumClient;
 import com.perfecto.reportium.client.ReportiumClientFactory;
@@ -19,87 +8,124 @@ import com.perfecto.reportium.model.PerfectoExecutionContext;
 import com.perfecto.reportium.model.Project;
 import com.perfecto.reportium.test.TestContext;
 import com.perfecto.reportium.test.result.TestResultFactory;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.options.UiAutomator2Options;
+import org.openqa.selenium.By;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
-public class Test_mike {
+import java.net.URL;
+import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ *
+ * Sample Example on Android Web Application testing by using New and older way of writing the Capabilities for Appium v2.0 & Selenium v4.2.2 which has W3C standard.
+ *	- using Duraion,
+ *	- using AppiumBy,
+ *	- ShadowDOM elements : finding ShadowDOM element , click Element ShadowDOM
+ *
+ * @author Mike Fey
+ * @version 1.0
+ *
+ */
+public class ReportiumExample {
 ReportiumClient reportiumClient;
-    @Test(groups = {"smoke"})
-    public void Fey_New_Test() throws Exception {
+    @Test
+    public void Fey_Reportium_Example() throws Exception {
         String browserName = "mobileOS";
-       //DesiredCapabilities uiAutomatorCaps = new DesiredCapabilities(); 
-        String host = "partners.perfectomobile.com";
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        String host = "demo.perfectomobile.com";
         String token = "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4YmI4YmZmZS1kMzBjLTQ2MjctYmMxMS0zNTYyMmY1ZDkyMGYifQ.eyJpYXQiOjE3Nzc5OTc4MjYsImp0aSI6ImQ0OWRhNzQzLTNkNjEtNDk4MC1iZGI1LTZmODJjYzRmYzI2MiIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvZGVtby1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2RlbW8tcGVyZmVjdG9tb2JpbGUtY29tIiwic3ViIjoiZDIxMDAzYzItMDY0Mi00MjVmLTg0ZDAtNzdiYjQ1ODU5MzVlIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiJhMzI4ZTU0Mi01Mjk2LTRhNTItOGYwNS0wMDAxZDMwMTU2MjkiLCJzZXNzaW9uX3N0YXRlIjoiM2I2MmZhYzUtNTc4Ny00MDJkLWFjYzItNGU2OTMxYzIyYTYzIiwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MiLCJzaWQiOiIzYjYyZmFjNS01Nzg3LTQwMmQtYWNjMi00ZTY5MzFjMjJhNjMifQ.ht7QuCYxG6M7OPKYMQfVJx3E2d8JYPfVDv1_TJEMH1Y";
-        System.out.println("caps new test");
+
+        System.out.println("caps");
         UiAutomator2Options uiAutomatorCaps = new UiAutomator2Options();
         Map<String, Object> perfectoOptions = new HashMap<>();
 
-       //uiAutomatorCaps.setPlatformName("Android");
-        uiAutomatorCaps.setCapability("platformName", "Android");
-       //uiAutomatorCaps.setCapability("perfecto:deviceName", "");
-        uiAutomatorCaps.setCapability("perfect:automationName", "UiAutomator2");
-        uiAutomatorCaps.setDeviceName("R5CWA2726XK");
+        uiAutomatorCaps.setPlatformName("Android");
         //uiAutomatorCaps.setDeviceName("R5CWA2726XK");
         // uiAutomator2Options.withBrowserName("Chrome");
-       //uiAutomatorCaps.setAutomationName("UiAutomator2");
-       //uiAutomatorCaps.setApp("PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk");
-       // uiAutomatorCaps.setAppPackage("io.perfecto.expense.tracker");
+        uiAutomatorCaps.setAutomationName("UiAutomator2");
+        uiAutomatorCaps.setApp("PUBLIC:ExpenseAppVer.apk");
+        uiAutomatorCaps.setAppPackage("io.perfecto.expense.tracker");
         //uiAutomator2Options.setAppActivity("app.perfecto.com.expencemanager.ui.splash.SplashActivity");
         perfectoOptions.put("securityToken", token);
-
-        //perfectoOptions.put("deviceName", "R5CWA2726XK");
-        //perfectoOptions.put("app", "PUBLIC:raghav/v1.0/ExpenseHybridAppVer1.apk");
-        //perfectoOptions.put("bundleId", "io.perfecto.expense.tracker.hybrid");
-        perfectoOptions.put("appiumVersion", "1.22.3");
-        perfectoOptions.put("automationVersion", "1.70.1");
-        //perfectoOptions.put("autoInstrument", true);
-        //perfectoOptions.put("sensorInstrument", true);
-        //perfectoOptions.put("iOSResign", true);
-        //perfectoOptions.put("autoLaunch", true);
+        perfectoOptions.put("model", "Galaxy.*");
+        perfectoOptions.put("automationName", "UiAutomator2");
         perfectoOptions.put("javascriptEnabled", true);
         perfectoOptions.put("openDeviceTimeout", 5.0);
-        perfectoOptions.put("scriptName", "Appium_v2.0 Android Web Test");
-        //perfectoOptions.put("takesScreenshot", false);
-        //perfectoOptions.put("screenshotOnError", true);
+        perfectoOptions.put("scriptName", "FeyReportiumExmaple");
+        perfectoOptions.put("takesScreenshot", true);
+        perfectoOptions.put("screenshotOnError", false);
+        perfectoOptions.put("skipLogCapture", false);
         uiAutomatorCaps.setCapability("perfecto:options", perfectoOptions);
-        System.out.println("new test caps done");
+        System.out.println("caps done");
         AndroidDriver driver = new AndroidDriver(new URL("https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub"), uiAutomatorCaps);
-        System.out.println("new test driver init");
+        System.out.println("driver init");
         driver.manage().timeouts().implicitlyWait(Duration.ofMillis(15000));
 
         // Reporting client. For more details, see http://developers.perfectomobile.com/display/PD/Reporting
         reportiumClient = new ReportiumClientFactory().createPerfectoReportiumClient(
                 new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
-                        .withProject(new Project("reportium project fey nov14", "1.0"))
-                        .withJob(new Job("reportium job nov14", 45))
+                        .withProject(new Project("reportium pipeline fey", "1.0"))
+                        .withJob(new Job("reportium gha pipe fey", 45))
                         .withCustomFields(new CustomField("programmer", "Mike Fey"))
                         .withCustomFields(new CustomField("author", "mike.fey@perforce.com"))
                         .withContextTags("quantum")
                         .withWebDriver(driver)
                         .build()
         );
-
-        SoftAssert softAssert = new SoftAssert();
         try {
-            reportiumClient.testStart("Fey New testng", new TestContext("Appium_v2.0", "Android Web"));
+            reportiumClient.testStart("Fey Reportium Example", new TestContext("Appium_v2.0", "Android Web"));
+            reportiumClient.stepStart("launch Expense Tracker setup");
+            Map<String, Object> parsLog = new HashMap<>();
+            parsLog.put("tail", 300);
+            String reStr = (String) driver.executeScript("mobile:device:log", parsLog);
 
-            // write your code here
-            System.out.println("new test code for smoke");
-            softAssert.assertTrue(1 == 2, "1 is not equal to 2");
-           Assert.assertEquals(5, 2 + 2, "2 plus 2 is way not equal to 5");
+            System.out.println("test code");
 
+
+
+            Map<String, Object> params = new HashMap<>();
+            System.out.println("open expense app");
+            params.put("identifier", "io.perfecto.expense.tracker");
+            driver.executeScript("mobile:application:open", params);
+            //driver.executeScript("mobile:launchApp", "io.perfecto.expense.tracker");
+            System.out.println("enter username");
+
+            reportiumClient.stepStart("login to expense tracker");
+            driver.findElement(By.xpath("//*[@resource-id='io.perfecto.expense.tracker:id/login_email']")).sendKeys("test@perfecto.com");
+            Thread.sleep(10000);
+
+            System.out.println("enter password");
+            driver.findElement(By.xpath("//*[@resource-id='io.perfecto.expense.tracker:id/login_password'] | //*[@id='login_password'] | //*[@resource-id='login_password']")).sendKeys("test123");
+            System.out.println("click login button");
+            driver.findElement(By.xpath("//*[@resource-id='io.perfecto.expense.tracker:id/login_login_btn'] | //*[@id='login_login_btn'] | //*[@resource-id='login_login_btn']")).click();
+            System.out.println("assert that 'Expenses' is displayed");
+            Assert.assertTrue(driver.findElement(By.xpath("//*[@text='Expenses']")).isDisplayed());
+
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+
+
+
+
+
+
+            // reportiumClient.testStep("step1"); // this is a logical step for reporting
+            // add commands...
+            // reportiumClient.testStep("step2");
+            // more commands...
 
 
             reportiumClient.testStop(TestResultFactory.createSuccess());
         } catch (Exception e) {
             reportiumClient.testStop(TestResultFactory.createFailure(e.getMessage(), e));
             e.printStackTrace();
-            System.out.println("the hard assert failed");
         } finally {
             try {
-                System.out.println("in the finally try after hard assert fails");
-                reportiumClient.testStop(TestResultFactory.createFailure("failed in finally try after hard assert fails", null));
                 driver.quit();
 
                 // Retrieve the URL to the DigitalZoom Report (= Reportium Application) for an aggregated view over the execution
@@ -115,6 +141,10 @@ ReportiumClient reportiumClient;
             }
         }
 
-        System.out.println("new test Run ended");
+        System.out.println("Run ended");
     }
+
+
 }
+
+

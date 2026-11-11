@@ -1,4 +1,4 @@
-package org.fey.test;
+package org.fey.test.BestExamples;
 
 import com.perfecto.reportium.client.ReportiumClient;
 import com.perfecto.reportium.client.ReportiumClientFactory;
@@ -32,10 +32,10 @@ import java.util.Map;
  * @version 1.0
  *
  */
-public class ReportingURLExample {
+public class AccessibilityExample {
 ReportiumClient reportiumClient;
     @Test
-    public void Fey_ReportingURL_Example() throws Exception {
+    public void Fey_Accessibility_Example() throws Exception {
         String browserName = "mobileOS";
         DesiredCapabilities capabilities = new DesiredCapabilities();
         String host = "demo.perfectomobile.com";
@@ -57,7 +57,7 @@ ReportiumClient reportiumClient;
         perfectoOptions.put("automationName", "UiAutomator2");
         perfectoOptions.put("javascriptEnabled", true);
         perfectoOptions.put("openDeviceTimeout", 5.0);
-        perfectoOptions.put("scriptName", "FeyReportingURLExample");
+        perfectoOptions.put("scriptName", "FeyAccessibilityExample");
         perfectoOptions.put("takesScreenshot", true);
         perfectoOptions.put("screenshotOnError", false);
         perfectoOptions.put("skipLogCapture", false);
@@ -83,7 +83,7 @@ ReportiumClient reportiumClient;
 
         System.out.println("Perfecto Report URL: " + reportURL);
         try {
-            reportiumClient.testStart("Fey Reporting URL Example", new TestContext("Appium_v2.0", "Android Web"));
+            reportiumClient.testStart("Fey accessibility Example", new TestContext("Appium_v2.0", "Android Web"));
             reportiumClient.stepStart("launch Expense Tracker setup");
             Map<String, Object> parsLog = new HashMap<>();
             parsLog.put("tail", 300);
